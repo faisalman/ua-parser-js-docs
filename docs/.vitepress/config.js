@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "/ua-parser-js/docs/",
+    base: "/ua-parser-js-docs/v2/",
     title: "UAParser.js",
     titleTemplate: 'Detect Browser, OS, CPU, & Device with JavaScript',
     description: "Detect Browser, OS, CPU, & Device with JavaScript",
