@@ -6,16 +6,17 @@ export default defineConfig({
     title: "UAParser.js",
     titleTemplate: 'Detect Browser, OS, CPU, & Device with JavaScript',
     description: "Detect Browser, OS, CPU, & Device with JavaScript",
-    head: [[
-        'link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/logo.png" }],
+    head: [
+        ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/logo.png" }],
         ['script', {}, 'window?.localStorage?.setItem("vitepress-theme-appearance", window?.localStorage?.getItem("vitepress-theme-appearance") ?? "dark")'],
+        ['script', { async:'', src:"https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3"}]
     ],
-    appearance : 'dark',
-    lastUpdated : true,
+    appearance: 'dark',
+    lastUpdated: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
 
-        logo: '/images/logo.png',        
+        logo: '/images/logo.png',
 
         nav: [
             { text: 'Home', link: '/' },
@@ -128,10 +129,10 @@ export default defineConfig({
             message: 'Licensed under the MIT License.',
             copyright: 'Copyright © 2012-2023 Faisal Salman'
         },
-        lastUpdatedText : 'Updated Date',
+        lastUpdatedText: 'Updated Date',
         editLink: {
-          pattern: 'https://github.com/faisalman/ua-parser-js-docs/tree/main/docs/:path',
-          text: 'Edit this page on GitHub'
+            pattern: 'https://github.com/faisalman/ua-parser-js-docs/tree/main/docs/:path',
+            text: 'Edit this page on GitHub'
         }
     },
 
