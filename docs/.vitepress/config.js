@@ -37,7 +37,6 @@ export default defineConfig({
         sidebar: [
             {
                 text: 'Introduction',
-                collapsed: false,
                 items: [
                     { text: 'Why UAParser.js', link: '/intro/why-ua-parser-js' },
                     {
@@ -131,7 +130,7 @@ export default defineConfig({
         },
         lastUpdatedText : 'Updated Date',
         editLink: {
-          pattern: 'https://github.com/faisalman/ua-parser-js/tree/gh-pages/docs/v2/:path',
+          pattern: 'https://github.com/faisalman/ua-parser-js-docs/tree/main/docs/:path',
           text: 'Edit this page on GitHub'
         }
     },
