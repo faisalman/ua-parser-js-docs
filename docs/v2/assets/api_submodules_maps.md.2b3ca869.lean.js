@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./chunks/framework.8df7b5f9.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"api/submodules/maps.md","lastUpdated":1681218274000}'),s={name:"api/submodules/maps.md"};function o(r,p,c,n,d,m){return t(),a("div")}const l=e(s,[["render",o]]);export{_ as __pageData,l as default};
