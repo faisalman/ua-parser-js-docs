@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./chunks/framework.921b8ac6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"api/submodules/extensions.md","lastUpdated":1681218274000}'),a={name:"api/submodules/extensions.md"};function o(n,r,c,i,p,d){return s(),t("div")}const l=e(a,[["render",o]]);export{m as __pageData,l as default};
