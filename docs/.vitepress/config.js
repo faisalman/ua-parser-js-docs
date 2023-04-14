@@ -7,11 +7,11 @@ export default defineConfig({
     titleTemplate: 'Detect Browser, OS, CPU, & Device with JavaScript',
     description: "Detect Browser, OS, CPU, & Device with JavaScript",
     head: [
-        ['meta', { name: 'msvalidate.01', content:'F4D861C3287B312C6D147ECEC9B85E5E'}],
-        ['meta', { name: 'google-site-verification', content:'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0'}],
+        ['meta', { name: 'msvalidate.01', content: 'F4D861C3287B312C6D147ECEC9B85E5E' }],
+        ['meta', { name: 'google-site-verification', content: 'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0' }],
         ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/logo.png" }],
         ['script', {}, 'window?.localStorage?.setItem("vitepress-theme-appearance", window?.localStorage?.getItem("vitepress-theme-appearance") ?? "dark")'],
-        ['script', { async:'', src:"https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3"}]
+        ['script', { async: '', src: "https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3" }]
     ],
     appearance: 'dark',
     lastUpdated: true,
@@ -55,6 +55,7 @@ export default defineConfig({
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
+                    { text: 'Migrating from v1.0', link: '/intro/whats-new' },
                 ]
             },
             {
