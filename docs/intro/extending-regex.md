@@ -43,7 +43,7 @@ When custom regexes passed into `UAParser` constructor, they will be ordered **b
 
 ## Use Predefined Extensions Submodule
 
-Some basic extensions (although not very complete at the moment) can also be found under [`ua-parser-js/extensions`↗](/api/submodules/extensions) submodule.
+Some basic extensions (although not very complete at the moment) can also be found under [`ua-parser-js/extensions`↗](/api/submodules/extensions/overview) submodule.
 
 ```js
 // Usage example

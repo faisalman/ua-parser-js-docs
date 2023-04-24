@@ -16,7 +16,7 @@
     - Utility to print full-name: [`toString()`](/api/ua-parser-js/idata/to-string)
   - Add support for ES module [`import { UAParser } from 'ua-parser-js'`](/intro/quick-start/using-es-modules)
   - Provide Enums [`'ua-parser-js/enums'`](/api/submodules/enums)
-  - Provide Extensions [`'ua-parser-js/extensions'`](/api/submodules/extensions)
+  - Provide Extensions [`'ua-parser-js/extensions'`](/api/submodules/extensions/overview)
 
 ### Version 2.0.0-alpha.2
 - Fix browser result always returning Chromium when using `withClientHints()`
