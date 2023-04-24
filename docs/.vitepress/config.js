@@ -92,9 +92,21 @@ export default defineConfig({
             {
                 text: 'Submodules',
                 items: [
-                    { text: 'ua-parser-js/enums', link: '/api/submodules/enums' },
-                    { text: 'ua-parser-js/extensions', link: '/api/submodules/extensions' },
-                    { text: 'ua-parser-js/maps', link: '/api/submodules/maps' }
+                    { text: 'Enums', link: '/api/submodules/enums' },
+                    {
+                        text: 'Extensions', 
+                        link: '/api/submodules/extensions/overview',
+                        collapsed: true,
+                        items: [
+                            { text: 'Apps', link: '/api/submodules/extensions/apps' },
+                            { text: 'Bots', link: '/api/submodules/extensions/bots' },
+                            { text: 'CLIs', link: '/api/submodules/extensions/clis' },
+                            { text: 'ExtraDevices', link: '/api/submodules/extensions/extra-devices' },
+                            { text: 'Emails', link: '/api/submodules/extensions/emails' },
+                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
+                        ]
+                    },
+                    { text: 'Maps', link: '/api/submodules/maps' }
                 ]
             }
         ],
