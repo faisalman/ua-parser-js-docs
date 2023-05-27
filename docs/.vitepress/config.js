@@ -106,6 +106,7 @@ export default defineConfig({
                             { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
                         ]
                     },
+                    { text: 'Helpers', link: '/api/submodules/helpers' },
                     { text: 'Maps', link: '/api/submodules/maps' }
                 ]
             }
