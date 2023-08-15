@@ -74,17 +74,17 @@ export default defineConfig({
                             { text: 'getOS()', link: '/api/ua-parser-js/get-os' },
                             { text: 'getResult()', link: '/api/ua-parser-js/get-result' },
                             { text: 'getUA()', link: '/api/ua-parser-js/get-ua' },
-                            { text: 'setUA()', link: '/api/ua-parser-js/set-ua' },
-                            {
-                                text: 'IData',
-                                collapsed: true,
-                                items: [
-                                    { text: 'is()', link: '/api/ua-parser-js/idata/is' },
-                                    { text: 'toString()', link: '/api/ua-parser-js/idata/to-string' },
-                                    { text: 'withClientHints()', link: '/api/ua-parser-js/idata/with-client-hints' },
-                                    { text: 'withFeatureCheck()', link: '/api/ua-parser-js/idata/with-feature-check' }
-                                ]
-                            }
+                            { text: 'setUA()', link: '/api/ua-parser-js/set-ua' }
+                        ]
+                    },
+                    {
+                        text: 'IData',
+                        collapsed: false,
+                        items: [
+                            { text: 'is()', link: '/api/ua-parser-js/idata/is' },
+                            { text: 'toString()', link: '/api/ua-parser-js/idata/to-string' },
+                            { text: 'withClientHints()', link: '/api/ua-parser-js/idata/with-client-hints' },
+                            { text: 'withFeatureCheck()', link: '/api/ua-parser-js/idata/with-feature-check' }
                         ]
                     }
                 ]
@@ -96,14 +96,15 @@ export default defineConfig({
                     {
                         text: 'Extensions', 
                         link: '/api/submodules/extensions/overview',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             { text: 'Apps', link: '/api/submodules/extensions/apps' },
                             { text: 'Bots', link: '/api/submodules/extensions/bots' },
                             { text: 'CLIs', link: '/api/submodules/extensions/clis' },
                             { text: 'ExtraDevices', link: '/api/submodules/extensions/extra-devices' },
                             { text: 'Emails', link: '/api/submodules/extensions/emails' },
-                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
+                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
+                            { text: 'Modules', link: '/api/submodules/extensions/modules' }
                         ]
                     },
                     { text: 'Helpers', link: '/api/submodules/helpers' },

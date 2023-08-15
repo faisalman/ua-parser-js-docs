@@ -2,7 +2,7 @@
 
 ```sh
 # List of known bots
-BingBot, FacebookBot, Googlebot, MSNBot, Slackbot
+BingBot, FacebookBot, Googlebot, GPTBot, MSNBot, Slackbot
 ```
 
 ## Code Example
