@@ -2,8 +2,8 @@
 
 ## List of Built-in Helpers:
 
-- `isFrozenUA(string):boolean`
-To match a string with a frozen user-agent pattern
+- [`isFrozenUA(string):boolean`](/api/submodules/helpers/is-frozen-ua)
+Check whether a user-agent string match with [frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 
 ## Code Example
 

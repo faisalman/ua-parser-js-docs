@@ -107,7 +107,14 @@ export default defineConfig({
                             { text: 'Modules', link: '/api/submodules/extensions/modules' }
                         ]
                     },
-                    { text: 'Helpers', link: '/api/submodules/helpers' },
+                    {
+                        text: 'Helpers', 
+                        link: '/api/submodules/helpers/overview',
+                        collapsed: false,
+                        items: [
+                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
+                        ]
+                    },
                     { text: 'Maps', link: '/api/submodules/maps' }
                 ]
             }
