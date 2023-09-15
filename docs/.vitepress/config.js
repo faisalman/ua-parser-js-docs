@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "/ua-parser-js-docs/v2/",
+    base: "/v2/",
     title: "UAParser.js",
-    titleTemplate: 'Detect Browser, OS, CPU, & Device with JavaScript',
-    description: "Detect Browser, OS, CPU, & Device with JavaScript",
+    titleTemplate: 'Detect Browser, OS, CPU, & Device',
+    description: "UAParser.js is a JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model, either in browser (client-side) or node.js (server-side).",
     head: [
         ['meta', { name: 'msvalidate.01', content: 'F4D861C3287B312C6D147ECEC9B85E5E' }],
         ['meta', { name: 'google-site-verification', content: 'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0' }],
@@ -106,16 +106,7 @@ export default defineConfig({
                             { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
                             { text: 'Modules', link: '/api/submodules/extensions/modules' }
                         ]
-                    },
-                    {
-                        text: 'Helpers', 
-                        link: '/api/submodules/helpers/overview',
-                        collapsed: false,
-                        items: [
-                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
-                        ]
-                    },
-                    { text: 'Maps', link: '/api/submodules/maps' }
+                    }
                 ]
             }
         ],
@@ -142,7 +133,7 @@ export default defineConfig({
                 icon: {
                     svg: '<svg color="#5B0BB5" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Demo</title><path d="M12 0a1.44 1.44 0 0 0-.947.399L.547 10.762a1.26 1.26 0 0 0-.342.808v11.138c0 .768.53 1.292 1.311 1.292h20.968c.78 0 1.311-.522 1.311-1.292V11.57a1.25 1.25 0 0 0-.34-.804L15.68 3.097h-.001L12.947.4A1.454 1.454 0 0 0 12 0Zm0 6.727 6.552 6.456v5.65H5.446v-5.65z"/></svg>'
                 },
-                link: 'https://faisalman.github.io/ua-parser-js'
+                link: 'https://uaparser.js.org'
             },
         ],
         carbonAds: {
