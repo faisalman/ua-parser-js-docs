@@ -1,4 +1,4 @@
-# `withClientHints():Promise<IData>|Thenable<IData>|IData`
+# `withClientHints<T>(): PromiseLike<T> | T`
 
 Recently, Chrome limits the information that exposed through user-agent and introduces a new experimental set of data called ["Client Hints"↗](https://developer.mozilla.org/en-US/docs/Web/API/User-Agent_Client_Hints_API). 
 

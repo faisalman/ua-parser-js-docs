@@ -1,4 +1,4 @@
-# `isFrozenUA(string):boolean`
+# `isFrozenUA(ua: string): boolean`
 
 Check whether a user-agent string match with [frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 

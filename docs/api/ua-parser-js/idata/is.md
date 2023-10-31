@@ -1,4 +1,4 @@
-# is(value:string):boolean
+# `is(value: string): boolean`
 
 This method returns `true` if the passed value matches with the value of one of the properties of current object, `false` otherwise.
 

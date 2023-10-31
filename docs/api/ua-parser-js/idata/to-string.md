@@ -1,4 +1,4 @@
-# `toString():string`
+# `toString(): string`
 
 Retrieve full-name values as a string
 

@@ -1,4 +1,4 @@
-# getEngine():IData
+# `getEngine(): IEngine`
 
 Get layout rendering engine name & version from user-agent string.
 

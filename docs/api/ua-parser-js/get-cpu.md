@@ -1,4 +1,4 @@
-# getCPU():IData
+# `getCPU(): ICPU`
 
 Get type of CPU architecture from user-agent string.
 

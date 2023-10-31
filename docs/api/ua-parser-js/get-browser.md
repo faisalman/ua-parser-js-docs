@@ -1,4 +1,4 @@
-# getBrowser():IData
+# `getBrowser(): IBrowser`
 
 Get browser name, full version, & major version from user-agent string.
 

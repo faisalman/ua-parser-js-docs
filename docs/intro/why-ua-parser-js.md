@@ -1,11 +1,12 @@
-# Why UAParser.js
+# Why UAParser.js?
 
----
+## User-agent detection is hard
 
-This illustration sums up why:
+
 
 ```js
-// Consider we got this user-agent (yes it's real):
+// Problem: 
+// Consider we got this user-agent from a visitor:
 const ua = `Mozilla/5.0 (Linux; Android 10; STK-LX1 
 Build/HONORSTK-LX1; wv) AppleWebKit/537.36 (KHTML, 
 like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile 
@@ -15,15 +16,17 @@ AppName/musical_ly app_version/28.3.4 ByteLocale/en
 ByteFullLocale/en Region/IQ Spark/1.2.7-alpha.8 
 AppVersion/28.3.4 PIA/1.5.11 BytedanceWebview/d8a21c6`;
 
-// what???
+// yes, this is a real user-agent (what???)
 ```
 
-Worry not:
+Worry not, just use `UAParser.js`:
 
 ```js
-// Just pass it to `UAParser`
+// Solution:
+// Just pass the complex user-agent string to `UAParser`
 const parser = new UAParser(ua);
 
+// Result:
 // And voila!
 console.log(parser.getBrowser());
 // { name : "TikTok", version : "28.3.4", major : "28" }
@@ -36,4 +39,14 @@ console.log(parser.getDevice());
 
 console.log(parser.getOS());
 // { name : "Android", version : "10" }
+
+// Conclusion:
+// The visitor is browsing from TikTok app using a Huawei device
+// Phew! Thanks, UAParser.js!
 ```
+
+## Illustration
+
+`UAParser.js` automagically breaks down a complicated user-agent string into a well-structured data:
+
+![Illustration](/images/uap-illustrations.png)

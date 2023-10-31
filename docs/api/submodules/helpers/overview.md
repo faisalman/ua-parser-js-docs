@@ -2,7 +2,12 @@
 
 ## List of Built-in Helpers:
 
-- [`isFrozenUA(string):boolean`](/api/submodules/helpers/is-frozen-ua)
+- [`isAppleSilicon(res: IResult): boolean`](/api/submodules/helpers/is-apple-silicon)
+
+Check for an ARM-based Apple Silicon device properties
+
+- [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
+
 Check whether a user-agent string match with [frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 
 ## Code Example

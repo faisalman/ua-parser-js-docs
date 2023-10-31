@@ -2,7 +2,7 @@
 
 ## Constructor
 
-### `new UAParser([user-agent:string][,extensions:object][,headers:object]):UAParser`
+### `new UAParser(uastring?: string, extensions?: Record<string, RegexMap>, headers?: Record<string, string>): UAParser`
 
 When called with the `new` keyword, it will return a new instance of `UAParser`.
 
@@ -27,7 +27,7 @@ console.log(parserResults);
 */
 ```
 
-### `UAParser([user-agent:string][,extensions:object][,headers:object]):IData`
+### `UAParser(uastring?: string, extensions?: Record<string, RegexMap>, headers?: Record<string, string>): IResult`
 
 When called without the `new` keyword, it will directly return the results of `getResult()`:
 
@@ -57,34 +57,34 @@ In **Node.js** environment, user-agent string must be passed in order for the fu
 ## Methods
 The methods are self explanatory, here's a small overview of available methods:
 
-### [`getBrowser():IData`](/api/ua-parser-js/get-browser)
+### [`getBrowser(): IBrowser`](/api/ua-parser-js/get-browser)
  
 returns the browser name, version, and major.
 
-### [`getCPU():IData`](/api/ua-parser-js/get-cpu)
+### [`getCPU(): ICPU`](/api/ua-parser-js/get-cpu)
  
 returns CPU architectural design name.
 
-### [`getDevice():IData`](/api/ua-parser-js/get-device)
+### [`getDevice(): IDevice`](/api/ua-parser-js/get-device)
  
 returns the device model, type, vendor.
  
-### [`getEngine():IData`](/api/ua-parser-js/get-engine)
+### [`getEngine(): IEngine`](/api/ua-parser-js/get-engine)
  
 returns the browser engine name and version.
  
-### [`getOS():IData`](/api/ua-parser-js/get-os)
+### [`getOS(): IOS`](/api/ua-parser-js/get-os)
  
 returns the operating system name and version.
  
-### [`getResult():IData`](/api/ua-parser-js/get-result)
+### [`getResult(): IResult`](/api/ua-parser-js/get-result)
  
 returns all function object calls, user-agent string, browser info, cpu, device, engine, os.
 
-### [`getUA():string`](/api/ua-parser-js/get-ua)
+### [`getUA(): string`](/api/ua-parser-js/get-ua)
  
 returns the user-agent string.
  
-### [`setUA(ua:string):UAParser`](/api/ua-parser-js/set-ua)
+### [`setUA(ua: string): UAParser`](/api/ua-parser-js/set-ua)
  
 set a custom user-agent string to be parsed.

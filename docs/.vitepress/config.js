@@ -4,12 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     base: "/v2/",
     title: "UAParser.js",
-    titleTemplate: 'Detect Browser, OS, CPU, & Device',
+    titleTemplate: 'How to detect Browser, OS, CPU, & Device using UAParser.js',
     description: "UAParser.js is a JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model, either in browser (client-side) or node.js (server-side).",
     head: [
         ['meta', { name: 'msvalidate.01', content: 'F4D861C3287B312C6D147ECEC9B85E5E' }],
         ['meta', { name: 'google-site-verification', content: 'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0' }],
-        ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/logo.png" }],
+        ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/uap-logo-transparent.png" }],
         ['script', {}, 'window?.localStorage?.setItem("vitepress-theme-appearance", window?.localStorage?.getItem("vitepress-theme-appearance") ?? "dark")'],
         ['script', { async: '', src: "https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3" }]
     ],
@@ -92,7 +92,6 @@ export default defineConfig({
             {
                 text: 'Submodules',
                 items: [
-                    { text: 'Enums', link: '/api/submodules/enums' },
                     {
                         text: 'Extensions', 
                         link: '/api/submodules/extensions/overview',
@@ -106,6 +105,12 @@ export default defineConfig({
                             { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
                             { text: 'Modules', link: '/api/submodules/extensions/modules' }
                         ]
+                    },
+                    { 
+                        text: 'Enums'
+                    },
+                    {
+                        text: 'Helpers'
                     }
                 ]
             }

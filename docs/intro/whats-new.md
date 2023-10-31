@@ -2,21 +2,23 @@
 
 ## Version 2.0
 - What's breaking:
+  - Dual-licensed under AGPLv3 or PRO License
   - Browser detection on mobile device: 
-    - `"Chrome"` => `"Mobile Chrome"`
-    - `"Firefox"` => `"Mobile Firefox"`
+    - `"Chrome"` on mobile device => `"Mobile Chrome"`
+    - `"Firefox"` on mobile device => `"Mobile Firefox"`
   - OS detection: 
     - `"Mac OS"` => `"macOS"`
     - `"Chromium OS"` => `"Chrome OS"`
 - What's new:
-  - Add some new methods in result object: 
-    - Add support for client hints: [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
-    - Add support for feature detection: [`withFeatureCheck()`](/api/ua-parser-js/idata/with-feature-check)
+  - Some new methods in result object: 
+    - Support for client hints: [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
+    - Support for feature detection: [`withFeatureCheck()`](/api/ua-parser-js/idata/with-feature-check)
     - Utility for easy comparison: [`is()`](/api/ua-parser-js/idata/is)
     - Utility to print full-name: [`toString()`](/api/ua-parser-js/idata/to-string)
-  - Add support for ES module [`import { UAParser } from 'ua-parser-js'`](/intro/quick-start/using-es-modules)
-  - Provide Enums [`'ua-parser-js/enums'`](/api/submodules/enums)
-  - Provide Extensions [`'ua-parser-js/extensions'`](/api/submodules/extensions/overview)
+  - Support for ES module [`import { UAParser } from 'ua-parser-js'`](/intro/quick-start/using-es-modules)
+  - Provide Enums submodule [`'ua-parser-js/enums'`](/api/submodules/enums)
+  - Provide Extensions submodule [`'ua-parser-js/extensions'`](/api/submodules/extensions/overview)
+  - Provide Helpers submodule [`'ua-parser-js/helpers'`](/api/submodules/helpers/overview)
 
 ### Version 2.0.0-alpha.2
 - Fix browser result always returning Chromium when using `withClientHints()`

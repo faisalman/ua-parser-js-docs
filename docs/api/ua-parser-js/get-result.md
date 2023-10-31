@@ -1,4 +1,4 @@
-# getResult():IData
+# `getResult(): IResult`
 
 Get all information regarding browser, CPU, device, engine, & OS from user-agent string.
 
@@ -34,23 +34,23 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
 
 The user-agent string value of current instance.
 
-## [`browser:IData`](/api/ua-parser-js/get-browser)
+## [`browser:IBrowser`](/api/ua-parser-js/get-browser)
 
 Object that contains the value of browser name, full version, & major version.
 
-## [`cpu:IData`](/api/ua-parser-js/get-cpu)
+## [`cpu:ICPU`](/api/ua-parser-js/get-cpu)
 
 Object that contains the value of type of CPU architecture.
 
-## [`device:IData`](/api/ua-parser-js/get-device)
+## [`device:IDevice`](/api/ua-parser-js/get-device)
 
 Object that contains the value of device details: type, vendor, model.
 
-## [`engine:IData`](/api/ua-parser-js/get-engine)
+## [`engine:IEngine`](/api/ua-parser-js/get-engine)
 
 Object that contains the value of layout rendering engine name & version.
 
-## [`os:IData`](/api/ua-parser-js/get-os)
+## [`os:IOS`](/api/ua-parser-js/get-os)
 
 Object that contains the value of operating system name & version.
 

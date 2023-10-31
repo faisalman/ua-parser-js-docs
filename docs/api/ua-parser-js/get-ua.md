@@ -1,4 +1,4 @@
-# getUA():string
+# `getUA(): string`
 
 Get user-agent string of current instance
 

@@ -1,13 +1,16 @@
-# Extensions
+# Extensions 
+
+`ua-parser-js/extensions`
 
 ## List of Built-in Extensions:
 
-### [Apps ↗](apps.md)
-### [Bots ↗](bots.md)
-### [CLIs ↗](clis.md)
-### [ExtraDevices ↗](extra-devices.md)
-### [Emails ↗](emails.md)
-### [MediaPlayers ↗](media-players.md)
+- [Apps ↗](apps.md)
+- [Bots ↗](bots.md)
+- [CLIs ↗](clis.md)
+- ExtraDevices ↗
+- [Emails ↗](emails.md)
+- [MediaPlayers ↗](media-players.md)
+- [Modules ↗](modules.md)
 
 ## Code Example
 

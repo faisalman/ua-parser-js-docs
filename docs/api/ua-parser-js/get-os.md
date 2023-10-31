@@ -1,4 +1,4 @@
-# getOS():IData
+# `getOS(): IOS`
 
 Get operating system name & version from user-agent string.
 
