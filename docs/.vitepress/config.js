@@ -23,7 +23,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.0-alpha',
+                text: '2.0.0-beta.2',
                 items: [
                     {
                         text: 'Changelog',
@@ -110,7 +110,14 @@ export default defineConfig({
                         text: 'Enums'
                     },
                     {
-                        text: 'Helpers'
+                        text: 'Helpers',
+                        link: '/api/submodules/helpers/overview',
+                        collapsed: false,
+                        items: [
+                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
+                            { text: 'isChromiumBased()', link: '/api/submodules/helpers/is-chromium-based' },
+                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
+                        ]
                     }
                 ]
             }
