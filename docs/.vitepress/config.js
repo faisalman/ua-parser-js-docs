@@ -55,7 +55,7 @@ export default defineConfig({
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
-                    { text: 'Migrating from v1.0', link: '/intro/whats-new' },
+                    { text: 'Migrating from v1.0', link: '/intro/whats-new' }
                 ]
             },
             {
@@ -95,7 +95,7 @@ export default defineConfig({
                     {
                         text: 'Extensions', 
                         link: '/api/submodules/extensions/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'Apps', link: '/api/submodules/extensions/apps' },
                             { text: 'Bots', link: '/api/submodules/extensions/bots' },
@@ -119,6 +119,13 @@ export default defineConfig({
                             { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
                         ]
                     }
+                ]
+            },
+            {
+                text: 'Guides',
+                collapsed: false,
+                items: [
+                    { text: 'How to Detect Windows 11', link: '/intro/guides/how-to-detect-windows-11-using-javascript' },
                 ]
             }
         ],
