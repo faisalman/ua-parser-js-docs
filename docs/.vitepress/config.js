@@ -125,7 +125,8 @@ export default defineConfig({
                 text: 'Guides',
                 collapsed: false,
                 items: [
-                    { text: 'How to Detect Windows 11', link: '/intro/guides/how-to-detect-windows-11-using-javascript' },
+                    { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
+                    { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
             }
         ],

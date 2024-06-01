@@ -1,30 +1,53 @@
 # UAParser.js Changelog
 
-## Version 2.0
+# Version 2.0
 - What's breaking:
   - Dual-licensed under AGPLv3 or PRO License
-  - Browser detection on mobile device: 
-    - `"Chrome"` on mobile device => `"Mobile Chrome"`
-    - `"Firefox"` on mobile device => `"Mobile Firefox"`
-  - OS detection: 
-    - `"Mac OS"` => `"macOS"`
-    - `"Chromium OS"` => `"Chrome OS"`
+  - Browser detection on mobile device: `"Chrome" => "Mobile Chrome"`, `"Firefox" => "Mobile Firefox"`
+  - OS detection: `"Mac OS" => "macOS"`, `"Chromium OS" => "Chrome OS"`
 - What's new:
   - Some new methods in result object: 
-    - Support for client hints: [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
-    - Support for feature detection: [`withFeatureCheck()`](/api/ua-parser-js/idata/with-feature-check)
-    - Utility for easy comparison: [`is()`](/api/ua-parser-js/idata/is)
-    - Utility to print full-name: [`toString()`](/api/ua-parser-js/idata/to-string)
-  - Support for ES module [`import { UAParser } from 'ua-parser-js'`](/intro/quick-start/using-es-modules)
-  - Provide Enums submodule [`'ua-parser-js/enums'`](/api/submodules/enums)
-  - Provide Extensions submodule [`'ua-parser-js/extensions'`](/api/submodules/extensions/overview)
-  - Provide Helpers submodule [`'ua-parser-js/helpers'`](/api/submodules/helpers/overview)
+    - Support for client hints: `withClientHints()`
+    - Support for feature detection: `withFeatureCheck()`
+    - Utility for easy comparison: `is()`
+    - Utility to print full-name: `toString()`
+  - Support for ES module `import { UAParser } from 'ua-parser-js'`
+  - Provided Enums submodule `'ua-parser-js/enums'`
+  - Provided Extensions submodule `'ua-parser-js/extensions'`
+  - Provided Helpers submodule `'ua-parser-js/helpers'`
 
-### Version 2.0.0-alpha.2
-- Fix browser result always returning Chromium when using `withClientHints()`
-- Fix infinite-loop when await-ing `withClientHints()` in non-client-hints browser
+## Version 2.0.0-beta.2
 
-### Version 2.0.0-alpha.1
+- Increase UA_MAX_LENGTH to 500
+- Add TypeScript declaration file in `ua-parser-js/extensions` submodule
+- Improve TypeScript module resolution
+- Add new methods in `ua-parser-js/helpers` submodule: `isAppleSilicon()` & `isChromiumBased()`
+- Fix misidentified WebView token as device model
+- Add new browser: Alipay, Klarna, Opera GX, Smart Lenovo Browser, Vivo Browser
+- Rename browser: Avant, Baidu, Samsung Internet, Sogou Explorer, Sogou Mobile, WeChat
+- Improve client-hints detection: Edge, Xbox
+
+## Version 2.0.0-beta.1
+
+- Update Client Hints Form-Factor
+- Provide in-package type definitions
+- Add new device: Ulefone
+- Improve device detection: Realme, Xiaomi Redmi
+
+## Version 2.0.0-alpha.3
+
+- Add `withFeatureCheck()` method
+- Add `isFrozenUA()` method in `ua-parser-js/helpers` submodule
+- Add `MediaPlayers` & `Modules` in `ua-parser-js/extensions` submodule
+- Fix issue with ESM import
+
+## Version 2.0.0-alpha.2
+
+- Fix browser result always returning Chromium when using withClientHints()
+- Fix infinite-loop when await-ing withClientHints() in non-client-hints browser
+
+## Version 2.0.0-alpha.1
+
 - Initial work on new major version
 
 
