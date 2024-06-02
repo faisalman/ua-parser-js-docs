@@ -7,3 +7,4 @@ Choose your ~~fighter~~ development strategy:
 - [ES Modules ↗](/intro/quick-start/using-es-modules)
 - [TypeScript ↗](/intro/quick-start/using-typescript)
 - [jQuery ↗](/intro/quick-start/using-jquery)
+- [Command Line ↗](/intro/quick-start/using-cli)

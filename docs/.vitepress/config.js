@@ -52,6 +52,7 @@ export default defineConfig({
                             { text: 'Using ES Modules', link: '/intro/quick-start/using-es-modules' },
                             { text: 'Using TypeScript', link: '/intro/quick-start/using-typescript' },
                             { text: 'Using jQuery', link: '/intro/quick-start/using-jquery' },
+                            { text: 'Using Command Line', link: '/intro/quick-start/using-cli' },
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
