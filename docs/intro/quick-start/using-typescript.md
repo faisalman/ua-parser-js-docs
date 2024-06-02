@@ -2,6 +2,7 @@
 
 ```sh
 $ npm install ua-parser-js
+$ npm install --save-dev @types/ua-parser-js
 ```
 
 ## Code Example
