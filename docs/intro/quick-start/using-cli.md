@@ -12,7 +12,8 @@ $ npx ua-parser-js "[INSERT-USER-AGENT-HERE]"
 # print to console
 npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
 
-''' # console output:
+# console output:
+'''
 [
     {
         "ua": "Flock/2.16 (Zenwalk 7.3; es_PR;)",
