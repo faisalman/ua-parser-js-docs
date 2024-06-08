@@ -7,7 +7,7 @@ Get operating system name & version from user-agent string.
 { name: '', version: '' }
 ```
 
-## `name:string`
+## `name?: string`
 
 ```sh
 # List of possible values for `os.name`
@@ -22,7 +22,7 @@ Tizen, Ubuntu, Unix, VectorLinux, Viera, watchOS, WebOS, Windows [Phone/Mobile],
 Zenwalk, ...
 ```
 
-## `version:string` 
+## `version?: string` 
 
 Determined dynamically
 

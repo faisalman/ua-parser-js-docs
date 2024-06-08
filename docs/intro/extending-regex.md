@@ -48,7 +48,7 @@ Some basic extensions (although not very complete at the moment) can also be fou
 ```js
 // Usage example
 import { UAParser } from 'ua-parser-js';
-import { Emails } from 'ua-parser-js/extensions';
+import { Emails, Crawlers, Fetchers } from 'ua-parser-js/extensions';
 
 const ua = 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0';
 const browser = new UAParser(Emails)
@@ -56,4 +56,8 @@ const browser = new UAParser(Emails)
                     .getBrowser();
 
 console.log(browser.toString()); // Thunderbird 78.13.0
+```
+```js
+// Multiple extensions can be passed as an array
+const extendedParser = new UAParser([Emails, Crawlers, Fetchers]);
 ```

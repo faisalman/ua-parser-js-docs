@@ -46,45 +46,43 @@ console.log(parser);
 */
 ```
 
-::: tip
+::: info
 In **browser** environment you don't need to pass the user-agent string, as it should automatically get the string from the current `window.navigator.userAgent`.
-:::
 
-::: tip
-In **Node.js** environment, user-agent string must be passed in order for the function to work. Usually you can find it in: `request.headers["user-agent"]`.
+Whereas in **Node.js** environment, user-agent string must be supplied, usually you can find it in: `request.headers["user-agent"]`.
 :::
 
 ## Methods
 The methods are self explanatory, here's a small overview of available methods:
 
-### [`getBrowser(): IBrowser`](/api/ua-parser-js/get-browser)
+- [`getBrowser(): IBrowser`](/api/ua-parser-js/get-browser)
  
 returns the browser name, version, and major.
 
-### [`getCPU(): ICPU`](/api/ua-parser-js/get-cpu)
+- [`getCPU(): ICPU`](/api/ua-parser-js/get-cpu)
  
 returns CPU architectural design name.
 
-### [`getDevice(): IDevice`](/api/ua-parser-js/get-device)
+- [`getDevice(): IDevice`](/api/ua-parser-js/get-device)
  
 returns the device model, type, vendor.
  
-### [`getEngine(): IEngine`](/api/ua-parser-js/get-engine)
+- [`getEngine(): IEngine`](/api/ua-parser-js/get-engine)
  
 returns the browser engine name and version.
  
-### [`getOS(): IOS`](/api/ua-parser-js/get-os)
+- [`getOS(): IOS`](/api/ua-parser-js/get-os)
  
 returns the operating system name and version.
  
-### [`getResult(): IResult`](/api/ua-parser-js/get-result)
+- [`getResult(): IResult`](/api/ua-parser-js/get-result)
  
 returns all function object calls, user-agent string, browser info, cpu, device, engine, os.
 
-### [`getUA(): string`](/api/ua-parser-js/get-ua)
+- [`getUA(): string`](/api/ua-parser-js/get-ua)
  
 returns the user-agent string.
  
-### [`setUA(ua: string): UAParser`](/api/ua-parser-js/set-ua)
+- [`setUA(ua: string): UAParser`](/api/ua-parser-js/set-ua)
  
 set a custom user-agent string to be parsed.

@@ -1,21 +1,22 @@
-# Extensions 
+# Extensions Submodule
 
-`ua-parser-js/extensions`
+### `'ua-parser-js/extensions'`
 
 ## List of Built-in Extensions:
 
-- [Apps ↗](apps.md)
-- [Bots ↗](bots.md)
 - [CLIs ↗](clis.md)
-- ExtraDevices ↗
+- [Crawlers ↗](crawlers.md)
+- [ExtraDevices ↗](extra-devices.md)
 - [Emails ↗](emails.md)
+- [Fetchers ↗](fetchers.md)
+- [InApps ↗](inapps.md)
 - [MediaPlayers ↗](media-players.md)
 - [Modules ↗](modules.md)
 
 ## Code Example
 
 ```js
-import { Bots, CLIs, Emails } from 'ua-parser-js/extensions';
+import { Crawlers, CLIs, Emails } from 'ua-parser-js/extensions';
 
 const googleBot = 'Googlebot-Video/1.0';
 const facebookBot = 'Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/facebookbot/)';
@@ -31,13 +32,15 @@ console.log(emailParser.setUA(thunderbird).getBrowser());
 /*
     try merging multiple extensions
 */
-const botAndCLIParser = new UAParser({ 
-    browser : [...Bots.browser, ...CLIs.browser]
+const crawlerAndCLIParser = new UAParser({ 
+    browser : [...Crawlers.browser, ...CLIs.browser]
 });
+// or simply:
+const crawlerAndCLIParser2 = new UAParser([Crawlers, CLIs]);
 
-console.log(botAndCLIParser.setUA(wget).getBrowser());
+console.log(crawlerAndCLIParser.setUA(wget).getBrowser());
 // {name: "Wget", version: "1.21.1", major: "1", type:"cli"});
 
-console.log(botAndCLIParser.setUA(facebookBot).getBrowser());
+console.log(crawlerAndCLIParser2.setUA(facebookBot).getBrowser());
 // {name: "FacebookBot", version: "1.0", major: "1", type:"bot"});
 ```

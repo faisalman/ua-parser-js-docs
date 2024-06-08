@@ -1,4 +1,6 @@
-# Helpers
+# Helpers Submodule
+
+### `'ua-parser-js/helpers'`
 
 ## List of Built-in Helpers:
 

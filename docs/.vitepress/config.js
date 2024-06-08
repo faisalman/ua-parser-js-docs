@@ -23,11 +23,11 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.0-beta.2',
+                text: '2.0.0-beta.3',
                 items: [
                     {
                         text: 'Changelog',
-                        link: 'https://github.com/faisalman/ua-parser-js/blob/master/changelog.md'
+                        link: 'https://github.com/faisalman/ua-parser-js/blob/master/CHANGELOG.md'
                     },
                     {
                         text: 'Contributing',
@@ -75,17 +75,17 @@ export default defineConfig({
                             { text: 'getOS()', link: '/api/ua-parser-js/get-os' },
                             { text: 'getResult()', link: '/api/ua-parser-js/get-result' },
                             { text: 'getUA()', link: '/api/ua-parser-js/get-ua' },
-                            { text: 'setUA()', link: '/api/ua-parser-js/set-ua' }
-                        ]
-                    },
-                    {
-                        text: 'IData',
-                        collapsed: false,
-                        items: [
-                            { text: 'is()', link: '/api/ua-parser-js/idata/is' },
-                            { text: 'toString()', link: '/api/ua-parser-js/idata/to-string' },
-                            { text: 'withClientHints()', link: '/api/ua-parser-js/idata/with-client-hints' },
-                            { text: 'withFeatureCheck()', link: '/api/ua-parser-js/idata/with-feature-check' }
+                            { text: 'setUA()', link: '/api/ua-parser-js/set-ua' },
+                            {
+                                text: 'IData',
+                                collapsed: false,
+                                items: [
+                                    { text: 'is()', link: '/api/ua-parser-js/idata/is' },
+                                    { text: 'toString()', link: '/api/ua-parser-js/idata/to-string' },
+                                    { text: 'withClientHints()', link: '/api/ua-parser-js/idata/with-client-hints' },
+                                    { text: 'withFeatureCheck()', link: '/api/ua-parser-js/idata/with-feature-check' }
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -98,11 +98,12 @@ export default defineConfig({
                         link: '/api/submodules/extensions/overview',
                         collapsed: true,
                         items: [
-                            { text: 'Apps', link: '/api/submodules/extensions/apps' },
-                            { text: 'Bots', link: '/api/submodules/extensions/bots' },
                             { text: 'CLIs', link: '/api/submodules/extensions/clis' },
+                            { text: 'Crawlers', link: '/api/submodules/extensions/crawlers' },
                             { text: 'ExtraDevices', link: '/api/submodules/extensions/extra-devices' },
                             { text: 'Emails', link: '/api/submodules/extensions/emails' },
+                            { text: 'Fetchers', link: '/api/submodules/extensions/fetchers' },
+                            { text: 'InApps', link: '/api/submodules/extensions/inapps' },
                             { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
                             { text: 'Modules', link: '/api/submodules/extensions/modules' }
                         ]
@@ -126,6 +127,7 @@ export default defineConfig({
                 text: 'Guides',
                 collapsed: false,
                 items: [
+                    { text: 'How to Detect macOS >10', link: '/guides/how-to-detect-macos-10157-using-javascript' },
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
                     { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
@@ -183,4 +185,4 @@ export default defineConfig({
             }
         }
     }
-})
+});

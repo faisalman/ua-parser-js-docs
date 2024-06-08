@@ -1,6 +1,6 @@
 # `isAppleSilicon(res: IResult): boolean`
 
-Check for an Apple Silicon Mac device properties
+Check whether current device has Apple Silicon Mac device properties.
 
 ## Code Example
 
@@ -8,8 +8,8 @@ Check for an Apple Silicon Mac device properties
 import { isAppleSilicon } from 'ua-parser-js/helpers';
 
 const uap = new UAParser();
-const result = uap.getResult();
+const result = await uap.getResult().withClientHints();
 if (isAppleSilicon(result)) {
-    console.log('This is an Apple Silicon Mac device');    
+    console.log('Hi Apple Silicon!');    
 }
 ```

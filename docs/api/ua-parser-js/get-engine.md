@@ -7,7 +7,7 @@ Get layout rendering engine name & version from user-agent string.
 { name: '', version: '' }
 ```
 
-## `name:string`
+## `name?: string`
 
 ```sh
 # List of possible value of `engine.name`
@@ -16,7 +16,7 @@ KHTML, LibWeb, Links, Lynx, NetFront, NetSurf,
 Presto, Tasman, Trident, w3m, WebKit
 ```
 
-## `version:string`
+## `version?: string`
 
 Determined dynamically
 

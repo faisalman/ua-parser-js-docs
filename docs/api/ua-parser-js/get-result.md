@@ -30,27 +30,27 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
 }
 ```
 
-## `ua:string`
+## `ua: string`
 
 The user-agent string value of current instance.
 
-## [`browser:IBrowser`](/api/ua-parser-js/get-browser)
+## [`browser: IBrowser`](/api/ua-parser-js/get-browser)
 
 Object that contains the value of browser name, full version, & major version.
 
-## [`cpu:ICPU`](/api/ua-parser-js/get-cpu)
+## [`cpu: ICPU`](/api/ua-parser-js/get-cpu)
 
 Object that contains the value of type of CPU architecture.
 
-## [`device:IDevice`](/api/ua-parser-js/get-device)
+## [`device: IDevice`](/api/ua-parser-js/get-device)
 
 Object that contains the value of device details: type, vendor, model.
 
-## [`engine:IEngine`](/api/ua-parser-js/get-engine)
+## [`engine: IEngine`](/api/ua-parser-js/get-engine)
 
 Object that contains the value of layout rendering engine name & version.
 
-## [`os:IOS`](/api/ua-parser-js/get-os)
+## [`os: IOS`](/api/ua-parser-js/get-os)
 
 Object that contains the value of operating system name & version.
 

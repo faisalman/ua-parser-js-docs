@@ -1,6 +1,6 @@
 # How to Detect Windows 11
 
-It's currently impossible to detect Windows 11 only from user-agent data, since most browser vendors are unknowingly capping the Windows version at 10. 
+It's currently impossible to detect Windows 11 only from user-agent data, since most browser vendors are unknowingly cap the Windows version at 10. 
 
 Luckily, there is a workaround by utilizing client hints feature:
 

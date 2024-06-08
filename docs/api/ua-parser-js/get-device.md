@@ -7,18 +7,18 @@ Get details of device information (type, vendor, model) from user-agent string.
 { type: '', vendor: '', model: '' }
 ```
 
-## `type:string`
+## `type?: string`
 
 ```sh
 # List of possible values for `device.type`:
-mobile, tablet, smarttv, console, wearable, embedded
+mobile, tablet, smarttv, console, wearable, embedded, xr
 ```
 
 ::: info
 If you wish to detect desktop devices, you must handle the logic yourself, since `UAParser` only reports info that is directly available from user-agent string. Read more about this issue [here↗](https://github.com/faisalman/ua-parser-js/issues/182)
 :::
 
-## `vendor:string`
+## `vendor?: string`
 
 ```sh
 # List of possible `device.vendor`:
@@ -28,10 +28,10 @@ Google, HP, HTC, Huawei, Jolla, Kobo, Lenovo, LG, Meizu,
 Microsoft, Motorola, Nexian, Nintendo, Nokia, Nvidia, OnePlus, 
 OPPO, Ouya, Palm, Panasonic, Pebble, Polytron, Realme, RIM, 
 Roku, Samsung, Sharp, Siemens, Sony[Ericsson], Sprint, Tesla, 
-Vivo, Vodafone, Xbox, Xiaomi, Zebra, ZTE, ...
+Ulefone, Vivo, Vodafone, Xbox, Xiaomi, Zebra, ZTE, ...
 ```
 
-## `model:string`
+## `model?: string`
 
 Determined dynamically
 

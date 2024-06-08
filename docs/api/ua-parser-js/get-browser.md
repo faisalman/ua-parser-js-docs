@@ -4,44 +4,34 @@ Get browser name, full version, & major version from user-agent string.
 
 ```js
 // Result object is structured as follow:
-{ name: '', version: '', major: '' }
+{ name: '', version: '', major: '', type: '' }
 ```
 
-## `name:string`
+## `name?: string`
 
-```sh
-# List of possible `browser.name`:
-2345Explorer, 360 Browser, Amaya, Android Browser, Arora, 
-Avant, Avast, AVG, BIDUBrowser, Baidu, Basilisk, Blazer, 
-Bolt, Brave, Bowser, Camino, Chimera, [Mobile] Chrome 
-[Headless/WebView], Chromium, Cobalt, Comodo Dragon, 
-Dillo, Dolphin, Doris, DuckDuckGo, Edge, Electron, 
-Epiphany, Facebook, Falkon, Fennec, Firebird, [Mobile] 
-Firefox [Focus/Reality], Flock, Flow, GSA, GoBrowser, 
-HeyTap, Huawei Browser, ICE Browser, IE, IEMobile, 
-IceApe, IceCat, IceDragon, Iceweasel, Instagram, Iridium, 
-Iron, Jasmine, Kakao[Story/Talk], K-Meleon, Kindle, Klar, 
-Konqueror, LBBROWSER, Line, LinkedIn, Links, Lunascape, 
-Lynx, MIUI Browser, Maemo Browser, Maemo, Maxthon, MetaSr,
-Midori, Minimo, Mosaic, Mozilla, NetFront, NetSurf, 
-Netfront, Netscape, NokiaBrowser, Obigo, Oculus Browser, 
-OmniWeb, Opera Coast, Opera [Mini/Mobi/Tablet], PaleMoon, 
-PhantomJS, Phoenix, Polaris, Puffin, QQ, QQBrowser, 
-QQBrowserLite, Quark, QupZilla, RockMelt, [Mobile] Safari, 
-Sailfish Browser, Samsung Browser, SeaMonkey, Silk, 
-Skyfire, Sleipnir, Slim, SlimBrowser, Swiftfox, Tesla, 
-TikTok, Tizen Browser, UCBrowser, UP.Browser, Viera, Vivaldi, 
-Waterfox, WeChat, Weibo, Yandex, baidu, iCab, w3m, 
-Whale Browser, ...
-```
+Name of current browser 
 
-## `version:string`
+- [List of possible `browser.name`](/api/ua-parser-js/browser/name)
 
-Determined dynamically
+## `version?: string`
 
-## `major:string`
+Version of current browser, determined dynamically from user-agent data. 
 
-Major number of `version` following [semver↗](https://semver.org/), eg: if we have version `5.1.21214` the major would be `5`.
+- `undefined` if browser version is not found.
+
+## `major?: string`
+
+Major number derived from the first number in `version`, following [semver↗](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
+
+- `undefined` if the browser has no `version`
+- `""` if the first token in `version` is not a Number
+
+## `type?: string`
+
+Type of current browser, e.g: `email`, `inapp`, `crawler`. 
+
+- [List of possible `browser.type`](/api/ua-parser-js/browser/type)
+- [`ua-parser-js/extensions` submodule](/api/submodules/extensions/overview)
 
 
 ## Code Example

@@ -1,20 +1,18 @@
 # UAParser.js Changelog
 
-# Version 2.0
-- What's breaking:
-  - Dual-licensed under AGPLv3 or PRO License
-  - Browser detection on mobile device: `"Chrome" => "Mobile Chrome"`, `"Firefox" => "Mobile Firefox"`
-  - OS detection: `"Mac OS" => "macOS"`, `"Chromium OS" => "Chrome OS"`
-- What's new:
-  - Some new methods in result object: 
-    - Support for client hints: `withClientHints()`
-    - Support for feature detection: `withFeatureCheck()`
-    - Utility for easy comparison: `is()`
-    - Utility to print full-name: `toString()`
-  - Support for ES module `import { UAParser } from 'ua-parser-js'`
-  - Provided Enums submodule `'ua-parser-js/enums'`
-  - Provided Extensions submodule `'ua-parser-js/extensions'`
-  - Provided Helpers submodule `'ua-parser-js/helpers'`
+## Version 2.0.0-beta.3
+
+- Breaking:
+  - AR/VR devices moved to new device type: `xr`
+  - New property in `browser`: `type`
+- New features:
+  - Parse directly from command line using `npx ua-parser-js`
+  - Extensions can be passed as a list to `UAParser()`
+- Add new browser: Pico Browser, Twitter, Wolvic
+- Improve browser detection: DuckDuckGo, ICEBrowser, Klar, QQ, Sleipnir
+- Improve device detection: Oculus Quest & Oppo Pad
+- Update latest client hints spec: `formFactor` -> `formFactors`
+- In `ua-parser-js/extensions` submodule, `bots` divided into `crawler` / `fetcher` 
 
 ## Version 2.0.0-beta.2
 
@@ -50,12 +48,50 @@
 
 - Initial work on new major version
 
+## Version 2.0
+- What's breaking:
+  - Dual-licensed under AGPLv3 or PRO License
+  - Browser detection on mobile device: `"Chrome" => "Mobile Chrome"`, `"Firefox" => "Mobile Firefox"`
+  - OS detection: `"Mac OS" => "macOS"`, `"Chromium OS" => "Chrome OS"`
+  - AR/VR devices moved to new device type: `xr`
+  - New property in `browser`: `type`
+- What's new:
+  - Some new methods in result object: 
+    - Support for client hints: `withClientHints()`
+    - Support for feature detection: `withFeatureCheck()`
+    - Utility for easy comparison: `is()`
+    - Utility to print full-name: `toString()`
+  - Parse directly from command line using `npx ua-parser-js`
+  - Extensions can be passed as a list to `UAParser()`
+  - Support for ES module `import { UAParser } from 'ua-parser-js'`
+  - Provided Enums submodule `'ua-parser-js/enums'`
+  - Provided Extensions submodule `'ua-parser-js/extensions'`
+  - Provided Helpers submodule `'ua-parser-js/helpers'`
 
-## Version 0.7 / 1.0
 
-Version 1.0.x is basically the equivalent of version 0.7.x. See [#536](https://github.com/faisalman/ua-parser-js/issues/536) for the reason behind this confusion.
+---
 
-### Version 0.7.35 / 1.0.35
+## Version 0.7.38 / 1.0.38
+- Fix error on getOS() when userAgentData.platform is undefined
+- Add new browser: Opera GX, Twitter
+- Improve browser detection: DuckDuckGo
+- Improve device detection: OPPO Pad, Oculus Quest
+
+## Version 0.7.37 / 1.0.37
+- Fix misidentified WebView token as device model
+- Increase UA_MAX_LENGTH to 500
+- Add new browser: Alipay, Klarna, Smart Lenovo Browser, Vivo Browser
+- Add new device: Ulefone
+- Improve device detection: Realme, Xiaomi Redmi
+- Rename browser: Avant, Baidu, Samsung Internet, Sogou Explorer, Sogou Mobile, WeChat
+
+## Version 0.7.36 / 1.0.36
+- Add new browser: Snapchat
+- Add new devices: Infinix, Tecno
+- Improve device detection: Amazon Fire TV, Xiaomi POCO 
+- Improve OS detection: iOS
+
+## Version 0.7.35 / 1.0.35
 - Fix result from user-supplied user-agent being altered
 - Add new browser: Heytap, TikTok
 - Add new engine: LibWeb
@@ -64,7 +100,7 @@ Version 1.0.x is basically the equivalent of version 0.7.x. See [#536](https://g
 - Improve device detection: iPhone, Amazon Echo
 - Improve OS detection: iOS
 
-### Version 0.7.34 / 1.0.34
+## Version 0.7.34 / 1.0.34
 - Fix Sharp Mobile detected as Huawei Tablet
 - Fix IE8 bug
 - Add new devices : Kobo e-Reader, Apple Watch, and some new SmartTV devices
@@ -74,13 +110,13 @@ Version 1.0.x is basically the equivalent of version 0.7.x. See [#536](https://g
 - Improve OS detection : Chrome OS
 - Using navigator.userAgentData as fallback for device.type & os.name
 
-### Version 0.7.33 / 1.0.33
+## Version 0.7.33 / 1.0.33
 
 - Add new browser : Cobalt
 - Identify Macintosh as an Apple device
 - Fix ReDoS vulnerability
 
-### Version 0.7.32 / 1.0.32
+## Version 0.7.32 / 1.0.32
 
 - Add new browser : DuckDuckGo, Huawei Browser, LinkedIn
 - Add new OS : HarmonyOS
@@ -95,13 +131,13 @@ Version 1.0.x is basically the equivalent of version 0.7.x. See [#536](https://g
 - Fix included commas in Safari / Mobile Safari version
 - Increase UA_MAX_LENGTH to 350
 
-### Version 0.7.31 / 1.0.2
+## Version 0.7.31 / 1.0.2
 
 - Fix OPPO Reno A5 incorrect detection
 - Fix TypeError Bug
 - Use AST to extract regexes and verify them with safe-regex
 
-### Version 0.7.30 / 1.0.1
+## Version 0.7.30 / 1.0.1
 
 - Add new browser : Obigo, UP.Browser, Klar
 - Add new device : Oculus, Roku
@@ -113,6 +149,10 @@ Version 1.0.x is basically the equivalent of version 0.7.x. See [#536](https://g
 - Fix Sharp devices misjudged as Huawei
 - Fix trailing comma for ES3 compatibility
 - Some code refactor
+
+## Version 0.7 / 1.0
+
+Version 1.0.x is basically the equivalent of version 0.7.x (mirror/duplicate). See [#536](https://github.com/faisalman/ua-parser-js/issues/536) for the reason behind this confusion.
 
 ## Version 0.8
 
