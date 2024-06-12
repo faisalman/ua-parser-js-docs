@@ -2,9 +2,8 @@
 
 Choose your ~~fighter~~ development strategy:
 
-- [HTML ↗](/intro/quick-start/using-html)
-- [Node.js ↗](/intro/quick-start/using-node-js)
-- [ES Modules ↗](/intro/quick-start/using-es-modules)
-- [TypeScript ↗](/intro/quick-start/using-typescript)
-- [jQuery ↗](/intro/quick-start/using-jquery)
-- [Command Line ↗](/intro/quick-start/using-cli)
+- [Using HTML ↗](/intro/quick-start/using-html)
+- [Using Node.js ↗](/intro/quick-start/using-node-js)
+- [Using ESM / TypeScript ↗](/intro/quick-start/using-es-modules-typescript)
+- [Using jQuery ↗](/intro/quick-start/using-jquery)
+- [Using Command Line ↗](/intro/quick-start/using-cli)

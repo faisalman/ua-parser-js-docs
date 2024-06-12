@@ -1,8 +1,8 @@
 # Why UAParser.js?
 
+UAParser.js simplifies user-agent detection by providing a structured approach, offering a clean alternative to the unstructured mess of real-world user-agent strings.
+
 ## User-agent detection is hard
-
-
 
 ```js
 // Problem: 
@@ -19,7 +19,7 @@ AppVersion/28.3.4 PIA/1.5.11 BytedanceWebview/d8a21c6`;
 // yes, this is a real user-agent (what???)
 ```
 
-Worry not, just use `UAParser.js`:
+No worries, let's just use UAParser.js now
 
 ```js
 // Solution:
@@ -47,6 +47,6 @@ console.log(parser.getOS());
 
 ## Illustration
 
-`UAParser.js` automagically breaks down a complicated user-agent string into a well-structured data:
+UAParser.js automagically breaks down a complicated user-agent string into a well-structured data:
 
 ![Illustration](/images/uap-illustrations.png)

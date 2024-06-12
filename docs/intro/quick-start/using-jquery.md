@@ -1,20 +1,29 @@
-# Using jQuery/Zepto ($.ua)
+# Using jQuery (`$.ua`)
 
-Although written in vanilla js, this library will automatically detect if jQuery/Zepto is present and create `$.ua` object (with values based on its User-Agent) along with `window.UAParser` constructor. To get/set user-agent you can use: 
+Although written in vanilla JavaScript, UAParser.js automatically detects the presence of [jQuery↗](https://jquery.com/) (or [Zepto↗](https://zeptojs.com/)) and creates a `$.ua` object in addition to the `window.UAParser` constructor. 
 
-## `$.ua.get():string`
+## Properties
 
-Get user-agent string
+The result of detected user-agent
 
-## `$.ua.set(ua:string)`
+- `$.ua.browser`
+- `$.ua.cpu`
+- `$.ua.device`
+- `$.ua.engine`
+- `$.ua.os`
 
-Set user-agent string
+## Methods
+
+To get or set the user-agent
+
+- `$.ua.get()`
+- `$.ua.set(ua)`
 
 ## Code Example
 
 ```js
-// Say we are in a browser which has default user-agent: 
-// "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Sprint APA7373KT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0"
+// Say we are in a browser where jQuery is present
+// with user-agent: "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Sprint APA7373KT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0"
 
 // Get the details
 console.log($.ua.device);           // {vendor: "HTC", model: "Evo Shift 4G", type: "mobile"}
@@ -22,7 +31,11 @@ console.log($.ua.os);               // {name: "Android", version: "2.3.4"}
 console.log($.ua.os.name);          // "Android"
 console.log($.ua.get());            // "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Sprint APA7373KT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0"
 
-// Now lets try to reset to another custom user-agent
+if($.ua.browser.is("IE")) {
+    alert("Please upgrade!");
+}
+
+// Now let's try another custom user-agent
 $.ua.set('Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; Xoom Build/HWI69) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13');
 
 // Test again

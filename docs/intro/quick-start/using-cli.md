@@ -1,19 +1,19 @@
 # Using Command Line
 
-Parse user-agent from command line without installing `ua-parser-js` by using [`npx`](https://docs.npmjs.com/cli/v10/commands/npx)
+You can use [`npx`↗](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
 
 ```sh
-$ npx ua-parser-js "[INSERT-USER-AGENT-HERE]"
+$ npx ua-parser-js "<INSERT-USER-AGENT-HERE>"
 ```
 
 ## Code Example
 
-```py
-# print to console
+```sh
+# example command input:
 npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
 
 # console output:
-'''
+"
 [
     {
         "ua": "Flock/2.16 (Zenwalk 7.3; es_PR;)",
@@ -31,9 +31,8 @@ npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
         }
     }
 ]
-```
+"
 
-```sh
-# save the result as a file
-npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)" > result.txt
+# let's save the result into a log file:
+npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)" >> log.txt
 ```

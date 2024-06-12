@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     base: "/v2/",
     title: "UAParser.js",
-    titleTemplate: 'How to detect Browser, OS, CPU, & Device using UAParser.js',
+    titleTemplate: 'How to detect Browser, OS, CPU, & Device with JavaScript using UAParser.js',
     description: "UAParser.js is a JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model, either in browser (client-side) or node.js (server-side).",
     head: [
         ['meta', { name: 'msvalidate.01', content: 'F4D861C3287B312C6D147ECEC9B85E5E' }],
@@ -27,7 +27,7 @@ export default defineConfig({
                 items: [
                     {
                         text: 'Changelog',
-                        link: 'https://github.com/faisalman/ua-parser-js/blob/master/CHANGELOG.md'
+                        link: '/intro/whats-new'
                     },
                     {
                         text: 'Contributing',
@@ -49,8 +49,7 @@ export default defineConfig({
                         items: [
                             { text: 'Using HTML', link: '/intro/quick-start/using-html' },
                             { text: 'Using Node.js', link: '/intro/quick-start/using-node-js' },
-                            { text: 'Using ES Modules', link: '/intro/quick-start/using-es-modules' },
-                            { text: 'Using TypeScript', link: '/intro/quick-start/using-typescript' },
+                            { text: 'Using ESM / TypeScript', link: '/intro/quick-start/using-es-modules-typescript' },
                             { text: 'Using jQuery', link: '/intro/quick-start/using-jquery' },
                             { text: 'Using Command Line', link: '/intro/quick-start/using-cli' },
                         ]

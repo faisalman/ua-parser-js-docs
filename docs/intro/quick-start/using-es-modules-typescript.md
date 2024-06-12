@@ -1,10 +1,11 @@
-# Using ES Modules
+# Using ESM / TypeScript
+
+To get started, install UAParser.js using npm
 
 ```sh
 $ npm install ua-parser-js
 ```
-
-## Code Example
+Then, import the library in your application
 
 ```js
 import { UAParser } from 'ua-parser-js';
