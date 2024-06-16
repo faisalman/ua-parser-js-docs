@@ -19,7 +19,7 @@ hero:
       link: /api/ua-parser-js/overview
   image:
     src: /images/uap-logo-transparent.png
-    alt: VitePress
+    alt: UAParser.js
 
 ---
 
