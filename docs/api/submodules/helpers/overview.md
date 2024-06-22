@@ -8,13 +8,17 @@
 
 Check for an ARM-based Apple Silicon device properties
 
-- [`isChromiumBased(res: IResult): boolean`](/api/submodules/helpers/is-chromium-based)
+- [`isChromeFamily(res: IResult): boolean`](/api/submodules/helpers/is-chrome-family)
 
 Check whether the current browser is a Chromium-based browser
 
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
-Check whether a user-agent string match with [frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
+Check whether a user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
+
+- [`isStandalonePWA(): boolean`](/api/submodules/helpers/is-standalone-pwa)
+
+Check whether the current window is a standalone PWA
 
 ## Code Example
 

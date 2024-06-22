@@ -116,8 +116,9 @@ export default defineConfig({
                         collapsed: false,
                         items: [
                             { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
-                            { text: 'isChromiumBased()', link: '/api/submodules/helpers/is-chromium-based' },
-                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
+                            { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
+                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' },
+                            { text: 'isStandalonePWA()', link: '/api/submodules/helpers/is-standalone-pwa' }
                         ]
                     }
                 ]
