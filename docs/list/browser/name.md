@@ -47,6 +47,7 @@ Name of the browser
 - `Flow`
 - `GoBrowser`
 - `GSA`
+- `Helio`
 - `HeyTap`
 - `Huawei Browser`
 - `iCab`
