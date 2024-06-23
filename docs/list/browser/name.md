@@ -1,0 +1,140 @@
+# `browser.name`
+
+Name of the browser
+
+- `2345Explorer`
+- `360 Browser`
+- `Alipay`
+- `Amaya`
+- `Android Browser`
+- `Arora`
+- `Avant`
+- `Avast Secure Browser`
+- `AVG Secure Browser`
+- `Baidu Browser`
+- `Basilisk`
+- `Blazer`
+- `Bolt`
+- `Brave`
+- `Bowser`
+- `Camino`
+- `Chimera`
+- `Chrome`
+- `Chrome Mobile`
+- `Chrome Headless`
+- `Chrome WebView`
+- `Chromium`
+- `Cobalt`
+- `Coc Coc`
+- `Comodo Dragon`
+- `Conkeror`
+- `Dillo`
+- `Dolphin`
+- `Doris`
+- `DuckDuckGo`
+- `Edge`
+- `Electron`
+- `Epiphany`
+- `Facebook`
+- `Falkon`
+- `Fennec`
+- `Firebird`
+- `Firefox`
+- `Firefox Focus`
+- `Firefox Mobile`
+- `Firefox Reality`
+- `Flock`
+- `Flow`
+- `GoBrowser`
+- `GSA`
+- `HeyTap`
+- `Huawei Browser`
+- `iCab`
+- `ICE Browser`
+- `IceApe`
+- `IceCat`
+- `IceDragon`
+- `Iceweasel`
+- `IE`
+- `IEMobile`
+- `Instagram`
+- `Iridium`
+- `Iron`
+- `Jasmine`
+- `K-Meleon`
+- `KakaoStory`
+- `KakaoTalk`
+- `Kindle`
+- `Klar`
+- `Klarna`
+- `Konqueror`
+- `LBBROWSER`
+- `Line`
+- `LinkedIn`
+- `Links`
+- `Lunascape`
+- `Lynx`
+- `Maemo Browser`
+- `Maxthon`
+- `Midori`
+- `Minimo`
+- `MIUI Browser`
+- `Mosaic`
+- `Mozilla`
+- `Naver`
+- `NetFront`
+- `Netscape`
+- `NetSurf`
+- `Nokia Browser`
+- `Obigo`
+- `Oculus Browser`
+- `OmniWeb`
+- `Opera`
+- `Opera Coast`
+- `Opera GX`
+- `Opera Mini`
+- `Opera Mobi`
+- `Opera Tablet`
+- `Opera Touch`
+- `OviBrowser`
+- `PaleMoon`
+- `PhantomJS`
+- `Phoenix`
+- `Pico Browser`
+- `Polaris`
+- `Puffin`
+- `QQBrowser`
+- `QQBrowserLite`
+- `Quark`
+- `QupZilla`
+- `Rekonq`
+- `RockMelt`
+- `Safari`
+- `Safari Mobile`
+- `Sailfish Browser`
+- `Samsung Internet`
+- `SeaMonkey`
+- `Silk`
+- `Skyfire`
+- `Sleipnir`
+- `SlimBrowser`
+- `Smart Lenovo Browser`
+- `Snapchat`
+- `Sogou Explorer`
+- `Sogou Mobile`
+- `Swiftfox`
+- `Tesla`
+- `TikTok`
+- `Tizen Browser`
+- `UCBrowser`
+- `UP.Browser`
+- `Vivaldi`
+- `Vivo Browser`
+- `w3m`
+- `Waterfox`
+- `WeChat`
+- `Weibo`
+- `Whale`
+- `Wolvic`
+- `Yandex`
+- `...`

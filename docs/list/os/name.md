@@ -1,0 +1,84 @@
+# `os.name`
+
+Name of the operating system.
+
+- `AIX`
+- `Amiga OS`
+- `Android`
+- `Android-x86`
+- `Arch`
+- `Bada`
+- `BeOS`
+- `BlackBerry`
+- `CentOS`
+- `Chrome OS`
+- `Chromecast`
+- `Contiki`
+- `Debian`
+- `Deepin`
+- `DragonFly`
+- `elementary OS`
+- `Fedora`
+- `Firefox OS`
+- `FreeBSD`
+- `Fuchsia`
+- `Gentoo`
+- `GhostBSD`
+- `GNU`
+- `Haiku`
+- `HarmonyOS`
+- `HP-UX`
+- `Hurd`
+- `iOS`
+- `Joli`
+- `KaiOS`
+- `Linpus`
+- `Linspire`
+- `Linux`
+- `macOS`
+- `Maemo`
+- `Mageia`
+- `Mandriva`
+- `Manjaro`
+- `MeeGo`
+- `Minix`
+- `Mint`
+- `Morph OS`
+- `NetBSD`
+- `NetRange`
+- `NetTV`
+- `Nintendo`
+- `OpenBSD`
+- `OpenVMS`
+- `OS/2`
+- `Palm` 
+- `PC-BSD`
+- `PCLinuxOS`
+- `Pico`
+- `Plan9`
+- `PlayStation`
+- `QNX`
+- `Raspbian`
+- `RedHat`
+- `RIM Tablet OS` 
+- `RISC OS`
+- `Sabayon`
+- `Sailfish`
+- `SerenityOS`
+- `Series40`
+- `Slackware`
+- `Solaris`
+- `SUSE`
+- `Symbian`
+- `Tizen`
+- `Ubuntu`
+- `Unix`
+- `VectorLinux`
+- `watchOS`
+- `WebOS`
+- `Windows`
+- `Windows Phone`
+- `Windows Mobile`
+- `Xbox`
+- `Zenwalk`
+- `...`

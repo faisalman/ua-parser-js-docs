@@ -9,18 +9,7 @@ Get type of CPU architecture from user-agent string.
 
 ## `architecture?: string`
 
-```sh
-# List of possible values for `cpu.architecture`
-68k, amd64, arm[64/hf], avr, ia[32/64], irix[64], 
-mips[64], pa-risc, ppc, sparc[64]
-```
-
-::: info
-**Conventions**
-
-- 32-bit version of **'x86'** is referred as `ia32`
-- 64-bit extension of **'x86'** (also known as **'x86-64'** or simply **'x64'**) is referred as `amd64`.
-:::
+- [List of possible `cpu.architecture`](/list/cpu/arch)
 
 ## Code Example
 

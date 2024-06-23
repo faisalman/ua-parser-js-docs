@@ -9,10 +9,7 @@ Get details of device information (type, vendor, model) from user-agent string.
 
 ## `type?: string`
 
-```sh
-# List of possible values for `device.type`:
-mobile, tablet, smarttv, console, wearable, embedded, xr
-```
+- [List of possible `device.type`](/list/device/type)
 
 ::: info
 If you wish to detect desktop devices, you must handle the logic yourself, since `UAParser` only reports info that is directly available from user-agent string. Read more about this issue [here↗](https://github.com/faisalman/ua-parser-js/issues/182)

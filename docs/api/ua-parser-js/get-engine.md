@@ -9,12 +9,7 @@ Get layout rendering engine name & version from user-agent string.
 
 ## `name?: string`
 
-```sh
-# List of possible value of `engine.name`
-Amaya, Blink, EdgeHTML, Flow, Gecko, Goanna, iCab, 
-KHTML, LibWeb, Links, Lynx, NetFront, NetSurf, 
-Presto, Tasman, Trident, w3m, WebKit
-```
+- [List of possible `engine.name`](/list/engine/name)
 
 ## `version?: string`
 

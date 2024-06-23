@@ -11,7 +11,7 @@ Get browser name, full version, & major version from user-agent string.
 
 Name of current browser 
 
-- [List of possible `browser.name`](/api/ua-parser-js/browser/name)
+- [List of possible `browser.name`](/list/browser/name)
 
 ## `version?: string`
 
@@ -30,7 +30,7 @@ Major number derived from the first number in `version`, following [semver↗](h
 
 Type of current browser, e.g: `email`, `inapp`, `crawler`. 
 
-- [List of possible `browser.type`](/api/ua-parser-js/browser/type)
+- [List of possible `browser.type`](/list/browser/type)
 - [`ua-parser-js/extensions` submodule](/api/submodules/extensions/overview)
 
 
