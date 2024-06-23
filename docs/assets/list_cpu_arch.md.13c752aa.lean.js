@@ -1,0 +1,1 @@
+import{_ as e,c,o,N as i}from"./chunks/framework.2ea5d489.js";const m=JSON.parse('{"title":"cpu.architecture","description":"","frontmatter":{},"headers":[],"relativePath":"list/cpu/arch.md","lastUpdated":1719115561000}'),t={name:"list/cpu/arch.md"},r=i("",4),l=[r];function a(d,s,n,p,_,u){return o(),c("div",null,l)}const f=e(t,[["render",a]]);export{m as __pageData,f as default};
