@@ -2,44 +2,12 @@
 
 Type of the device.
 
-## `console`
-
-Indicates a gaming console or similar device.
-
-- Examples: `Sony PlayStation`, `Microsoft Xbox`.
-
-## `embedded`
-
-Refers to devices that is embedded in other systems, such as smart home appliances, car head unit, or kiosk machines.
-
-- Examples: `Amazon Echo Dot`, `Tesla`.
-
-## `mobile`
-
-Represents mobile phones or smartphones.
-
-- Examples: `Apple iPhone`, `Samsung Galaxy`.
-
-## `smarttv`
-
-Indicates smart TVs or similar smart devices.
-
-- Examples: `LG Smart TV`, `Samsung Smart TV`
-
-## `tablet`
-
-Represents tablet devices.
-
-- Examples: `Apple iPad`, `Samsung Galaxy Tab`.
-
-## `wearable`
-
-Refers to wearable devices, such as smartwatches or fitness trackers.
-
-- Examples: `Pebble`, `Apple Watch`
-
-## `xr`
-
-Represents extended reality (XR) devices, such as virtual reality (VR) or augmented reality (AR) headsets.
-
-- Examples: `Google Glass`, `Oculus Rift`
+| `device.type` | Description | Examples  |
+|-|-|-|
+| `console` | Gaming consoles or similar dedicated gaming devices. | `Sony PlayStation`, `Microsoft Xbox` |
+| `embedded` | Devices integrated into other systems like smart home appliances, car head units, or dedicated kiosk machines. | `Amazon Echo Dot`, `Tesla` |
+| `mobile` | Mobile phones / smartphones designed for portable use. | `Apple iPhone`, `Samsung Galaxy`  |
+| `smarttv` | Smart TVs or similar devices. | `LG Smart TV`, `Samsung Smart TV` |
+| `tablet` | Portable touchscreen devices larger than smartphones but smaller than laptops. | `Apple iPad`, `Samsung Galaxy Tab` |
+| `wearable` | Devices worn on the body, such as smartwatches or fitness trackers. | `Pebble`, `Apple Watch` |
+| `xr` | Extended reality (XR) devices, encompassing virtual reality (VR) and augmented reality (AR) headsets. | `Google Glass`, `Oculus Quest` |

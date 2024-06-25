@@ -2,110 +2,23 @@
 
 Name of the engine.
 
-## `Amaya`
-
-https://www.w3.org/Amaya/
-
-A web editor and browser developed by the `W3C` for creating and updating documents directly on the web.
-
-## `Blink`
-
-https://www.chromium.org/blink
-
-Developed by `Google`, `Blink` is the most widely used browser engine today. It is used in many browsers such as `Chrome`, `Edge`, `Opera`, `Brave`, `Vivaldi`, etc.
-
-## `EdgeHTML`
-
-https://en.wikipedia.org/wiki/EdgeHTML
-
-A proprietary browser engine developed by `Microsoft` for its older version of `Edge` browser.
-
-## `Flow`
-
-https://www.ekioh.com/flow-browser/
-
-A proprietary browser engine developed by by the `Ekioh` company, focusing on set-top boxes and embedded systems.
-
-## `Gecko`
-
-https://developer.mozilla.org/en-US/docs/Glossary/Gecko
-
-`Mozilla`'s browser engine, used in `Firefox`.
-
-## `Goanna`
-
-https://www.palemoon.org/tech/goanna.shtml
-
-A browser engine forked from `Gecko`, used in the `Pale Moon` browser.
-
-## `iCab`
-
-https://www.icab.de/
-
-The browser engine used in the `iCab` web browser for `macOS` and `iOS`.
-
-## `KHTML`
-
-https://github.com/KDE/khtml
-
-The browser engine used in the `KDE` project's `Konqueror` web browser.
-
-## `LibWeb`
-
-https://serenityos.org/
-
-The browser engine for the `SerenityOS` operating system.
-
-## `Links`
-
-http://links.twibright.com/
-
-A text-based browser engine used in the `Links` web browser.
-
-## `Lynx`
-
-https://lynx.invisible-island.net/
-
-One of the oldest text-based web browser engines.
-
-## `NetFront`
-
-https://en.wikipedia.org/wiki/NetFront
-
-An embedded browser engine commonly used in mobile and handheld devices.
-
-## `NetSurf`
-
-http://www.netsurf-browser.org/
-
-A lightweight browser engine designed for use on low-resource systems.
-
-## `Presto`
-
-https://en.wikipedia.org/wiki/Presto_(browser_engine)
-
-A proprietary browser engine developed by `Opera Software`, used in older versions of the `Opera` browser.
-
-## `Tasman`
-
-https://en.wikipedia.org/wiki/Tasman_(software)
-
-A browser engine developed by `Microsoft`, used in the older versions of `Internet Explorer for Mac`.
-
-## `Trident`
-
-https://en.wikipedia.org/wiki/Trident_(software)
-
-A proprietary browser engine developed by `Microsoft`, used in `Internet Explorer`.
-
-## `w3m`
-
-http://w3m.sourceforge.net/
-
-A text-based web browser engine.
-
-## `WebKit`
-
-https://webkit.org/
-
-An open-source browser engine used in `Safari` and previously in `Chrome`.
+| `engine.name` | Description |
+|-|-|
+| `Amaya` | A web editor and browser developed by the W3C. <br>https://www.w3.org/Amaya/ |
+| `Blink` | A highly popular open-source browser engine developed by Google as a fork of `WebKit` engine, used in browsers such as Chrome, Edge, Opera, Brave, and Vivaldi. <br>https://www.chromium.org/blink |
+| `EdgeHTML` | A proprietary browser engine developed by Microsoft for its older version of Edge browser. <br>https://en.wikipedia.org/wiki/EdgeHTML |
+| `Flow` | A proprietary browser engine developed by Ekioh, focusing on set-top boxes and embedded systems. <br>https://www.ekioh.com/flow-browser/ |
+| `Gecko` | An open-source browser engine by Mozilla, used in Firefox. <br>https://developer.mozilla.org/en-US/docs/Glossary/Gecko |
+| `Goanna` | An open-source browser engine forked from `Gecko`, used in the Pale Moon browser. <br>https://www.palemoon.org/tech/goanna.shtml |
+| `iCab` | A browser engine used in the iCab web browser for macOS and iOS. <br>https://www.icab.de/ |
+| `KHTML` | An open-source browser engine used in the KDE project's Konqueror web browser. <br>https://github.com/KDE/khtml |
+| `LibWeb` | An open-source browser engine for the SerenityOS operating system. <br>https://serenityos.org/ |
+| `Links` | A text-based browser engine used in the Links web browser. <br>http://links.twibright.com/ |
+| `Lynx` | One of the oldest text-based web browser engines. <br>https://lynx.invisible-island.net/ |
+| `NetFront` | An embedded browser engine commonly used in mobile and handheld devices. <br>https://en.wikipedia.org/wiki/NetFront |
+| `NetSurf` | A lightweight browser engine designed for use on low-resource systems. <br>http://www.netsurf-browser.org/ |
+| `Presto` | A proprietary browser engine developed by Opera Software, used in older versions of the Opera browser. <br>https://en.wikipedia.org/wiki/Presto_(browser_engine) |
+| `Tasman` | A browser engine developed by Microsoft, used in the older versions of Internet Explorer for Mac. <br>https://en.wikipedia.org/wiki/Tasman_(software) |
+| `Trident` | A proprietary browser engine developed by Microsoft, used in Internet Explorer. <br>https://en.wikipedia.org/wiki/Trident_(software) |
+| `w3m` | A text-based open-source web browser engine. <br>http://w3m.sourceforge.net/ |
+| `WebKit` | An open-source browser engine developed by Apple as a fork of `KHTML` engine, used in Safari and previously in Chrome. <br>https://webkit.org/ |

@@ -2,26 +2,21 @@
 
 Type of the CPU architecture. 
 
-- `68k`
-- `amd64`
-- `arm`
-- `arm64`
-- `armhf`
-- `avr`
-- `ia32`
-- `ia64`
-- `irix`
-- `irix64`
-- `mips`
-- `mips64`
-- `pa-risc`
-- `ppc`
-- `sparc`
-- `sparc64`
-
-::: tip
-**Conventions**
-
-- 32-bit version of **'x86'** is referred as `ia32`
-- 64-bit extension of **'x86'** (also known as **'x86-64'** or simply **'x64'**) is referred as `amd64`.
-:::
+| `cpu.architecture` | Description               |
+|----------------------|-------------------------------|
+| `ia32`               | Intel x86                     |
+| `amd64`              | Intel x86-64 / x64            |
+| `ia64`               | Intel Itanium                 |
+| `arm`                | ARM 32-bit                    |
+| `arm64`              | ARM 64-bit                    |
+| `armhf`              | ARM Hard Float                |
+| `68k`                | Motorola 68000 series         |
+| `avr`                | AVR Microcontroller           |
+| `irix`               | SGI IRIX 32-bit               |
+| `irix64`             | SGI IRIX 64-bit               |
+| `mips`               | MIPS 32-bit                   |
+| `mips64`             | MIPS 64-bit                   |
+| `pa-risc`            | HP PA-RISC                    |
+| `ppc`                | PowerPC                       |
+| `sparc`              | SPARC 32-bit                  |
+| `sparc64`            | SPARC 64-bit                  |
