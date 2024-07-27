@@ -4,6 +4,10 @@
 
 ## List of Built-in Helpers:
 
+- [`getDeviceVendor(model: string): string | undefined`](/api/submodules/helpers/get-device-vendor)
+
+Guess for the device vendor from a device model name
+
 - [`isAppleSilicon(res: IResult): boolean`](/api/submodules/helpers/is-apple-silicon)
 
 Check for an ARM-based Apple Silicon device properties

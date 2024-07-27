@@ -160,6 +160,7 @@ export default defineConfig({
                         link: '/api/submodules/helpers/overview',
                         collapsed: false,
                         items: [
+                            { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
                             { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
                             { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' },
