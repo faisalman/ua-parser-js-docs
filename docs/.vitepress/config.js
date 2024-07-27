@@ -15,6 +15,9 @@ export default defineConfig({
     ],
     appearance: 'dark',
     lastUpdated: true,
+    sitemap: {
+        hostname: 'https://docs.uaparser.dev'
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
 
