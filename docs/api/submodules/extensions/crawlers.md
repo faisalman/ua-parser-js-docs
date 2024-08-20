@@ -1,9 +1,10 @@
-# Crawlers
+# Crawlers (Auto Bots)
 
 ```sh
 # List of known crawlers
-Amazonbot, Applebot, Baiduspider, Bytespider, Bingbot, ClaudeBot, 
-DuckDuckBot, FacebookBot, GPTBot, Slurp, Sogou Spider, YandexBot
+AhrefsBot, Amazonbot, Applebot, Baiduspider, Bytespider, Bingbot, 
+ClaudeBot, Coc Coc Bot, Dotbot, DuckDuckBot, FacebookBot, GPTBot, 
+MJ12Bot, SemrushBot, Slurp, Sogou Spider, YandexBot
 ```
 
 ## Code Example

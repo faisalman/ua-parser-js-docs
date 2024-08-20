@@ -32,6 +32,7 @@ Vendor company of the device.
 - `Nexian`
 - `Nintendo`
 - `Nokia`
+- `Nothing`
 - `Nvidia`
 - `OnePlus`
 - `OPPO`
@@ -49,6 +50,7 @@ Vendor company of the device.
 - `Siemens`
 - `Sony`
 - `Sprint`
+- `TCL`
 - `TechniSAT`
 - `Tecno`
 - `Tesla` 

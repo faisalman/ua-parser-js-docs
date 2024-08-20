@@ -2,5 +2,5 @@
 
 ```sh
 # List of known inApps
-Slack
+Slack, Yahoo! Japan
 ```

@@ -1,13 +1,13 @@
-# Fetchers
+# Fetchers (On-demand Bots)
 
 ```sh
 # List of known fetchers
-BingPreview, ChatGPT-User, Discordbot, FeedFetcher-Google, 
-Google-Read-Aloud, LinkedInBot, Mastodon, Pinterestbot, 
-Redditbot, Slackbot, Slack-ImgProxy, Slack-LinkExpanding, 
-Snapchat, Telegrambot, Twitterbot, WhatsApp, YaDirectFetcher, 
-YandexCalendar, YandexDirect, YandexDirectDyn, YandexSearchShop, 
-YandexSitelinks, YandexUserProxy
+AhrefsSiteAudit, BingPreview, ChatGPT-User, Discordbot, 
+FeedFetcher-Google, Google-Read-Aloud, LinkedInBot, Mastodon, 
+Pinterestbot, Redditbot, Rogerbot, Slackbot, Slack-ImgProxy, 
+Slack-LinkExpanding, Snapchat, Telegrambot, Twitterbot, Uptimerobot, 
+WhatsApp, YaDirectFetcher, YandexCalendar, YandexDirect, 
+YandexDirectDyn, YandexSearchShop, YandexSitelinks, YandexUserProxy
 ```
 
 ## Code Example
