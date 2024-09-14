@@ -72,3 +72,28 @@ new UAParser(request.headers)
     console.log(browser.toString());    // Chrome 110.0.0.0 
 });
 ```
+
+```js
+const http = require('http');
+const uap = require('ua-parser-js');
+
+http.createServer(function (req, res) {
+
+    // you can also pass Client Hints data to UAParser
+    // note: only works in a secure context (localhost or https://)
+    // from any browsers that are based on Chrome 85+
+    // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA
+
+    const getHighEntropyValues = 'Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Form-Factors';
+    res.setHeader('Accept-CH', getHighEntropyValues);
+    res.setHeader('Critical-CH', getHighEntropyValues);
+        
+    const result = uap(req.headers).withClientHints();
+
+    // write the result as response
+    res.end(JSON.stringify(result, null, '  '));
+})
+.listen(1337, '127.0.0.1');
+
+console.log('Server running at http://127.0.0.1:1337/');
+```

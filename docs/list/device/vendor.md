@@ -22,6 +22,7 @@ Vendor company of the device.
 - `HTC`
 - `Huawei`
 - `Infinix`
+- `itel`
 - `Jolla`
 - `Kobo`
 - `Lenovo`
