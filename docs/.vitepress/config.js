@@ -163,6 +163,8 @@ export default defineConfig({
                             { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
                             { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
+                            { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },
+                            { text: 'isFromEU()', link: '/api/submodules/helpers/is-from-eu' },
                             { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' },
                             { text: 'isStandalonePWA()', link: '/api/submodules/helpers/is-standalone-pwa' }
                         ]

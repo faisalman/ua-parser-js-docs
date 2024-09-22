@@ -16,6 +16,14 @@ Check for an ARM-based Apple Silicon device properties
 
 Check whether the current browser is a Chromium-based browser
 
+- [`isElectron(): boolean`](/api/submodules/helpers/is-electron)
+
+Check whether the current window is running inside Electron
+
+- [`isFromEU(): boolean`](/api/submodules/helpers/is-from-eu)
+
+Check whether the current window is likely from an EU country
+
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
 Check whether a user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
