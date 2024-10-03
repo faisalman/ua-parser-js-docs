@@ -9,7 +9,14 @@ It's currently impossible to detect `macOS > '10.15'` only from user-agent data.
 - Google: [*Cap the reported macOS version in the user-agent string at 10_15_7*](https://bugs.chromium.org/p/chromium/issues/detail?id=1175225)
 
 ::: info 
-Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua-reduction/#token-reference) program, Chrome user-agent in macOS will always identify itself as: `Macintosh; Intel Mac OS X 10_15_7`
+Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua-reduction/#token-reference) program, Chrome user-agent in macOS will always identify itself as `Macintosh; Intel Mac OS X 10_15_7` for all of these macOS versions:
+
+- macOS 10.15 (Catalina)
+- macOS 11 (Big Sur)
+- macOS 12 (Monterey)
+- macOS 13 (Ventura)
+- macOS 14 (Sonoma)
+- macOS 15 (Sequoia)
 :::
 
 ---

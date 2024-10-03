@@ -177,6 +177,7 @@ export default defineConfig({
                 items: [
                     { text: 'How to Detect macOS >10', link: '/guides/how-to-detect-macos-10157-using-javascript' },
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
+                    { text: 'How to Identify Android K', link: '/guides/how-to-identify-android-k-device' },
                     { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
             }
