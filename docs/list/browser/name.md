@@ -1,17 +1,17 @@
-# `browser.name`
+# [`IBrowser`](/api/ua-parser-js/get-browser.md) / `name`
 
-Name of the browser
+Here is a list of possible values for `browser.name`:
 
 - `2345Explorer`
 - `360 Browser`
 - `Alipay`
 - `Amaya`
 - `Android Browser`
-- `Arora`
-- `Avant`
-- `Avast Secure Browser`
-- `AVG Secure Browser`
-- `Baidu Browser`
+- [`Arora`](./name/arora.md)
+- [`Avant`](./name/avant.md)
+- [`Avast Secure Browser`](./name/avast-secure-browser.md)
+- [`AVG Secure Browser`](./name/avg-secure-browser.md)
+- [`Baidu`](./name/baidu.md)
 - `Basilisk`
 - `Blazer`
 - `Bolt`
