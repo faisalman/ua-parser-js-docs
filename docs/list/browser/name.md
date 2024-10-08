@@ -6,33 +6,33 @@ Here is a list of possible values for `browser.name`:
 - `360 Browser`
 - `Alipay`
 - `Amaya`
-- `Android Browser`
+- [`Android Browser`](./name/android.md)
 - [`Arora`](./name/arora.md)
 - [`Avant`](./name/avant.md)
-- [`Avast Secure Browser`](./name/avast-secure-browser.md)
-- [`AVG Secure Browser`](./name/avg-secure-browser.md)
+- [`Avast Secure Browser`](./name/avast.md)
+- [`AVG Secure Browser`](./name/avg.md)
 - [`Baidu`](./name/baidu.md)
 - `Basilisk`
-- `Blazer`
-- `Bolt`
+- [`Blazer`](./name/blazer.md)
+- [`Bolt`](./name/bolt.md)
 - `Brave`
-- `Bowser`
-- `Camino`
-- `Chimera`
+- [`Bowser`](./name/bowser.md)
+- [`Camino`](./name/camino.md)
+- [`Chimera`](./name/chimera.md)
 - `Chrome`
 - `Chrome Mobile`
 - `Chrome Headless`
 - `Chrome WebView`
 - `Chromium`
 - `Cobalt`
-- `Coc Coc`
+- [`Coc Coc`](./name/coc-coc.md)
 - `Comodo Dragon`
 - `Conkeror`
 - `Dillo`
 - `Dolphin`
 - `Doris`
-- `DuckDuckGo`
-- `Edge`
+- [`DuckDuckGo`](./name/duckduckgo.md)
+- [`Edge`](./name/edge.md)
 - `Electron`
 - `Epiphany`
 - `Facebook`
@@ -59,18 +59,18 @@ Here is a list of possible values for `browser.name`:
 - `IE`
 - `IEMobile`
 - `Instagram`
-- `Iridium`
+- [`Iridium`](./name/iridium.md)
 - `Iron`
 - `Jasmine`
-- `K-Meleon`
+- [`K-Meleon`](./name/k-meleon.md)
 - `KakaoStory`
 - `KakaoTalk`
 - `Kindle`
 - `Klar`
 - `Klarna`
-- `Konqueror`
+- [`Konqueror`](./name/konqueror.md)
 - `LBBROWSER`
-- `Line`
+- [`Line`](./name/line.md)
 - `LinkedIn`
 - `Links`
 - `Lunascape`
@@ -104,11 +104,11 @@ Here is a list of possible values for `browser.name`:
 - `Pico Browser`
 - `Polaris`
 - `Puffin`
-- `QQBrowser`
+- [`QQBrowser`](./name/qq.md)
 - `QQBrowserLite`
 - `Quark`
 - `QupZilla`
-- `Rekonq`
+- [`Rekonq`](./name/rekonq.md)
 - `RockMelt`
 - `Safari`
 - `Safari Mobile`
@@ -127,9 +127,10 @@ Here is a list of possible values for `browser.name`:
 - `Tesla`
 - `TikTok`
 - `Tizen Browser`
+- [`Twitter`](./name/twitter.md)
 - `UCBrowser`
 - `UP.Browser`
-- `Vivaldi`
+- [`Vivaldi`](./name/vivaldi.md)
 - `Vivo Browser`
 - `w3m`
 - `Waterfox`
