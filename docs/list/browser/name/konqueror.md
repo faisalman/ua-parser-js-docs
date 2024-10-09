@@ -1,8 +1,13 @@
-# [`IBrowser`](/api/ua-parser-js/get-browser.md) / [`name`](../name.md) / Konqueror
+# [`IBrowser`](/api/ua-parser-js/get-browser.md) / [`name`](../name.md) / Chrome Headless
 
 ### Linux
 
 ```sh
-Mozilla/5.0 (compatible; Konqueror/3.5; Linux; X11; x86_64) KHTML/3.5.6 (like Gecko) (Kubuntu)
-Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.34 (KHTML, like Gecko) konqueror/5.0.97 Safari/534.34
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome Safari/537.36
+```
+
+### macOS
+
+```sh
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/60.0.3112.113 Safari/537.36
 ```

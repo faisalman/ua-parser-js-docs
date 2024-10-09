@@ -3,7 +3,7 @@
 Here is a list of possible values for `browser.name`:
 
 - `2345Explorer`
-- `360 Browser`
+- [`360 Browser`](./name/360.md)
 - `Alipay`
 - `Amaya`
 - [`Android Browser`](./name/android.md)
@@ -12,30 +12,30 @@ Here is a list of possible values for `browser.name`:
 - [`Avast Secure Browser`](./name/avast.md)
 - [`AVG Secure Browser`](./name/avg.md)
 - [`Baidu`](./name/baidu.md)
-- `Basilisk`
+- [`Basilisk`](./name/basilisk.md)
 - [`Blazer`](./name/blazer.md)
 - [`Bolt`](./name/bolt.md)
 - `Brave`
 - [`Bowser`](./name/bowser.md)
 - [`Camino`](./name/camino.md)
 - [`Chimera`](./name/chimera.md)
-- `Chrome`
-- `Chrome Mobile`
-- `Chrome Headless`
-- `Chrome WebView`
-- `Chromium`
+- [`Chrome`](./name/chrome.md
+- [`Chrome Mobile`](./name/chrome-mobile.md)
+- [`Chrome Headless`](./name/chrome-headless.md)
+- [`Chrome WebView`](./name/chrome-webview.md)
+- [`Chromium`](./name/chromium.md)
 - `Cobalt`
 - [`Coc Coc`](./name/coc-coc.md)
-- `Comodo Dragon`
-- `Conkeror`
-- `Dillo`
-- `Dolphin`
-- `Doris`
+- [`Comodo Dragon`](./name/comodo-dragon.md)
+- [`Conkeror`](./name/conkeror.md)
+- [`Dillo`](./name/dillo.md)
+- [`Dolphin`](./name/dolphin.md)
+- [`Doris`](./name/doris.md)
 - [`DuckDuckGo`](./name/duckduckgo.md)
 - [`Edge`](./name/edge.md)
 - `Electron`
-- `Epiphany`
-- `Facebook`
+- [`Epiphany`](./name/epiphany.md)
+- [`Facebook`](./name/epiphany.md)
 - `Falkon`
 - `Fennec`
 - `Firebird`
@@ -44,8 +44,8 @@ Here is a list of possible values for `browser.name`:
 - `Firefox Mobile`
 - `Firefox Reality`
 - `Flock`
-- `Flow`
-- `GoBrowser`
+- [`Flow`](./name/flow.md)
+- [`GoBrowser`](./name/go.md)
 - `GSA`
 - `Helio`
 - `HeyTap`
@@ -98,7 +98,7 @@ Here is a list of possible values for `browser.name`:
 - `Opera Tablet`
 - `Opera Touch`
 - `OviBrowser`
-- `PaleMoon`
+- [`PaleMoon`](./name/palemoon.md)
 - `PhantomJS`
 - `Phoenix`
 - `Pico Browser`
@@ -112,8 +112,8 @@ Here is a list of possible values for `browser.name`:
 - `RockMelt`
 - `Safari`
 - `Safari Mobile`
-- `Sailfish Browser`
-- `Samsung Internet`
+- [`Sailfish Browser`](./name/sailfish.md)
+- [`Samsung Internet`](./name/samsung-internet.md)
 - `SeaMonkey`
 - `Silk`
 - `Skyfire`
@@ -133,7 +133,7 @@ Here is a list of possible values for `browser.name`:
 - [`Vivaldi`](./name/vivaldi.md)
 - `Vivo Browser`
 - `w3m`
-- `Waterfox`
+- [`Waterfox`](./name/waterfox.md)
 - `WeChat`
 - `Weibo`
 - `Whale`
