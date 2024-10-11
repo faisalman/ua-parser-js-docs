@@ -19,7 +19,7 @@ Here is a list of possible values for `browser.name`:
 - [`Bowser`](./name/bowser.md)
 - [`Camino`](./name/camino.md)
 - [`Chimera`](./name/chimera.md)
-- [`Chrome`](./name/chrome.md
+- [`Chrome`](./name/chrome.md)
 - [`Chrome Mobile`](./name/chrome-mobile.md)
 - [`Chrome Headless`](./name/chrome-headless.md)
 - [`Chrome WebView`](./name/chrome-webview.md)
@@ -36,26 +36,26 @@ Here is a list of possible values for `browser.name`:
 - `Electron`
 - [`Epiphany`](./name/epiphany.md)
 - [`Facebook`](./name/epiphany.md)
-- `Falkon`
+- [`Falkon`](./name/falkon.md)
 - `Fennec`
 - `Firebird`
 - `Firefox`
 - `Firefox Focus`
 - `Firefox Mobile`
 - `Firefox Reality`
-- `Flock`
+- [`Flock`](./name/flock.md)
 - [`Flow`](./name/flow.md)
 - [`GoBrowser`](./name/go.md)
 - `GSA`
-- `Helio`
-- `HeyTap`
+- [`Helio`](./name/helio.md)
+- [`HeyTap`](./name/heytap.md)
 - `Huawei Browser`
-- `iCab`
-- `ICE Browser`
-- `IceApe`
-- `IceCat`
+- [`iCab`](./name/icab.md)
+- [`ICE Browser`](./name/ice.md)
+- [`IceApe`](./name/iceape.md)
+- [`IceCat`](./name/icecat.md)
 - `IceDragon`
-- `Iceweasel`
+- [`Iceweasel`](./name/iceweasel.md)
 - `IE`
 - `IEMobile`
 - `Instagram`
@@ -73,18 +73,18 @@ Here is a list of possible values for `browser.name`:
 - [`Line`](./name/line.md)
 - `LinkedIn`
 - `Links`
-- `Lunascape`
-- `Lynx`
+- [`Lunascape`](./name/lunascape.md)
+- [`Lynx`](./name/lynx.md)
 - `Maemo Browser`
-- `Maxthon`
-- `Midori`
+- [`Maxthon`](./name/maxthon.md)
+- [`Midori`](./name/midori.md)
 - `Minimo`
 - `MIUI Browser`
-- `Mosaic`
+- [`Mosaic`](./name/mosaic.md)
 - `Mozilla`
 - `Naver`
-- `NetFront`
-- `Netscape`
+- [`NetFront`](./name/netfront.md)
+- [`Netscape`](./name/netscape.md)
 - `NetSurf`
 - `Nokia Browser`
 - `Obigo`
@@ -99,31 +99,31 @@ Here is a list of possible values for `browser.name`:
 - `Opera Touch`
 - `OviBrowser`
 - [`PaleMoon`](./name/palemoon.md)
-- `PhantomJS`
-- `Phoenix`
+- [`PhantomJS`](./name/phantomjs.md)
+- [`Phoenix`](./name/phoenix.md)
 - `Pico Browser`
-- `Polaris`
+- [`Polaris`](./name/polaris.md)
 - `Puffin`
 - [`QQBrowser`](./name/qq.md)
 - `QQBrowserLite`
 - `Quark`
-- `QupZilla`
+- [`QupZilla`](./name/qupzilla.md)
 - [`Rekonq`](./name/rekonq.md)
-- `RockMelt`
+- [`RockMelt`](./name/rockmelt.md)
 - `Safari`
 - `Safari Mobile`
 - [`Sailfish Browser`](./name/sailfish.md)
 - [`Samsung Internet`](./name/samsung-internet.md)
 - `SeaMonkey`
-- `Silk`
-- `Skyfire`
+- [`Silk`](./name/silk.md)
+- [`Skyfire`](./name/skyfire.md)
 - `Sleipnir`
 - `SlimBrowser`
 - `Smart Lenovo Browser`
 - `Snapchat`
 - `Sogou Explorer`
 - `Sogou Mobile`
-- `Swiftfox`
+- [`Swiftfox`](./name/swiftfox.md)
 - `Tesla`
 - `TikTok`
 - `Tizen Browser`

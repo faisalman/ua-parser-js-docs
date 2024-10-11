@@ -1,6 +1,5 @@
 # [`IBrowser`](/api/ua-parser-js/get-browser.md) / [`name`](../name.md) / Avant
 
-
 ### Windows
 
 ```sh
