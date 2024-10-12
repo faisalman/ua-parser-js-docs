@@ -19,6 +19,6 @@ uap.getResult().withClientHints().then(res => {
 
 References:
 
-- [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
+- [`withClientHints()`](/api/main/idata/with-client-hints)
 - https://mobiforge.com/research-analysis/the-mysterious-model-k
 - https://developers.google.com/privacy-sandbox/blog/user-agent-reduction-android-model-and-version

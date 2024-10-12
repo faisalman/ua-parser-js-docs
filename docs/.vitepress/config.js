@@ -67,69 +67,69 @@ export default defineConfig({
                     {
                         text: 'UAParser',
                         collapsed: false,
-                        link: '/api/ua-parser-js/overview',
+                        link: '/api/main/overview',
                         items: [
-                            { text: 'Overview', link: '/api/ua-parser-js/overview' },
-                            { text: 'getBrowser()', link: '/api/ua-parser-js/get-browser' },
-                            { text: 'getCPU()', link: '/api/ua-parser-js/get-cpu' },
-                            { text: 'getDevice()', link: '/api/ua-parser-js/get-device' },
-                            { text: 'getEngine()', link: '/api/ua-parser-js/get-engine' },
-                            { text: 'getOS()', link: '/api/ua-parser-js/get-os' },
-                            { text: 'getResult()', link: '/api/ua-parser-js/get-result' },
-                            { text: 'getUA()', link: '/api/ua-parser-js/get-ua' },
-                            { text: 'setUA()', link: '/api/ua-parser-js/set-ua' }
+                            { text: 'Overview', link: '/api/main/overview' },
+                            { text: 'getBrowser()', link: '/api/main/get-browser' },
+                            { text: 'getCPU()', link: '/api/main/get-cpu' },
+                            { text: 'getDevice()', link: '/api/main/get-device' },
+                            { text: 'getEngine()', link: '/api/main/get-engine' },
+                            { text: 'getOS()', link: '/api/main/get-os' },
+                            { text: 'getResult()', link: '/api/main/get-result' },
+                            { text: 'getUA()', link: '/api/main/get-ua' },
+                            { text: 'setUA()', link: '/api/main/set-ua' }
                         ]
                     },
                     {
                         text: 'IData',
                         collapsed: false,
                         items: [
-                            { text: 'is()', link: '/api/ua-parser-js/idata/is' },
-                            { text: 'toString()', link: '/api/ua-parser-js/idata/to-string' },
-                            { text: 'withClientHints()', link: '/api/ua-parser-js/idata/with-client-hints' },
-                            { text: 'withFeatureCheck()', link: '/api/ua-parser-js/idata/with-feature-check' }
+                            { text: 'is()', link: '/api/main/idata/is' },
+                            { text: 'toString()', link: '/api/main/idata/to-string' },
+                            { text: 'withClientHints()', link: '/api/main/idata/with-client-hints' },
+                            { text: 'withFeatureCheck()', link: '/api/main/idata/with-feature-check' }
                         ]
                     },
                     {
                         text: 'IBrowser',
                         collapsed: true,
                         items: [
-                            { text: 'name', link: '/list/browser/name' },
-                            { text: 'version', link: '/list/browser/version' },
-                            { text: 'major', link: '/list/browser/major' },
-                            { text: 'type', link: '/list/browser/type' }
+                            { text: 'name', link: '/info/browser/name' },
+                            { text: 'version', link: '/info/browser/version' },
+                            { text: 'major', link: '/info/browser/major' },
+                            { text: 'type', link: '/info/browser/type' }
                         ]
                     },
                     {
                         text: 'ICPU',
                         collapsed: true,
                         items: [
-                            { text: 'architecture', link: '/list/cpu/arch' }
+                            { text: 'architecture', link: '/info/cpu/arch' }
                         ]
                     },
                     {
                         text: 'IDevice',
                         collapsed: true,
                         items: [
-                            { text: 'type', link: '/list/device/type' },
-                            { text: 'model', link: '/list/device/model' },
-                            { text: 'vendor', link: '/list/device/vendor' }
+                            { text: 'type', link: '/info/device/type' },
+                            { text: 'model', link: '/info/device/model' },
+                            { text: 'vendor', link: '/info/device/vendor' }
                         ]
                     },
                     {
                         text: 'IEngine',
                         collapsed: true,
                         items: [
-                            { text: 'name', link: '/list/engine/name' },
-                            { text: 'version', link: '/list/engine/version' }
+                            { text: 'name', link: '/info/engine/name' },
+                            { text: 'version', link: '/info/engine/version' }
                         ]
                     },
                     {
                         text: 'IOS',
                         collapsed: true,
                         items: [
-                            { text: 'name', link: '/list/os/name' },
-                            { text: 'version', link: '/list/os/version' }
+                            { text: 'name', link: '/info/os/name' },
+                            { text: 'version', link: '/info/os/version' }
                         ]
                     }
                 ]

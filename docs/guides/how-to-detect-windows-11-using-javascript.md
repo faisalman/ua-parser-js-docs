@@ -24,5 +24,5 @@ Client hints feature is only supported in Chromium-based browsers (Chrome, Edge,
 
 References:
 
-- [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
+- [`withClientHints()`](/api/main/idata/with-client-hints)
 - https://learn.microsoft.com/en-us/microsoft-edge/web-platform/how-to-detect-win11

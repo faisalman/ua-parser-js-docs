@@ -16,7 +16,7 @@ hero:
       link: /intro/quick-start/quick-start
     - theme: alt
       text: API Reference
-      link: /api/ua-parser-js/overview
+      link: /api/main/overview
   image:
     src: /images/uap-logo-transparent.png
     alt: UAParser.js

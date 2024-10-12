@@ -36,7 +36,7 @@ uap.getOS().withClientHints().then(os => {
 });
 ```
 
-See more: [`withClientHints()`](/api/ua-parser-js/idata/with-client-hints)
+See more: [`withClientHints()`](/api/main/idata/with-client-hints)
 
 ::: warning
 Client hints feature is only supported in Chromium-based browsers (Chrome, Edge, etc.). In other browsers like Firefox and Safari, `withClientHints()` gives no effect to the result and still detected as macOS 10.15.7.
