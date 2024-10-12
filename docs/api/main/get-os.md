@@ -10,7 +10,7 @@ Get operating system name & version from user-agent string.
 ## `name?: string`
 
 
-- [List of possible `os.name`](/infoos/name)
+- [List of possible `os.name`](/info/os/name)
 
 ## `version?: string` 
 

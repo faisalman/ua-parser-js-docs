@@ -9,7 +9,7 @@ Get type of CPU architecture from user-agent string.
 
 ## `architecture?: string`
 
-- [List of possible `cpu.architecture`](/infocpu/arch)
+- [List of possible `cpu.architecture`](/info/cpu/arch)
 
 ## Code Example
 

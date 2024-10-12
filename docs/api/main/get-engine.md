@@ -9,7 +9,7 @@ Get layout rendering engine name & version from user-agent string.
 
 ## `name?: string`
 
-- [List of possible `engine.name`](/infoengine/name)
+- [List of possible `engine.name`](/info/engine/name)
 
 ## `version?: string`
 
