@@ -1,0 +1,5 @@
+# [`IBrowser`](/api/ua-parser-js/get-browser.md) / [`name`](../name.md) / 2345 Browser
+
+```sh
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.90 Safari/537.36 2345Explorer/9.2.1.17116
+```
