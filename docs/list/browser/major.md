@@ -1,3 +1,4 @@
+b
 # `browser.major`
 
 Major version number of the browser (following [semver↗](https://semver.org/)), derived from the first number in [`browser.version`](/list/browser/version).
