@@ -49,6 +49,7 @@ Name of the operating system.
 - `NetTV`
 - `Nintendo`
 - `OpenBSD`
+- `OpenHarmony`
 - `OpenVMS`
 - `OS/2`
 - `Palm` 

@@ -5,6 +5,7 @@ Name of the engine.
 | `engine.name` | Description |
 |-|-|
 | `Amaya` | A web editor and browser developed by the W3C. <br>https://www.w3.org/Amaya/ |
+| `ArkWeb` | An open-source engine for HarmonyOS Next mobile OS developed by Huawei. <br>https://developer.huawei.com/consumer/en/doc/harmonyos-guides-V5/arkweb-V5 |
 | `Blink` | A highly popular open-source browser engine developed by Google as a fork of `WebKit` engine, used in browsers such as Chrome, Edge, Opera, Brave, and Vivaldi. <br>https://www.chromium.org/blink |
 | `EdgeHTML` | A proprietary browser engine developed by Microsoft for its older version of Edge browser. <br>https://en.wikipedia.org/wiki/EdgeHTML |
 | `Flow` | A proprietary browser engine developed by Ekioh, focusing on set-top boxes and embedded systems. <br>https://www.ekioh.com/flow-browser/ |
