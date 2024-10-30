@@ -3,6 +3,7 @@
 ## Articles
 * [History of the browser user-agent string↗](https://webaim.org/blog/user-agent-string-history/) *Aaron Andersen*
 * [All You Need to Know About Browser's User Agent String↗](https://dev.to/saadnoorsalehin/all-you-need-to-know-about-browser-s-user-agent-string-5fe6) *Saadnoor Salehin*
+* [Automatically Personalize E-Learning with User Agent](https://charlesofalltrades.com/blog/automatically-adjust-your-e-learning-based-on-os/) *Charles Palmer*
 * [Building a Modern ReactJS App to Detect Browser and Device Details↗](https://codewithghazi.substack.com/p/building-a-modern-reactjs-app-to) *Ghazi Khan*
 * [Determining User Device Type (Mobile or Desktop) in a Node.js Environment↗](https://levelup.gitconnected.com/determining-user-device-type-mobile-or-desktop-in-a-node-js-environment-e8870bc8f3ea) *Hongji Li*
 * [Device Detection with User Agent Strings↗](https://www.aworkinprogress.dev/device-detection-with-ua-strings) *Gao Wei*
