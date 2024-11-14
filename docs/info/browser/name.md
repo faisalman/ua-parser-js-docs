@@ -2,7 +2,8 @@
 
 Here is a list of possible values for `browser.name`:
 
-- [`2345Explorer`](./name/2345-explorer.md)
+- `115 Browser`
+- [`2345 Browser`](./name/2345.md)
 - [`360 Browser`](./name/360.md)
 - [`Alipay`](./name/alipay.md)
 - `Amaya`
@@ -26,7 +27,7 @@ Here is a list of possible values for `browser.name`:
 - [`Chromium`](./name/chromium.md)
 - [`Cobalt`](./name/cobalt.md)
 - [`Coc Coc`](./name/coc-coc.md)
-- [`Comodo Dragon`](./name/comodo-dragon.md)
+- [`Dragon`](./name/dragon.md)
 - [`Conkeror`](./name/conkeror.md)
 - [`Dillo`](./name/dillo.md)
 - [`Dolphin`](./name/dolphin.md)
@@ -70,6 +71,7 @@ Here is a list of possible values for `browser.name`:
 - [`Klarna`](./name/klarna.md)
 - [`Konqueror`](./name/konqueror.md)
 - [`LBBROWSER`](./name/liebao.md)
+- `LibreWolf`
 - [`Line`](./name/line.md)
 - [`LinkedIn`](./name/linkedin.md)
 - [`Links`](./name/links.md)
@@ -118,7 +120,9 @@ Here is a list of possible values for `browser.name`:
 - [`Silk`](./name/silk.md)
 - [`Skyfire`](./name/skyfire.md)
 - [`Sleipnir`](./name/sleipnir.md)
+- [`SlimBoat`](./name/slimbrowser.md)
 - [`SlimBrowser`](./name/slimbrowser.md)
+- [`Slimjet`](./name/slimbrowser.md)
 - [`Smart Lenovo Browser`](./name/lenovo.md)
 - [`Snapchat`](./name/snapchat.md)
 - [`Sogou Explorer`](./name/sogou-explorer.md)

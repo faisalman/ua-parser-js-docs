@@ -3,6 +3,7 @@
 Vendor company of the device.
 
 - `Acer`
+- `Advan`
 - `Alcatel`
 - `Amazon`
 - `Apple`
@@ -11,16 +12,20 @@ Vendor company of the device.
 - `AT&T`
 - `BenQ`
 - `BlackBerry`
+- `Cat`
 - `Dell`
+- `Energizer`
 - `Essential`
 - `Facebook`
 - `Fairphone`
 - `GeeksPhone`
 - `Generic`
 - `Google`
+- `Honor`
 - `HP`
 - `HTC`
 - `Huawei`
+- `IMO`
 - `Infinix`
 - `itel`
 - `Jolla`
@@ -28,6 +33,7 @@ Vendor company of the device.
 - `Lenovo`
 - `LG`
 - `Meizu`
+- `Micromax`
 - `Microsoft`
 - `Motorola`
 - `Nexian`
@@ -49,6 +55,7 @@ Vendor company of the device.
 - `Samsung`
 - `Sharp`
 - `Siemens`
+- `Smartfren`
 - `Sony`
 - `Sprint`
 - `TCL`

@@ -1,6 +1,6 @@
 # `isStandalonePWA(): boolean`
 
-Check whether the current window is a standalone PWA
+Check whether current PWA window is running in a standalone mode (not in browser)
 
 ## Code Example
 

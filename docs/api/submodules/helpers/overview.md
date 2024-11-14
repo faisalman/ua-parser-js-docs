@@ -6,31 +6,35 @@
 
 - [`getDeviceVendor(model: string): string | undefined`](/api/submodules/helpers/get-device-vendor)
 
-Guess for the device vendor from a device model name
+Guess for the device vendor based on its model name
 
 - [`isAppleSilicon(res: IResult): boolean`](/api/submodules/helpers/is-apple-silicon)
 
-Check for an ARM-based Apple Silicon device properties
+Check whether current device has Apple Silicon Mac device properties.
+
+- [`isBot(): boolean`](/api/submodules/helpers/is-bot)
+
+Check whether current browser is a bot
 
 - [`isChromeFamily(res: IResult): boolean`](/api/submodules/helpers/is-chrome-family)
 
-Check whether the current browser is a Chromium-based browser
+Check whether current browser is a Chrome-based browser (using Blink engine)
 
 - [`isElectron(): boolean`](/api/submodules/helpers/is-electron)
 
-Check whether the current window is running inside Electron
+Check whether current window is running inside Electron
 
 - [`isFromEU(): boolean`](/api/submodules/helpers/is-from-eu)
 
-Check whether the current window is likely from an EU country
+Check whether current window is likely from an EU country
 
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
-Check whether a user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
+Check whether user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 
 - [`isStandalonePWA(): boolean`](/api/submodules/helpers/is-standalone-pwa)
 
-Check whether the current window is a standalone PWA
+Check whether current PWA window is running in a standalone mode (not in browser)
 
 ## Code Example
 

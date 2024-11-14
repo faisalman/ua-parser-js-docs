@@ -19,6 +19,7 @@ Name of the engine.
 | `NetFront` | An embedded browser engine commonly used in mobile and handheld devices. <br>https://en.wikipedia.org/wiki/NetFront |
 | `NetSurf` | A lightweight browser engine designed for use on low-resource systems. <br>http://www.netsurf-browser.org/ |
 | `Presto` | A proprietary browser engine developed by Opera Software, used in older versions of the Opera browser. <br>https://en.wikipedia.org/wiki/Presto_(browser_engine) |
+| `Servo` | A high-performance browser engine originally developed by Mozilla and now maintained as a Linux Foundation project focused on security and parallelization. <br>https://servo.org/ |
 | `Tasman` | A browser engine developed by Microsoft, used in the older versions of Internet Explorer for Mac. <br>https://en.wikipedia.org/wiki/Tasman_(software) |
 | `Trident` | A proprietary browser engine developed by Microsoft, used in Internet Explorer. <br>https://en.wikipedia.org/wiki/Trident_(software) |
 | `w3m` | A text-based open-source web browser engine. <br>http://w3m.sourceforge.net/ |

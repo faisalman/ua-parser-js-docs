@@ -148,8 +148,8 @@ export default defineConfig({
                             { text: 'Emails', link: '/api/submodules/extensions/emails' },
                             { text: 'Fetchers', link: '/api/submodules/extensions/fetchers' },
                             { text: 'InApps', link: '/api/submodules/extensions/inapps' },
-                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
-                            { text: 'Modules', link: '/api/submodules/extensions/modules' }
+                            { text: 'Libraries', link: '/api/submodules/extensions/libraries' },
+                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
                         ]
                     },
                     { 
@@ -162,6 +162,7 @@ export default defineConfig({
                         items: [
                             { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
                             { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
+                            { text: 'isBot()', link: '/api/submodules/helpers/is-bot' },
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
                             { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },
                             { text: 'isFromEU()', link: '/api/submodules/helpers/is-from-eu' },

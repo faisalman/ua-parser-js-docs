@@ -1,6 +1,6 @@
 # `isChromeFamily(res: IResult): boolean`
 
-Check whether the current browser is a Chromium-based browser
+Check whether current browser is a Chrome-based browser (using Blink engine)
 
 ## Code Example
 

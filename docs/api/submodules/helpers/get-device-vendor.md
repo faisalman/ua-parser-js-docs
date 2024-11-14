@@ -1,6 +1,6 @@
 # `getDeviceVendor(model: string): string | undefined`
 
-Guess for the device vendor from a device model name
+Guess for the device vendor based on its model name
 
 ## Code Example
 

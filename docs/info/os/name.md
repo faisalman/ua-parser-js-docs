@@ -13,6 +13,10 @@ Name of the operating system.
 - `CentOS`
 - `Chrome OS`
 - `Chromecast`
+- `Chromecast Android`
+- `Chromecast Fuchsia`
+- `Chromecast Linux`
+- `Chromecast SmartSpeaker`
 - `Contiki`
 - `Debian`
 - `Deepin`

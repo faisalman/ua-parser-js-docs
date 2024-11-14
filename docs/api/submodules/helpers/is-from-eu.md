@@ -1,6 +1,6 @@
 # `isFromEU(): boolean`
 
-Check whether the current window is likely from an EU country
+Check whether current window is likely from an EU country
 
 ## Code Example
 

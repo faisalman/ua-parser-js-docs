@@ -1,6 +1,6 @@
 # `isElectron(): boolean`
 
-Check whether the current window is running inside Electron
+Check whether current window is running inside Electron
 
 ## Code Example
 

@@ -1,8 +1,10 @@
-# Fetchers (On-demand Bots)
+# Fetchers
+
+A program that retrieves content from specific URLs on-demand
 
 ```sh
 # List of known fetchers
-AhrefsSiteAudit, BingPreview, ChatGPT-User, Discordbot, 
+AhrefsSiteAudit, BingPreview, ChatGPT-User, Discordbot, DuckAssistBot,
 FeedFetcher-Google, Google-Read-Aloud, LinkedInBot, Mastodon, 
 Pinterestbot, Redditbot, Rogerbot, Slackbot, Slack-ImgProxy, 
 Slack-LinkExpanding, Snapchat, Telegrambot, Twitterbot, Uptimerobot, 

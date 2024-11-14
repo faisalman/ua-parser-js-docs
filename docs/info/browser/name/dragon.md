@@ -1,4 +1,4 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Comodo Dragon
+# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Dragon
 
 ### Windows
 

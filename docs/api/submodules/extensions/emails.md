@@ -2,5 +2,5 @@
 
 ```sh
 # List of known emails
-Microsoft Outlook, Thunderbird
+Evolution, KMail, Kontact, Microsoft Outlook, Thunderbird
 ```

@@ -10,8 +10,8 @@
 - [Emails ↗](emails.md)
 - [Fetchers ↗](fetchers.md)
 - [InApps ↗](inapps.md)
+- [Libraries ↗](libraries.md)
 - [MediaPlayers ↗](media-players.md)
-- [Modules ↗](modules.md)
 
 ## Code Example
 
