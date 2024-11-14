@@ -1,5 +1,109 @@
 # UAParser.js Changelog
 
+## Migrating from v1 to v2
+
+### What's Breaking:
+
+- **Licensing Changes:**
+  - UAParser.js is now licensed under AGPLv3 for open-source use, with PRO Licenses available for commercial/proprietary use
+
+- **Browser Detection on Mobile Devices:**
+    - `"Chrome"` => `"Mobile Chrome"`
+    - `"Firefox"` => `"Mobile Firefox"`
+
+- **OS Detection:**
+    - `"Mac OS"` => `"macOS"`
+    - `"Chromium OS"` => `"Chrome OS"`
+
+### What's New:
+
+- **Support for ES Modules & TypeScript:**
+  - Import directly as an ES module with TypeScript support: `import { UAParser } from 'ua-parser-js'`
+
+- **Support for Custom/Predefined Extensions:**
+  - Pass custom regexes or predefined extensions as a list to `UAParser()`
+
+- **Support for CLI Parsing:**
+  - Parse a user-agent directly from the command line using `npx ua-parser-js "[User-Agent]"`
+
+- **Enhanced Detection with Client Hints:**
+  - `withClientHints()`: Improves detection accuracy by leveraging client hints
+
+- **Enhanced Detection with Feature Detection:**
+  - `withFeatureCheck()`: Refines detection results using feature detection
+
+- **Simple Comparison for Detection Results:**
+  - `is()`: Enables easy comparison checks against the detection result
+
+- **Detailed Result Output:**
+  - `toString()`: Returns the detection result in form of a full-name string
+
+- **New Device Type:**
+  - Added `xr` to identify AR/VR devices
+
+- **New Browser Property:**
+  - Added `browser.type` to identify additional browser types:
+    - `crawler`, `cli`, `email`, `fetcher`, `inapp`, `library`, `mediaplayer`
+
+- **New Submodules:**
+  - **`'ua-parser-js/enums'`**: Provides constants for these specific properties:
+    - `browser.name`, `browser.type`, `cpu.architecture`, `device.type`, `device.vendor`, `engine.name`, `os.name`
+
+  - **`'ua-parser-js/extensions'`**: Predefined extensions for various use cases:
+    - `Bots`, `Crawlers`, `CLIs`, `Emails`, `ExtraDevices`, `Fetchers`, `InApps`, `Libraries`, `Mediaplayers`
+
+  - **`'ua-parser-js/helpers'`**: Provides utility methods to extend detection functionality:
+    - `getDeviceVendor()`: Guesses the device vendor based on its model name
+    - `isAppleSilicon()`: Detects Apple Silicon device properties
+    - `isBot()`: Checks if the browser is a bot
+    - `isChromeFamily()`: Checks if the browser is Chrome-based (uses Blink engine) — e.g., New Opera, New Edge, Vivaldi, Brave, Arc, etc.
+    - `isElectron()`: Detects if current window is running within Electron
+    - `isFromEU()`: Detects if current browser's timezone is from an EU country
+    - `isFrozenUA()`: Checks if the user-agent matches a frozen/reduced user-agent pattern
+    - `isStandalonePWA()`: Detects if current window is a standalone PWA
+
+--- 
+
+## Version 2.0.0-rc.3
+
+- Add support for Headers object
+- Add new device: Advan, Cat, Energizer, Honor, IMO, Micromax, Smartfren
+- Add new engine: Servo
+- `ua-parser-js/extensions` submodule:
+    - Breaking change: rename `module` to `library`
+    - Add new email clients: Evolution, KMail, Kontact
+    - Add new bots: 360Spider, Archive.org Bots, CCBot, DataForSeoBot, DuckAssistBot, Exabot, Google Bots, Meta Bots, MojeekBot, PerplexityBot, PetalBot, TurnitinBot, Yeti, YisouSpider
+
+## Version 2.0.0-rc.2
+
+- Fix incorrect import path in ESM files
+- Add new browser: 115, SlimBoat, Slimjet, LibreWolf
+- Improve browser detection: 2345, 360, Dragon, Iron, Maxthon
+- `ua-parser-js/enums` submodule:
+    - Add Chromecast OS variants: Android/Fuchsia/Linux/SmartSpeaker
+- `ua-parser-js/helpers` submodule:
+    - Add new method: `isBot()` to check if the browser is identified as a bot
+
+## Version 2.0.0-rc.1
+
+- Fix Python Request mistakenly identified as Meta Quest
+- Add new browser: Helio
+- Add new device: itel, Nothing, Pico, TCL
+- Add new engine: ArkWeb
+- Add new OS: OpenHarmony, Pico
+- Improve browser detection: Quark
+- Improve device detection: Xiaomi, Amazon Echo Show, Google Chromecast, Samsung Galaxy Watch
+- `ua-parser-js/helpers` submodule:
+    - Add new method: 
+        - `getDeviceVendor()` to guess for a device vendor based on its model name
+        - `isElectron()` to check if current window is running inside Electron
+        - `isFromEU()` to check if current window is from an EU (European Union) country
+        - `isStandalonePWA()` to check if current window is a standalone PWA
+    - Rename `isChromiumBased()` to `isChromeFamily()`
+    - Update `isAppleSilicon()` to also checks for WebGL renderer info
+- `ua-parser-js/extensions` submodule:
+    - Restore `Bots` as a compilation of all these browser types: `cli`, `crawler`, `fetcher`, and `library`
+
 ## Version 2.0.0-beta.3
 
 - Breaking:
@@ -47,27 +151,6 @@
 ## Version 2.0.0-alpha.1
 
 - Initial work on new major version
-
-## Version 2.0
-- What's breaking:
-  - Dual-licensed under AGPLv3 or PRO License
-  - Browser detection on mobile device: `"Chrome" => "Mobile Chrome"`, `"Firefox" => "Mobile Firefox"`
-  - OS detection: `"Mac OS" => "macOS"`, `"Chromium OS" => "Chrome OS"`
-  - AR/VR devices moved to new device type: `xr`
-  - New property in `browser`: `type`
-- What's new:
-  - Some new methods in result object: 
-    - Support for client hints: `withClientHints()`
-    - Support for feature detection: `withFeatureCheck()`
-    - Utility for easy comparison: `is()`
-    - Utility to print full-name: `toString()`
-  - Parse directly from command line using `npx ua-parser-js`
-  - Extensions can be passed as a list to `UAParser()`
-  - Support for ES module `import { UAParser } from 'ua-parser-js'`
-  - Provided Enums submodule `'ua-parser-js/enums'`
-  - Provided Extensions submodule `'ua-parser-js/extensions'`
-  - Provided Helpers submodule `'ua-parser-js/helpers'`
-
 
 ---
 
