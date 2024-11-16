@@ -1,14 +1,50 @@
 # Crawlers
 
-A program that automatically goes to websites, reads the content, and collects information like text or links. It is used by search engines (like Google) to find and store websites so they can show up in search results. The crawler follows links from one page to another and gathers data.
+Bots that automatically visit websites and collect data.
 
-```sh
-# List of known crawlers
-360Spider, AhrefsBot, Amazonbot, Applebot, Archive.org, Baiduspider, Bytespider, 
-Bingbot, CCBot, ClaudeBot, Coc Coc Bot, Dotbot, DuckDuckBot, Exabot, FacebookBot, 
-Googlebot, GPTBot, MJ12Bot, MojeekBot, OAI-SearchBot, PerplexityBot, SemrushBot, 
-Slurp, Sogou Spider, YandexBot, Yeti, YisouSpider
-```
+- `360Spider` 
+- `AhrefsBot` 
+- `AI2Bot`
+- `aiHitBot`
+- `Amazonbot`
+- `anthropic-ai` 
+- `Applebot`
+- `Applebot-Extended` 
+- `Archive.org` 
+- `Baiduspider` 
+- `Bytespider` 
+- `Bingbot` 
+- `CCBot` 
+- `ClaudeBot` 
+- `Coc Coc Bot`
+- `Diffbot` 
+- `Dotbot` 
+- `DuckDuckBot` 
+- `Exabot` 
+- `FacebookBot` 
+- `Googlebot` 
+- `GPTBot`
+- `ImagesiftBot`
+- `magpie-crawler`
+- `Omgilibot` 
+- `MJ12Bot` 
+- `MojeekBot` 
+- `OAI-SearchBot` 
+- `PerplexityBot`
+- `Screaming Frog SEO Spider` 
+- `SemrushBot` 
+- `Seznambot`
+- `Slurp` 
+- `Sogou Spider`
+- `Teoma`
+- `Timpibot`
+- `VelenPublicWebCrawler`
+- `Webzio-Extended` 
+- `YandexBot` 
+- `Yeti` 
+- `YisouSpider`
+- `YouBot`
+- ... etc.
 
 ## Code Example
 

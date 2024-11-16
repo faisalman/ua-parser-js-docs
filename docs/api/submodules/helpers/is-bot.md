@@ -1,6 +1,6 @@
-# `isBot(res: IResult): boolean`
+# `isBot(res: IResult | string): boolean`
 
-Check whether current browser is a bot
+Check whether user-agent is a bot
 
 ## Code Example
 
@@ -16,4 +16,12 @@ const botParser = new UAParser({ Bots });
 
 console.log(isBot(botParser.setUA(ahref).getResult())); // true
 console.log(isBot(botParser.setUA(firefox).getResult())); // false
+```
+
+Alternatively, with only user-agent data:
+
+```js
+import { isBot } from 'ua-parser-js/helpers';
+
+console.log(isBot(req.headers['user-agent']));
 ```

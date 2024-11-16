@@ -26,7 +26,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.0-rc.3',
+                text: '2.0.0',
                 items: [
                     {
                         text: 'Changelog',
@@ -137,10 +137,13 @@ export default defineConfig({
             {
                 text: 'Submodules',
                 items: [
+                    { 
+                        text: 'Enums'
+                    },
                     {
                         text: 'Extensions', 
                         link: '/api/submodules/extensions/overview',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             { text: 'CLIs', link: '/api/submodules/extensions/clis' },
                             { text: 'Crawlers', link: '/api/submodules/extensions/crawlers' },
@@ -152,9 +155,6 @@ export default defineConfig({
                             { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
                         ]
                     },
-                    { 
-                        text: 'Enums'
-                    },
                     {
                         text: 'Helpers',
                         link: '/api/submodules/helpers/overview',
@@ -162,6 +162,7 @@ export default defineConfig({
                         items: [
                             { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
                             { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
+                            { text: 'isAIBot()', link: '/api/submodules/helpers/is-ai-bot' },
                             { text: 'isBot()', link: '/api/submodules/helpers/is-bot' },
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
                             { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },

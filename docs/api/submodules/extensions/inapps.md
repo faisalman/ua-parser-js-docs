@@ -1,8 +1,15 @@
 # InApps
 
-An in-app browser is a web browser inside an app that lets you open websites without leaving the app. In-app browser hides buttons like the address bar and back button, so the website looks like part of the app and not a regular browser.
+Apps that open websites internally without switching to another dedicated browser app.
 
-```sh
-# List of known inApps
-Slack, Yahoo! Japan
+- `Slack`
+- `Yahoo! Japan`
+- ... etc.
+
+## Code Example
+
+```js
+import { InApps } from 'ua-parser-js/extensions';
+
+const appParser = new UAParser(InApps);
 ```

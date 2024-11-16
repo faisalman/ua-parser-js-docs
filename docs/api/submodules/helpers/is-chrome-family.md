@@ -1,6 +1,6 @@
-# `isChromeFamily(res: IResult): boolean`
+# `isChromeFamily(res: IResult | string): boolean`
 
-Check whether current browser is a Chrome-based browser (using Blink engine)
+Check whether browser is a Chrome-based browser (using Blink engine)
 
 ## Code Example
 
@@ -17,4 +17,12 @@ console.log(isChromeFamily(result1));
 let result2 = UAParser(firefox);
 console.log(isChromeFamily(result2)); 
 // false
+```
+
+Alternatively, with only user-agent data:
+
+```js
+import { isChromeFamily } from 'ua-parser-js/helpers';
+
+console.log(isChromeFamily(req.headers['user-agent']));
 ```

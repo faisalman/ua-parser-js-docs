@@ -1,6 +1,10 @@
 # `isFromEU(): boolean`
 
-Check whether current window is likely from an EU country
+Check whether current browser timezone is from an EU country
+
+::: warning
+This method is only applicable in a client-side browser environment
+:::
 
 ## Code Example
 

@@ -2,6 +2,10 @@
 
 Check whether current window is running inside Electron
 
+::: warning
+This method is only applicable in a client-side browser environment
+:::
+
 ## Code Example
 
 ```js

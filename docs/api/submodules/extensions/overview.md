@@ -32,15 +32,15 @@ console.log(emailParser.setUA(thunderbird).getBrowser());
 /*
     try merging multiple extensions
 */
-const crawlerAndCLIParser = new UAParser({ 
+const botParser = new UAParser({ 
     browser : [...Crawlers.browser, ...CLIs.browser]
 });
 // or simply:
-const crawlerAndCLIParser2 = new UAParser([Crawlers, CLIs]);
+const botParser2 = new UAParser([Crawlers, CLIs]);
 
-console.log(crawlerAndCLIParser.setUA(wget).getBrowser());
+console.log(botParser.setUA(wget).getBrowser());
 // {name: "Wget", version: "1.21.1", major: "1", type:"cli"});
 
-console.log(crawlerAndCLIParser2.setUA(facebookBot).getBrowser());
+console.log(botParser2.setUA(facebookBot).getBrowser());
 // {name: "FacebookBot", version: "1.0", major: "1", type:"bot"});
 ```

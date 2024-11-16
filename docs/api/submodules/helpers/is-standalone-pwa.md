@@ -2,6 +2,10 @@
 
 Check whether current PWA window is running in a standalone mode (not in browser)
 
+::: warning
+This method is only applicable in a client-side browser environment
+:::
+
 ## Code Example
 
 ```js

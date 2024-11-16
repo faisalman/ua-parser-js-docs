@@ -8,17 +8,21 @@
 
 Guess for the device vendor based on its model name
 
-- [`isAppleSilicon(res: IResult): boolean`](/api/submodules/helpers/is-apple-silicon)
+- [`isAppleSilicon(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-apple-silicon)
 
-Check whether current device has Apple Silicon Mac device properties.
+Check whether device has Apple Silicon Mac device properties.
 
-- [`isBot(): boolean`](/api/submodules/helpers/is-bot)
+- [`isAIBot(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-ai-bot)
 
-Check whether current browser is a bot
+Check whether user-agent is an AI bot
 
-- [`isChromeFamily(res: IResult): boolean`](/api/submodules/helpers/is-chrome-family)
+- [`isBot(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-bot)
 
-Check whether current browser is a Chrome-based browser (using Blink engine)
+Check whether user-agent is a bot
+
+- [`isChromeFamily(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-chrome-family)
+
+Check whether browser is a Chrome-based browser (using Blink engine)
 
 - [`isElectron(): boolean`](/api/submodules/helpers/is-electron)
 
@@ -26,7 +30,7 @@ Check whether current window is running inside Electron
 
 - [`isFromEU(): boolean`](/api/submodules/helpers/is-from-eu)
 
-Check whether current window is likely from an EU country
+Check whether current browser timezone is from an EU country
 
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
