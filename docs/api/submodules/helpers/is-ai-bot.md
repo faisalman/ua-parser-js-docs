@@ -2,6 +2,17 @@
 
 Check whether user-agent is an AI bot
 
+```sh
+# Current list of AI bots:
+ai2bot, amazonbot, anthropic-ai, claude-web, claudebot,
+applebot, applebot-extended, bytespider, ccbot, dataforseobot,
+diffbot, googleother, googleother-image, googleother-video, 
+google-extended, imagesiftbot, petalbot, facebookbot, 
+meta-externalagent, gptbot, oai-searchbot, perplexitybot,
+timpibot, velenpublicwebcrawler, omgili, omgilibot, 
+webzio-extended, youbot, scrapy
+```
+
 ## Code Example
 
 ```js
