@@ -30,29 +30,38 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
 }
 ```
 
-## `ua: string`
+## Properties of `IResult`:
+
+### `ua: string`
 
 The user-agent string value of current instance.
 
-## [`browser: IBrowser`](/api/main/get-browser)
+### [`browser: IBrowser`](/api/main/get-browser)
 
 Object that contains the value of browser name, full version, & major version.
 
-## [`cpu: ICPU`](/api/main/get-cpu)
+### [`cpu: ICPU`](/api/main/get-cpu)
 
 Object that contains the value of type of CPU architecture.
 
-## [`device: IDevice`](/api/main/get-device)
+### [`device: IDevice`](/api/main/get-device)
 
 Object that contains the value of device details: type, vendor, model.
 
-## [`engine: IEngine`](/api/main/get-engine)
+### [`engine: IEngine`](/api/main/get-engine)
 
 Object that contains the value of layout rendering engine name & version.
 
-## [`os: IOS`](/api/main/get-os)
+### [`os: IOS`](/api/main/get-os)
 
 Object that contains the value of operating system name & version.
+
+## Methods inherited from `IData`:
+
+- [`is(value: string): boolean`](/api/main/idata/is)
+- [`toString(): string`](/api/main/idata/to-string)
+- [`withClientHints<IResult>(): PromiseLike<IResult> | IResult`](/api/main/idata/with-client-hints)
+- [`withFeatureCheck<IResult>(): PromiseLike<IResult> | IResult`](/api/main/idata/with-feature-check)
 
 ## Code Example
 

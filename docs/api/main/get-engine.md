@@ -7,13 +7,22 @@ Get layout rendering engine name & version from user-agent string.
 { name: '', version: '' }
 ```
 
-## `name?: string`
+## Properties of `IEngine`:
+
+### `name?: string`
 
 - [List of possible `engine.name`](/info/engine/name)
 
-## `version?: string`
+### `version?: string`
 
 Determined dynamically
+
+## Methods inherited from `IData`:
+
+- [`is(value: string): boolean`](/api/main/idata/is)
+- [`toString(): string`](/api/main/idata/to-string)
+- [`withClientHints<IEngine>(): PromiseLike<IEngine> | IEngine`](/api/main/idata/with-client-hints)
+- [`withFeatureCheck<IEngine>(): PromiseLike<IEngine> | IEngine`](/api/main/idata/with-feature-check)
 
 ## Code Example
 

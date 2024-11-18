@@ -7,32 +7,40 @@ Get browser name, full version, & major version from user-agent string.
 { name: '', version: '', major: '', type: '' }
 ```
 
-## `name?: string`
+## Properties of `IBrowser`:
+
+### `name?: string`
 
 Name of current browser 
 
 - [List of possible `browser.name`](/info/browser/name)
 
-## `version?: string`
+### `version?: string`
 
 Version of current browser, determined dynamically from user-agent data. 
 
 - `undefined` if browser version is not found.
 
-## `major?: string`
+### `major?: string`
 
 Major number derived from the first number in `version`, following [semver↗](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
 
 - `undefined` if the browser has no `version`
 - `""` if the first token in `version` is not a Number
 
-## `type?: string`
+### `type?: string`
 
 Type of current browser, e.g: `email`, `inapp`, `crawler`. 
 
 - [List of possible `browser.type`](/info/browser/type)
 - [`ua-parser-js/extensions` submodule](/api/submodules/extensions/overview)
 
+## Methods inherited from `IData`:
+
+- [`is(value: string): boolean`](/api/main/idata/is)
+- [`toString(): string`](/api/main/idata/to-string)
+- [`withClientHints<IBrowser>(): PromiseLike<IBrowser> | IBrowser`](/api/main/idata/with-client-hints)
+- [`withFeatureCheck<IBrowser>(): PromiseLike<IBrowser> | IBrowser`](/api/main/idata/with-feature-check)
 
 ## Code Example
 

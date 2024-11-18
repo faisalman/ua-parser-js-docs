@@ -7,9 +7,18 @@ Get type of CPU architecture from user-agent string.
 { architecture: '' }
 ```
 
-## `architecture?: string`
+## Properties of `ICPU`:
+
+### `architecture?: string`
 
 - [List of possible `cpu.architecture`](/info/cpu/arch)
+
+## Methods inherited from `IData`:
+
+- [`is(value: string): boolean`](/api/main/idata/is)
+- [`toString(): string`](/api/main/idata/to-string)
+- [`withClientHints<ICPU>(): PromiseLike<ICPU> | ICPU`](/api/main/idata/with-client-hints)
+- [`withFeatureCheck<ICPU>(): PromiseLike<ICPU> | ICPU`](/api/main/idata/with-feature-check)
 
 ## Code Example
 
