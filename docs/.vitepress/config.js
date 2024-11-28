@@ -215,8 +215,8 @@ export default defineConfig({
             placement: 'your-carbon-placement'
         },
         footer: {
-            message: 'Licensed under the MIT License.',
-            copyright: 'Copyright © 2012-2023 Faisal Salman'
+            message: 'UAParser.js v2 is licensed under AGPLv3 or PRO licenses.',
+            copyright: 'Copyright (c) 2012-2024 Faisal Salman.'
         },
         lastUpdatedText: 'Updated Date',
         editLink: {
