@@ -11,7 +11,8 @@ export default defineConfig({
         ['meta', { name: 'google-site-verification', content: 'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0' }],
         ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/images/uap-logo-transparent.png" }],
         ['script', {}, 'window?.localStorage?.setItem("vitepress-theme-appearance", window?.localStorage?.getItem("vitepress-theme-appearance") ?? "dark")'],
-        ['script', { async: '', src: "https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3" }]
+        ['script', { async: '', src: "https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3" }],
+        ['script', { src: "//code.tidio.co/hu6mx7fw2r6llmfzxj5llesd5l51q5dv.js", async: ''}]
     ],
     appearance: 'dark',
     lastUpdated: true,
