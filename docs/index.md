@@ -20,7 +20,26 @@ hero:
   image:
     src: /images/uap-logo-transparent.png
     alt: UAParser.js
-
+    
+features:
+  - icon: 👔
+    title: Well-Structured
+    details: Effortless user-agent detection integration.
+  - icon: 💻
+    title: Vast Detection Range
+    details: Various devices, browsers, & OS.
+  - icon: 🥾
+    title: Minimal Footprint
+    details: Maintains your app's performance.
+  - icon: 🛠️
+    title: Isomorphic Library
+    details: Compatible with Browser and Node.js.
+  - icon: 📦
+    title: npm Package
+    details: Seamlessly integrate into your workflow.
+  - icon: 📆
+    title: Lifetime Updates
+    details: Remain up-to-date with evolving trends.
 ---
 
 <style>

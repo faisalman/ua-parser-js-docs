@@ -21,6 +21,7 @@ Vendor company of the device.
 - `GeeksPhone`
 - `Generic`
 - `Google`
+- `HMD`
 - `Honor`
 - `HP`
 - `HTC`
