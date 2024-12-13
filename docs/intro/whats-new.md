@@ -64,6 +64,17 @@
 
 --- 
 
+## Version 2.0.0
+
+- `ua-parser-js/extensions` submodule:
+    - Add new CLI: ELinks, HTTPie
+    - Add new crawler: AI2Bot, aiHitBot, anthropic-ai, Diffbot, ImagesiftBot, magpie-crawler, Omgilibot, Screaming Frog SEO Spider, Seznambot, Teoma, Timpibot, VelenPublicWebCrawler, Webzio-Extended, YouBot
+    - Add new email: Airmail, BlueMail, eMClient, NaverMailApp, Sparrow, Yahoo
+    - Add new fetcher: cohere-ai, Vercelbot
+    - Add new library: java, python-urllib, python-requests
+- `ua-parser-js/helpers` submodule:
+    - Add new method `isAIBot()`: Checks if the user-agent is an AI bot
+
 ## Version 2.0.0-rc.3
 
 - Add support for Headers object

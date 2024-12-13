@@ -20,7 +20,7 @@ hero:
   image:
     src: /images/uap-logo-transparent.png
     alt: UAParser.js
-    
+
 features:
   - icon: 👔
     title: Well-Structured
@@ -41,6 +41,13 @@ features:
     title: Lifetime Updates
     details: Remain up-to-date with evolving trends.
 ---
+
+## Loved by Developers
+
+> "A great utility library to have when you're investigating what kind of users are visiting your website and how you can improve their UX. Supports most browsers out there." **—Gabrijel Golubić**
+
+> "For years, it has been appreciated as a valuable tool for web developers. Its ability to accurately parse user agent strings... has made it an essential library for many of us." **—LogRocket**
+
 
 <style>
 :root {

@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:500|Source+Sans+Pro:400,700,400italic,700italic&subset=latin');
+
+:root {
+    --vp-font-family-base: 'Source Sans Pro', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    --vp-font-family-mono: 'Source Code Pro', 'Courier New', Courier, monospace;
+  }
