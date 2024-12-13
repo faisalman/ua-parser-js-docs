@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Opera GX
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Opera GX
 
 ## Desktop
 

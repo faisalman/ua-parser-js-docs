@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / TikTok
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# TikTok
 
 ```sh
 Mozilla/5.0 (Linux; Android 11; 21061119AG Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36 trill_2022109040 JsSdk/1.0 NetType/MOBILE Channel/googleplay AppName/musical_ly app_version/21.9.4 ByteLocale/ru-RU ByteFullLocale/ru-RU Region/KG BytedanceWebview/d8a21c6

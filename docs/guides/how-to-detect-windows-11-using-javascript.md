@@ -25,4 +25,4 @@ Client hints feature is only supported in Chromium-based browsers (Chrome, Edge,
 References:
 
 - [`withClientHints()`](/api/main/idata/with-client-hints)
-- https://learn.microsoft.com/en-us/microsoft-edge/web-platform/how-to-detect-win11
+- [Detect Windows 11 and CPU architecture using User-Agent Client Hints🡭](https://learn.microsoft.com/en-us/microsoft-edge/web-platform/how-to-detect-win11) *—Microsoft*

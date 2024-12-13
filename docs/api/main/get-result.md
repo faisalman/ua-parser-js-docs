@@ -2,6 +2,8 @@
 
 Get all information regarding browser, CPU, device, engine, & OS from user-agent string.
 
+## Properties of `IResult`:
+
 ```js
 // Result object is structured as follow:
 { 
@@ -9,15 +11,16 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
     browser: { 
         name: "", 
         version: "",
-        major: ""
+        major: "",
+        type: ""
     }, 
     cpu: {
         architecture: ""
     }, 
     device: {
-        type: "",
         vendor: "",
-        model: ""
+        model: "",
+        type: ""
     }, 
     engine: {
         name: "",
@@ -29,8 +32,6 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
     }
 }
 ```
-
-## Properties of `IResult`:
 
 ### `ua: string`
 
@@ -56,7 +57,9 @@ Object that contains the value of layout rendering engine name & version.
 
 Object that contains the value of operating system name & version.
 
-## Methods inherited from `IData`:
+## Methods of `IResult`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

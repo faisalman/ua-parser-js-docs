@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Klar
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Klar
 
 ```sh
 # Klar < 4.1

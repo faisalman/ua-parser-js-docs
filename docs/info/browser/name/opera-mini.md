@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Opera Mini
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Opera Mini
 
 ```sh
 Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.21214/19.916; U; en) Presto/2.5.25

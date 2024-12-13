@@ -59,7 +59,7 @@ export default defineConfig({
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
-                    { text: 'Migrating from v1.0', link: '/intro/whats-new' }
+                    { text: 'Migrating from v1 to v2', link: '/intro/whats-new' }
                 ]
             },
             {

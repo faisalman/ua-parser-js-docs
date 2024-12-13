@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / IE (Internet Explorer)
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# IE (Internet Explorer)
 
 ```sh
 Mozilla/4.0 (compatible; MSIE 5.0b1; Mac_PowerPC)

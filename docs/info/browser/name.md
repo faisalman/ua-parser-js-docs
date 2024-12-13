@@ -1,4 +1,4 @@
-# [`IBrowser`](/api/main/get-browser.md) / `name`
+# [`IBrowser`](/api/main/get-browser.md) . `name`
 
 Here is a list of possible values for `browser.name`:
 

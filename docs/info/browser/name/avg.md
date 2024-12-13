@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / AVG Secure Browser
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# AVG Secure Browser
 
 ### Windows
 

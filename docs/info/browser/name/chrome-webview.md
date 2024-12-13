@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Chrome WebView
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Chrome WebView
 
 ### Android
 

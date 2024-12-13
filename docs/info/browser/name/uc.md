@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / UC Browser
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# UC Browser
 
 ## Desktop
 

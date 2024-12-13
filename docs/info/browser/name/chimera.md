@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Chimera
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Chimera
 
 ### macOS
 

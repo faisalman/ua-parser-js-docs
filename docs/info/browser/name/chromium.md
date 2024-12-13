@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Chromium
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Chromium
 
 ### Linux
 

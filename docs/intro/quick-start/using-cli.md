@@ -1,6 +1,6 @@
 # Using Command Line
 
-You can use [`npx`↗](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
+You can use [npx🡭](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
 
 ```sh
 $ npx ua-parser-js "<INSERT-USER-AGENT-HERE>"
@@ -13,7 +13,6 @@ $ npx ua-parser-js "<INSERT-USER-AGENT-HERE>"
 npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
 
 # console output:
-"
 [
     {
         "ua": "Flock/2.16 (Zenwalk 7.3; es_PR;)",
@@ -31,7 +30,6 @@ npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
         }
     }
 ]
-"
 
 # let's save the result into a log file:
 npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)" >> log.txt

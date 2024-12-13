@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Alipay
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Alipay
 
 ```sh
 Mozilla/5.0 (Linux; U; Android 10; zh-CN; V2034A Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 UWS/3.22.2.33 Mobile Safari/537.36 UCBS/3.22.2.33_211025173018 NebulaSDK/1.8.100112 Nebula AlipayDefined(nt:WIFI,ws:360|0|2.0) AliApp(AP/10.2.51.7100) AlipayClient/10.2.51.7100 Language/zh-Hans useStatusBar/true isConcaveScreen/true Region/CNAriver/1.0.0

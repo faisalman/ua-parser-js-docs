@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Safari
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Safari
 
 ```sh
 Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/533.17.8 (KHTML, like Gecko) Version/5.0.1 Safari/533.17.8

@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / SeaMonkey
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# SeaMonkey
 
 ```sh
 Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b4pre) Gecko/20090405 SeaMonkey/2.0b1pre

@@ -2,22 +2,30 @@
 
 Get operating system name & version from user-agent string.
 
-```js
-// Result object is structured as follow:
-{ name: '', version: '' }
-```
-
 ## Properties of `IOS`:
+
+```js
+// OS object is structured as follow:
+{ 
+    name: "", 
+    version: ""
+}
+```
 
 ### `name?: string`
 
-- [List of possible `os.name`](/info/os/name)
+::: info
+See list of possible os name [here](/info/os/name).
+:::
 
+---
 ### `version?: string` 
 
-Determined dynamically
+Determined dynamically.
 
-## Methods inherited from `IData`:
+## Methods of `IOS`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

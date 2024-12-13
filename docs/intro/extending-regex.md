@@ -1,10 +1,10 @@
 # Extending Regex
 
-## Write Your Own Extension
+## 1. Write Your Own Extension
 
 To extend UAParser.js with your own regular expressions, you can pass a list of regexes to the extensions parameter when creating a new `UAParser` instance. This allows you to detect additional user-agent patterns that are not provided by default.
 
-- `UAParser(uastring?: string, extensions?: UAParserExt, headers?: Record<string, string>)`
+- `UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders)`
 
 ```js
 // Example:
@@ -41,9 +41,9 @@ console.log(myParser2.setUA(myUA2).getDevice());  // {vendor: "MyTab", model: "1
 When you pass custom regexes into the `UAParser` constructor, they will be ordered **before** the internal regexes. When the parser runs, it will first check the user-agent string against your custom regexes before checking against the internal regexes. This allows you to prioritize your custom patterns over the default ones.
 :::
 
-## Use Predefined Extensions Submodule
+## 2. Use Predefined Extensions Submodule
 
-To use the predefined extensions, you can import the desired extensions from the [`ua-parser-js/extensions`↗](/api/submodules/extensions/overview) submodule.
+To use the predefined extensions, you can import the desired extensions from the [`ua-parser-js/extensions`🡭](/api/submodules/extensions/overview) submodule.
 
 ```js
 // Usage example

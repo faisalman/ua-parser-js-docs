@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Cobalt
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Cobalt
 
 ```sh
 Mozilla/5.0 (X11; Linux x86_64) Cobalt/9.0-qa (unlike Gecko) Starboard/4

@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Tesla
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Tesla
 
 ```sh
 Mozilla/5.0 (X11; GNU/Linux) AppleWebKit/601.1 (KHTML, like Gecko) Tesla QtCarBrowser Safari/601.1

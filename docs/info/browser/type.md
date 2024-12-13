@@ -1,4 +1,4 @@
-# `browser.type`
+# [`IBrowser`](/api/main/get-browser.md) . `type`
 
 Type of the browser
 

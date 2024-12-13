@@ -1,6 +1,6 @@
 # Using jQuery (`$.ua`)
 
-Although written in vanilla JavaScript, UAParser.js automatically detects the presence of [jQuery↗](https://jquery.com/) (or [Zepto↗](https://zeptojs.com/)) and creates a `$.ua` object in addition to the `window.UAParser` constructor. 
+Although written in vanilla JavaScript, UAParser.js automatically detects the presence of [jQuery🡭](https://jquery.com/) (or [Zepto🡭](https://zeptojs.com/)) and creates a `$.ua` object in addition to the `window.UAParser` constructor. 
 
 ## Properties
 

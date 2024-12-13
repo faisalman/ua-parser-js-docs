@@ -1,12 +1,12 @@
 # Using HTML
 ---
 
-Download UAParser.js from the official GitHub repository: [ua-parser-js↗](https://github.com/faisalman/ua-parser-js/blob/master/dist/ua-parser.pack.js), then place the following script tag in your HTML file to include the library:
+Download UAParser.js from the official GitHub repository: [ua-parser-js🡭](https://github.com/faisalman/ua-parser-js/raw/refs/heads/master/dist/ua-parser.pack.js), then place the following script tag in your HTML file to include the library:
 
 ```html
 <script src="ua-parser.min.js"></script>
 ```
-Alternatively, you can use a CDN like [jsDelivr↗](https://cdn.jsdelivr.net/npm/ua-parser-js/src/ua-parser.min.js) or [cdnjs↗](https://cdnjs.com/libraries/UAParser.js) in your script tag:
+Alternatively, you can use a CDN like [jsDelivr🡭](https://cdn.jsdelivr.net/npm/ua-parser-js/src/ua-parser.min.js) or [cdnjs🡭](https://cdnjs.com/libraries/UAParser.js) in your script tag:
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/ua-parser-js/dist/ua-parser.min.js"></script>
@@ -18,7 +18,7 @@ Alternatively, you can use a CDN like [jsDelivr↗](https://cdn.jsdelivr.net/npm
 <!doctype html>
 <html>
 <head>
-<script src="ua-parser.min.js"></script>
+<script src="ua-parser.pack.js"></script>
 <script>
 
 const uap = new UAParser();

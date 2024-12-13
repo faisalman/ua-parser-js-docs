@@ -20,5 +20,5 @@ uap.getResult().withClientHints().then(res => {
 References:
 
 - [`withClientHints()`](/api/main/idata/with-client-hints)
-- https://mobiforge.com/research-analysis/the-mysterious-model-k
-- https://developers.google.com/privacy-sandbox/blog/user-agent-reduction-android-model-and-version
+- [The mysterious model K🡭](https://mobiforge.com/research-analysis/the-mysterious-model-k) *—mobiForge*
+- [Prepare for Chrome's user‑agent reduction🡭](https://developers.google.com/privacy-sandbox/blog/user-agent-reduction-android-model-and-version) *—Google*

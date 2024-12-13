@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Netscape
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Netscape
 
 ### Windows
 

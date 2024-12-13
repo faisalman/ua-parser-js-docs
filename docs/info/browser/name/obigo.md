@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Obigo
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Obigo
 
 ```sh
 LG-GS290/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1

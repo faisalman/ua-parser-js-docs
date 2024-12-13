@@ -2,19 +2,37 @@
 
 ## Constructor
 
-### `new UAParser(uastring?: string, extensions?: Record<string, RegexMap>, headers?: Record<string, string>): UAParser`
+```js:no-line-numbers
+new UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders): UAParser
+```
 
-When called with the `new` keyword, it will return a new instance of `UAParser`.
+When called *with* the `new` keyword, it will return a new instance of `UAParser`.
+
+```js:no-line-numbers
+UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders): IResult`
+```
+
+When called *without* the `new` keyword, it will directly return the results of `getResult()`:
+
+::: tip
+In **BROWSER** environment you don't need to pass the user-agent string, as it should automatically get the string from the current `window.navigator.userAgent`.
+
+Whereas in **NODE.JS** environment, user-agent string must be supplied, usually you can find it in: `request.headers["user-agent"]`.
+:::
+
+## Code Example
+
+#### Using `new UAParser()`
 
 ```js
 const parser = new UAParser("your user-agent here"); // you need to pass the user-agent for nodejs
 console.log(parser); 
 /* 
-    {}
+    UAParser instance
 */
 
-const parserResults = parser.getResult();
-console.log(parserResults);
+const result = parser.getResult();
+console.log(result);
 /* 
     {
         ua      : "",
@@ -27,13 +45,11 @@ console.log(parserResults);
 */
 ```
 
-### `UAParser(uastring?: string, extensions?: Record<string, RegexMap>, headers?: Record<string, string>): IResult`
-
-When called without the `new` keyword, it will directly return the results of `getResult()`:
+#### Using `UAParser()`
 
 ```js
-const parser = UAParser("your user-agent here");
-console.log(parser);
+const result = UAParser("your user-agent here");
+console.log(result);
 /* 
     {
         ua      : "",
@@ -45,12 +61,6 @@ console.log(parser);
     }
 */
 ```
-
-::: info
-In **browser** environment you don't need to pass the user-agent string, as it should automatically get the string from the current `window.navigator.userAgent`.
-
-Whereas in **Node.js** environment, user-agent string must be supplied, usually you can find it in: `request.headers["user-agent"]`.
-:::
 
 ## Methods
 The methods are self explanatory, here's a small overview of available methods:

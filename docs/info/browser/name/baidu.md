@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Baidu
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Baidu
 
 ## Desktop
 

@@ -2,22 +2,30 @@
 
 Get layout rendering engine name & version from user-agent string.
 
-```js
-// Result object is structured as follow:
-{ name: '', version: '' }
-```
-
 ## Properties of `IEngine`:
+
+```js
+// Engine object is structured as follow:
+{ 
+    name: "", 
+    version: ""
+}
+```
 
 ### `name?: string`
 
-- [List of possible `engine.name`](/info/engine/name)
+::: info
+See list of possible engine name [here](/info/engine/name).
+:::
 
+---
 ### `version?: string`
 
-Determined dynamically
+Determined dynamically.
 
-## Methods inherited from `IData`:
+## Methods of `IEngine`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

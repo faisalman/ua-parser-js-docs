@@ -2,30 +2,40 @@
 
 Get details of device information (type, vendor, model) from user-agent string.
 
-```js
-// Result object is structured as follow:
-{ type: '', vendor: '', model: '' }
-```
+## Properties of `IDevice`
 
-## Properties of `IDevice`:
+```js
+// Device object is structured as follow:
+{ 
+    type: "", 
+    vendor: "", 
+    model: "" 
+}
+```
 
 ### `type?: string`
 
-- [List of possible `device.type`](/info/device/type)
-
 ::: info
-If you wish to detect desktop devices, you must handle the logic yourself, since `UAParser` only reports info that is directly available from user-agent string. Read more about this issue [here↗](https://github.com/faisalman/ua-parser-js/issues/182)
+See list of possible device type [here](/info/device/type).
+
+If you wish to detect **desktop** devices, you must handle the logic yourself, since UAParser only reports info that is directly available from user-agent string (read more about this issue [here🡭](https://github.com/faisalman/ua-parser-js/issues/182)).
 :::
 
+---
 ### `vendor?: string`
 
-- [List of possible `device.vendor`](/info/device/vendor)
+::: info
+See list of possible device vendor [here](/info/device/vendor).
+:::
 
+---
 ### `model?: string`
 
-Determined dynamically
+Determined dynamically.
 
-## Methods inherited from `IData`:
+## Methods of `IDevice`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

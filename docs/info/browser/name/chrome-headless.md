@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Chrome Headless
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Chrome Headless
 
 ```sh
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome Safari/537.36

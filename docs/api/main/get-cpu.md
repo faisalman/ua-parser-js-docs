@@ -2,18 +2,24 @@
 
 Get type of CPU architecture from user-agent string.
 
-```js
-// Result object is structured as follow:
-{ architecture: '' }
-```
+## Properties of `ICPU`
 
-## Properties of `ICPU`:
+```js
+// CPU object is structured as follow:
+{ 
+    architecture: ""
+}
+```
 
 ### `architecture?: string`
 
-- [List of possible `cpu.architecture`](/info/cpu/arch)
+::: info
+See list of possible cpu architecture [here](/info/cpu/arch).
+:::
 
-## Methods inherited from `IData`:
+## Methods of `ICPU`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

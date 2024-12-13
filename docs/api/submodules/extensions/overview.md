@@ -4,14 +4,14 @@
 
 ## List of Built-in Extensions:
 
-- [CLIs ↗](clis.md)
-- [Crawlers ↗](crawlers.md)
-- [ExtraDevices ↗](extra-devices.md)
-- [Emails ↗](emails.md)
-- [Fetchers ↗](fetchers.md)
-- [InApps ↗](inapps.md)
-- [Libraries ↗](libraries.md)
-- [MediaPlayers ↗](media-players.md)
+- [CLIs 🡭](clis.md)
+- [Crawlers 🡭](crawlers.md)
+- [ExtraDevices 🡭](extra-devices.md)
+- [Emails 🡭](emails.md)
+- [Fetchers 🡭](fetchers.md)
+- [InApps 🡭](inapps.md)
+- [Libraries 🡭](libraries.md)
+- [MediaPlayers 🡭](media-players.md)
 
 ## Code Example
 

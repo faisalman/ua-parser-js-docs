@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Links
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Links
 
 ### macOS
 

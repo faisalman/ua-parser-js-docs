@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / PaleMoon
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# PaleMoon
 
 ### Linux
 

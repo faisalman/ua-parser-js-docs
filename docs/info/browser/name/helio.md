@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Helio
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Helio
 
 ### Lumin OS
 

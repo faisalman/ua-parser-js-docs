@@ -2,40 +2,54 @@
 
 Get browser name, full version, & major version from user-agent string.
 
-```js
-// Result object is structured as follow:
-{ name: '', version: '', major: '', type: '' }
-```
+## Properties of `IBrowser`
 
-## Properties of `IBrowser`:
+
+```js
+// Browser object is structured as follow:
+{ 
+    name: "", 
+    version: "", 
+    major: "", 
+    type: ""
+}
+```
 
 ### `name?: string`
 
-Name of current browser 
+Name of current browser. 
 
-- [List of possible `browser.name`](/info/browser/name)
+::: info
+See list of possible browser name [here](/info/browser/name).
+:::
 
+---
 ### `version?: string`
 
-Version of current browser, determined dynamically from user-agent data. 
+Version of current browser, determined dynamically from user-agent data, or `undefined` if browser version is not found.
 
-- `undefined` if browser version is not found.
-
+---
 ### `major?: string`
 
-Major number derived from the first number in `version`, following [semver↗](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
+Major number derived from the first number in `version`, following [semver🡭](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
 
+::: info
 - `undefined` if the browser has no `version`
 - `""` if the first token in `version` is not a Number
+:::
 
+---
 ### `type?: string`
 
-Type of current browser, e.g: `email`, `inapp`, `crawler`. 
+Type of current browser, e.g: `email`, `inapp`, `crawler`. [See list of possible browser type here](/info/browser/type).
 
-- [List of possible `browser.type`](/info/browser/type)
-- [`ua-parser-js/extensions` submodule](/api/submodules/extensions/overview)
+::: info
+Find the example of various browser types in [**ua-parser-js/extensions**](/api/submodules/extensions/overview) submodule.
+:::
 
-## Methods inherited from `IData`:
+## Methods of `IBrowser`
+
+Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)

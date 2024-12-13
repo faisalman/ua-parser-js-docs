@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Doris
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Doris
 
 ### Symbian
 

@@ -1,4 +1,6 @@
-# [`IBrowser`](/api/main/get-browser.md) / [`name`](../name.md) / Opera
+# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
+---
+# Opera
 
 ```sh
 # Opera < 9.80 on Windows

@@ -2,11 +2,11 @@
 
 It's currently impossible to detect `macOS > '10.15'` only from user-agent data. This issue is primarily caused by macOS version being capped at `10.15` on all major browsers:
 
-- Apple: [*macOS Limit reported macOS release to 10.15 series*](https://bugs.webkit.org/show_bug.cgi?id=216593)
+- [macOS Limit reported macOS release to 10.15 series🡭](https://bugs.webkit.org/show_bug.cgi?id=216593) *—Apple*
 
-- Mozilla: [*Cap the User-Agent string's reported macOS version at 10.15*](https://bugzilla.mozilla.org/show_bug.cgi?id=1679929)
+- [Cap the User-Agent string's reported macOS version at 10.15🡭](https://bugzilla.mozilla.org/show_bug.cgi?id=1679929) *—Mozilla*
 
-- Google: [*Cap the reported macOS version in the user-agent string at 10_15_7*](https://bugs.chromium.org/p/chromium/issues/detail?id=1175225)
+- [Cap the reported macOS version in the user-agent string at 10_15_7🡭](https://bugs.chromium.org/p/chromium/issues/detail?id=1175225) *—Google*
 
 ::: info 
 Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua-reduction/#token-reference) program, Chrome user-agent in macOS will always identify itself as `Macintosh; Intel Mac OS X 10_15_7` for all of these macOS versions:
