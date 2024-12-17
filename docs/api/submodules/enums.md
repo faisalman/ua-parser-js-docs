@@ -120,7 +120,10 @@ import { Bots } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
 const botParser = new UAParser(Bots);
-const typeofBrowser = botParser.setUA(req.headers['user-agent']).getBrowser().type;
+const typeofBrowser = botParser
+                        .setUA(req.headers['user-agent'])
+                        .getBrowser()
+                        .type;
 if (typeofBrowser == BrowserType.CRAWLER) {
     console.log('Hi, hello there Spidey!');
 }

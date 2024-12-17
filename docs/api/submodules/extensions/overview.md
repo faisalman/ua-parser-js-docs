@@ -4,14 +4,18 @@
 
 ## List of Built-in Extensions:
 
-- [CLIs 🡭](clis.md)
-- [Crawlers 🡭](crawlers.md)
-- [ExtraDevices 🡭](extra-devices.md)
-- [Emails 🡭](emails.md)
-- [Fetchers 🡭](fetchers.md)
-- [InApps 🡭](inapps.md)
-- [Libraries 🡭](libraries.md)
-- [MediaPlayers 🡭](media-players.md)
+- [`CLIs`](clis.md)
+- [`Crawlers`](crawlers.md)
+- [`ExtraDevices`](extra-devices.md)
+- [`Emails`](emails.md)
+- [`Fetchers`](fetchers.md)
+- [`InApps`](inapps.md)
+- [`Libraries`](libraries.md)
+- [`MediaPlayers`](media-players.md)
+
+::: tip
+`Bots` is a combination of `CLIs`, `Crawlers`, `Fetchers`, and `Libraries`, merged together while preserving the browser type.
+:::
 
 ## Code Example
 
