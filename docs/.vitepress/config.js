@@ -31,7 +31,7 @@ export default defineConfig({
                 items: [
                     {
                         text: 'Changelog',
-                        link: '/intro/whats-new'
+                        link: '/intro/changelog'
                     },
                     {
                         text: 'Contributing',
@@ -59,7 +59,8 @@ export default defineConfig({
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
-                    { text: 'Migrating from v1 to v2', link: '/intro/whats-new' }
+                    { text: 'Migrating from v1 to v2', link: '/intro/whats-new' },
+                    { text: 'Changelog', link: '/intro/changelog' }
                 ]
             },
             {
@@ -139,7 +140,8 @@ export default defineConfig({
                 text: 'Submodules',
                 items: [
                     { 
-                        text: 'Enums'
+                        text: 'Enums',
+                        link: '/api/submodules/enums',
                     },
                     {
                         text: 'Extensions', 

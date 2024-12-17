@@ -11,3 +11,8 @@ Type of the device.
 | `tablet` | Portable touchscreen devices larger than smartphones but smaller than laptops. | `Apple iPad`, `Samsung Galaxy Tab` |
 | `wearable` | Devices worn on the body, such as smartwatches or fitness trackers. | `Pebble`, `Apple Watch` |
 | `xr` | Extended reality (XR) devices, encompassing virtual reality (VR) and augmented reality (AR) headsets. | `Google Glass`, `Oculus Quest` |
+
+
+::: tip
+If you wish to detect **desktop** devices, you must handle the logic yourself, since UAParser only reports info that is directly available from user-agent string (read more about this issue [here🡭](https://github.com/faisalman/ua-parser-js/issues/182)).
+:::

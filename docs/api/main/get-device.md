@@ -17,8 +17,6 @@ Get details of device information (type, vendor, model) from user-agent string.
 
 ::: info
 See list of possible device type [here](/info/device/type).
-
-If you wish to detect **desktop** devices, you must handle the logic yourself, since UAParser only reports info that is directly available from user-agent string (read more about this issue [here🡭](https://github.com/faisalman/ua-parser-js/issues/182)).
 :::
 
 ---
