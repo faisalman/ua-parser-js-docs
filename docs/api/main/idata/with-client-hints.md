@@ -6,8 +6,16 @@ Chrome also sends this Client Hints data by default under `Sec-CH-UA-*` HTTP hea
 
 In browser-environment, obtaining the Client Hints data via JavaScript must be done in an asynchronous way. You can chain the result object from `get*` method with `withClientHints()` to also read the client-hints data from the browser which will return the updated data in a `Promise`.
 
-::: info 
+::: tip 
 In **Node.js** or in **browser-environment without Client Hints** support (basically anything that's not Chromium-based), `withClientHints()` will return the updated data as a new object instead of as a `Promise`.
+:::
+
+::: info
+Client Hints are widely supported by most recent Chromium-based browsers (version 85+) such as Chrome, Edge, Opera, etc. While Safari and Firefox doesn't support it due to privacy concerns.
+:::
+
+::: warning
+Client Hints headers are only available in [**secure contexts**🡭](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts), such as HTTPS connections (`https://`) and locally-delivered resources (e.g., `http://127.0.0.1`, `http://localhost`, `file://`). If your server doesn't use HTTPS, Client Hints headers won't be sent by the browser and you may not be able to fully utilize the extended capabilities of UAParser.js in parsing Client Hints data.
 :::
 
 ## Code Example
