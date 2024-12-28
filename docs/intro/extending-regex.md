@@ -9,7 +9,7 @@ To extend UAParser.js with your own regular expressions, you can pass a list of 
 ```js
 // Example:
 const myOwnListOfBrowsers = [
-    [/(mybrowser)\/([\w\.]+)/i], [UAParser.BROWSER.NAME, UAParser.BROWSER.VERSION, ['type', 'bot']]
+    [/(mybrowser)\/([\w\.]+)/i], [UAParser.BROWSER.NAME, UAParser.BROWSER.VERSION, [UAParser.BROWSER.TYPE, 'bot']]
 ];
 
 const myUA = 'Mozilla/5.0 MyBrowser/1.3';
