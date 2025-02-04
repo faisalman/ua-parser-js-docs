@@ -12,6 +12,7 @@
 - [`InApps`](inapps.md)
 - [`Libraries`](libraries.md)
 - [`MediaPlayers`](media-players.md)
+- [`Vehicles`](vehicles.md)
 
 ::: tip
 `Bots` is a combination of `CLIs`, `Crawlers`, `Fetchers`, and `Libraries`, merged together while preserving the browser type.

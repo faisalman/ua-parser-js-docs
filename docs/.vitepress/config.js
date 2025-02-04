@@ -155,7 +155,8 @@ export default defineConfig({
                             { text: 'Fetchers', link: '/api/submodules/extensions/fetchers' },
                             { text: 'InApps', link: '/api/submodules/extensions/inapps' },
                             { text: 'Libraries', link: '/api/submodules/extensions/libraries' },
-                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' }
+                            { text: 'MediaPlayers', link: '/api/submodules/extensions/media-players' },
+                            { text: 'Vehicles', link: '/api/submodules/extensions/vehicles' }
                         ]
                     },
                     {
