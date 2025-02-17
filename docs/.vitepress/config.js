@@ -215,8 +215,8 @@ export default defineConfig({
             },
         ],
         carbonAds: {
-            code: 'your-carbon-code',
-            placement: 'your-carbon-placement'
+            code: 'CW7I62JY',
+            placement: 'docsuaparserdev'
         },
         footer: {
             message: 'UAParser.js v2 is licensed under AGPLv3 or PRO licenses.',
