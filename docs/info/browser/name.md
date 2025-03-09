@@ -84,7 +84,7 @@ Here is a list of possible values for `browser.name`:
 - [`Minimo`](./name/minimo.md)
 - [`MIUI Browser`](./name/miui.md)
 - [`Mobile Chrome`](./name/mobile-chrome.md)
-- [`Mobile Firefox`](./name/firefox-mobile.md)
+- [`Mobile Firefox`](./name/mobile-firefox.md)
 - [`Mobile Safari`](./name/mobile-safari.md)
 - [`Mosaic`](./name/mosaic.md)
 - [`Mozilla`](./name/mozilla.md)
