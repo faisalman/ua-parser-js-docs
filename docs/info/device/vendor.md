@@ -1,6 +1,6 @@
-# `device.vendor`
+# [`IDevice`](/api/main/get-device.md) . `vendor`
 
-Vendor company of the device.
+Here is a list of possible values for `device.vendor`:
 
 - `Acer`
 - `Advan`

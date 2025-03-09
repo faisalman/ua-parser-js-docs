@@ -1,8 +1,8 @@
-# `cpu.architecture`
+# [`ICPU`](/api/main/get-cpu.md) . `architecture`
 
-Type of the CPU architecture. 
+Here is a list of possible values for `cpu.architecture`:
 
-| `cpu.architecture` | Description               |
+| Value | Description               |
 |----------------------|-------------------------------|
 | `ia32`               | Intel x86                     |
 | `amd64`              | Intel x86-64 / x64            |

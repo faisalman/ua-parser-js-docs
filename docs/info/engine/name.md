@@ -1,6 +1,6 @@
-# `engine.name`
+# [`IEngine`](/api/main/get-engine.md) . `name`
 
-Name of the engine.
+Here is a list of possible values for `engine.name`:
 
 | `engine.name` | Description |
 |-|-|

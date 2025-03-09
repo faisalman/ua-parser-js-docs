@@ -3,43 +3,78 @@
 Bots that automatically visit websites and collect data.
 
 - `360Spider` 
+- `adidxbot`
 - `AhrefsBot` 
 - `AI2Bot`
 - `aiHitBot`
 - `Amazonbot`
-- `anthropic-ai` 
 - `Applebot`
 - `Applebot-Extended` 
-- `Archive.org` 
+- `anthropic-ai` 
+- `archive.org_bot` 
 - `Baiduspider` 
+- `Baiduspider-ads` 
+- `Baiduspider-cpro` 
+- `Baiduspider-favo` 
+- `Baiduspider-image` 
+- `Baiduspider-news` 
+- `Baiduspider-render` 
+- `Baiduspider-video` 
+- `bingbot` 
 - `Bytespider` 
-- `Bingbot` 
 - `CCBot` 
+- `Claude-Web`
 - `ClaudeBot` 
-- `Coc Coc Bot`
+- `coccocbot-web`
+- `coccocbot-image`
+- `DataForSeoBot` 
 - `Diffbot` 
 - `Dotbot` 
 - `DuckDuckBot` 
 - `Exabot` 
 - `FacebookBot` 
+- `facebookexternalhit` 
+- `facebookcatalog` 
+- `Google-InspectionTool` 
+- `Google-Safety` 
 - `Googlebot` 
+- `Googlebot-Image` 
+- `Googlebot-News` 
+- `Googlebot-Video` 
+- `GoogleOther` 
+- `GoogleOther-Image` 
+- `GoogleOther-Video` 
 - `GPTBot`
+- `ia_archiver` 
 - `ImagesiftBot`
+- `Linespider` 
+- `LinkedInBot` 
 - `magpie-crawler`
+- `meta-externalagent` 
 - `Omgilibot` 
 - `MJ12Bot` 
 - `MojeekBot` 
 - `OAI-SearchBot` 
+- `omgili` 
+- `omgilibot` 
 - `PerplexityBot`
+- `PetalBot` 
 - `Screaming Frog SEO Spider` 
 - `SemrushBot` 
+- `SemrushBot-BA`
+- `SemrushBot-SI`
+- `SemrushBot-OCOB`
 - `Seznambot`
 - `Slurp` 
-- `Sogou Spider`
+- `Sogou web spider`
+- `Storebot-Google` 
 - `Teoma`
 - `Timpibot`
+- `TurnitinBot`
 - `VelenPublicWebCrawler`
 - `Webzio-Extended` 
+- `Y!J-BRW`
+- `Yahoo! Slurp`
 - `YandexBot` 
 - `Yeti` 
 - `YisouSpider`

@@ -1,6 +1,6 @@
-# `device.type`
+# [`IDevice`](/api/main/get-device.md) . `type`
 
-Type of the device.
+Here is a list of possible values for `device.type`:
 
 | `device.type` | Description | Examples  |
 |-|-|-|

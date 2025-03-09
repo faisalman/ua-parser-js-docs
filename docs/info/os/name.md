@@ -1,6 +1,6 @@
-# `os.name`
+# [`IOS`](/api/main/get-os.md) . `name`
 
-Name of the operating system.
+Here is a list of possible values for `os.name`:
 
 - `AIX`
 - `Amiga OS`

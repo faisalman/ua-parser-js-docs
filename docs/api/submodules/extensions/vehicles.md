@@ -2,7 +2,7 @@
 
 ```sh:no-line-numbers
 # List of known vehicles
-BYD, Rivian, Volvo
+BMW, BYD, Jeep, Rivian, Volvo
 ```
 
 ## Code Example
@@ -11,4 +11,13 @@ BYD, Rivian, Volvo
 import { Vehicles } from 'ua-parser-js/extensions';
 
 const vehicleParser = new UAParser(Vehicles);
+
+const byd_ua = "Mozilla/5.0 (Linux; Android 10; DiLink3.0 For BYD AUTO Build/QKQ1.200816.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.186 Safari/537.36";
+const jeep_ua = "Mozilla/5.0 (Linux; Android 9; AFTLFT962X3) AppleWebKit/537.36 (KHTML, like Gecko) Silk/124.5.2 like Chrome/124.0.6367.248 Safari/537.36";
+
+let vehicle = vehicleParser.setUA(jeep_ua).getDevice();
+console.log(vehicle); // { vendor: "Jeep", model: "Wagooner" }
+
+vehicle = vehicleParser.setUA(byd_ua).getDevice();
+console.log(vehicle); // { vendor: "BYD" }
 ```

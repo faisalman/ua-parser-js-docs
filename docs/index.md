@@ -2,12 +2,12 @@
 layout: home
 
 title: UAParser.js Documentation Reference
-titleTemplate: Detect Browser, Operating System, CPU, and Device with JavaScript
+titleTemplate: Detect User's Browser, Operating System, CPU, and Device Details
 
 hero:
   name: UAParser.js
   text: Documentation Reference
-  tagline: Detect Browser, Operating System, CPU, and Device with JavaScript
+  tagline: Detect User's Browser, Operating System, CPU, and Device Details
   actions:
     - text: Why UAParser.js?
       link: /intro/why-ua-parser-js

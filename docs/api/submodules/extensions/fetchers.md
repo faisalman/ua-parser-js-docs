@@ -4,20 +4,31 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 
 - `AhrefsSiteAudit` 
 - `BingPreview` 
+- `Better Uptime Bot`
+- `Bluesky`
 - `ChatGPT-User` 
 - `cohere-ai`
 - `Discordbot` 
 - `DuckAssistBot`
 - `FeedFetcher-Google` 
-- `Google-Read-Aloud` 
+- `Google-PageRenderer`
+- `Google-Read-Aloud`
+- `Google-Site-Verification`  
+- `GoogleImageProxy` 
+- `GoogleProducer` 
 - `LinkedInBot` 
 - `Mastodon` 
+- `meta-externalfetcher` 
+- `MicrosoftPreview`
 - `Pinterestbot` 
 - `Redditbot` 
-- `Rogerbot` 
+- `rogerbot` 
+- `SiteAuditBot` 
 - `Slackbot` 
 - `Slack-ImgProxy` 
 - `Slack-LinkExpanding` 
+- `SkypeUriPreview` 
+- `Snap URL Preview` 
 - `Snapchat` 
 - `Telegrambot` 
 - `Twitterbot` 
