@@ -3,7 +3,8 @@
 Since Chrome 110, Google changes it's user-agent format into a fixed value. That is, instead of seeing something like `Android 13; Pixel 7` the default value will always be `Android 10; K`. Therefore it's currently impossible to identify the real Android version and device model only from user-agent data. Luckily, there is a kind of workaround by utilizing client hints feature:
 
 ```js
-const uap = new UAParser();
+const uap = new UAParser(); // client-side
+// const uap = new UAParser(req.headers); // server-side
 
 let { device, os } = uap.getResult();
 console.log('Based on user agent: ', os, device); 

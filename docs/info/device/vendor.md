@@ -12,6 +12,7 @@ Here is a list of possible values for `device.vendor`:
 - `AT&T`
 - `BenQ`
 - `BlackBerry`
+- `BLU`
 - `Cat`
 - `Dell`
 - `Energizer`
@@ -64,6 +65,7 @@ Here is a list of possible values for `device.vendor`:
 - `Tecno`
 - `Tesla` 
 - `Ulefone`
+- `Vizio`
 - `Vivo`
 - `Vodafone`
 - `Xbox`

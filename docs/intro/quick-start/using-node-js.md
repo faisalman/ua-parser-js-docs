@@ -9,7 +9,9 @@ $ npm install ua-parser-js
 ```
 Then, require the library in your Node.js application:
 
-```js
+::: code-group
+
+```js [server.js]
 const http = require('http');
 const uap = require('ua-parser-js');
 
@@ -38,5 +40,7 @@ http.createServer(function (req, res) {
 
 console.log('Server running at http://127.0.0.1:1337/');
 ```
+
+:::
 
 In this example, the server listens for incoming HTTP requests and uses UAParser.js to parse the `User-Agent` header from each request. The parsed user-agent information is then sent back as a JSON response to the browser.

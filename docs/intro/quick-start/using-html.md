@@ -14,7 +14,9 @@ Alternatively, you can use a CDN like [jsDelivr🡭](https://cdn.jsdelivr.net/np
 
 ## Code Example
 
-```html
+::: code-group
+
+```html [index.html]
 <!doctype html>
 <html>
 <head>
@@ -82,3 +84,5 @@ console.log(uap.getBrowser().name); // "Safari"
 </body>
 </html>
 ```
+
+:::

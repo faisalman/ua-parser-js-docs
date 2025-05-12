@@ -1,6 +1,6 @@
 # Vehicles
 
-```sh:no-line-numbers
+```csv:no-line-numbers
 # List of known vehicles
 BMW, BYD, Jeep, Rivian, Volvo
 ```

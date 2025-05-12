@@ -6,6 +6,7 @@ Here is a list of possible values for `os.name`:
 - `Amiga OS`
 - `Android`
 - `Android-x86`
+- `ArcaOS`
 - `Arch`
 - `Bada`
 - `BeOS`
@@ -36,6 +37,7 @@ Here is a list of possible values for `os.name`:
 - `iOS`
 - `Joli`
 - `KaiOS`
+- `Knoppix`
 - `Linpus`
 - `Linspire`
 - `Linux`
@@ -85,5 +87,6 @@ Here is a list of possible values for `os.name`:
 - `Windows Phone`
 - `Windows Mobile`
 - `Xbox`
+- `Xubuntu`
 - `Zenwalk`
 - `...`

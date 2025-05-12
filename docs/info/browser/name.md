@@ -2,9 +2,9 @@
 
 Here is a list of possible values for `browser.name`:
 
-- `115 Browser`
-- [`2345 Browser`](./name/2345.md)
-- [`360 Browser`](./name/360.md)
+- `115`
+- [`2345`](./name/2345.md)
+- [`360`](./name/360.md)
 - [`Alipay`](./name/alipay.md)
 - `Amaya`
 - [`Android Browser`](./name/android.md)
@@ -12,7 +12,7 @@ Here is a list of possible values for `browser.name`:
 - [`Avant`](./name/avant.md)
 - [`Avast Secure Browser`](./name/avast.md)
 - [`AVG Secure Browser`](./name/avg.md)
-- [`Baidu`](./name/baidu.md)
+- [`Baidu Browser`](./name/baidu.md)
 - [`Basilisk`](./name/basilisk.md)
 - [`Blazer`](./name/blazer.md)
 - [`Bolt`](./name/bolt.md)
@@ -70,6 +70,7 @@ Here is a list of possible values for `browser.name`:
 - [`Klar`](./name/klar.md)
 - [`Klarna`](./name/klarna.md)
 - [`Konqueror`](./name/konqueror.md)
+- `Ladybird`
 - [`LBBROWSER`](./name/liebao.md)
 - [`LG Browser`](./name/lg-browser.md)
 - [`LibreWolf`](./name/librewolf.md)

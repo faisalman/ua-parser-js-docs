@@ -2,7 +2,7 @@
 
 Apps that let you play music, videos, or online radio. They can play files stored on the device or stream content from the internet. 
 
-```sh
+```csv
 # List of known media players
 Apple TV, Aqualung, Lyssna, BSPlayer, Ares, OSSProxy,
 Audacious, AudiMusicStream, Amarok, BASS, OpenCORE,
