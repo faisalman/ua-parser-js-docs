@@ -32,6 +32,7 @@ Here is a list of possible values for `device.vendor`:
 - `itel`
 - `Jolla`
 - `Kobo`
+- `Lava`
 - `Lenovo`
 - `LG`
 - `Meizu`

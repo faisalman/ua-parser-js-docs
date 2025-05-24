@@ -19,7 +19,9 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `LinkedInBot` 
 - `Mastodon` 
 - `meta-externalfetcher` 
+- `MistralAI-User`
 - `MicrosoftPreview`
+- `Perplexity-User`
 - `Pinterestbot` 
 - `Redditbot` 
 - `rogerbot` 

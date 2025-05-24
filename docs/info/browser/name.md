@@ -35,6 +35,8 @@ Here is a list of possible values for `browser.name`:
 - [`DuckDuckGo`](./name/duckduckgo.md)
 - `Ecosia`
 - [`Edge`](./name/edge.md)
+- [`Edge WebView`](./name/edge.md)
+- [`Edge WebView2`](./name/edge.md)
 - [`Electron`](./name/electron.md)
 - [`Epiphany`](./name/epiphany.md)
 - [`Facebook`](./name/facebook.md)
