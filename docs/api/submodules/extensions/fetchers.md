@@ -16,6 +16,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `Google-Site-Verification`  
 - `GoogleImageProxy` 
 - `GoogleProducer` 
+- `Iframely`
 - `LinkedInBot` 
 - `Mastodon` 
 - `meta-externalfetcher` 

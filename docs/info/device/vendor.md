@@ -53,6 +53,7 @@ Here is a list of possible values for `device.vendor`:
 - `Pico`
 - `Polytron`
 - `Realme`
+- `Retroid`
 - `RIM`
 - `Roku`
 - `Samsung`

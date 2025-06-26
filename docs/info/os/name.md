@@ -84,8 +84,11 @@ Here is a list of possible values for `os.name`:
 - `watchOS`
 - `WebOS`
 - `Windows`
-- `Windows Phone`
+- `Windows CE`
+- `Windows IoT`
 - `Windows Mobile`
+- `Windows Phone`
+- `Windows RT`
 - `Xbox`
 - `Xubuntu`
 - `Zenwalk`

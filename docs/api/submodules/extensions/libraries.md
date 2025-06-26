@@ -2,6 +2,8 @@
 
 Tools used in programs to interact with web content or automate browsing tasks.
 
+- `AdobeAIR`
+- `aiohttp`
 - `Apache-HttpClient`
 - `Axios`
 - `go-http-client`
@@ -15,11 +17,14 @@ Tools used in programs to interact with web content or automate browsing tasks.
 - `Needle`
 - `node-fetch`
 - `node-superagent`
+- `Nutch`
 - `okhttp`
 - `PHP-SOAP`
 - `PostmanRuntime`
+- `python-httpx`
 - `python-requests`
 - `python-urllib`
+- `python-urllib3`
 - `Scrapy`
 - ... etc.
 

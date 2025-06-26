@@ -23,11 +23,15 @@ Bots that automatically visit websites and collect data.
 - `bingbot` 
 - `Bytespider` 
 - `CCBot` 
+- `ChatGLM-Spider`
 - `Claude-Web`
 - `ClaudeBot` 
 - `coccocbot-web`
 - `coccocbot-image`
 - `DataForSeoBot` 
+- `Daum`
+- `Daumoa`
+- `Daumoa-image`
 - `Diffbot` 
 - `Dotbot` 
 - `DuckDuckBot` 
@@ -46,6 +50,7 @@ Bots that automatically visit websites and collect data.
 - `GoogleOther-Video` 
 - `GPTBot`
 - `ia_archiver` 
+- `iAskBot`
 - `ImagesiftBot`
 - `Linespider` 
 - `LinkedInBot` 
@@ -57,8 +62,10 @@ Bots that automatically visit websites and collect data.
 - `OAI-SearchBot` 
 - `omgili` 
 - `omgilibot` 
+- `Onespot-ScraperBot`
 - `PerplexityBot`
 - `PetalBot` 
+- `Qwantbot`
 - `Screaming Frog SEO Spider` 
 - `SemrushBot` 
 - `SemrushBot-BA`
@@ -67,6 +74,7 @@ Bots that automatically visit websites and collect data.
 - `Seznambot`
 - `Slurp` 
 - `Sogou web spider`
+- `StartpagePrivateImageProxy`
 - `Storebot-Google` 
 - `Teoma`
 - `Timpibot`
