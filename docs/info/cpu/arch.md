@@ -7,6 +7,7 @@ Here is a list of possible values for `cpu.architecture`:
 | `ia32`               | Intel x86                     |
 | `amd64`              | Intel x86-64 / x64            |
 | `ia64`               | Intel Itanium                 |
+| `alpha`              | DEC Alpha                     |
 | `arm`                | ARM 32-bit                    |
 | `arm64`              | ARM 64-bit                    |
 | `armhf`              | ARM Hard Float                |

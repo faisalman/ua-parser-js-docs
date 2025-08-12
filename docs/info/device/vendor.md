@@ -50,6 +50,7 @@ Here is a list of possible values for `device.vendor`:
 - `Palm`
 - `Panasonic`
 - `Pebble`
+- `Philips`
 - `Pico`
 - `Polytron`
 - `Realme`

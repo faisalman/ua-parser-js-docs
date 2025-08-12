@@ -152,4 +152,5 @@ Here is a list of possible values for `browser.name`:
 - [`Whale`](./name/whale.md)
 - [`Wolvic`](./name/wolvic.md)
 - [`Yandex`](./name/yandex.md)
+- `Zalo`
 - `...`

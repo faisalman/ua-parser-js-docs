@@ -3,20 +3,27 @@
 Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 
 - `AhrefsSiteAudit` 
+- `Asana`
 - `BingPreview` 
+- `bitlybot`
 - `Better Uptime Bot`
+- `Blueno`
 - `Bluesky`
+- `BufferLinkPreviewBot`
 - `ChatGPT-User` 
+- `Chrome-Lighthouse`
 - `cohere-ai`
 - `Discordbot` 
 - `DuckAssistBot`
 - `FeedFetcher-Google` 
+- `Gemini-Deep-Research`
 - `Google-PageRenderer`
 - `Google-Read-Aloud`
 - `Google-Site-Verification`  
 - `GoogleImageProxy` 
 - `GoogleProducer` 
 - `Iframely`
+- `kakaotalk-scrap`
 - `LinkedInBot` 
 - `Mastodon` 
 - `meta-externalfetcher` 
@@ -34,6 +41,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `Snap URL Preview` 
 - `Snapchat` 
 - `Telegrambot` 
+- `TikTokSpider`
 - `Twitterbot` 
 - `Uptimerobot` 
 - `Vercelbot` 
@@ -45,6 +53,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `YandexSearchShop` 
 - `YandexSitelinks` 
 - `YandexUserProxy`
+- `Zoombot`
 - ... etc.
 
 ## Code Example
