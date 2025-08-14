@@ -6,7 +6,7 @@ To extend UAParser.js with your own regular expressions, you can pass a list of 
 
 - `UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders)`
 
-```js
+```js [example-1.js]
 // Example:
 const myOwnListOfBrowsers = [
     [/(mybrowser)\/([\w\.]+)/i], [UAParser.BROWSER.NAME, UAParser.BROWSER.VERSION, [UAParser.BROWSER.TYPE, 'bot']]
@@ -20,7 +20,7 @@ console.log(myParser.setUA(myUA).getBrowser());  // {name: "MyBrowser", version:
 console.log(myParser.getBrowser().is('bot'));    // true
 ```
 
-```js
+```js [example-2.js]
 // Another example:
 const myOwnListOfDevices = [
     [/(mytab) ([\w ]+)/i], [UAParser.DEVICE.VENDOR, UAParser.DEVICE.MODEL, [UAParser.DEVICE.TYPE, UAParser.DEVICE.TABLET]],
@@ -45,7 +45,7 @@ When you pass custom regexes into the `UAParser` constructor, they will be order
 
 To use the predefined extensions, you can import the desired extensions from the [`ua-parser-js/extensions`🡭](/api/submodules/extensions/overview) submodule.
 
-```js
+```js [example-extensions-submodule-1.js]
 // Usage example
 // Import the UAParser class and the extensions
 import { UAParser } from 'ua-parser-js';
@@ -64,7 +64,7 @@ console.log(browser.toString()); // Thunderbird 78.13.0
 ```
 You can also create a parser with multiple extensions:
 
-```js
+```js [example-extensions-submodule-2.js]
 import { UAParser } from 'ua-parser-js';
 import { Emails, Crawlers, Fetchers } from 'ua-parser-js/extensions';
 

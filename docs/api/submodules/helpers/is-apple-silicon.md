@@ -4,7 +4,7 @@ Check whether device has Apple Silicon Mac device properties.
 
 ## Code Example
 
-```js
+```js [example-client.js]
 import { isAppleSilicon } from 'ua-parser-js/helpers';
 
 const uap = new UAParser();
@@ -16,7 +16,7 @@ if (isAppleSilicon(result)) {
 
 Alternatively, with only user-agent data:
 
-```js
+```js [example-server.js]
 import { isAppleSilicon } from 'ua-parser-js/helpers';
 
 if (isAppleSilicon(req.headers['user-agent'])) {

@@ -8,7 +8,7 @@ This method is only applicable in a client-side browser environment
 
 ## Code Example
 
-```js
+```js [client.js]
 import { isElectron } from 'ua-parser-js/helpers';
 
 if(isElectron()) {

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -230,14 +231,20 @@ export default defineConfig({
     },
 
     markdown: {
-        lineNumbers: true,
-
         // adjust how header anchors are generated,
         // useful for integrating with tools that use different conventions
         anchors: {
             slugify(str) {
                 return encodeURIComponent(str)
             }
+        },
+        config(md) {
+            md.use(groupIconMdPlugin)
         }
+    },
+    vite: {
+        plugins: [
+            groupIconVitePlugin()
+        ]
     }
 });

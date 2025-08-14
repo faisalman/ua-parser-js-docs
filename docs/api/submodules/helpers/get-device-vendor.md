@@ -4,7 +4,7 @@ Guess for the device vendor based on its model name
 
 ## Code Example
 
-```js
+```js [example.js]
 import { getDeviceVendor } from 'ua-parser-js/helpers';
 
 console.log(getDeviceVendor('SM-A605G'));       // Samsung

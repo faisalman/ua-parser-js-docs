@@ -4,7 +4,7 @@ In a server-side environment like Node.js, UAParser.js can parse the `User-Agent
 
 To get started, install UAParser.js using npm:
 
-```sh
+```sh [npm]
 $ npm install ua-parser-js
 ```
 Then, require the library in your Node.js application:

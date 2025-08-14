@@ -15,7 +15,7 @@ UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders)
 
 When called *with* the `new` keyword, it will return a new instance of `UAParser`.
 
-```js
+```js [example-with-new.js]
 const parser = new UAParser("your user-agent here");
 console.log(parser); 
 /* 
@@ -39,11 +39,12 @@ console.log(result);
 - `UAParser()`
 
 When called *without* the `new` keyword, it will directly return the results of `getResult()`
-```
-`UAParser()` equals `new UAParser().getResult()`
-```
 
-```js
+::: tip
+`UAParser()` equals with `new UAParser().getResult()`
+:::
+
+```js [example-without-new.js]
 const result = UAParser("your user-agent here");
 console.log(result);
 /* 
@@ -99,7 +100,7 @@ set a custom user-agent string to be parsed.
 
 Contains the current version of the library.
 
-```js
+```js [example-version.js]
 const UAParser = require('ua-parser-js');
 
 console.log(`Current library version: ${UAParser.VERSION}`);
@@ -114,7 +115,7 @@ console.log(`Current library version: ${UAParser.VERSION}`);
 
 Contains a list of the property names of [`IBrowser`](/api/main/get-browser).
 
-```js
+```js [example-browser.js]
 const myOwnListOfBrowsers = [
     [/(mybrowser)\/([\w\.]+)/i], 
     [UAParser.BROWSER.NAME, UAParser.BROWSER.VERSION]
@@ -147,7 +148,7 @@ Contains a list of the property names of [`ICPU`](/api/main/get-cpu).
 
 Contains a list of the property names of [`IDevice`](/api/main/get-device) and possible values for [`IDevice.type`](/info/device/type).
 
-```js
+```js [example-device.js]
 const myOwnListOfDevices = [
     [/(mytab) ([\w ]+)/i], 
     [UAParser.DEVICE.VENDOR, UAParser.DEVICE.MODEL, [UAParser.DEVICE.TYPE, UAParser.DEVICE.TABLET]],

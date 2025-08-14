@@ -4,7 +4,7 @@ Check whether user-agent is a bot
 
 ## Code Example
 
-```js
+```js [example.js]
 import { UAParser } from 'ua-parser-js';
 import { Bots } from 'ua-parser-js/extensions';
 import { isBot } from 'ua-parser-js/helpers';
@@ -20,7 +20,7 @@ console.log(isBot(botParser.setUA(firefox).getResult())); // false
 
 Alternatively, with only user-agent data:
 
-```js
+```js [example-server.js]
 import { isBot } from 'ua-parser-js/helpers';
 
 console.log(isBot(req.headers['user-agent']));

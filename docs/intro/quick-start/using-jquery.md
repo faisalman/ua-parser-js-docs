@@ -21,7 +21,7 @@ To get or set the user-agent
 
 ## Code Example
 
-```js
+```js [client.js]
 // Say we are in a browser where jQuery is present
 // with user-agent: "Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; Sprint APA7373KT Build/GRJ22) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0"
 

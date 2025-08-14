@@ -4,8 +4,7 @@ UAParser.js simplifies user-agent detection by providing a <ins>**structured app
 
 ## User-agent detection is hard
 
-```js
-// Problem: 
+```js [problem.js]
 // Consider we got this user-agent from a visitor:
 const ua = `Mozilla/5.0 (Linux; Android 10; STK-LX1 
 Build/HONORSTK-LX1; wv) AppleWebKit/537.36 (KHTML, 
@@ -21,8 +20,7 @@ AppVersion/28.3.4 PIA/1.5.11 BytedanceWebview/d8a21c6`;
 
 No worries, let's just use UAParser.js now
 
-```js
-// Solution:
+```js [solution.js]
 // Just pass the complex user-agent string to `UAParser`
 const parser = new UAParser(ua);
 

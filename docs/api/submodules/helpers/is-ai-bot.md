@@ -17,7 +17,7 @@ webzio-extended, xai-bot, youbot, chatglm-spider, scrapy
 
 ## Code Example
 
-```js
+```js [example.js]
 import { UAParser } from 'ua-parser-js';
 import { Bots } from 'ua-parser-js/extensions';
 import { isAIBot } from 'ua-parser-js/helpers';
@@ -35,7 +35,7 @@ console.log(isAIBot(botParser.setUA(searchGPT).getResult())); // true
 
 Alternatively, with only user-agent data:
 
-```js
+```js [example-server.js]
 import { isAIBot } from 'ua-parser-js/helpers';
 
 console.log(isAIBot(req.headers['user-agent']));

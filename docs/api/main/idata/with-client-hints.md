@@ -22,7 +22,7 @@ Client Hints headers are only available in [**secure contexts**🡭](https://dev
 
 ### Client-side Example
 
-```js
+```js [example-client-async.js]
 (async function () {  
     const ua = new UAParser();
 
@@ -36,7 +36,7 @@ Client Hints headers are only available in [**secure contexts**🡭](https://dev
     console.log('Using Client-Hints: ', browser);
 })();
 ```
-```js
+```js [example-client-alt.js]
 // alternatively without async-await:
 const ua = new UAParser();
 
@@ -47,7 +47,7 @@ ua.getBrowser().withClientHints().then(function (browser) {
 
 ### Server-side Example
 
-```js
+```js [example-server.js]
 // Suppose we got a request having these HTTP headers: 
 const request = {
     headers : {
@@ -83,7 +83,7 @@ new UAParser(request.headers)
 
 #### Create a Simple HTTP Server
 
-```js
+```js [example-server-http.js]
 const http = require('http');
 const uap = require('ua-parser-js');
 

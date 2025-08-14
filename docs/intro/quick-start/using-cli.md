@@ -2,13 +2,13 @@
 
 You can use [npx🡭](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
 
-```sh
+```sh [npm]
 $ npx ua-parser-js "<INSERT-USER-AGENT-HERE>"
 ```
 
 ## Code Example
 
-```sh
+```sh [Console ~vscode-icons:file-type-shell~]
 # example command input:
 npx ua-parser-js "Flock/2.16 (Zenwalk 7.3; es_PR;)"
 
