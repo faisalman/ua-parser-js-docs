@@ -21,6 +21,7 @@ Bots that automatically visit websites and collect data.
 - `Baiduspider-render` 
 - `Baiduspider-video` 
 - `bingbot` 
+- `Bravebot`
 - `Bytespider` 
 - `CCBot` 
 - `ChatGLM-Spider`
@@ -29,6 +30,7 @@ Bots that automatically visit websites and collect data.
 - `coccocbot-web`
 - `coccocbot-image`
 - `cohere-training-data-crawler`
+- `Cotoyogi`
 - `Coveobot`
 - `CriteoBot`
 - `DataForSeoBot` 
@@ -45,6 +47,7 @@ Bots that automatically visit websites and collect data.
 - `FacebookBot` 
 - `facebookexternalhit` 
 - `facebookcatalog` 
+- `FirecrawlAgent`
 - `Google-InspectionTool` 
 - `Google-Safety` 
 - `Googlebot` 
@@ -55,9 +58,11 @@ Bots that automatically visit websites and collect data.
 - `GoogleOther-Image` 
 - `GoogleOther-Video` 
 - `GPTBot`
+- `HuggingFace-Bot`
 - `ia_archiver` 
 - `iAskBot`
 - `ImagesiftBot`
+- `Kangaroo Bot`
 - `Linespider` 
 - `LinkedInBot` 
 - `magpie-crawler`
@@ -69,9 +74,12 @@ Bots that automatically visit websites and collect data.
 - `omgili` 
 - `omgilibot` 
 - `Onespot-ScraperBot`
+- `PanguBot`
 - `PerplexityBot`
 - `PetalBot` 
 - `Qwantbot`
+- `Replicate-Bot`
+- `RunPod-Bot`
 - `Screaming Frog SEO Spider` 
 - `SemrushBot` 
 - `SemrushBot-BA`
@@ -84,9 +92,12 @@ Bots that automatically visit websites and collect data.
 - `Storebot-Google` 
 - `Teoma`
 - `Timpibot`
+- `Together-Bot`
 - `TurnitinBot`
+- `v0bot`
 - `VelenPublicWebCrawler`
 - `Webzio-Extended` 
+- `xAI-Bot`
 - `Y!J-BRW`
 - `Yahoo! Slurp`
 - `YandexBot` 

@@ -4,13 +4,15 @@ Check whether user-agent is an AI bot
 
 ```csv:no-line-numbers
 # Current list of AI bots:
-ai2bot, amazonbot, anthropic-ai, claude-web, claude-searchbot, claudebot,
-applebot, applebot-extended, bytespider, cohere-training-data-crawler, 
-ccbot, coveobot, dataforseobot, deepseekbot, diffbot, googleother, 
-googleother-image, googleother-video, google-extended, imagesiftbot, 
-petalbot, facebookbot, meta-externalagent, gptbot, oai-searchbot, 
-perplexitybot, semrushbot-ocob, timpibot, velenpublicwebcrawler, 
-omgili, omgilibot, webzio-extended, youbot, chatglm-spider, scrapy
+ai2bot, amazonbot, anthropic-ai, bravebot, claude-web, claude-searchbot, 
+claudebot, applebot, applebot-extended, bytespider, tiktokspider, 
+cohere-training-data-crawler, ccbot, coveobot, dataforseobot, deepseekbot, 
+diffbot, googleother, googleother-image, googleother-video, google-extended, 
+imagesiftbot, petalbot, pangubot, huggingface-bot, kangaroo bot, 
+firecrawlagent, facebookbot, meta-externalagent, gptbot, oai-searchbot, 
+perplexitybot, replicate-bot, runpod-bot, semrushbot-ocob, timpibot, 
+together-bot, velenpublicwebcrawler, v0bot, omgili, omgilibot, 
+webzio-extended, xai-bot, youbot, chatglm-spider, scrapy
 ```
 
 ## Code Example

@@ -45,6 +45,10 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `Twitterbot` 
 - `Uptimerobot` 
 - `Vercelbot` 
+- `vercel-favicon-bot`
+- `vercel-screenshot-bot`
+- `vercelflags`
+- `verceltracing`
 - `WhatsApp` 
 - `YaDirectFetcher` 
 - `YandexCalendar` 
