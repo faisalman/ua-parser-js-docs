@@ -143,6 +143,17 @@ export default defineConfig({
                     { 
                         text: 'Enums',
                         link: '/api/submodules/enums',
+                        collapsed: false,
+                        items: [
+                            { text: 'BrowserName', link: '/api/submodules/enums/browser-name' },
+                            { text: 'BrowserType', link: '/api/submodules/enums/browser-type' },
+                            { text: 'CPUArch', link: '/api/submodules/enums/cpu-arch' },
+                            { text: 'DeviceType', link: '/api/submodules/enums/device-type' },
+                            { text: 'DeviceVendor', link: '/api/submodules/enums/device-vendor' },
+                            { text: 'EngineName', link: '/api/submodules/enums/engine-name' },
+                            { text: 'OSName', link: '/api/submodules/enums/os-name' },
+                            { text: 'Extensions' },
+                        ]
                     },
                     {
                         text: 'Extensions', 

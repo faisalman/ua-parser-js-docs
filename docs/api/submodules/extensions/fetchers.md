@@ -22,6 +22,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 - `Google-Site-Verification`  
 - `GoogleImageProxy` 
 - `GoogleProducer` 
+- `HubSpot Page Fetcher`
 - `Iframely`
 - `kakaotalk-scrap`
 - `LinkedInBot` 

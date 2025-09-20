@@ -7,6 +7,8 @@ Bots that automatically visit websites and collect data.
 - `AhrefsBot` 
 - `AI2Bot`
 - `aiHitBot`
+- `Algolia Crawler`
+- `Algolia Crawler Renderscript`
 - `Amazonbot`
 - `Applebot`
 - `Applebot-Extended` 
@@ -30,6 +32,7 @@ Bots that automatically visit websites and collect data.
 - `coccocbot-web`
 - `coccocbot-image`
 - `cohere-training-data-crawler`
+- `contxbot`
 - `Cotoyogi`
 - `Coveobot`
 - `CriteoBot`
@@ -62,6 +65,7 @@ Bots that automatically visit websites and collect data.
 - `ia_archiver` 
 - `iAskBot`
 - `ImagesiftBot`
+- `Kagibot`
 - `Kangaroo Bot`
 - `Linespider` 
 - `LinkedInBot` 
