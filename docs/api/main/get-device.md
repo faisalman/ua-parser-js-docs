@@ -1,4 +1,6 @@
-# `getDevice(): IDevice`
+# [UAParser](/api/main/overview) : getDevice()
+
+`getDevice(): IDevice`
 
 Get details of device information (type, vendor, model) from user-agent string.
 

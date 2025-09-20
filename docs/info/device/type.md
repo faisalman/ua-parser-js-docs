@@ -1,4 +1,4 @@
-# [`IDevice`](/api/main/get-device.md) . `type`
+# [`IDevice`](/api/main/get-device.md) : type
 
 Here is a list of possible values for `device.type`:
 

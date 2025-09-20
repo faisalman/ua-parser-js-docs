@@ -1,4 +1,6 @@
-# `isChromeFamily(res: IResult | string): boolean`
+# [Helpers](/api/submodules/helpers/overview) : isChromeFamily()
+
+`isChromeFamily(res: IResult | string): boolean`
 
 Check whether browser is a Chrome-based browser (using Blink engine)
 

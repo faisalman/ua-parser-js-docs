@@ -1,4 +1,6 @@
-# `getEngine(): IEngine`
+# [UAParser](/api/main/overview) : getEngine()
+
+`getEngine(): IEngine`
 
 Get layout rendering engine name & version from user-agent string.
 

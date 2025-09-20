@@ -1,4 +1,4 @@
-# [`ICPU`](/api/main/get-cpu.md) . `architecture`
+# [`ICPU`](/api/main/get-cpu.md) : architecture
 
 Here is a list of possible values for `cpu.architecture`:
 

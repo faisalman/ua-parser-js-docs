@@ -1,6 +1,6 @@
-# ExtraDevices
+# [Extensions](/api/submodules/extensions/overview) : ExtraDevices
 
-Devices that are rarely encountered in the real world today, but still devices nonetheless.
+Extends [`device`](/api/main/get-device) detection to include devices that are rarely encountered in the real world today, but still devices nonetheless.
 
 
 ## Code Example

@@ -1,6 +1,4 @@
-# DeviceType
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : DeviceType
 
 ```csv:no-line-numbers
 CONSOLE, DESKTOP, EMBEDDED, MOBILE, SMARTTV, TABLET, WEARABLE, XR
@@ -12,7 +10,8 @@ See list of possible device type [here](/info/device/type).
 
 ## Code Example
 
-```js
+```js [detect-tv.js]
+import { UAParser } from 'ua-parser-js'; 
 import { DeviceType } from 'ua-parser-js/enums';
 
 if (UAParser().device.is(DeviceType.SMARTTV)) {

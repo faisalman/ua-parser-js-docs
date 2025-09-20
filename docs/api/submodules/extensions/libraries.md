@@ -1,6 +1,6 @@
-# Libraries
+# [Extensions](/api/submodules/extensions/overview) : Libraries
 
-Tools used in programs to interact with web content or automate browsing tasks.
+Extends [`browser`](/api/main/get-browser) detection to include tools used in programs to interact with web content or automate browsing tasks.
 
 - `AdobeAIR`
 - `aiohttp`

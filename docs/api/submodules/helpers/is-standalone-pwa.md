@@ -1,4 +1,6 @@
-# `isStandalonePWA(): boolean`
+# [Helpers](/api/submodules/helpers/overview) : isStandalonePWA()
+
+`isStandalonePWA(): boolean`
 
 Check whether current PWA window is running in a standalone mode (not in browser)
 
@@ -8,7 +10,7 @@ This method is only applicable in a client-side browser environment
 
 ## Code Example
 
-```js [client.js]
+```js [example-client.js]
 import { isStandalonePWA } from 'ua-parser-js/helpers';
 
 if(isStandalonePWA()) {

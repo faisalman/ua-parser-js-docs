@@ -1,4 +1,6 @@
-# `toString(): string`
+# [IData](/api/main/overview#methods) : toString()
+
+`toString(): string`
 
 Retrieve full-name values as a string
 

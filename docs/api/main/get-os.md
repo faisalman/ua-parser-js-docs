@@ -1,4 +1,6 @@
-# `getOS(): IOS`
+# [UAParser](/api/main/overview) : getOS()
+
+`getOS(): IOS`
 
 Get operating system name & version from user-agent string.
 

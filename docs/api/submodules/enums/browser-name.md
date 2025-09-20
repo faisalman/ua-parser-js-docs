@@ -1,6 +1,4 @@
-# BrowserName
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : BrowserName
 
 ```csv:no-line-numbers
 115, 2345, 360, ALIPAY, AMAYA, ANDROID, ARORA, AVANT, AVAST, AVG, BAIDU, 
@@ -29,7 +27,8 @@ See list of possible browser name [here](/info/browser/name).
 
 ## Code Example
 
-```js
+```js [instagram-checker.js]
+import { UAParser } from 'ua-parser-js'; 
 import { BrowserName } from 'ua-parser-js/enums';
 
 if (UAParser().browser.is(BrowserName.INSTAGRAM)) {

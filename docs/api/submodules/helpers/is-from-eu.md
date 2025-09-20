@@ -1,4 +1,6 @@
-# `isFromEU(): boolean`
+# [Helpers](/api/submodules/helpers/overview) : isFromEU()
+
+`isFromEU(): boolean`
 
 Check whether current browser timezone is from an EU country
 
@@ -8,7 +10,7 @@ This method is only applicable in a client-side browser environment
 
 ## Code Example
 
-```js [client.js]
+```js [example-client.js]
 import { isFromEU } from 'ua-parser-js/helpers';
 
 if(isFromEU()) {

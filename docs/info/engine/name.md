@@ -1,4 +1,4 @@
-# [`IEngine`](/api/main/get-engine.md) . `name`
+# [`IEngine`](/api/main/get-engine.md) : name
 
 Here is a list of possible values for `engine.name`:
 

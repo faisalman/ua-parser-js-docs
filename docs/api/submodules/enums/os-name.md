@@ -1,6 +1,4 @@
-# OSName
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : `OSName`
 
 ```csv:no-line-numbers
 AIX, AMIGA_OS, ANDROID, ANDROID_X86, ARCAOS, ARCH, BADA, BEOS, BLACKBERRY, 
@@ -24,7 +22,8 @@ See list of possible os name [here](/info/os/name).
 
 ## Code Example
 
-```js
+```js [greet-amigaos.js]
+import { UAParser } from 'ua-parser-js'; 
 import { OSName } from 'ua-parser-js/enums';
 
 if (UAParser().os.is(OSName.AMIGA_OS)) {

@@ -1,6 +1,6 @@
-# Emails
+# [Extensions](/api/submodules/extensions/overview) : Emails
 
-Apps that allow users to read, reply to, and organize their emails in one place.
+Extends [`browser`](/api/main/get-browser) detection to include apps that allow users to read, reply to, and organize their emails.
 
 - `Airmail`
 - `BlueMail`

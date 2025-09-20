@@ -1,6 +1,4 @@
-# EngineName
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : EngineName
 
 ```csv:no-line-numbers
 AMAYA, ARKWEB, BLINK, EDGEHTML, FLOW, GECKO, GOANNA, ICAB, KHTML, LIBWEB, 
@@ -12,7 +10,8 @@ See list of possible engine name [here](/info/engine/name).
 
 ## Code Example
 
-```js
+```js [text-based-browser.js]
+import { UAParser } from 'ua-parser-js'; 
 import { EngineName } from 'ua-parser-js/enums';
 
 if (UAParser().engine.is(EngineName.LYNX)) {

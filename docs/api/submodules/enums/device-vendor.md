@@ -1,6 +1,4 @@
-# DeviceVendor
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : DeviceVendor
 
 ```csv:no-line-numbers
 ACER, ADVAN, ALCATEL, APPLE, AMAZON, ARCHOS, ASUS, ATT, BENQ, BLACKBERRY, 
@@ -15,3 +13,14 @@ VIVO, VIZIO, VODAFONE, XBOX, XIAOMI, ZEBRA, ZTE
 ::: info
 See list of possible device vendor [here](/info/device/vendor).
 :::
+
+## Code Example
+
+```js [greet.js]
+import { UAParser } from 'ua-parser-js'; 
+import { DeviceVendor } from 'ua-parser-js/enums';
+
+if (UAParser().device.is(DeviceVendor.MOTOROLA)) {
+    console.log('Hello, Moto!');
+}
+```

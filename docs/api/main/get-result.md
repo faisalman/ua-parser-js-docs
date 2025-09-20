@@ -1,4 +1,6 @@
-# `getResult(): IResult`
+# [UAParser](/api/main/overview) : getResult()
+
+`getResult(): IResult`
 
 Get all information regarding browser, CPU, device, engine, & OS from user-agent string.
 

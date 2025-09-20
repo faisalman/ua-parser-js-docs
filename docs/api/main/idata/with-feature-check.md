@@ -1,4 +1,6 @@
-# `withFeatureCheck<T>(): PromiseLike<T> | T`
+# [IData](/api/main/overview#methods) : withFeatureCheck()
+
+`withFeatureCheck<T>(): PromiseLike<T> | T`
 
 This method allows us to examine other features beyond `navigator.userAgent`. Currently this further improve the detection of the following:
 

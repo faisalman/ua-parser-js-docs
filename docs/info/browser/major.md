@@ -1,4 +1,4 @@
-# [`IBrowser`](/api/main/get-browser.md) . `major`
+# [`IBrowser`](/api/main/get-browser.md) : major
 
 Major version number of the browser (following [semver🡭](https://semver.org/)), derived from the first number in [`browser.version`](/info/browser/version).
 

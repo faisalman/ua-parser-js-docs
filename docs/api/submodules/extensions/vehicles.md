@@ -1,4 +1,6 @@
-# Vehicles
+# [Extensions](/api/submodules/extensions/overview) : Vehicles
+
+Extends [`device`](/api/main/get-device) detection to include some vehicles.
 
 ```csv:no-line-numbers
 # List of known vehicles

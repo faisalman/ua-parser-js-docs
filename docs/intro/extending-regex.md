@@ -43,7 +43,7 @@ When you pass custom regexes into the `UAParser` constructor, they will be order
 
 ## 2. Use Predefined Extensions Submodule
 
-To use the predefined extensions, you can import the desired extensions from the [`ua-parser-js/extensions`🡭](/api/submodules/extensions/overview) submodule.
+To use the predefined extensions, you can import the desired extensions from the [`Extensions`](/api/submodules/extensions/overview) submodule.
 
 ```js [example-extensions-submodule-1.js]
 // Usage example

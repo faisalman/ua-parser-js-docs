@@ -1,6 +1,10 @@
-# Crawlers
+# [Extensions](/api/submodules/extensions/overview) : Crawlers
 
-Bots that automatically visit websites and collect data.
+Extends [`browser`](/api/main/get-browser) detection to include bots that <u>**automatically**</u> visit websites and <u>**collect data**</u>.
+
+::: tip
+Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> are categorized as [Fetchers](/api/submodules/extensions/fetchers) instead.
+:::
 
 - `360Spider` 
 - `adidxbot`

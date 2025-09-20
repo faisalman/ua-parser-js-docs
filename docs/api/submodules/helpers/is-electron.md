@@ -1,4 +1,6 @@
-# `isElectron(): boolean`
+# [Helpers](/api/submodules/helpers/overview) : isElectron()
+
+`isElectron(): boolean`
 
 Check whether current window is running inside Electron
 
@@ -8,7 +10,7 @@ This method is only applicable in a client-side browser environment
 
 ## Code Example
 
-```js [client.js]
+```js [example-client.js]
 import { isElectron } from 'ua-parser-js/helpers';
 
 if(isElectron()) {

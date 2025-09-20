@@ -1,6 +1,6 @@
-# MediaPlayers
+# [Extensions](/api/submodules/extensions/overview) : MediaPlayers
 
-Apps that let you play music, videos, or online radio. They can play files stored on the device or stream content from the internet. 
+Extends [`browser`](/api/main/get-browser) detection to include apps that let you play music, videos, or online radio. The apps can play files stored on the device or stream content from the internet. 
 
 ```csv
 # List of known media players

@@ -1,4 +1,6 @@
-# `setUA(ua: string): UAParser`
+# [UAParser](/api/main/overview) : setUA()
+
+`setUA(ua: string): UAParser`
 
 Set user-agent string to be parsed, returns current instance
 

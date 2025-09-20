@@ -2,19 +2,20 @@
 
 Import these enums from `'ua-parser-js/enums'`
 
-- [`BrowserName`](enums/browser-name.md)
-- [`BrowserType`](enums/browser-type.md)
-- [`CPUArch`](enums/cpu-arch.md)
-- [`DeviceType`](enums/device-type.md)
-- [`DeviceVendor`](enums/device-vendor.md)
-- [`EngineName`](enums/engine-name.md)
-- [`OSName`](enums/os-name.md)
+- [`BrowserName`](browser-name.md)
+- [`BrowserType`](browser-type.md)
+- [`CPUArch`](cpu-arch.md)
+- [`DeviceType`](device-type.md)
+- [`DeviceVendor`](device-vendor.md)
+- [`EngineName`](engine-name.md)
+- [`OSName`](os-name.md)
+- [`Extension`](extension.md)
 
 ## Code Example
 
 - Match for a specific `os.name`:
 
-```js
+```js [detect-rim.js]
 import { UAParser } from 'ua-parser-js';
 import { OSName } from 'ua-parser-js/enums';
 
@@ -26,7 +27,7 @@ if (os.is(OSName.RIM_TABLET_OS)) {
 
 - Match for a specific `browser.type`:
 
-```js
+```js [detect-crawler.js]
 import { UAParser } from 'ua-parser-js';
 import { Crawlers } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';

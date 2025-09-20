@@ -28,7 +28,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.4',
+                text: '2.0.5',
                 items: [
                     {
                         text: 'Changelog',
@@ -61,7 +61,8 @@ export default defineConfig({
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
                     { text: 'Migrating from v1 to v2', link: '/intro/whats-new' },
-                    { text: 'Changelog', link: '/intro/changelog' }
+                    { text: 'Changelog', link: '/intro/changelog' },
+                    { text: 'Download', link: '/intro/download' }
                 ]
             },
             {
@@ -142,7 +143,7 @@ export default defineConfig({
                 items: [
                     { 
                         text: 'Enums',
-                        link: '/api/submodules/enums',
+                        link: '/api/submodules/enums/overview',
                         collapsed: false,
                         items: [
                             { text: 'BrowserName', link: '/api/submodules/enums/browser-name' },
@@ -152,7 +153,7 @@ export default defineConfig({
                             { text: 'DeviceVendor', link: '/api/submodules/enums/device-vendor' },
                             { text: 'EngineName', link: '/api/submodules/enums/engine-name' },
                             { text: 'OSName', link: '/api/submodules/enums/os-name' },
-                            { text: 'Extensions' },
+                            { text: 'Extension', link: '/api/submodules/enums/extension' },
                         ]
                     },
                     {
@@ -177,8 +178,8 @@ export default defineConfig({
                         collapsed: false,
                         items: [
                             { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
-                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
                             { text: 'isAIBot()', link: '/api/submodules/helpers/is-ai-bot' },
+                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
                             { text: 'isBot()', link: '/api/submodules/helpers/is-bot' },
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
                             { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },
@@ -195,7 +196,7 @@ export default defineConfig({
                 items: [
                     { text: 'How to Detect macOS >10', link: '/guides/how-to-detect-macos-10157-using-javascript' },
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
-                    { text: 'How to Identify Android K', link: '/guides/how-to-identify-android-k-device' },
+                    { text: 'How to Identify Android 10 K', link: '/guides/how-to-identify-android-k-device' },
                     { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
             }

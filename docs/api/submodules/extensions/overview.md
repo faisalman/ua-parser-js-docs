@@ -1,6 +1,6 @@
 # Extensions Submodule
 
-Import from `'ua-parser-js/extensions'`
+Import these extensions from `'ua-parser-js/extensions'`
 
 ## List of Built-in Extensions:
 

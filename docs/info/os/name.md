@@ -1,4 +1,4 @@
-# [`IOS`](/api/main/get-os.md) . `name`
+# [`IOS`](/api/main/get-os.md) : name
 
 Here is a list of possible values for `os.name`:
 

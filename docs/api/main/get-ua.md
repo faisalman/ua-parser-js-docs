@@ -1,4 +1,6 @@
-# `getUA(): string`
+# [UAParser](/api/main/overview) : getUA()
+
+`getUA(): string`
 
 Get user-agent string of current instance
 

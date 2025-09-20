@@ -1,4 +1,6 @@
-# `getCPU(): ICPU`
+# [UAParser](/api/main/overview) : getCPU()
+
+`getCPU(): ICPU`
 
 Get type of CPU architecture from user-agent string.
 

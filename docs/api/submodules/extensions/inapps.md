@@ -1,6 +1,6 @@
-# InApps
+# [Extensions](/api/submodules/extensions/overview) : InApps
 
-Apps that open websites internally without switching to another dedicated browser app.
+Extends [`browser`](/api/main/get-browser) detection to include apps that open websites internally inside a webview.
 
 - `Discord`
 - `Evernote`

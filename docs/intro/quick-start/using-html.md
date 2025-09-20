@@ -1,4 +1,4 @@
-# Using HTML
+# [Quick Start](/intro/quick-start/quick-start) : Using HTML
 ---
 
 Download UAParser.js from the official GitHub repository: [ua-parser-js🡭](https://github.com/faisalman/ua-parser-js/raw/refs/heads/master/dist/ua-parser.pack.js), then place the following script tag in your HTML file to include the library:

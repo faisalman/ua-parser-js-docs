@@ -1,6 +1,6 @@
-# CLIs
+# [Extensions](/api/submodules/extensions/overview) : CLIs
 
-Tools that allow browsing websites directly from the terminal for simple browsing, automation, or use in low-resource environments.
+Extends [`browser`](/api/main/get-browser) detection to include tools that allow browsing websites directly from the terminal for simple browsing, automation, or use in low-resource environments:
 
 - `cURL`
 - `ELinks`

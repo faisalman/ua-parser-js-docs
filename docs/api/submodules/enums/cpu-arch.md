@@ -1,6 +1,4 @@
-# CPUArch
-
-[↩ Back to Enums](/api/submodules/enums.md)
+# [Enums](/api/submodules/enums/overview) : CPUArch
 
 ```csv:no-line-numbers
 68K, ALPHA, ARM, ARM_64, ARM_HF, AVR, AVR_32, IA64, IRIX, IRIX_64, MIPS, 
@@ -12,7 +10,8 @@ See list of possible cpu architecture [here](/info/cpu/arch).
 
 ## Code Example
 
-```js
+```js [arm-detect.js]
+import { UAParser } from 'ua-parser-js'; 
 import { CPUArch } from 'ua-parser-js/enums';
 
 if (UAParser().browser.is(CPUArch.ARM)) {

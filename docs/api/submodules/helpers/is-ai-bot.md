@@ -1,19 +1,27 @@
-# `isAIBot(res: IResult | string): boolean`
+# [Helpers](/api/submodules/helpers/overview) : isAIBot()
 
-Check whether user-agent is an AI bot
+`isAIBot(res: IResult | string): boolean`
+
+Check whether user-agent is an AI crawlers
 
 ```csv:no-line-numbers
-# Current list of AI bots:
-ai2bot, amazonbot, anthropic-ai, bravebot, claude-web, claude-searchbot, 
-claudebot, applebot, applebot-extended, bytespider, tiktokspider, 
-cohere-training-data-crawler, ccbot, coveobot, dataforseobot, deepseekbot, 
-diffbot, googleother, googleother-image, googleother-video, google-extended, 
-imagesiftbot, petalbot, pangubot, huggingface-bot, kangaroo bot, 
-firecrawlagent, facebookbot, meta-externalagent, gptbot, oai-searchbot, 
-perplexitybot, replicate-bot, runpod-bot, semrushbot-ocob, timpibot, 
-together-bot, velenpublicwebcrawler, v0bot, omgili, omgilibot, 
-webzio-extended, xai-bot, youbot, chatglm-spider, scrapy
+# Current list of AI Crawlers:
+AI2_BOT, AMAZON_BOT, ANTHROPIC_AI, ANTHROPIC_CLAUDE_BOT, 
+ANTHROPIC_CLAUDE_SEARCHBOT, ANTHROPIC_CLAUDE_WEB, APPLE_BOT, 
+APPLE_BOT_EXTENDED, BRAVE_BOT, BYTEDANCE_BYTESPIDER, BYTEDANCE_TIKTOKSPIDER, 
+COHERE_TRAINING_DATA_CRAWLER, COMMON_CRAWL_CCBOT, COVEO_BOT, DATAFORSEO_BOT, 
+DEEPSEEK_BOT, DIFFBOT, GOOGLE_EXTENDED, GOOGLE_OTHER, GOOGLE_OTHER_IMAGE, 
+GOOGLE_OTHER_VIDEO, GOOGLE_CLOUDVERTEXBOT, HIVE_IMAGESIFTBOT, 
+HUAWEI_PETALBOT, HUAWEI_PANGUBOT, HUGGINGFACE_BOT, KANGAROO_BOT, 
+FIRECRAWL_AGENT, META_FACEBOOKBOT, META_EXTERNALAGENT, OPENAI_GPTBOT, 
+OPENAI_SEARCH_BOT, PERPLEXITY_BOT, REPLICATE_BOT, RUNPOD_BOT, 
+SB_INTUITIONS_BOT, SEMRUSH_BOT_CONTENTSHAKE, TIMPI_BOT, TOGETHER_BOT, 
+HUNTER_VELENPUBLICWEBCRAWLER, VERCEL_V0BOT, WEBZIO_OMGILI, 
+WEBZIO_OMGILI_BOT, WEBZIO_EXTENDED, XAI_BOT, YOU_BOT, ZHIPU_CHATGLM_SPIDER
 ```
+::: tip
+See list of possible values for `Crawler` enum [here](/api/submodules/enums/extension#extension-browsername-crawler).
+:::
 
 ## Code Example
 

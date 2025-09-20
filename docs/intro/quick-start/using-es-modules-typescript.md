@@ -1,4 +1,4 @@
-# Using ESM / TypeScript
+# [Quick Start](/intro/quick-start/quick-start) : Using ESM / TypeScript
 
 To get started, install UAParser.js using npm
 
