@@ -48,7 +48,7 @@ export default defineConfig({
                 items: [
                     { text: 'Why UAParser.js', link: '/intro/why-ua-parser-js' },
                     {
-                        text: 'Quick Start',
+                        text: 'Quickstarts',
                         link: '/intro/quick-start/quick-start',
                         collapsed: true,
                         items: [

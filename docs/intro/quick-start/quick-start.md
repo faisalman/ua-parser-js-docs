@@ -1,4 +1,4 @@
-# Quick Start
+# Quickstarts
 
 Choose your ~~fighter~~ development strategy:
 

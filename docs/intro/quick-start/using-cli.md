@@ -1,4 +1,4 @@
-# [Quick Start](/intro/quick-start/quick-start) : Using Command Line
+# [Quickstarts](/intro/quick-start/quick-start) : Using Command Line
 
 You can use [npx🡭](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
 

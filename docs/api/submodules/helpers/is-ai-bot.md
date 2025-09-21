@@ -4,23 +4,45 @@
 
 Check whether user-agent is an AI crawlers
 
-```csv:no-line-numbers
-# Current list of AI Crawlers:
-AI2_BOT, AMAZON_BOT, ANTHROPIC_AI, ANTHROPIC_CLAUDE_BOT, 
-ANTHROPIC_CLAUDE_SEARCHBOT, ANTHROPIC_CLAUDE_WEB, APPLE_BOT, 
-APPLE_BOT_EXTENDED, BRAVE_BOT, BYTEDANCE_BYTESPIDER, BYTEDANCE_TIKTOKSPIDER, 
-COHERE_TRAINING_DATA_CRAWLER, COMMON_CRAWL_CCBOT, COVEO_BOT, DATAFORSEO_BOT, 
-DEEPSEEK_BOT, DIFFBOT, GOOGLE_EXTENDED, GOOGLE_OTHER, GOOGLE_OTHER_IMAGE, 
-GOOGLE_OTHER_VIDEO, GOOGLE_CLOUDVERTEXBOT, HIVE_IMAGESIFTBOT, 
-HUAWEI_PETALBOT, HUAWEI_PANGUBOT, HUGGINGFACE_BOT, KANGAROO_BOT, 
-FIRECRAWL_AGENT, META_FACEBOOKBOT, META_EXTERNALAGENT, OPENAI_GPTBOT, 
-OPENAI_SEARCH_BOT, PERPLEXITY_BOT, REPLICATE_BOT, RUNPOD_BOT, 
-SB_INTUITIONS_BOT, SEMRUSH_BOT_CONTENTSHAKE, TIMPI_BOT, TOGETHER_BOT, 
-HUNTER_VELENPUBLICWEBCRAWLER, VERCEL_V0BOT, WEBZIO_OMGILI, 
-WEBZIO_OMGILI_BOT, WEBZIO_EXTENDED, XAI_BOT, YOU_BOT, ZHIPU_CHATGLM_SPIDER
-```
+| **Provider**  | **UA Token**                                                                                        |
+| ------------- | --------------------------------------------------------------------------------------------------- |
+| AI2           | `AI2Bot`                                                                                            |
+| Amazon        | `Amazonbot`                                                                                         |
+| Anthropic     | `anthropic-ai`, `ClaudeBot`, `Claude-SearchBot`, `Claude-Web`                                       |
+| Apple         | `Applebot`, `Applebot-Extended`                                                                     |
+| Brave         | `Bravebot`                                                                                          |
+| ByteDance     | `Bytespider`, `TikTokSpider`                                                                        |
+| Cohere        | `cohere-training-data-crawler`                                                                      |
+| Common Crawl  | `CCBot`                                                                                             |
+| Coveo         | `Coveobot`                                                                                          |
+| DataForSEO    | `DataForSeoBot`                                                                                     |
+| DeepSeek      | `DeepSeekBot`                                                                                       |
+| Diffbot       | `Diffbot`                                                                                           |
+| Google        | `Google-Extended`, `GoogleOther`, `GoogleOther-Image`, `GoogleOther-Video`, `Google-CloudVertexBot` |
+| Hive AI       | `ImagesiftBot`                                                                                      |
+| Huawei        | `PanguBot`, `PetalBot`                                                                              |
+| Hugging Face  | `HuggingFace-Bot`                                                                                   |
+| Kangaroo      | `Kangaroo Bot`                                                                                      |
+| Mendable.ai   | `FirecrawlAgent`                                                                                    |
+| Meta          | `FacebookBot`, `meta-externalagent`                                                                 |
+| OpenAI        | `GPTBot`, `OAI-SearchBot`                                                                           |
+| Perplexity    | `PerplexityBot`                                                                                     |
+| Replicate     | `Replicate-Bot`                                                                                     |
+| RunPod        | `RunPod-Bot`                                                                                        |
+| SB Intuitions | `SBIntuitionsBot`                                                                                   |
+| SEMrush       | `SemrushBot-OCOB`                                                                                   |
+| Timpi         | `Timpibot`                                                                                          |
+| Together AI   | `Together-Bot`                                                                                      |
+| Hunter.io     | `VelenPublicWebCrawler`                                                                             |
+| Vercel        | `v0bot`                                                                                             |
+| Webz.io       | `omgili`, `omgilibot`, `Webzio-Extended`                                                            |
+| xAI           | `xAI-Bot`                                                                                           |
+| You.com       | `YouBot`                                                                                            |
+| Zhipu AI      | `ChatGLM-Spider`                                                                                    |
+
+
 ::: tip
-See list of possible values for `Crawler` enum [here](/api/submodules/enums/extension#extension-browsername-crawler).
+See list of all possible values for `Crawler` [here](/api/submodules/extensions/crawlers).
 :::
 
 ## Code Example
