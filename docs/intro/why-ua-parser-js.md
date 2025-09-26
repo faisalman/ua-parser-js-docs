@@ -27,7 +27,7 @@ const parser = new UAParser(ua);
 // Result:
 // And voila!
 console.log(parser.getBrowser());
-// { name : "TikTok", version : "28.3.4", major : "28" }
+// { name : "TikTok", version : "28.3.4", major : "28", type: "inapp" }
 
 console.log(parser.getEngine());
 // { name : "Blink", version : "110.0.5481.153" }

@@ -14,7 +14,7 @@ See list of possible cpu architecture [here](/info/cpu/arch).
 import { UAParser } from 'ua-parser-js'; 
 import { CPUArch } from 'ua-parser-js/enums';
 
-if (UAParser().browser.is(CPUArch.ARM)) {
+if (UAParser().cpu.is(CPUArch.ARM)) {
     console.log('Download the ARM build of this amazing software');
 }
 ```

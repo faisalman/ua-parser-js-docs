@@ -1,6 +1,6 @@
 # [Quickstarts](/intro/quick-start/quick-start) : Using Command Line
 
-You can use [npx🡭](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js from the command line without installing the package:
+You can use [npx🡭](https://docs.npmjs.com/cli/v10/commands/npx) to run UAParser.js right from the command line:
 
 ```sh [npm]
 $ npx ua-parser-js "<INSERT-USER-AGENT-HERE>"

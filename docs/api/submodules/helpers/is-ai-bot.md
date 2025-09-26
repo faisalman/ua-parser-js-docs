@@ -42,7 +42,7 @@ Check whether user-agent is an AI crawlers
 
 
 ::: tip
-See list of all possible values for `Crawler` [here](/api/submodules/extensions/crawlers).
+See list of all possible values for `Crawler` (including non-AI crawlers) [here](/api/submodules/extensions/crawlers).
 :::
 
 ## Code Example
