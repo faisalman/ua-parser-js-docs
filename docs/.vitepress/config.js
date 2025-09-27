@@ -15,7 +15,10 @@ export default defineConfig({
         ['script', { async: '', src: "https://analytics.umami.is/script.js", "data-website-id": "8d8f3cb0-d161-4a3c-891e-eb042af6d3a3" }],
         ['script', { src: "//code.tidio.co/hu6mx7fw2r6llmfzxj5llesd5l51q5dv.js", async: ''}]
     ],
-    appearance: 'light',
+    appearance: {
+        // @ts-expect-error not fully supported yet
+        initialValue: 'light'
+    },
     lastUpdated: true,
     sitemap: {
         hostname: 'https://docs.uaparser.dev'
