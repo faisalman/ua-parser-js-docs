@@ -17,6 +17,7 @@ Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua
 - macOS 13 (Ventura)
 - macOS 14 (Sonoma)
 - macOS 15 (Sequoia)
+- macOS 26 (Tahoe)
 :::
 
 ---

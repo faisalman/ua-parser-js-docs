@@ -9,7 +9,7 @@ hero:
   text: Documentation Reference
   tagline: Detect User's Browser, Operating System, CPU, and Device Details
   actions:
-    - text: Why UAParser.js?
+    - text: Introduction
       link: /intro/why-ua-parser-js
     - theme: alt
       text: Download
