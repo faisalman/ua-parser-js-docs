@@ -22,6 +22,7 @@ Here is a list of possible values for `device.vendor`:
 - `GeeksPhone`
 - `Generic`
 - `Google`
+- `Hisense`
 - `HMD`
 - `Honor`
 - `HP`
@@ -71,6 +72,7 @@ Here is a list of possible values for `device.vendor`:
 - `Vizio`
 - `Vivo`
 - `Vodafone`
+- `Wiko`
 - `Xbox`
 - `Xiaomi`
 - `Zebra`

@@ -14,6 +14,7 @@ Here is a list of possible values for `browser.name`:
 - [`AVG Secure Browser`](./name/avg.md)
 - [`Baidu Browser`](./name/baidu.md)
 - [`Basilisk`](./name/basilisk.md)
+- `Bing`
 - [`Blazer`](./name/blazer.md)
 - [`Bolt`](./name/bolt.md)
 - [`Brave`](./name/brave.md)
@@ -119,6 +120,7 @@ Here is a list of possible values for `browser.name`:
 - [`Quark`](./name/quark.md)
 - [`QupZilla`](./name/qupzilla.md)
 - `qutebrowser`
+- `Qwant`
 - [`Rekonq`](./name/rekonq.md)
 - [`RockMelt`](./name/rockmelt.md)
 - [`Safari`](./name/safari.md)

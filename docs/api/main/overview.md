@@ -11,6 +11,10 @@ UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders)
 - In Node.js environment, you need to pass the User-Agent string manually, usually from `request.headers["user-agent"]`.
 :::
 
+::: warning
+To ensure stable parsing performance and mitigate ReDoS attacks, User-Agent string longer than 500 chars will be automatically trimmed.
+:::
+
 - `new UAParser()`
 
 When called *with* the `new` keyword, it will return a new instance of `UAParser`.

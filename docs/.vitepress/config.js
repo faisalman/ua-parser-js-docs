@@ -28,7 +28,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.5',
+                text: '2.0.6',
                 items: [
                     {
                         text: 'Changelog',
@@ -177,15 +177,37 @@ export default defineConfig({
                         link: '/api/submodules/helpers/overview',
                         collapsed: false,
                         items: [
-                            { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
-                            { text: 'isAIBot()', link: '/api/submodules/helpers/is-ai-bot' },
-                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
-                            { text: 'isBot()', link: '/api/submodules/helpers/is-bot' },
+                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
+                        ]
+                    },
+                    {
+                        text: 'BotDetection',
+                        link: '',
+                        collapsed: false,
+                        items: [
+                            { text: 'isAIAssistant()', link: '' },
+                            { text: 'isAICrawler()', link: '/api/submodules/helpers/is-ai-bot' },
+                            { text: 'isBot()', link: '/api/submodules/helpers/is-bot' }
+                        ]
+                    },
+                    {
+                        text: 'BrowserDetection',
+                        link: '',
+                        collapsed: false,
+                        items: [
                             { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
                             { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },
                             { text: 'isFromEU()', link: '/api/submodules/helpers/is-from-eu' },
-                            { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' },
                             { text: 'isStandalonePWA()', link: '/api/submodules/helpers/is-standalone-pwa' }
+                        ]
+                    },
+                    {
+                        text: 'DeviceDetection',
+                        link: '',
+                        collapsed: false,
+                        items: [
+                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
+                            { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
                         ]
                     }
                 ]
