@@ -1,6 +1,37 @@
-# Extending Regex
+# Extending UAParser.js Regular Expression
 
-## 1. Write Your Own Extension
+## 1. Use Predefined `extensions` Submodule
+
+To use the predefined extensions, you can import the desired extensions from the [`extensions`](/api/submodules/extensions/overview) submodule.
+
+```js [example-extensions-submodule-1.js]
+// Usage example
+// Import the UAParser class and the extensions
+import { UAParser } from 'ua-parser-js';
+import { Emails } from 'ua-parser-js/extensions';
+
+// Define a user-agent string
+const ua = 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0';
+
+// Create a new parser instance with the Emails extension
+const browser = new UAParser(Emails)
+                    .setUA(ua)
+                    .getBrowser();
+
+// Output the parsed browser information
+console.log(browser.toString()); // Thunderbird 78.13.0
+```
+You can also create a parser with multiple extensions:
+
+```js [example-extensions-submodule-2.js]
+import { UAParser } from 'ua-parser-js';
+import { Emails, Crawlers, Fetchers } from 'ua-parser-js/extensions';
+
+// Multiple extensions can be passed as an array
+const extendedParser = new UAParser([Emails, Crawlers, Fetchers]);
+```
+
+## 2. Write Your Own Extension
 
 To extend UAParser.js with your own regular expressions, you can pass a list of regexes to the extensions parameter when creating a new `UAParser` instance. This allows you to detect additional user-agent patterns that are not provided by default.
 
@@ -40,34 +71,3 @@ console.log(myParser2.setUA(myUA2).getDevice());  // {vendor: "MyTab", model: "1
 ::: tip
 When you pass custom regexes into the `UAParser` constructor, they will be ordered **before** the internal regexes. When the parser runs, it will first check the user-agent string against your custom regexes before checking against the internal regexes. This allows you to prioritize your custom patterns over the default ones.
 :::
-
-## 2. Use Predefined Extensions Submodule
-
-To use the predefined extensions, you can import the desired extensions from the [`Extensions`](/api/submodules/extensions/overview) submodule.
-
-```js [example-extensions-submodule-1.js]
-// Usage example
-// Import the UAParser class and the extensions
-import { UAParser } from 'ua-parser-js';
-import { Emails } from 'ua-parser-js/extensions';
-
-// Define a user-agent string
-const ua = 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0';
-
-// Create a new parser instance with the Emails extension
-const browser = new UAParser(Emails)
-                    .setUA(ua)
-                    .getBrowser();
-
-// Output the parsed browser information
-console.log(browser.toString()); // Thunderbird 78.13.0
-```
-You can also create a parser with multiple extensions:
-
-```js [example-extensions-submodule-2.js]
-import { UAParser } from 'ua-parser-js';
-import { Emails, Crawlers, Fetchers } from 'ua-parser-js/extensions';
-
-// Multiple extensions can be passed as an array
-const extendedParser = new UAParser([Emails, Crawlers, Fetchers]);
-```

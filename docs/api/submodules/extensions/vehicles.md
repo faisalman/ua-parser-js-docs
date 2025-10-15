@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : Vehicles
+# [extensions](/api/submodules/extensions/overview) : Vehicles
 
 Extends [`device`](/api/main/get-device) detection to include some vehicles.
 

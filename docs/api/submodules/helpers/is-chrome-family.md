@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isChromeFamily()
+# [helpers](/api/submodules/helpers/overview) : isChromeFamily()
 
 `isChromeFamily(res: IResult | string): boolean`
 

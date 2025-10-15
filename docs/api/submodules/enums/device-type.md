@@ -1,4 +1,4 @@
-# [Enums](/api/submodules/enums/overview) : DeviceType
+# [enums](/api/submodules/enums/overview) : DeviceType
 
 ```csv:no-line-numbers
 CONSOLE, DESKTOP, EMBEDDED, MOBILE, SMARTTV, TABLET, WEARABLE, XR

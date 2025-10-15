@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isStandalonePWA()
+# [helpers](/api/submodules/helpers/overview) : isStandalonePWA()
 
 `isStandalonePWA(): boolean`
 

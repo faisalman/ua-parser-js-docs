@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : Emails
+# [extensions](/api/submodules/extensions/overview) : Emails
 
 Extends [`browser`](/api/main/get-browser) detection to include apps that allow users to read, reply to, and organize their emails.
 

@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : InApps
+# [extensions](/api/submodules/extensions/overview) : InApps
 
 Extends [`browser`](/api/main/get-browser) detection to include apps that open websites internally inside a webview.
 

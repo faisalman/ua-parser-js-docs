@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : CLIs
+# [extensions](/api/submodules/extensions/overview) : CLIs
 
 Extends [`browser`](/api/main/get-browser) detection to include tools that allow browsing websites directly from the terminal for simple browsing, automation, or use in low-resource environments:
 

@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : Crawlers
+# [extensions](/api/submodules/extensions/overview) : Crawlers
 
 Extends [`browser`](/api/main/get-browser) detection to include bots that <u>**automatically**</u> visit websites and <u>**collect data**</u>.
 

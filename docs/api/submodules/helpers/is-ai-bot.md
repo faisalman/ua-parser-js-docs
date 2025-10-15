@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isAIBot()
+# [helpers](/api/submodules/helpers/overview) : isAIBot()
 
 `isAIBot(res: IResult | string): boolean`
 
@@ -70,3 +70,9 @@ import { isAIBot } from 'ua-parser-js/helpers';
 
 console.log(isAIBot(req.headers['user-agent']));
 ```
+
+---
+
+#### References
+
+* [The rise of the AI crawler 🡥](https://vercel.com/blog/the-rise-of-the-ai-crawler) *—Vercel*

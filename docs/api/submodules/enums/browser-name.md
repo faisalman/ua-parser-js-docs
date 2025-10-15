@@ -1,4 +1,4 @@
-# [Enums](/api/submodules/enums/overview) : BrowserName
+# [enums](/api/submodules/enums/overview) : BrowserName
 
 ```csv:no-line-numbers
 115, 2345, 360, ALIPAY, AMAYA, ANDROID, ARORA, AVANT, AVAST, AVG, BAIDU, 

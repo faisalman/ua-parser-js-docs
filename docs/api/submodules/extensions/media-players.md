@@ -1,4 +1,4 @@
-# [Extensions](/api/submodules/extensions/overview) : MediaPlayers
+# [extensions](/api/submodules/extensions/overview) : MediaPlayers
 
 Extends [`browser`](/api/main/get-browser) detection to include apps that let you play music, videos, or online radio. The apps can play files stored on the device or stream content from the internet. 
 

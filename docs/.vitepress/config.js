@@ -142,7 +142,7 @@ export default defineConfig({
                 text: 'Submodules',
                 items: [
                     { 
-                        text: 'Enums',
+                        text: 'enums',
                         link: '/api/submodules/enums/overview',
                         collapsed: false,
                         items: [
@@ -157,7 +157,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'Extensions', 
+                        text: 'extensions', 
                         link: '/api/submodules/extensions/overview',
                         collapsed: false,
                         items: [
@@ -173,7 +173,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'Helpers',
+                        text: 'helpers',
                         link: '/api/submodules/helpers/overview',
                         collapsed: false,
                         items: [
@@ -181,7 +181,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'BotDetection',
+                        text: 'bot-detection',
                         link: '',
                         collapsed: false,
                         items: [
@@ -191,7 +191,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'BrowserDetection',
+                        text: 'browser-detection',
                         link: '',
                         collapsed: false,
                         items: [
@@ -202,7 +202,7 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'DeviceDetection',
+                        text: 'device-detection',
                         link: '',
                         collapsed: false,
                         items: [

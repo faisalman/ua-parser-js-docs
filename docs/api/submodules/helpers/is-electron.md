@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isElectron()
+# [helpers](/api/submodules/helpers/overview) : isElectron()
 
 `isElectron(): boolean`
 

@@ -1,4 +1,4 @@
-# [Enums](/api/submodules/enums/overview) : DeviceVendor
+# [enums](/api/submodules/enums/overview) : DeviceVendor
 
 ```csv:no-line-numbers
 ACER, ADVAN, ALCATEL, APPLE, AMAZON, ARCHOS, ASUS, ATT, BENQ, BLACKBERRY, 

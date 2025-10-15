@@ -33,7 +33,7 @@ Version of current browser, determined dynamically from user-agent data, or `und
 ---
 ### `major?: string`
 
-Major number derived from the first number in `version`, following [semver🡭](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
+Major number derived from the first number in `version`, following [semver🡥](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
 
 ::: info
 - `undefined` if the browser has no `version`

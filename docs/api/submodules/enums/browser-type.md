@@ -1,10 +1,10 @@
-# [Enums](/api/submodules/enums/overview) : BrowserType
+# [enums](/api/submodules/enums/overview) : BrowserType
 
 ```csv:no-line-numbers
 CRAWLER, CLI, EMAIL, FETCHER, INAPP, MEDIAPLAYER, LIBRARY
 ```
 ::: info
-Find the example of various browser types in [Extensions](/api/submodules/extensions/overview) submodule.
+Find the example of various browser types in [extensions](/api/submodules/extensions/overview) submodule.
 :::
 
 ## Code Example

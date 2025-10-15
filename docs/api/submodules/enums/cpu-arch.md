@@ -1,4 +1,4 @@
-# [Enums](/api/submodules/enums/overview) : CPUArch
+# [enums](/api/submodules/enums/overview) : CPUArch
 
 ```csv:no-line-numbers
 68K, ALPHA, ARM, ARM_64, ARM_HF, AVR, AVR_32, IA64, IRIX, IRIX_64, MIPS, 

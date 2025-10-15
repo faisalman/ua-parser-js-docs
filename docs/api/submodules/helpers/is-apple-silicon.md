@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isAppleSilicon()
+# [helpers](/api/submodules/helpers/overview) : isAppleSilicon()
 
 `isAppleSilicon(res: IResult | string): boolean`
 

@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : isFromEU()
+# [helpers](/api/submodules/helpers/overview) : isFromEU()
 
 `isFromEU(): boolean`
 

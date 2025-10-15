@@ -2,7 +2,7 @@
 
 `withClientHints<T>(): PromiseLike<T> | T`
 
-Recently, Chrome limits the information that exposed through user-agent and introduces a new experimental set of data called [Client Hints🡭](https://developer.mozilla.org/en-US/docs/Web/API/User-Agent_Client_Hints_API). 
+Recently, Chrome limits the information that exposed through user-agent and introduces a new experimental set of data called [Client Hints🡥](https://developer.mozilla.org/en-US/docs/Web/API/User-Agent_Client_Hints_API). 
 
 Chrome also sends this Client Hints data by default under `Sec-CH-UA-*` HTTP headers in each request, along with the legacy `User-Agent` HTTP header. In server-side development, you can capture this extra information by passing the `req.headers` to `UAParser()` (see examples below). 
 
@@ -17,7 +17,7 @@ Client Hints are widely supported by most recent Chromium-based browsers (versio
 :::
 
 ::: warning
-Client Hints headers are only available in [**secure contexts**🡭](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts), such as HTTPS connections (`https://`) and locally-delivered resources (e.g., `http://127.0.0.1`, `http://localhost`, `file://`). If your server doesn't use HTTPS, Client Hints headers won't be sent by the browser and you may not be able to fully utilize the extended capabilities of UAParser.js in parsing Client Hints data.
+Client Hints headers are only available in [**secure contexts**🡥](https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts), such as HTTPS connections (`https://`) and locally-delivered resources (e.g., `http://127.0.0.1`, `http://localhost`, `file://`). If your server doesn't use HTTPS, Client Hints headers won't be sent by the browser and you may not be able to fully utilize the extended capabilities of UAParser.js in parsing Client Hints data.
 :::
 
 ## Code Example

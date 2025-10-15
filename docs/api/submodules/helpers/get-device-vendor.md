@@ -1,4 +1,4 @@
-# [Helpers](/api/submodules/helpers/overview) : getDeviceVendor()
+# [helpers](/api/submodules/helpers/overview) : getDeviceVendor()
 
 `getDeviceVendor(model: string): string | undefined`
 
