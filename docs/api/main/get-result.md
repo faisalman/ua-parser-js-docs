@@ -1,13 +1,14 @@
-# [UAParser](/api/main/overview) : getResult()
+# [UAParser](/api/main/overview#methods) : getResult()
 
 `getResult(): IResult`
 
-Get all information regarding browser, CPU, device, engine, & OS from user-agent string.
+Returns a full breakdown of the detected user-agent. Including user-agent string, browser, CPU, device, engine, and OS info.
 
-## Properties of `IResult`:
+## `IResult`
+
+### Properties
 
 ```js
-// Result object is structured as follow:
 { 
     ua: "", 
     browser: { 
@@ -35,40 +36,40 @@ Get all information regarding browser, CPU, device, engine, & OS from user-agent
 }
 ```
 
-### `ua: string`
+- `ua: string`
 
-The user-agent string value of current instance.
+The user-agent string of current instance.
 
-### [`browser: IBrowser`](/api/main/get-browser)
+- [`browser: IBrowser`](/api/main/get-browser)
 
-Object that contains the value of browser name, full version, & major version.
+The browser name, version, major, and type.
 
-### [`cpu: ICPU`](/api/main/get-cpu)
+- [`cpu: ICPU`](/api/main/get-cpu)
 
-Object that contains the value of type of CPU architecture.
+The CPU architecture.
 
-### [`device: IDevice`](/api/main/get-device)
+- [`device: IDevice`](/api/main/get-device)
 
-Object that contains the value of device details: type, vendor, model.
+The device type, vendor, and model.
 
-### [`engine: IEngine`](/api/main/get-engine)
+- [`engine: IEngine`](/api/main/get-engine)
 
-Object that contains the value of layout rendering engine name & version.
+The browser engine name and version.
 
-### [`os: IOS`](/api/main/get-os)
+- [`os: IOS`](/api/main/get-os)
 
-Object that contains the value of operating system name & version.
+The operating system name and version.
 
-## Methods of `IResult`
+### Methods
 
-Inherited from `IData`:
+#### Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)
 - [`withClientHints<IResult>(): PromiseLike<IResult> | IResult`](/api/main/idata/with-client-hints)
 - [`withFeatureCheck<IResult>(): PromiseLike<IResult> | IResult`](/api/main/idata/with-feature-check)
 
-## Code Example
+### Code Example
 
 ```js
 const galaxytabs8 = 'Mozilla/5.0 (Linux; Android 12; SM-X706B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.53 Safari/537.36'
@@ -81,7 +82,8 @@ console.log(parser.getResult());
     browser: { 
         name: "Chrome", 
         version: "103.0.5060.53",
-        major: "103"
+        major: "103",
+        type: undefined
     }, 
     cpu: {
         architecture: undefined

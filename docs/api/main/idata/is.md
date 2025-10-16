@@ -2,30 +2,33 @@
 
 `is(value: string): boolean`
 
-This method returns `true` if the passed value matches with the value of one of the properties of current object, `false` otherwise.
+Checks if the given string matches any of the current object's property value.
+
+Returns:
+- `true` if the given value matches one of the properties of current object
+- `false` otherwise
 
 ::: info
-* `device` properties are checked in this particular order: `type`, `model`, `vendor`.
-* When checking for browser, any `Browser` suffix will be ignored.
-* When checking for OS, any `OS` suffix will be ignored.
-* The comparison is case-insensitive, thus `is("firefox") == is("Firefox")`.
+* **device**: properties are checked in this particular order: `type`, `model`, then `vendor`.
+* **browser**: any `Browser` suffix will be ignored (e.g. `QQ Browser == QQ`).
+* **os**: any `OS` suffix will be ignored (e.g. `Mac OS == Mac`).
+* Comparisons are **case-insensitive**, so `firefox == FIREFOX`.
 :::
 
 ## Code Example
 
 ```js
-// is() is just a shorthand comparison
-// so that instead of write it using `==` operator like this:
+// is() is basically a shorthand for property comparison using `==`
 
 const ua = UAParser();
 const device = ua.device;
 const os = ua.os;
 
+// Using standard comparison
 if (device.type == "mobile" && os.name != "iOS") {}
 if (device.type == "smarttv" || device.vendor == "Samsung") {}
 
-// we can also write the comparison above into as follow:
-
+// Using is()
 if (device.is("mobile") && !os.is("iOS")) {}
 if (device.is("SmartTV") || device.is("SaMsUnG")) {}
 ```

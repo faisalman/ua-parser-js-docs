@@ -1,4 +1,4 @@
-# UAParser Class Overview
+# `UAParser` Class
 
 ## Constructor
 
@@ -6,7 +6,7 @@
 UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders): IResult`
 ```
 
-### # `new UAParser()`
+### new UAParser()
 
 When called *with* the `new` keyword, it returns a new `UAParser` instance.
 
@@ -31,7 +31,7 @@ console.log(result);
 */
 ```
 
-### # `UAParser()`
+### UAParser()
 
 When called *without* the `new` keyword, it directly returns the result of `getResult()`.
 
@@ -55,46 +55,46 @@ console.log(result);
 ```
 
 ::: tip
-- In a browser environment, the User-Agent string is automatically taken from `window.navigator.userAgent`.
-- In a Node.js environment, you'll need to pass the User-Agent string manually, usually from `request.headers["user-agent"]`.
+- In browser environment, if the User-Agent string is not set, it will be automatically taken from `window.navigator.userAgent`.
+- In Node.js environment, you'll need to pass the User-Agent string manually, usually from `request.headers["user-agent"]`.
 :::
 
 ::: warning
-To ensure stable parsing performance and mitigate ReDoS risks, any User-Agent string longer than <ins>500</ins> chars will be automatically trimmed.
+To ensure stable parsing performance and mitigate ReDoS risks, any User-Agent string longer than **500** characters will be automatically trimmed.
 :::
 
 ## Methods
 The methods are self explanatory, here's a quick overview of available methods:
 
-- [`getBrowser(): IBrowser`](/api/main/get-browser)
+#### [`getBrowser(): IBrowser`](/api/main/get-browser)
  
 Returns the browser `name`, `version`, `major`, and `type`.
 
-- [`getCPU(): ICPU`](/api/main/get-cpu)
+#### [`getCPU(): ICPU`](/api/main/get-cpu)
  
-Returns the CPU architecture name.
+Returns the CPU `architecture`.
 
-- [`getDevice(): IDevice`](/api/main/get-device)
+#### [`getDevice(): IDevice`](/api/main/get-device)
  
 Returns the device `type`, `vendor`, and `model`.
  
-- [`getEngine(): IEngine`](/api/main/get-engine)
+#### [`getEngine(): IEngine`](/api/main/get-engine)
  
 Returns the browser engine `name` and `version`.
  
-- [`getOS(): IOS`](/api/main/get-os)
+#### [`getOS(): IOS`](/api/main/get-os)
  
 Returns the operating system `name` and `version`.
  
-- [`getResult(): IResult`](/api/main/get-result)
+#### [`getResult(): IResult`](/api/main/get-result)
  
-Returns the full parsed result: user-agent string, browser info, cpu, device, engine, os.
+Returns a full breakdown of the detected user-agent. Including user-agent string, browser, CPU, device, engine, and OS info.
 
-- [`getUA(): string`](/api/main/get-ua)
+#### [`getUA(): string`](/api/main/get-ua)
  
 Returns the user-agent string of current instance.
  
-- [`setUA(ua: string): UAParser`](/api/main/set-ua)
+#### [`setUA(ua: string): UAParser`](/api/main/set-ua)
  
 Sets a custom user-agent string to be parsed.
 
@@ -102,22 +102,35 @@ Sets a custom user-agent string to be parsed.
 
 - `static readonly VERSION: string`
 
-Contains the current version of the library.
+The current version of the library.
+
+- `static readonly BROWSER: { NAME: 'name', VERSION: 'version', MAJOR: 'major', TYPE: 'type' }`
+
+List of [`IBrowser`](/api/main/get-browser) properties.
+
+- `static readonly CPU: { ARCHITECTURE: 'architecture' }`
+
+List of [`ICPU`](/api/main/get-cpu) properties.
+
+- `static readonly DEVICE: { TYPE: 'type', VENDOR: 'vendor', MODEL: 'model', CONSOLE: 'console', EMBEDDED: 'embedded', MOBILE: 'mobile', SMARTTV: 'smarttv', TABLET: 'tablet', WEARABLE: 'wearable', XR: 'xr' }`
+
+List of [`IDevice`](/api/main/get-device) properties, and list of possible values for [`IDevice.type`](/info/device/type).
+
+- `static readonly ENGINE: { NAME: 'name', VERSION: 'version' }`
+
+List of [`IEngine`](/api/main/get-engine) properties.
+
+- `static readonly OS: { NAME: 'name', VERSION: 'version' }`
+
+List of [`IOS`](/api/main/get-os) properties.
+
+### Code Example
 
 ```js [example-version.js]
 const UAParser = require('ua-parser-js');
 
 console.log(`Current library version: ${UAParser.VERSION}`);
 ```
-
-- `static readonly BROWSER: {
-    NAME,
-    VERSION, 
-    MAJOR,
-    TYPE
-}`
-
-Contains a list of the property names of [`IBrowser`](/api/main/get-browser).
 
 ```js [example-browser.js]
 const myOwnListOfBrowsers = [
@@ -131,27 +144,6 @@ console.log(myParser.setUA(myUA).getBrowser());
 // {name: "MyBrowser", version: "1.3", major: "1"}
 ```
 
-- `static readonly CPU: { 
-    ARCHITECTURE
-}`
-
-Contains a list of the property names of [`ICPU`](/api/main/get-cpu).
-
-- `static readonly DEVICE: { 
-    TYPE,
-    VENDOR, 
-    MODEL,
-    CONSOLE,
-    EMBEDDED,
-    MOBILE,
-    SMARTTV,
-    TABLET,
-    WEARABLE,
-    XR
-}`
-
-Contains a list of the property names of [`IDevice`](/api/main/get-device) and possible values for [`IDevice.type`](/info/device/type).
-
 ```js [example-custom-device.js]
 const myOwnList = [
     [/(mytab) ([\w ]+)/i], 
@@ -163,17 +155,3 @@ const myParser = new UAParser({ device: myOwnList });
 console.log(myParser.setUA(myUA).getDevice());  
 // {vendor: "MyTab", model: "14 Pro Max", type: "tablet"}
 ```
-
-- `static readonly ENGINE: { 
-    NAME,
-    VERSION
-}`
-
-Contains a list of the property names of [`IEngine`](/api/main/get-engine).
-
-- `static readonly OS: { 
-    NAME,
-    VERSION
-}`
-
-Contains a list of the property names of [`IOS`](/api/main/get-os).

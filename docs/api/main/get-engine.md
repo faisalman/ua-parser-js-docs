@@ -1,40 +1,42 @@
-# [UAParser](/api/main/overview) : getEngine()
+# [UAParser](/api/main/overview#methods) : getEngine()
 
 `getEngine(): IEngine`
 
-Get layout rendering engine name & version from user-agent string.
+Returns the browser's layout (rendering) engine name and version.
 
-## Properties of `IEngine`:
+## `IEngine`
+
+### Properties
 
 ```js
-// Engine object is structured as follow:
 { 
     name: "", 
     version: ""
 }
 ```
 
-### `name?: string`
+#### name?: string
+
+The name of the rendering engine
 
 ::: info
-See list of possible engine name [here](/info/engine/name).
+See list of possible engine names [here](/info/engine/name).
 :::
 
----
-### `version?: string`
+#### version?: string
 
-Determined dynamically.
+The detected engine version, determined dynamically from the user-agent string.
 
-## Methods of `IEngine`
+### Methods
 
-Inherited from `IData`:
+#### Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)
 - [`withClientHints<IEngine>(): PromiseLike<IEngine> | IEngine`](/api/main/idata/with-client-hints)
 - [`withFeatureCheck<IEngine>(): PromiseLike<IEngine> | IEngine`](/api/main/idata/with-feature-check)
 
-## Code Example
+### Code Example
 
 ```js
 const operamini = 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.21214/19.916; U; en) Presto/2.5.25'

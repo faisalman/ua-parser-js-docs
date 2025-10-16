@@ -1,21 +1,23 @@
-# [UAParser](/api/main/overview) : getUA()
+# [UAParser](/api/main/overview#methods) : getUA()
 
 `getUA(): string`
 
-Get user-agent string of current instance
+Returns the user-agent string of current `UAParser` instance
 
 ## Code Example
 
+Try this code on a browser console:
+
 ```js
-// Try to run this code on a browser
 const parser = new UAParser();
 
-// This will print the user-agent of current browser
+// Prints the current browser's user-agent
 console.log(parser.getUA());
 
-// Replace the user-agent value
+// Replace it with a custom user-agent string
 parser.setUA('Mozilla/5.0 MyBrowser/1.0');
 
+// Now it uses the new value we set before
 parser.getUA();
 // "Mozilla/5.0 MyBrowser/1.0"
 ```

@@ -2,14 +2,13 @@
 
 `withClientHints<T>(): PromiseLike<T> | T`
 
-Recently, Chrome limits the information that exposed through user-agent and introduces a new experimental set of data called [Client Hints🡥](https://developer.mozilla.org/en-US/docs/Web/API/User-Agent_Client_Hints_API). 
+Chrome recently started limiting the information exposed through user-agent, and introduced a new experimental set of data called [Client Hints🡥](https://developer.mozilla.org/en-US/docs/Web/API/User-Agent_Client_Hints_API). Chrome also sends this Client Hints data by default under `Sec-CH-UA-*` HTTP headers in each request, along with the regular `User-Agent` HTTP header. 
 
-Chrome also sends this Client Hints data by default under `Sec-CH-UA-*` HTTP headers in each request, along with the legacy `User-Agent` HTTP header. In server-side development, you can capture this extra information by passing the `req.headers` to `UAParser()` (see examples below). 
-
-In browser-environment, obtaining the Client Hints data via JavaScript must be done in an asynchronous way. You can chain the result object from `get*` method with `withClientHints()` to also read the client-hints data from the browser which will return the updated data in a `Promise`.
+- In server-side development, you can capture this extra information by passing the `req.headers` to `UAParser()` (see examples below this page). 
+- In browser-environment, obtaining the Client Hints data via JavaScript must be done in an asynchronous way. You can chain the result object from `get*` method with `withClientHints()` to also read the client hints data from the browser as a `Promise`.
 
 ::: tip 
-In **Node.js** or in **browser-environment without Client Hints** support (basically anything that's not Chromium-based), `withClientHints()` will return the updated data as a new object instead of as a `Promise`.
+In Node.js or in browser-environment without Client Hints support (basically anything that's not Chromium-based), `withClientHints()` will return the updated data as a new object instead of as a `Promise`.
 :::
 
 ::: info
@@ -21,31 +20,6 @@ Client Hints headers are only available in [**secure contexts**🡥](https://dev
 :::
 
 ## Code Example
-
-### Client-side Example
-
-```js [example-client-async.js]
-(async function () {  
-    const ua = new UAParser();
-
-    // get browser data from user-agent only :
-    let browser = ua.getBrowser();
-    console.log('Using User-Agent: ', browser);
-
-    // get browser data from client-hints 
-    // (with user-agent as a fallback) :
-    browser = await ua.getBrowser().withClientHints();
-    console.log('Using Client-Hints: ', browser);
-})();
-```
-```js [example-client-alt.js]
-// alternatively without async-await:
-const ua = new UAParser();
-
-ua.getBrowser().withClientHints().then(function (browser) {
-    console.log('Using Client-Hints: ', browser);
-});
-```
 
 ### Server-side Example
 
@@ -108,4 +82,29 @@ http.createServer(function (req, res) {
 .listen(1337, '127.0.0.1');
 
 console.log('Server running at http://127.0.0.1:1337/');
+```
+
+### Client-side Example
+
+```js [example-client-async.js]
+(async function () {  
+    const ua = new UAParser();
+
+    // get browser data from user-agent only :
+    let browser = ua.getBrowser();
+    console.log('Using User-Agent: ', browser);
+
+    // get browser data from client-hints 
+    // (with user-agent as a fallback) :
+    browser = await ua.getBrowser().withClientHints();
+    console.log('Using Client-Hints: ', browser);
+})();
+```
+```js [example-client-alt.js]
+// alternatively without async-await:
+const ua = new UAParser();
+
+ua.getBrowser().withClientHints().then(function (browser) {
+    console.log('Using Client-Hints: ', browser);
+});
 ```

@@ -1,13 +1,14 @@
-# [UAParser](/api/main/overview) : getDevice()
+# [UAParser](/api/main/overview#methods) : getDevice()
 
 `getDevice(): IDevice`
 
-Get details of device information (type, vendor, model) from user-agent string.
+Returns the device details (type, vendor, model).
 
-## Properties of `IDevice`
+## `IDevice`
+
+### Properties
 
 ```js
-// Device object is structured as follow:
 { 
     type: "", 
     vendor: "", 
@@ -15,34 +16,38 @@ Get details of device information (type, vendor, model) from user-agent string.
 }
 ```
 
-### `type?: string`
+#### type?: string
+
+The detected device type (e.g. `mobile`, `tablet`, `smarttv`, `wearable`).
 
 ::: info
-See list of possible device type [here](/info/device/type).
+See list of possible device types [here](/info/device/type).
 :::
 
 ---
-### `vendor?: string`
+#### vendor?: string
+
+The device manufacturer (e.g. `Samsung`, `Apple`, `Huawei`).
 
 ::: info
-See list of possible device vendor [here](/info/device/vendor).
+See list of possible device vendors [here](/info/device/vendor).
 :::
 
 ---
-### `model?: string`
+#### model?: string
 
-Determined dynamically.
+The detected model name, determined dynamically from the user-agent string.
 
-## Methods of `IDevice`
+### Methods
 
-Inherited from `IData`:
+#### Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)
 - [`withClientHints<IDevice>(): PromiseLike<IDevice> | IDevice`](/api/main/idata/with-client-hints)
 - [`withFeatureCheck<IDevice>(): PromiseLike<IDevice> | IDevice`](/api/main/idata/with-feature-check)
 
-## Code Example
+### Code Example
 
 ```js
 

@@ -1,14 +1,15 @@
-# [UAParser](/api/main/overview) : getBrowser()
+# [UAParser](/api/main/overview#methods) : getBrowser()
 
 `getBrowser(): IBrowser`
 
-Get browser name, full version, & major version from user-agent string.
+Returns the browser name, full version, major version, and browser type.
 
-## Properties of `IBrowser`
+## `IBrowser`
+
+### Properties
 
 
 ```js
-// Browser object is structured as follow:
 { 
     name: "", 
     version: "", 
@@ -17,53 +18,54 @@ Get browser name, full version, & major version from user-agent string.
 }
 ```
 
-### `name?: string`
+#### name?: string
 
-Name of current browser. 
+The browser name
 
 ::: info
 See list of possible browser name [here](/info/browser/name).
 :::
 
----
-### `version?: string`
+#### version?: string
 
-Version of current browser, determined dynamically from user-agent data, or `undefined` if browser version is not found.
+The full version of the browser, determined dynamically from user-agent string, or `undefined` if no version is found.
 
----
-### `major?: string`
+#### major?: string
 
-Major number derived from the first number in `version`, following [semver🡥](https://semver.org/), e.g: if `version` is `5.1.21214`, then `major` would be `5`.
+The major version number, derived from the first number in `version` following [semver🡥](https://semver.org/). For example, if `version` is `5.1.21214`, then `major` would be `5`.
 
 ::: info
 - `undefined` if the browser has no `version`
-- `""` if the first token in `version` is not a Number
+- `""` (empty) if the first token in `version` is not a Number
 :::
 
----
-### `type?: string`
+#### type?: string
 
-Type of current browser, e.g: `email`, `inapp`, `crawler`. [See list of possible browser type here](/info/browser/type).
+The browser type, e.g: `email`, `inapp`, `crawler`. 
 
 ::: info
-Find the example of various browser types in [**ua-parser-js/extensions**](/api/submodules/extensions/overview) submodule.
+See full list of possible browser types [here](/info/browser/type).
 :::
 
-## Methods of `IBrowser`
+::: tip
+For examples of various browser types, check out the [**ua-parser-js/extensions**](/api/submodules/extensions/overview) submodule.
+:::
 
-Inherited from `IData`:
+### Methods
+
+#### Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)
 - [`withClientHints<IBrowser>(): PromiseLike<IBrowser> | IBrowser`](/api/main/idata/with-client-hints)
 - [`withFeatureCheck<IBrowser>(): PromiseLike<IBrowser> | IBrowser`](/api/main/idata/with-feature-check)
 
-## Code Example
+### Code Example
 
 ```js
 const operamini = 'Opera/9.80 (J2ME/MIDP; Opera Mini/5.1.21214/19.916; U; en) Presto/2.5.25'
 const parser = new UAParser(operamini);
 
 console.log(parser.getBrowser());
-// { name : "Opera Mini", version : "5.1.21214", major : "5" }
+// { name: "Opera Mini", version: "5.1.21214", major: "5", type: undefined }
 ```

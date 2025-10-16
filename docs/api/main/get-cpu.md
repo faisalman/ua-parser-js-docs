@@ -1,34 +1,37 @@
-# [UAParser](/api/main/overview) : getCPU()
+# [UAParser](/api/main/overview#methods) : getCPU()
 
 `getCPU(): ICPU`
 
-Get type of CPU architecture from user-agent string.
+Returns the CPU architecture name.
 
-## Properties of `ICPU`
+## `ICPU`
+
+### Properties
 
 ```js
-// CPU object is structured as follow:
 { 
     architecture: ""
 }
 ```
 
-### `architecture?: string`
+#### architecture?: string
+
+The detected CPU architecture (e.g. `arm`, `amd64`, `ppc`, `x86`).
 
 ::: info
-See list of possible cpu architecture [here](/info/cpu/arch).
+See list of possible CPU architectures [here](/info/cpu/arch).
 :::
 
-## Methods of `ICPU`
+### Methods
 
-Inherited from `IData`:
+#### Inherited from `IData`:
 
 - [`is(value: string): boolean`](/api/main/idata/is)
 - [`toString(): string`](/api/main/idata/to-string)
 - [`withClientHints<ICPU>(): PromiseLike<ICPU> | ICPU`](/api/main/idata/with-client-hints)
 - [`withFeatureCheck<ICPU>(): PromiseLike<ICPU> | ICPU`](/api/main/idata/with-feature-check)
 
-## Code Example
+### Code Example
 
 ```js
 const powerpc = 'Mozilla/4.0 (compatible; MSIE 5.17; Mac_PowerPC Mac OS; en)'
