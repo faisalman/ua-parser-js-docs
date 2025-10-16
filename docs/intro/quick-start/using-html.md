@@ -2,21 +2,20 @@
 
 ## Installation
 
-Download from the official GitHub repository: [ua-parser-js🡥](https://github.com/faisalman/ua-parser-js/), or install using npm:
+Download from the official UAParser.js GitHub repository: [ua-parser-js🡥](https://github.com/faisalman/ua-parser-js/), or install it directly via npm:
 
 ```sh [npm]
 $ npm install ua-parser-js
 ```
 
-
 ## Usage
 
-Place the following [minified script🡥](https://github.com/faisalman/ua-parser-js/raw/refs/heads/master/dist/ua-parser.pack.js) in your HTML file to include the library:
+Include the [minified script🡥](https://github.com/faisalman/ua-parser-js/raw/refs/heads/master/dist/ua-parser.pack.js) in your HTML file:
 
 ```html
 <script src="ua-parser.min.js"></script>
 ```
-Alternatively, you can use a CDN like [jsDelivr🡥](https://cdn.jsdelivr.net/npm/ua-parser-js/src/ua-parser.min.js) or [cdnjs🡥](https://cdnjs.com/libraries/UAParser.js) in your script tag:
+Alternatively, you can load it from a CDN like [jsDelivr🡥](https://cdn.jsdelivr.net/npm/ua-parser-js/src/ua-parser.min.js) or [cdnjs🡥](https://cdnjs.com/libraries/UAParser.js):
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/ua-parser-js/dist/ua-parser.min.js"></script>
@@ -36,7 +35,7 @@ Alternatively, you can use a CDN like [jsDelivr🡥](https://cdn.jsdelivr.net/np
 const uap = new UAParser();
 console.log(uap.getResult());
 /*
-    /// This will print an object structured like this:
+    // Prints an object structured like this:
     {
         ua: "",
         browser: {
@@ -77,12 +76,13 @@ console.log(result.os.version); // "11.10"
 console.log(result.engine.name); // "WebKit"
 console.log(result.cpu.architecture); // "amd64"
 
-// Do some other tests
+// Do some other tests:
 const uastring2 = "Mozilla/5.0 (compatible; Konqueror/4.1; OpenBSD) KHTML/4.1.4 (like Gecko)";
 console.log(uap.setUA(uastring2).getBrowser().name); // "Konqueror"
 console.log(uap.getOS()); // {name: "OpenBSD", version: undefined}
 console.log(uap.getEngine()); // {name: "KHTML", version: "4.1.4"}
 
+// And one more:
 const uastring3 = 'Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0.0; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Version/7.1.0.7 Safari/534.11';
 console.log(uap.setUA(uastring3).getDevice().model); // "PlayBook"
 console.log(uap.getOS()); // {name: "RIM Tablet OS", version: "1.0.0"}

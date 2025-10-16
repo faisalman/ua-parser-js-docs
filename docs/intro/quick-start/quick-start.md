@@ -1,6 +1,6 @@
 # Quickstarts
 
-Choose your ~~fighter~~ development strategy:
+Choose your ~~fighter~~ development setup:
 
 - [Using HTML](/intro/quick-start/using-html)
 - [Using Node.js](/intro/quick-start/using-node-js)

@@ -6,18 +6,9 @@
 UAParser(uastring?: string, extensions?: UAParserExt, headers?: UAParserHeaders): IResult`
 ```
 
-::: tip
-- In browser environment, the User-Agent string is automatically taken from `window.navigator.userAgent`.
-- In Node.js environment, you need to pass the User-Agent string manually, usually from `request.headers["user-agent"]`.
-:::
+### # `new UAParser()`
 
-::: warning
-To ensure stable parsing performance and mitigate ReDoS attacks, User-Agent string longer than 500 chars will be automatically trimmed.
-:::
-
-- `new UAParser()`
-
-When called *with* the `new` keyword, it will return a new instance of `UAParser`.
+When called *with* the `new` keyword, it returns a new `UAParser` instance.
 
 ```js [example-with-new.js]
 const parser = new UAParser("your user-agent here");
@@ -40,9 +31,9 @@ console.log(result);
 */
 ```
 
-- `UAParser()`
+### # `UAParser()`
 
-When called *without* the `new` keyword, it will directly return the results of `getResult()`
+When called *without* the `new` keyword, it directly returns the result of `getResult()`.
 
 ::: tip
 `UAParser()` equals with `new UAParser().getResult()`
@@ -63,40 +54,49 @@ console.log(result);
 */
 ```
 
+::: tip
+- In a browser environment, the User-Agent string is automatically taken from `window.navigator.userAgent`.
+- In a Node.js environment, you'll need to pass the User-Agent string manually, usually from `request.headers["user-agent"]`.
+:::
+
+::: warning
+To ensure stable parsing performance and mitigate ReDoS risks, any User-Agent string longer than <ins>500</ins> chars will be automatically trimmed.
+:::
+
 ## Methods
-The methods are self explanatory, here's a small overview of available methods:
+The methods are self explanatory, here's a quick overview of available methods:
 
 - [`getBrowser(): IBrowser`](/api/main/get-browser)
  
-returns the browser name, version, and major.
+Returns the browser `name`, `version`, `major`, and `type`.
 
 - [`getCPU(): ICPU`](/api/main/get-cpu)
  
-returns CPU architectural design name.
+Returns the CPU architecture name.
 
 - [`getDevice(): IDevice`](/api/main/get-device)
  
-returns the device model, type, vendor.
+Returns the device `type`, `vendor`, and `model`.
  
 - [`getEngine(): IEngine`](/api/main/get-engine)
  
-returns the browser engine name and version.
+Returns the browser engine `name` and `version`.
  
 - [`getOS(): IOS`](/api/main/get-os)
  
-returns the operating system name and version.
+Returns the operating system `name` and `version`.
  
 - [`getResult(): IResult`](/api/main/get-result)
  
-returns all function object calls, user-agent string, browser info, cpu, device, engine, os.
+Returns the full parsed result: user-agent string, browser info, cpu, device, engine, os.
 
 - [`getUA(): string`](/api/main/get-ua)
  
-returns the user-agent string.
+Returns the user-agent string of current instance.
  
 - [`setUA(ua: string): UAParser`](/api/main/set-ua)
  
-set a custom user-agent string to be parsed.
+Sets a custom user-agent string to be parsed.
 
 ## Fields
 
@@ -152,17 +152,15 @@ Contains a list of the property names of [`ICPU`](/api/main/get-cpu).
 
 Contains a list of the property names of [`IDevice`](/api/main/get-device) and possible values for [`IDevice.type`](/info/device/type).
 
-```js [example-device.js]
-const myOwnListOfDevices = [
+```js [example-custom-device.js]
+const myOwnList = [
     [/(mytab) ([\w ]+)/i], 
-    [UAParser.DEVICE.VENDOR, UAParser.DEVICE.MODEL, [UAParser.DEVICE.TYPE, UAParser.DEVICE.TABLET]],
-    [/(myphone)/i], 
-    [UAParser.DEVICE.VENDOR, [UAParser.DEVICE.TYPE, UAParser.DEVICE.MOBILE]]
+    [UAParser.DEVICE.VENDOR, UAParser.DEVICE.MODEL, [UAParser.DEVICE.TYPE, UAParser.DEVICE.TABLET]]
 ];
-const myUA2 = 'Mozilla/5.0 MyTab 14 Pro Max';
-const myParser2 = new UAParser({ device: myOwnListOfDevices });
+const myUA = 'Mozilla/5.0 MyTab 14 Pro Max';
+const myParser = new UAParser({ device: myOwnList });
 
-console.log(myParser2.setUA(myUA2).getDevice());  
+console.log(myParser.setUA(myUA).getDevice());  
 // {vendor: "MyTab", model: "14 Pro Max", type: "tablet"}
 ```
 

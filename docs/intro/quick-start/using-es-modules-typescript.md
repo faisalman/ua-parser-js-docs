@@ -1,11 +1,18 @@
 # [Quickstarts](/intro/quick-start/quick-start) : Using ESM / TypeScript
 
+## Installation
+
 To get started, install UAParser.js using npm
 
 ```sh
 $ npm install ua-parser-js
 ```
-Then, import the library in your application
+
+UAParser.js ships with built-in TypeScript definitions, so no need for extra `@types` package.
+
+## Usage
+
+Import the library in your application
 
 ```js
 import { UAParser } from 'ua-parser-js';
@@ -17,3 +24,14 @@ console.log(cpu.is('arm'));         // true
 console.log(device.is('mobile'));   // true
 console.log(device.model);          // N900
 ```
+
+::: tip
+[`UAParser()`](/api/main/overview.html#uaparser) is a shortcut for [`new UAParser().getResult()`](/api/main/overview.html#new-uaparser). If you prefer, you can create a `UAParser` instance manually:
+
+```js
+import { UAParser } from 'ua-parser-js';
+
+const parser = new UAParser();
+console.log(parser.getBrowser());
+```
+:::

@@ -1,3 +1,3 @@
 # Download
 
-[https://uaparser.dev/#download🡥](https://uaparser.dev/#download)
+Grab the latest version of UAParser.js here: [https://uaparser.dev🡥](https://uaparser.dev/)
