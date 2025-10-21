@@ -12,7 +12,7 @@ Chrome/[majorVersion].0.0.0 [deviceCompat] Safari/537.36
 | Token | Possible values |
 | ------ | ---------------- |
 | `[unifiedPlatform]` | <p>Desktop:</p><ul><li>`Windows NT 10.0; Win64; x64`</li><li>`Macintosh; Intel Mac OS X 10_15_7`</li><li>`X11; Linux x86_64`</li><li>`X11; CrOS x86_64 14541.0.0`</li><li>`Fuchsia`</li></ul><p>Mobile:</p><ul><li>`Linux; Android 10; K`</li></ul> |
-| `[deviceCompat]` | <ul><li>(empty) — for tablets/desktops</li><li>`Mobile` — for mobile devices</li></ul> |
+| `[deviceCompat]` | <p>Desktop/Tablet:</p><ul><li>'' (empty)</li></ul><p>Mobile:</p><ul><li>`Mobile`</li></ul> |
 
 ::: tip
 Learn how to identify the real device behind a reduced user-agent [here](/guides/how-to-identify-android-k-device)

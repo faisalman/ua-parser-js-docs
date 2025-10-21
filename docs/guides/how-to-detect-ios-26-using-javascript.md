@@ -2,7 +2,7 @@
 
 Starting with Safari on iOS 26, you can no longer rely on the User-Agent string to determine iOS version. This issue is because WebKit (the underlying engine developed by Apple that powers all browsers on iOS) now freezes the reported iOS version at `18.6`:
 
-- [Safari on iOS/iPadOS/visionOS 26: "user agent string no longer lists the current version of the operating system"�](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/#update-to-ua-string) *—Webkit Blog*
+- [Safari on iOS/iPadOS/visionOS 26: "user agent string no longer lists the current version of the operating system"🡥](https://webkit.org/blog/17333/webkit-features-in-safari-26-0/#update-to-ua-string) *—Webkit Blog*
 
 ::: info
 An example of User-Agent string on iOS 18.6:

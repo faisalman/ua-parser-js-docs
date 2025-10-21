@@ -216,6 +216,7 @@ export default defineConfig({
                 text: 'Guides',
                 collapsed: false,
                 items: [
+                    { text: 'How to Detect iPad', link: '/guides/how-to-detect-ipad-using-javascript' },
                     { text: 'How to Detect iOS ≥ 26', link: '/guides/how-to-detect-ios-26-using-javascript' },
                     { text: 'How to Detect macOS > 10.15.7', link: '/guides/how-to-detect-macos-10157-using-javascript' },
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
