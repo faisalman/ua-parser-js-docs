@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : isBot()
 
-`isBot(res: string): boolean`
+`isBot(ua: string): boolean`
 
 Check whether user-agent is a bot
 

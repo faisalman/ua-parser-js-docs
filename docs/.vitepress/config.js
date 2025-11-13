@@ -5,8 +5,8 @@ import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-i
 export default defineConfig({
     base: "/",
     title: "UAParser.js",
-    titleTemplate: 'How to detect Browser, OS, CPU, & Device with JavaScript using UAParser.js',
-    description: "UAParser.js is a JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model, either in browser (client-side) or node.js (server-side).",
+    titleTemplate: 'How to Detect Browsers, OS, Devices, Bots, AI Crawlers, Apps, and More Using JavaScript With UAParser.js',
+    description: "UAParser.js detects Browsers, OS, Devices, Bots, AI Crawlers, Apps, and more. Runs seamlessly in Browser (client-side) or Node.js (server-side).",
     head: [
         ['meta', { name: 'msvalidate.01', content: 'F4D861C3287B312C6D147ECEC9B85E5E' }],
         ['meta', { name: 'google-site-verification', content: 'lJpOPhia4HtRabTKEdpgyB_MWRKamHC6pfjFqekWiH0' }],

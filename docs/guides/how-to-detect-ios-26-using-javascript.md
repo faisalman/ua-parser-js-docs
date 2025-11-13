@@ -17,14 +17,16 @@ Meanwhile the User-Agent string on iOS 26:
 ---
 
 ::: tip
-Since UAParser.js version `2.0.6`, the iOS version will be correctly detected as `26.x` instead of `18.6`. Whereas for version `2.0.5` and below, you can use a _temporary workaround_ like this:
+Since UAParser.js version `2.0.6`, the iOS version will be correctly detected as `26.x` instead of `18.6`. Whereas for version `2.0.5` and below, you can use a temporary workaround like this:
 
 ```js
 import { UAParser } from 'ua-parser-js';
 import { BrowserName, OSName } from 'ua-parser-js/enums';
 
 function getiOSVersion (ua) {
-    const { browser, os } = UAParser(ua);
+    const parser = new UAParser(ua);
+    const browser = parser.getBrowser();
+    const os = parser.getOS();
     if (browser.name  == BrowserName.SAFARI_MOBILE &&
         browser.major == '26' &&
         os.name       == OSName.IOS &&

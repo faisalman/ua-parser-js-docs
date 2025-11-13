@@ -12,6 +12,7 @@
 * [How to Allow Only Specific User Agents in Next.js🡥](https://writech.run/blog/how-to-allow-only-specific-user-agents-in-next-js-f17ed550916c/) *—Anonello Zanini*
 * [How to Detect Mobile Browsers with JavaScript🡥](https://stackdiary.com/detect-mobile-browser-javascript/) *—Alex Ivanovs*
 * [Prompt installation in PWA is a nightmare unless you know this.🡥](https://articles.wesionary.team/prompt-installation-in-pwa-is-a-nightmare-unless-you-know-this-36cb0005e2b2) *—Dibesh Raj Subedi*
+* [The rise of the AI crawler 🡥](https://vercel.com/blog/the-rise-of-the-ai-crawler) *—Vercel*
 
 ## References
 * [Browser detection using the user agent🡥](https://developer.mozilla.org/en-US/docs/Web/HTTP/Browser_detection_using_the_user_agent) *—Mozilla*

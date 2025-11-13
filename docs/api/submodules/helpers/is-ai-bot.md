@@ -1,10 +1,10 @@
 # [helpers](/api/submodules/helpers/overview) : isAIBot()
 
-`isAIBot(res: IResult | string): boolean`
+`isAIBot(ua: string): boolean`
 
-Check whether user-agent is an AI crawlers
+Check whether user-agent is an AI crawler (an AI bot that browses websites by itself to collect data).
 
-| **Provider**  | **UA Token**                                                                                        |
+| **Operator**  | **User-Agent**                                                                                      |
 | ------------- | --------------------------------------------------------------------------------------------------- |
 | AI2           | `AI2Bot`                                                                                            |
 | Amazon        | `Amazonbot`                                                                                         |
@@ -47,29 +47,26 @@ See list of all possible values for `Crawler` (including non-AI crawlers) [here]
 
 ## Code Example
 
+:::code-group
+
 ```js [example.js]
-import { UAParser } from 'ua-parser-js';
-import { Bots } from 'ua-parser-js/extensions';
 import { isAIBot } from 'ua-parser-js/helpers';
 
 const ahref = 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)';
 const firefox = 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0';
 const searchGPT = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot';
 
-const botParser = new UAParser({ Bots });
-
-console.log(isAIBot(botParser.setUA(ahref).getResult())); // false
-console.log(isAIBot(botParser.setUA(firefox).getResult())); // false
-console.log(isAIBot(botParser.setUA(searchGPT).getResult())); // true
+console.log(isAIBot(ahref)); // false
+console.log(isAIBot(firefox)); // false
+console.log(isAIBot(searchGPT)); // true
 ```
-
-Alternatively, with only user-agent data:
 
 ```js [example-server.js]
 import { isAIBot } from 'ua-parser-js/helpers';
 
 console.log(isAIBot(req.headers['user-agent']));
 ```
+:::
 
 ---
 
