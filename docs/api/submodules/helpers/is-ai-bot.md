@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : isAIBot()
 
-`isAIBot(ua: string): boolean`
+### `isAIBot(ua: string): boolean`
 
 Check whether user-agent is an AI crawler (an AI bot that browses websites by itself to collect data).
 

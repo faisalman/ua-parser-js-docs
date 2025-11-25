@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getResult()
 
-`getResult(): IResult`
+### `getResult(): IResult`
 
 Returns a full breakdown of the detected user-agent. Including user-agent string, browser, CPU, device, engine, and OS info.
 

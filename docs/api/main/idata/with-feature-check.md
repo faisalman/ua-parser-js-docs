@@ -1,6 +1,10 @@
 # [IData](/api/main/overview#methods) : withFeatureCheck()
 
-`withFeatureCheck<T>(): PromiseLike<T> | T`
+::: warning
+This method is only applicable in a client-side browser environment
+:::
+
+### `withFeatureCheck<T>(): PromiseLike<T> | T`
 
 Checks extra browser features to improve detection accuracy beyond the user-agent string:
 

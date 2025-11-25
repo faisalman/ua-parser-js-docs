@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getEngine()
 
-`getEngine(): IEngine`
+### `getEngine(): IEngine`
 
 Returns the browser's layout (rendering) engine name and version.
 

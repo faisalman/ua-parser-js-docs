@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : isAppleSilicon()
 
-`isAppleSilicon(res: IResult | string): boolean`
+### `isAppleSilicon(res: IResult | string): boolean`
 
 Check whether device has Apple Silicon Mac device properties.
 

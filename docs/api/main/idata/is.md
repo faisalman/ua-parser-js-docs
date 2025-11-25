@@ -1,6 +1,6 @@
 # [IData](/api/main/overview#methods) : is()
 
-`is(value: string): boolean`
+### `is(value: string): boolean`
 
 Checks if the given string matches any of the current object's property value.
 

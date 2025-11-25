@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getCPU()
 
-`getCPU(): ICPU`
+### `getCPU(): ICPU`
 
 Returns the CPU architecture name.
 

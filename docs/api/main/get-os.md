@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getOS()
 
-`getOS(): IOS`
+### `getOS(): IOS`
 
 Returns the operating system name and version.
 

@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : getDeviceVendor()
 
-`getDeviceVendor(model: string): string | undefined`
+### `getDeviceVendor(model: string): string | undefined`
 
 Guess for the device vendor based on its model name
 

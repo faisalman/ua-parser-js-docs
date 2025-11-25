@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getBrowser()
 
-`getBrowser(): IBrowser`
+### `getBrowser(): IBrowser`
 
 Returns the browser name, full version, major version, and browser type.
 

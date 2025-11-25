@@ -1,12 +1,12 @@
 # [helpers](/api/submodules/helpers/overview) : isStandalonePWA()
 
-`isStandalonePWA(): boolean`
-
-Check whether current PWA window is running in a standalone mode (not in browser)
-
 ::: warning
 This method is only applicable in a client-side browser environment
 :::
+
+### `isStandalonePWA(): boolean`
+
+Check whether current PWA window is running in a standalone mode (not in browser)
 
 ## Code Example
 

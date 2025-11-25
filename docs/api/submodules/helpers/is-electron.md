@@ -1,12 +1,12 @@
 # [helpers](/api/submodules/helpers/overview) : isElectron()
 
-`isElectron(): boolean`
-
-Check whether current window is running inside Electron
-
 ::: warning
 This method is only applicable in a client-side browser environment
 :::
+
+### `isElectron(): boolean`
+
+Check whether current window is running inside Electron
 
 ## Code Example
 

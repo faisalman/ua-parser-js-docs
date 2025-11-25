@@ -1,6 +1,6 @@
 # [IData](/api/main/overview#methods) : toString()
 
-`toString(): string`
+### `toString(): string`
 
 Returns a string combination of current property from its properties:
 

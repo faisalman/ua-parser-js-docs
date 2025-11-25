@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : setUA()
 
-`setUA(ua: string): UAParser`
+### `setUA(ua: string): UAParser`
 
 Sets a custom user-agent string to be parsed and returns the current `UAParser` instance.
 

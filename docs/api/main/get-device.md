@@ -1,6 +1,6 @@
 # [UAParser](/api/main/overview#methods) : getDevice()
 
-`getDevice(): IDevice`
+### `getDevice(): IDevice`
 
 Returns the device details (type, vendor, model).
 
