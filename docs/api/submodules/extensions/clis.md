@@ -6,6 +6,7 @@ Extends [`browser`](/api/main/get-browser) detection to include tools that allow
 - `ELinks`
 - `HTTPie`
 - `Lynx`
+- `PowerShell`
 - `Wget`
 - ... etc.
 

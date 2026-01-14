@@ -6,6 +6,7 @@ Here is a list of possible values for `browser.name`:
 - [`2345`](./name/2345.md)
 - [`360`](./name/360.md)
 - [`Alipay`](./name/alipay.md)
+- `Atlas`
 - `Amaya`
 - [`Android Browser`](./name/android.md)
 - [`Arora`](./name/arora.md)
@@ -53,6 +54,7 @@ Here is a list of possible values for `browser.name`:
 - [`GSA`](./name/gsa.md)
 - [`Helio`](./name/helio.md)
 - [`HeyTap`](./name/heytap.md)
+- `HiBrowser`
 - [`Huawei Browser`](./name/huawei.md)
 - [`iCab`](./name/icab.md)
 - [`ICE Browser`](./name/ice.md)
@@ -105,6 +107,7 @@ Here is a list of possible values for `browser.name`:
 - [`Opera GX`](./name/opera-gx.md)
 - [`Opera Mini`](./name/opera-mini.md)
 - [`Opera Mobi`](./name/opera-mobi.md)
+- `Opera Neon`
 - [`Opera Tablet`](./name/opera-tablet.md)
 - [`Opera Touch`](./name/opera-touch.md)
 - `Otter`
@@ -137,6 +140,7 @@ Here is a list of possible values for `browser.name`:
 - [`Snapchat`](./name/snapchat.md)
 - [`Sogou Explorer`](./name/sogou-explorer.md)
 - [`Sogou Mobile`](./name/sogou-mobile.md)
+- `Steam`
 - `Surf`
 - [`Swiftfox`](./name/swiftfox.md)
 - [`Tesla`](./name/tesla.md)

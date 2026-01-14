@@ -34,6 +34,7 @@ Bots that <u>**automatically**</u> visit websites and <u>**collect data**</u> ar
 - `meta-externalfetcher` 
 - `MistralAI-User`
 - `MicrosoftPreview`
+- `Nova Act`
 - `Perplexity-User`
 - `Pinterestbot` 
 - `Redditbot` 

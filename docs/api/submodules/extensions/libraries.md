@@ -6,17 +6,25 @@ Extends [`browser`](/api/main/get-browser) detection to include tools used in pr
 - `aiohttp`
 - `Apache-HttpClient`
 - `Axios`
+- `Bun`
+- `Dart`
+- `Deno`
 - `go-http-client`
 - `got`
 - `GuzzleHttp`
+- `hackney`
+- `http.rb`
 - `Java`
 - `Java-http-client`
+- `Jetty`
 - `jsdom`
 - `libwww-perl`
 - `lua-resty-http`
+- `ocaml-cohttp`
 - `Needle`
 - `node-fetch`
 - `node-superagent`
+- `Node.js`
 - `Nutch`
 - `okhttp`
 - `PHP-SOAP`
@@ -25,7 +33,9 @@ Extends [`browser`](/api/main/get-browser) detection to include tools used in pr
 - `python-requests`
 - `python-urllib`
 - `python-urllib3`
+- `rest-client`
 - `Scrapy`
+- `undici`
 - ... etc.
 
 ## Code Example

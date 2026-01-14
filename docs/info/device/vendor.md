@@ -6,6 +6,7 @@ Here is a list of possible values for `device.vendor`:
 - `Advan`
 - `Alcatel`
 - `Amazon`
+- `Anbernic`
 - `Apple`
 - `Archos`
 - `ASUS`
@@ -36,6 +37,7 @@ Here is a list of possible values for `device.vendor`:
 - `Lava`
 - `Lenovo`
 - `LG`
+- `Logitech`
 - `Meizu`
 - `Micromax`
 - `Microsoft`
@@ -69,6 +71,7 @@ Here is a list of possible values for `device.vendor`:
 - `Tecno`
 - `Tesla` 
 - `Ulefone`
+- `Valve`
 - `Vizio`
 - `Vivo`
 - `Vodafone`
