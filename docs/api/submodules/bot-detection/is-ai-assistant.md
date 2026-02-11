@@ -6,10 +6,12 @@ Check whether user-agent is an AI assistant (an AI bot that browses or acts for 
 
 | **Operator**  | **User-Agent**   |
 | ------------- | -------------- |
+| Amazon        | `NovaAct` |
 | Anthropic     | `Claude-User` |
 | Cohere        | `Cohere-AI` |
 | DuckDuckGo    | `DuckAssistBot` |
 | Google        | `Gemini-Deep-Research` |
+| Mistral AI    | `MistralAI-User` |
 | OpenAI        | `ChatGPT-User` |
 | Perplexity    | `Perplexity-User` |
 

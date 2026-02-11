@@ -4,41 +4,15 @@ Import from `'ua-parser-js/helpers'`
 
 ## List of Built-in Helpers:
 
-- [`getDeviceVendor(model: string): string | undefined`](/api/submodules/helpers/get-device-vendor)
-
-Guess for the device vendor based on its model name
-
-- [`isAppleSilicon(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-apple-silicon)
-
-Check whether device has Apple Silicon Mac device properties.
-
-- [`isAIBot(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-ai-bot)
-
-Check whether user-agent is an AI bot
-
-- [`isBot(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-bot)
-
-Check whether user-agent is a bot
-
-- [`isChromeFamily(resultOrUA: IResult | string): boolean`](/api/submodules/helpers/is-chrome-family)
-
-Check whether browser is a Chrome-based browser (using Blink engine)
-
-- [`isElectron(): boolean`](/api/submodules/helpers/is-electron)
-
-Check whether current window is running inside Electron
-
-- [`isFromEU(): boolean`](/api/submodules/helpers/is-from-eu)
-
-Check whether current browser timezone is from an EU country
-
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
 Check whether user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 
-- [`isStandalonePWA(): boolean`](/api/submodules/helpers/is-standalone-pwa)
+### List of Deprecated Methods (since v2.0.7):
+- `getDeviceVendor()`, `isAppleSilicon()` => moved to [`device-detection`](/api/submodules/device-detection/overview)
+- `isAIBot()`, `isBot()` => moved to [`bot-detection`](/api/submodules/bot-detection/overview)
+- `isChromeFamily()`, `isElectron()`, `isFromEU()`, `isStandalonePWA()` => moved to [`browser-detection`](/api/submodules/browser-detection/overview)
 
-Check whether current PWA window is running in a standalone mode (not in browser)
 
 ## Code Example
 

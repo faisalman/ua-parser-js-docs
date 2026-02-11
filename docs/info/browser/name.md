@@ -6,12 +6,14 @@ Here is a list of possible values for `browser.name`:
 - [`2345`](./name/2345.md)
 - [`360`](./name/360.md)
 - [`Alipay`](./name/alipay.md)
+- `Aloha`
 - `Atlas`
 - `Amaya`
 - [`Android Browser`](./name/android.md)
 - [`Arora`](./name/arora.md)
 - [`Avant`](./name/avant.md)
 - [`Avast Secure Browser`](./name/avast.md)
+- `Avira Secure Browser`
 - [`AVG Secure Browser`](./name/avg.md)
 - [`Baidu Browser`](./name/baidu.md)
 - [`Basilisk`](./name/basilisk.md)
@@ -79,9 +81,11 @@ Here is a list of possible values for `browser.name`:
 - [`LBBROWSER`](./name/liebao.md)
 - [`LG Browser`](./name/lg-browser.md)
 - [`LibreWolf`](./name/librewolf.md)
+- `Lighthouse`
 - [`Line`](./name/line.md)
 - [`LinkedIn`](./name/linkedin.md)
 - [`Links`](./name/links.md)
+- `Luakit`
 - [`Lunascape`](./name/lunascape.md)
 - [`Lynx`](./name/lynx.md)
 - [`Maemo Browser`](./name/maemo.md)
@@ -99,6 +103,7 @@ Here is a list of possible values for `browser.name`:
 - [`Netscape`](./name/netscape.md)
 - [`NetSurf`](./name/netsurf.md)
 - [`Nokia Browser`](./name/nokia.md)
+- `Norton Private Browser`
 - [`Obigo`](./name/obigo.md)
 - [`Oculus Browser`](./name/oculus.md)
 - [`OmniWeb`](./name/omniweb.md)

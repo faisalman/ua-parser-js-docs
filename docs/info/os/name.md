@@ -81,6 +81,7 @@ Here is a list of possible values for `os.name`:
 - `Ubuntu`
 - `Unix`
 - `VectorLinux`
+- `Vega OS`
 - `watchOS`
 - `WebOS`
 - `Windows`

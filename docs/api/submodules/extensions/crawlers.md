@@ -17,7 +17,8 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `Applebot`
 - `Applebot-Extended` 
 - `anthropic-ai` 
-- `archive.org_bot` 
+- `archive.org_bot`
+- `atlassian-bot`
 - `Baiduspider` 
 - `Baiduspider-ads` 
 - `Baiduspider-cpro` 
@@ -31,8 +32,10 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `Bytespider` 
 - `CCBot` 
 - `ChatGLM-Spider`
+- `Claude-SearchBot`
 - `Claude-Web`
-- `ClaudeBot` 
+- `ClaudeBot`
+- `Cloudflare-AutoRAG`
 - `coccocbot-web`
 - `coccocbot-image`
 - `cohere-training-data-crawler`
@@ -55,7 +58,8 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `facebookexternalhit` 
 - `facebookcatalog` 
 - `FirecrawlAgent`
-- `Google-InspectionTool` 
+- `Google-InspectionTool`
+- `Google-NotebookLM`
 - `Google-Safety` 
 - `Googlebot` 
 - `Googlebot-Image` 
@@ -93,6 +97,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `SemrushBot-BA`
 - `SemrushBot-SI`
 - `SemrushBot-OCOB`
+- `SemrushBot-SWA`
 - `Seznambot`
 - `Slurp` 
 - `Sogou web spider`

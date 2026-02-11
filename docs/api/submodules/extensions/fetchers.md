@@ -19,7 +19,8 @@ Bots that <u>**automatically**</u> visit websites and <u>**collect data**</u> ar
 - `cohere-ai`
 - `Discordbot` 
 - `DuckAssistBot`
-- `FeedFetcher-Google` 
+- `FeedFetcher-Google`
+- `FlipboardProxy`
 - `Gemini-Deep-Research`
 - `Google-PageRenderer`
 - `Google-Read-Aloud`

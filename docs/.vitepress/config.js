@@ -28,7 +28,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.6',
+                text: '2.0.9',
                 items: [
                     {
                         text: 'Changelog',
@@ -182,32 +182,32 @@ export default defineConfig({
                     },
                     {
                         text: 'bot-detection',
-                        link: '',
+                        link: '/api/submodules/bot-detection/overview',
                         collapsed: false,
                         items: [
-                            { text: 'isAIAssistant()', link: '' },
-                            { text: 'isAICrawler()', link: '/api/submodules/helpers/is-ai-bot' },
-                            { text: 'isBot()', link: '/api/submodules/helpers/is-bot' }
+                            { text: 'isAIAssistant()', link: '/api/submodules/bot-detection/is-ai-assistant' },
+                            { text: 'isAICrawler()', link: '/api/submodules/bot-detection/is-ai-crawler' },
+                            { text: 'isBot()', link: '/api/submodules/bot-detection/is-bot' }
                         ]
                     },
                     {
                         text: 'browser-detection',
-                        link: '',
+                        link: '/api/submodules/browser-detection/overview',
                         collapsed: false,
                         items: [
-                            { text: 'isChromeFamily()', link: '/api/submodules/helpers/is-chrome-family' },
-                            { text: 'isElectron()', link: '/api/submodules/helpers/is-electron' },
-                            { text: 'isFromEU()', link: '/api/submodules/helpers/is-from-eu' },
-                            { text: 'isStandalonePWA()', link: '/api/submodules/helpers/is-standalone-pwa' }
+                            { text: 'isChromeFamily()', link: '/api/submodules/browser-detection/is-chrome-family' },
+                            { text: 'isElectron()', link: '/api/submodules/browser-detection/is-electron' },
+                            { text: 'isFromEU()', link: '/api/submodules/browser-detection/is-from-eu' },
+                            { text: 'isStandalonePWA()', link: '/api/submodules/browser-detection/is-standalone-pwa' }
                         ]
                     },
                     {
                         text: 'device-detection',
-                        link: '',
+                        link: '/api/submodules/device-detection/overview',
                         collapsed: false,
                         items: [
-                            { text: 'isAppleSilicon()', link: '/api/submodules/helpers/is-apple-silicon' },
-                            { text: 'getDeviceVendor()', link: '/api/submodules/helpers/get-device-vendor' },
+                            { text: 'isAppleSilicon()', link: '/api/submodules/device-detection/is-apple-silicon' },
+                            { text: 'getDeviceVendor()', link: '/api/submodules/device-detection/get-device-vendor' },
                         ]
                     }
                 ]
