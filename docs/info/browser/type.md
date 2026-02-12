@@ -10,4 +10,4 @@ Type of the browser
 | `fetcher` | Automated programs (bots) that retrieve specific URLs on-demand to extract metadata or generate previews. | `Twitterbot`, `ChatGPT-User`  |
 | `inapp` | Embedded browsers within mobile apps to open web content without leaving the app, typically with minimal controls. | `Slack` |
 | `mediaplayer`  | Applications that access web content specifically for playing media files. | `VLC`, `Windows Media Player` |
-| `module` | Software components or libraries used within larger applications to fetch or interact with web content. | `Axios`, `Scrapy` |
+| `library` | Software components or libraries used within larger applications to fetch or interact with web content. | `Axios`, `Scrapy` |

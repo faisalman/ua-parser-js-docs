@@ -1,6 +1,12 @@
 # Extensions Submodule
 
-Import these extensions from `'ua-parser-js/extensions'`
+Import these built-in extensions from `'ua-parser-js/extensions'`
+
+::: tip
+
+Follow [this guide](/intro/extending-regex.md#_2-write-your-own-extension) if you want to write your own extension
+
+:::
 
 ## List of Built-in Extensions:
 
@@ -16,6 +22,10 @@ Import these extensions from `'ua-parser-js/extensions'`
 
 ::: tip
 `Bots` is a combination of `CLIs`, `Crawlers`, `Fetchers`, and `Libraries`, merged together while preserving the browser type.
+
+```js
+import { Bots } from 'ua-parser-js/extensions';
+```
 :::
 
 ## Code Example
