@@ -1,8 +1,16 @@
 # How to Detect Windows 11
 
-It's currently impossible to detect Windows 11 only from user-agent data, since most browser vendors are unknowingly cap the Windows version at 10. 
+## Reported Windows Version Is No Longer Reliable
 
-Luckily, there is a workaround by utilizing client hints feature:
+It's currently impossible to detect Windows 11 and later using only user-agent string, since most browser vendors are unknowingly cap the Windows version at 10.
+
+::: info
+Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua-reduction/#token-reference) program, Chromium-based browsers in Windows will always identify itself as: `Windows NT 10.0`.
+:::
+
+## Detecting Windows 11 with UAParser.js
+
+Luckily, there is a kind of workaround by utilizing client hints feature:
 
 ```js
 const uap = new UAParser();
@@ -17,8 +25,8 @@ uap.getOS().withClientHints().then(os => {
 });
 ```
 
-::: warning
-Client hints feature is only supported in Chromium-based browsers (Chrome, Edge, etc.). In other browsers like Firefox and Safari, `withClientHints()` gives no effect to the result, thus it will still be detected as Windows 10.
+::: warning LIMITATION
+Client hints feature is only supported in Chromium-based browsers (Chrome, Edge, etc.). In other browsers like Firefox and Safari, `withClientHints()` gives no effect to the result and still detected as `Windows 10`.
 :::
 
 
