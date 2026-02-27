@@ -11,18 +11,52 @@ These type of clients usually identify themselves through the user-agent string,
 
 UAParser.js helps you parse these user-agent strings into structured data, while also provides functions to distinguish AI-related traffic from regular browsers and other types of bots.
 
-## Code Example
 
-```js
-import { isAICrawler } from 'ua-parser-js/bot-detection';
+## Code Examples
 
-const ua = req.headers['user-agent']; // get user-agent header
+```js:line-numbers
+import { UAParser } from 'ua-parser-js';
+import { Bots } from 'ua-parser-js/extensions';
+import { isAIAssistant, isAICrawler, isBot } from 'ua-parser-js/bot-detection';
 
-if (isAICrawler(ua)) {
-    console.log('Hello, AI Crawler!');
+const result = UAParser(Bots, req.headers);
+
+if (isBot(result)) {
+    if (isAICrawler(result)) {
+        console.log('You are an AI Crawler Bot!');
+    } else if (isAIAssistant(result)) {
+        console.log('You are an AI Assistant Bot!');
+    } else {
+        console.log('You are a Bot!');
+    }
+} else {
+    console.log('You might be a human or an unknown Bot!');
 }
 ```
-```js
+
+```js:line-numbers
+import { isAIAssistant, isAICrawler, isBot } from 'ua-parser-js/bot-detection';
+
+const ua_firefox = 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0';
+const ua_ahrefsBot = 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)';
+const ua_searchGPT = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot';
+const ua_userGPT = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot';
+
+console.log(isBot(ua_firefox)); // false
+
+console.log(isBot(ua_ahrefsBot)); // true
+console.log(isAICrawler(ua_ahrefsBot)); // false
+
+console.log(isBot(ua_searchGPT)); // true
+console.log(isAICrawler(ua_searchGPT)); // true
+console.log(isAIAssistant(ua_searchGPT)); // false
+
+console.log(isBot(ua_userGPT)); // true
+console.log(isAICrawler(ua_userGPT)); // false
+console.log(isAIAssistant(ua_userGPT)); // true
+```
+
+```js:line-numbers
 import { UAParser } from 'ua-parser-js';
 import { Crawlers } from 'ua-parser-js/extensions';
 
@@ -37,6 +71,7 @@ console.log(browser);
 
 References:
 
+- [The rise of the AI crawler 🡥](https://vercel.com/blog/the-rise-of-the-ai-crawler) *—Vercel*
 - ['bot-detection' submodule](/api/submodules/bot-detection/overview)
 - ['extensions' submodule](/api/submodules/extensions/overview)
 - [isAIAssistant()](/api/submodules/bot-detection/is-ai-assistant)

@@ -1,6 +1,6 @@
 # [bot-detection](/api/submodules/bot-detection/overview) : isAICrawler()
 
-### `isAICrawler(ua: string): boolean`
+### `isAICrawler(ua: string | IResult): boolean`
 
 Check whether user-agent is an AI crawler (an AI bot that browses websites by itself to collect data).
 

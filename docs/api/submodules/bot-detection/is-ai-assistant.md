@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : isAIAssistant()
 
-### `isAIAssistant(ua: string): boolean`
+### `isAIAssistant(ua: string | IResult): boolean`
 
 Check whether user-agent is an AI assistant (an AI bot that browses or acts for a user).
 

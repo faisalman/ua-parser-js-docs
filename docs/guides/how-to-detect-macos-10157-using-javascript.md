@@ -1,6 +1,6 @@
 # How to Detect macOS > 10.15.7
 
-## Reported macOS Version Is No Longer Reliable
+#### Reported macOS Version Is No Longer Reliable
 
 It's currently impossible to detect macOS versions newer than `10.15` using only the user-agent string. This issue is primarily caused by macOS version being capped at `10.15` on all major browsers:
 

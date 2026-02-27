@@ -1,20 +1,32 @@
 # How to Identify The Real Device of `(Linux; Android 10; K)`
 
-Since Chrome 110, Google changes it's user-agent format into a fixed value. That is, instead of seeing something like `Android 13; Pixel 7` the default value will always be `Android 10; K`. Therefore it's currently impossible to identify the real Android version and device model only from user-agent data. Luckily, there is a kind of workaround by utilizing client hints feature:
+#### Reported Android Device Information Is No Longer Reliable
+
+Since Chrome 110, Google changes it's user-agent format into a fixed value. That is, instead of reporting real device and OS information such as `Android 13; Pixel 7`, Chrome now reports a generic value `Android 10; K`. As a result, it's no longer possible to determine the real Android version and device model from user-agent string alone. 
+
+## Detecting the Real Android Version and Device with UAParser.js
+
+Luckily, there is a kind of workaround by utilizing client hints feature in UAParser.js:
 
 ```js
-const uap = new UAParser(); // client-side
-// const uap = new UAParser(req.headers); // server-side
+import { UAParser } from 'ua-parser-js';
 
-let { device, os } = uap.getResult();
+// Client-side:
+const uap = new UAParser();
+
+// Server-side:
+// const uap = new UAParser(req.headers);
+
+const { device, os } = uap.getResult();
+
 console.log('Based on user agent: ', os, device); 
 // { name: "Android", version: "10" }
-// { type: "mobile", model: "K" }
+// { type: "mobile", model: "K", vendor: undefined }
 
 uap.getResult().withClientHints().then(res => {
     console.log('Based on client hints', res.os, res.device); 
     // { name: "Android", version: "13.0.0" }
-    // { type: "mobile", model: "Pixel 7" }
+    // { type: "mobile", model: "Pixel 7", vendor: 'Google' }
 });
 ```
 

@@ -1,6 +1,6 @@
 # How to Detect Windows 11
 
-## Reported Windows Version Is No Longer Reliable
+#### Reported Windows Version Is No Longer Reliable
 
 It's currently impossible to detect Windows 11 and later using only user-agent string, since most browser vendors are unknowingly cap the Windows version at 10.
 
