@@ -37,6 +37,10 @@ export default defineConfig({
                     {
                         text: 'Contributing',
                         link: 'https://github.com/faisalman/ua-parser-js#development'
+                    },
+                    {
+                        text: 'v0.7.x / v1.x',
+                        link: '/v1'
                     }
                 ]
             }
@@ -70,7 +74,7 @@ export default defineConfig({
                 items: [
                     {
                         text: 'UAParser',
-                        collapsed: false,
+                        collapsed: true,
                         link: '/api/main/overview',
                         items: [
                             { text: 'Overview', link: '/api/main/overview' },
@@ -86,7 +90,7 @@ export default defineConfig({
                     },
                     {
                         text: 'IData',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'is()', link: '/api/main/idata/is' },
                             { text: 'toString()', link: '/api/main/idata/to-string' },
@@ -144,7 +148,7 @@ export default defineConfig({
                     { 
                         text: 'enums',
                         link: '/api/submodules/enums/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'BrowserName', link: '/api/submodules/enums/browser-name' },
                             { text: 'BrowserType', link: '/api/submodules/enums/browser-type' },
@@ -159,7 +163,7 @@ export default defineConfig({
                     {
                         text: 'extensions', 
                         link: '/api/submodules/extensions/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'CLIs', link: '/api/submodules/extensions/clis' },
                             { text: 'Crawlers', link: '/api/submodules/extensions/crawlers' },
@@ -175,7 +179,7 @@ export default defineConfig({
                     {
                         text: 'helpers',
                         link: '/api/submodules/helpers/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'isFrozenUA()', link: '/api/submodules/helpers/is-frozen-ua' }
                         ]
@@ -183,7 +187,7 @@ export default defineConfig({
                     {
                         text: 'bot-detection',
                         link: '/api/submodules/bot-detection/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'isAIAssistant()', link: '/api/submodules/bot-detection/is-ai-assistant' },
                             { text: 'isAICrawler()', link: '/api/submodules/bot-detection/is-ai-crawler' },
@@ -193,7 +197,7 @@ export default defineConfig({
                     {
                         text: 'browser-detection',
                         link: '/api/submodules/browser-detection/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'isChromeFamily()', link: '/api/submodules/browser-detection/is-chrome-family' },
                             { text: 'isElectron()', link: '/api/submodules/browser-detection/is-electron' },
@@ -204,7 +208,7 @@ export default defineConfig({
                     {
                         text: 'device-detection',
                         link: '/api/submodules/device-detection/overview',
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             { text: 'isAppleSilicon()', link: '/api/submodules/device-detection/is-apple-silicon' },
                             { text: 'getDeviceVendor()', link: '/api/submodules/device-detection/get-device-vendor' },
@@ -222,6 +226,7 @@ export default defineConfig({
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
                     { text: 'How to Identify Android 10 K', link: '/guides/how-to-identify-android-k-device' },
                     { text: 'How to Track AI Visit', link: '/guides/how-to-track-ai-visit-using-javascript' },
+                    { text: 'v0.7 / v1 API References', link: '/v1' },
                     { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
             }

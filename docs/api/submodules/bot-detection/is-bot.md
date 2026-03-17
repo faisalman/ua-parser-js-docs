@@ -9,13 +9,19 @@ Check whether user-agent is a bot (an automated program that performs task witho
 :::code-group
 
 ```js [example.js]
+import { UAParser } from 'ua-parser-js';
 import { isBot } from 'ua-parser-js/bot-detection';
 
 const ahref = 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)';
 const firefox = 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0';
 
+// string
 console.log(isBot(ahref)); // true
 console.log(isBot(firefox)); // false
+
+// IResult
+const result = UAParser(ahref);
+console.log(isBot(result)); // true
 ```
 
 ```js [example-server.js]

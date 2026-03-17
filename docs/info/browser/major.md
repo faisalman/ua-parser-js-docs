@@ -1,9 +1,11 @@
 # [`IBrowser`](/api/main/get-browser.md) : major
 
-Major version number of the browser (following [semver🡥](https://semver.org/)), derived from the first number in [`browser.version`](/info/browser/version).
+### `major?: string`
 
-::: tip
-- If the first token in `browser.version` is a number, then `major` is the first number (e.g `5.1.21214` would be `5`)
-- If the first token in `browser.version` is not a number, then `major` is `""` (an empty string)
-- If the browser has no `browser.version`, then `major` is `undefined`
-:::
+Major version number of the browser (following [semver🡥](https://semver.org/)), derived from the [`browser.version`](/info/browser/version) value following these rules:
+
+| `browser.version` value | `browser.major` value | Example |
+| - | - | - |
+| Starts with a number            | First number of the version | `5.1.21214` => `5` |
+| Starts with a non-numeric value | `""` (empty string)         | `X.Y.Z` => `""` |
+| `undefined`                     | `undefined`                 | - |

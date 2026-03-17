@@ -1,63 +1,177 @@
-# What's New in UAParser.js v2
+# Migrating UAParser.js from v1 to v2
 
-## Migrating from v1 to v2
+## What's Breaking
 
-### What's Breaking:
+### Licensing Changes
 
-- **Licensing Changes:**
-  - UAParser.js is now licensed under AGPLv3 for open-source use, with PRO Licenses available for commercial/proprietary use
+- UAParser.js v2 is licensed under AGPLv3 for open-source use.
+- PRO Licenses also available for proprietary-commercial use.
 
-- **Browser Detection on Mobile Devices:**
-    - `"Chrome"` => `"Mobile Chrome"`
-    - `"Firefox"` => `"Mobile Firefox"`
+### Detection Changes
 
-- **OS Detection:**
-    - `"Mac OS"` => `"macOS"`
-    - `"Chromium OS"` => `"Chrome OS"`
+- Some browser names now explicitly indicate mobile variants:
+  - `Chrome` browser in `mobile` device => `Mobile Chrome` browser
+  - `Firefox` browser in `mobile` device => `Mobile Firefox` browser
 
-### What's New:
+- Some operating system names have been normalized:
+  - `Mac OS` => `macOS`
+  - `Chromium OS` => `Chrome OS`
 
-- **Support for ES Modules & TypeScript:**
-  - Import directly as an ES module with TypeScript support: `import { UAParser } from 'ua-parser-js'`
+## What's New
 
-- **Support for Custom/Predefined Extensions:**
-  - Pass custom regexes or predefined extensions as a list to `UAParser()`
+### ES Modules & TypeScript Support
 
-- **Support for CLI Parsing:**
-  - Parse a user-agent directly from the command line using `npx ua-parser-js "[User-Agent]"`
+UAParser.js now provides first-class ESM and TypeScript support:
+  
+```ts
+import { UAParser } from 'ua-parser-js';
+```
 
-- **Enhanced Detection with Client Hints:**
-  - `withClientHints()`: Improves detection accuracy by leveraging client hints
+### Custom & Predefined Extensions
 
-- **Enhanced Detection with Feature Detection:**
-  - `withFeatureCheck()`: Refines detection results using feature detection
+Extend detection rules by passing custom regex definitions or use our predefined extension packs:
+  
+```js
+import { UAParser } from 'ua-parser-js';
+import { Crawlers, Fetchers, Libraries } from 'ua-parser-js/extensions';
 
-- **Simple Comparison for Detection Results:**
-  - `is()`: Enables easy comparison checks against the detection result
+const parser = new UAParser();
+parser.useExtension([Crawlers, Fetchers, Libraries]);
+```
 
-- **Detailed Result Output:**
-  - `toString()`: Returns the detection result in form of a full-name string
+### Command Line Support
 
-- **New Device Type:**
-  - Added `xr` to identify AR/VR devices
+Parse a user-agent directly from the command line, or process multiple user-agent strings from a file:
 
-- **New Browser Property:**
-  - Added `browser.type` to identify additional browser types:
-    - `crawler`, `cli`, `email`, `fetcher`, `inapp`, `library`, `mediaplayer`
+```sh
+# direct parsing 
+npx ua-parser-js "Your User-Agent"
 
-- **New Submodules:**
-  - **`'ua-parser-js/enums'`**: Provides constants for these specific properties:
-    - `browser.name`, `browser.type`, `cpu.architecture`, `device.type`, `device.vendor`, `engine.name`, `os.name`
+# batch processing
+npx ua-parser-js --input-file log.txt --output-file log-result.json
+```
 
-  - **`'ua-parser-js/extensions'`**: Predefined extensions for various use cases:
-    - `Bots`, `Crawlers`, `CLIs`, `Emails`, `ExtraDevices`, `Fetchers`, `InApps`, `Libraries`, `Mediaplayers`
+### Client Hints Support
 
-  - **`'ua-parser-js/helpers'`**: Provides utility methods to extend detection functionality:
-    - `getDeviceVendor()`: Guesses the device vendor based on its model name
-    - `isAppleSilicon()`: Detects Apple Silicon device properties
-    - `isBot()`: Checks if the browser is a bot
-    - `isChromeFamily()`: Checks if the browser is Chrome-based (uses Blink engine) — e.g., New Opera, New Edge, Vivaldi, Brave, Arc, etc.
-    - `isElectron()`: Detects if current window is running within Electron
-    - `isFromEU()`: Detects if current browser's timezone is from an EU country
-    - `isFrozenUA()`: Checks if the user-agent matches a frozen/reduced user-agent pattern
-    - `isStandalonePWA()`: Detects if current window is a standalone PWA
+Improves detection accuracy by using user-agent client hints when available:
+
+```js
+const os = await parser.getOS().withClientHints();
+```
+
+### Feature Detection Enhancements
+
+Refines detection results by detecting available features in the runtime environment:
+
+```js
+const device = await parser.getDevice().withFeatureCheck();
+```
+
+### Result Comparison Helper
+
+Provides a simple way to compare parsed result:
+
+```js
+import { DeviceType } from 'ua-parser-js/enums';
+...
+if (parser.getEngine().is(EngineName.BLINK)) {
+  // Chrome-based browser
+}
+```
+
+### Support for Full-String Output
+
+Returns a formatted string representing the parsed result:
+
+```js
+parser.getBrowser().toString();
+// Firefox 148.0
+```
+
+### Identify AR/VR Devices
+
+Added support to detect XR (AR/VR) devices:
+
+```js
+import { DeviceType } from 'ua-parser-js/enums';
+...
+if (parser.getDevice().type == DeviceType.XR) {
+  // XR device
+}
+```
+
+### Identify User-Agent Type
+
+Browser detection also provides the type of user-agent to distinguish standard browsers from other environments such as bots, CLI tools, or embedded apps:
+
+```js
+parser.getBrowser().type;
+// crawler, cli, email, fetcher, inapp, library, mediaplayer, or undefined
+```
+
+### New Submodules
+
+#### `ua-parser-js/enums`
+
+Provides standardized constants for UAParser.js properties:
+
+```csv
+BrowserName, BrowserType, CPUArch, DeviceType, DeviceVendor, EngineName, 
+OSName, Extension
+```
+
+#### `ua-parser-js/extensions`
+
+Predefined extension packs to expand detection capabilities:
+
+```csv
+Bots, Crawlers, CLIs, Emails, ExtraDevices, Fetchers, InApps, Libraries, 
+Mediaplayers, Vehicles
+```
+
+#### `ua-parser-js/helpers`
+
+Provides utility helpers for advanced detection logic:
+  
+```js
+isFrozenUA(); // Checks if the user-agent matches a frozen/reduced user-agent pattern
+```
+
+#### `ua-parser-js/bot-detection`
+
+Provides utility methods for identifying automated traffic:
+
+```js
+isAIAssistant();  // Checks if the browser is an AI assistant
+isAICrawler();    // Checks if the browser is an AI crawler
+isBot();          // Checks if the browser is a bot
+```
+
+#### `ua-parser-js/browser-detection`
+
+Provides utility methods to enhance browser identification:
+
+```js
+isChromeFamily(); // Checks if the browser is Chrome-based (uses Blink engine) 
+                  // e.g: New Opera, New Edge, Vivaldi, Brave, Arc, etc.
+isElectron();     // Detects if current window is running within Electron
+isFromEU();       // Detects if current browser's timezone is from an EU country
+isStandalonePWA();// Detects if current window is a standalone PWA
+```
+
+#### `ua-parser-js/device-detection`
+
+Provides utility methods to enhance device identification:
+
+```js
+getDeviceVendor();  // Guess the device vendor based on its model name
+isAppleSilicon();   // Detects Apple Silicon device properties
+```
+
+## How to Upgrade
+
+Install the latest version of UAParser.js from npm:
+
+```sh
+npm install ua-parser-js@latest
+```

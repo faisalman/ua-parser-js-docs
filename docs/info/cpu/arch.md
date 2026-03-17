@@ -1,6 +1,8 @@
 # [`ICPU`](/api/main/get-cpu.md) : architecture
 
-Here is a list of possible values for `cpu.architecture`:
+### `architecture?: CPUArchs`
+
+Architecture of the CPU.
 
 | Value | Description               |
 |----------------------|-------------------------------|

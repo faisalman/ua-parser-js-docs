@@ -23,11 +23,17 @@ See list of all possible values for `Fetchers` (including non-AI assistants) [he
 
 
 ```js [example.js]
+import { UAParser } from 'ua-parser-js';
 import { isAIAssistant } from 'ua-parser-js/bot-detection';
 
 const gpt_bot = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)';
 const gpt_user = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot';
 
+// string
 console.log(isAIAssistant(gpt_bot)); // false
 console.log(isAIAssistant(gpt_user)); // true
+
+// IResult
+const result = UAParser(gpt_user);
+console.log(isAIAssistant(result)); // true
 ```

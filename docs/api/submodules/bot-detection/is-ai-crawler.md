@@ -52,15 +52,21 @@ See list of all possible values for `Crawler` (including non-AI crawlers) [here]
 :::code-group
 
 ```js [example.js]
+import { UAParser } from 'ua-parser-js';
 import { isAICrawler } from 'ua-parser-js/bot-detection';
 
 const ahref = 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)';
 const firefox = 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0';
 const searchGPT = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; OAI-SearchBot/1.0; +https://openai.com/searchbot';
 
+// string
 console.log(isAICrawler(ahref)); // false
 console.log(isAICrawler(firefox)); // false
 console.log(isAICrawler(searchGPT)); // true
+
+// IResult
+const result = UAParser(searchGPT);
+console.log(isAICrawler(result)); // true
 ```
 
 ```js [example-server.js]

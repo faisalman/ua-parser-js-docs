@@ -1,6 +1,8 @@
 # [`IBrowser`](/api/main/get-browser.md) : name
 
-Here is a list of possible values for `browser.name`:
+### `name?: string`
+
+Name of the browser.
 
 - `115`
 - [`2345`](./name/2345.md)

@@ -1,6 +1,8 @@
 # [`IDevice`](/api/main/get-device.md) : vendor
 
-Here is a list of possible values for `device.vendor`:
+### `vendor?: string`
+
+Vendor name of the device.
 
 - `Acer`
 - `Advan`

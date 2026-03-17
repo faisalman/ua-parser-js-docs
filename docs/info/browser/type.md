@@ -1,8 +1,10 @@
 # [`IBrowser`](/api/main/get-browser.md) : type
 
-Type of the browser
+### `type?: BrowserTypes`
 
-| `browser.type` | Description | Examples |
+Type of the browser.
+
+| Value | Description | Examples |
 |-|-|-|
 | `cli` | Text-based web browsers operated through the command line, used for browsing websites without a graphical interface. |`cURL`, `Lynx` |
 | `crawler`  | Automated programs (bots) that systematically browse the web to index websites for search engines. | `Googlebot` |
