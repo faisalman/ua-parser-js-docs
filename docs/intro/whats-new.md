@@ -72,7 +72,7 @@ const device = await parser.getDevice().withFeatureCheck();
 Provides a simple way to compare parsed result:
 
 ```js
-import { DeviceType } from 'ua-parser-js/enums';
+import { EngineName } from 'ua-parser-js/enums';
 ...
 if (parser.getEngine().is(EngineName.BLINK)) {
   // Chrome-based browser
