@@ -7,3 +7,4 @@ Choose your ~~fighter~~ development setup:
 - [Using ESM / TypeScript](/intro/quick-start/using-es-modules-typescript)
 - [Using jQuery](/intro/quick-start/using-jquery)
 - [Using Command Line](/intro/quick-start/using-cli)
+- [Using Docker](/intro/quick-start/using-docker)
