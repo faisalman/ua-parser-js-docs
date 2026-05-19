@@ -20,11 +20,13 @@ Bots that <u>**automatically**</u> visit websites and <u>**collect data**</u> ar
 - `Discordbot` 
 - `DuckAssistBot`
 - `FeedFetcher-Google`
+- `Feedly`
 - `FlipboardProxy`
 - `Gemini-Deep-Research`
 - `Google-PageRenderer`
 - `Google-Read-Aloud`
 - `Google-Site-Verification`  
+- `GoogleDocs`
 - `GoogleImageProxy` 
 - `GoogleProducer` 
 - `HubSpot Page Fetcher`
@@ -50,12 +52,14 @@ Bots that <u>**automatically**</u> visit websites and <u>**collect data**</u> ar
 - `Telegrambot` 
 - `TikTokSpider`
 - `Twitterbot` 
+- `UptimeBot`
 - `Uptimerobot` 
 - `Vercelbot` 
 - `vercel-favicon-bot`
 - `vercel-screenshot-bot`
 - `vercelflags`
 - `verceltracing`
+- `virustotal`
 - `WhatsApp` 
 - `YaDirectFetcher` 
 - `YandexCalendar` 

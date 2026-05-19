@@ -28,7 +28,7 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
             {
-                text: '2.0.9',
+                text: '2.0.10',
                 items: [
                     {
                         text: 'Changelog',
@@ -86,7 +86,8 @@ export default defineConfig({
                             { text: 'getOS()', link: '/api/main/get-os' },
                             { text: 'getResult()', link: '/api/main/get-result' },
                             { text: 'getUA()', link: '/api/main/get-ua' },
-                            { text: 'setUA()', link: '/api/main/set-ua' }
+                            { text: 'setUA()', link: '/api/main/set-ua' },
+                            { text: 'useExtension()', link: '/api/main/use-extension' }
                         ]
                     },
                     {

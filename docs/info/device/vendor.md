@@ -15,8 +15,11 @@ Vendor name of the device.
 - `AT&T`
 - `BenQ`
 - `BlackBerry`
+- `Blackview`
 - `BLU`
 - `Cat`
+- `Coolpad`
+- `CUBOT`
 - `Dell`
 - `Energizer`
 - `Essential`
@@ -68,6 +71,7 @@ Vendor name of the device.
 - `Smartfren`
 - `Sony`
 - `Sprint`
+- `T-Mobile`
 - `TCL`
 - `TechniSAT`
 - `Tecno`

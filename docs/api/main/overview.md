@@ -98,6 +98,10 @@ Returns the user-agent string of current instance.
  
 Sets a custom user-agent string to be parsed.
 
+#### [`useExtension(extensions: UAParserExt): UAParser`](/api/main/use-extension)
+
+Insert custom regexes to extend detection rules.
+
 ## Fields
 
 - `static readonly VERSION: string`

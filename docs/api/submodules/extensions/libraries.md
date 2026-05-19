@@ -28,6 +28,7 @@ Extends [`browser`](/api/main/get-browser) detection to include tools used in pr
 - `Nutch`
 - `okhttp`
 - `PHP-SOAP`
+- `phpcrawl`
 - `PostmanRuntime`
 - `python-httpx`
 - `python-requests`

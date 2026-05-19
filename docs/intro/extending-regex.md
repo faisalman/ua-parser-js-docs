@@ -21,15 +21,32 @@ const browser = new UAParser(Emails)
 // Output the parsed browser information
 console.log(browser.toString()); // Thunderbird 78.13.0
 ```
-You can also create a parser with multiple extensions:
 
 ```js [example-extensions-submodule-2.js]
+import { UAParser } from 'ua-parser-js';
+import { CLIs } from 'ua-parser-js/extensions';
+
+const uap = new UAParser();
+uap.setUA('Mozilla/5.0 (Windows NT; Windows NT 10.0; de-DE) WindowsPowerShell/5.1.19041.5737');
+
+// before useExtension()
+console.log(uap.getBrowser().name); // undefined           
+
+// after useExtension()
+uap.useExtension(CLIs);
+console.log(uap.getBrowser().name); // PowerShell
+```
+
+You can also create a parser with multiple extensions:
+
+```js [example-extensions-submodule-3.js]
 import { UAParser } from 'ua-parser-js';
 import { Emails, Crawlers, Fetchers } from 'ua-parser-js/extensions';
 
 // Multiple extensions can be passed as an array
 const extendedParser = new UAParser([Emails, Crawlers, Fetchers]);
 ```
+
 
 ## 2. Write Your Own Extension
 

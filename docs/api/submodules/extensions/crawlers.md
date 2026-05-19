@@ -19,6 +19,10 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `anthropic-ai` 
 - `archive.org_bot`
 - `atlassian-bot`
+- `Audisto Crawler`
+- `AwarioBot`
+- `AwarioRssBot`
+- `AwarioSmartBot`
 - `Baiduspider` 
 - `Baiduspider-ads` 
 - `Baiduspider-cpro` 
@@ -29,6 +33,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `Baiduspider-video` 
 - `bingbot` 
 - `Bravebot`
+- `BrightEdge Crawler`
 - `Bytespider` 
 - `CCBot` 
 - `ChatGLM-Spider`
@@ -69,6 +74,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `GoogleOther-Image` 
 - `GoogleOther-Video` 
 - `GPTBot`
+- `HubSpot Crawler`
 - `HuggingFace-Bot`
 - `ia_archiver` 
 - `iAskBot`
@@ -78,7 +84,9 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `Linespider` 
 - `LinkedInBot` 
 - `magpie-crawler`
-- `meta-externalagent` 
+- `meta-externalagent`
+- `Meta-ExternalAds`
+- `Meta-WebIndexer` 
 - `Omgilibot` 
 - `MJ12Bot` 
 - `MojeekBot` 
@@ -89,6 +97,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `PanguBot`
 - `PerplexityBot`
 - `PetalBot` 
+- `proximic`
 - `Qwantbot`
 - `Replicate-Bot`
 - `RunPod-Bot`
@@ -112,6 +121,7 @@ Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> ar
 - `Webzio-Extended` 
 - `xAI-Bot`
 - `Y!J-BRW`
+- `yacybot`
 - `Yahoo! Slurp`
 - `YandexBot` 
 - `Yeti` 
