@@ -1,8 +1,9 @@
 # [enums](/api/submodules/enums/overview) : EngineName
 
 ```csv:no-line-numbers
-AMAYA, ARKWEB, BLINK, EDGEHTML, FLOW, GECKO, GOANNA, ICAB, KHTML, LIBWEB, 
-LINKS, LYNX, NETFRONT, NETSURF, PRESTO, SERVO, TASMAN, TRIDENT, W3M, WEBKIT
+AMAYA, ARKWEB, BLINK, DILLO, EDGEHTML, FLOW, GECKO, GOANNA, ICAB, KHTML, 
+LIBWEB, LINKS, LYNX, NETFRONT, NETSURF, PRESTO, SERVO, TASMAN, TRIDENT, 
+W3M, WEBKIT
 ```
 ::: info
 See list of possible engine name [here](/info/engine/name).

@@ -40,6 +40,7 @@ Name of the operating system.
 - `Joli`
 - `KaiOS`
 - `Knoppix`
+- `Kubuntu`
 - `Linpus`
 - `Linspire`
 - `Linux`
@@ -81,6 +82,7 @@ Name of the operating system.
 - `Symbian`
 - `Tizen`
 - `Ubuntu`
+- `Ubuntu Touch`
 - `Unix`
 - `VectorLinux`
 - `Vega OS`
