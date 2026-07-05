@@ -1,6 +1,6 @@
 # [helpers](/api/submodules/helpers/overview) : isAIBot()
 
-### `isAIBot(ua: string): boolean`
+### `isAIBot(ua: string | IResult): boolean`
 
 Check whether user-agent is an AI crawler (an AI bot that browses websites by itself to collect data).
 
@@ -10,27 +10,29 @@ Check whether user-agent is an AI crawler (an AI bot that browses websites by it
 | Amazon        | `Amazonbot`                                                                                         |
 | Anthropic     | `anthropic-ai`, `ClaudeBot`, `Claude-SearchBot`, `Claude-Web`                                       |
 | Apple         | `Applebot`, `Applebot-Extended`                                                                     |
+| Atlassian     | `atlassian-bot`                                                                                     |
 | Brave         | `Bravebot`                                                                                          |
 | ByteDance     | `Bytespider`, `TikTokSpider`                                                                        |
+| Cloudflare    | `Cloudflare-AutoRAG`                                                                                |
 | Cohere        | `cohere-training-data-crawler`                                                                      |
 | Common Crawl  | `CCBot`                                                                                             |
 | Coveo         | `Coveobot`                                                                                          |
 | DataForSEO    | `DataForSeoBot`                                                                                     |
 | DeepSeek      | `DeepSeekBot`                                                                                       |
 | Diffbot       | `Diffbot`                                                                                           |
-| Google        | `Google-Extended`, `GoogleOther`, `GoogleOther-Image`, `GoogleOther-Video`, `Google-CloudVertexBot` |
+| Google        | `Google-Extended`, `Google-NotebookLM`, `GoogleOther`, `GoogleOther-Image`, `GoogleOther-Video`, `Google-CloudVertexBot` |
 | Hive AI       | `ImagesiftBot`                                                                                      |
 | Huawei        | `PanguBot`, `PetalBot`                                                                              |
 | Hugging Face  | `HuggingFace-Bot`                                                                                   |
 | Kangaroo      | `Kangaroo Bot`                                                                                      |
 | Mendable.ai   | `FirecrawlAgent`                                                                                    |
-| Meta          | `FacebookBot`, `meta-externalagent`                                                                 |
+| Meta          | `FacebookBot`, `meta-externalagent`, `meta-webindexer`                                              |
 | OpenAI        | `GPTBot`, `OAI-SearchBot`                                                                           |
 | Perplexity    | `PerplexityBot`                                                                                     |
 | Replicate     | `Replicate-Bot`                                                                                     |
 | RunPod        | `RunPod-Bot`                                                                                        |
 | SB Intuitions | `SBIntuitionsBot`                                                                                   |
-| SEMrush       | `SemrushBot-OCOB`                                                                                   |
+| SEMrush       | `SemrushBot-OCOB`, `SemrushBot-SWA`                                                                 |
 | Timpi         | `Timpibot`                                                                                          |
 | Together AI   | `Together-Bot`                                                                                      |
 | Hunter.io     | `VelenPublicWebCrawler`                                                                             |

@@ -26,7 +26,7 @@ Check whether user-agent is an AI crawler (an AI bot that browses websites by it
 | Hugging Face  | `HuggingFace-Bot`                                                                                   |
 | Kangaroo      | `Kangaroo Bot`                                                                                      |
 | Mendable.ai   | `FirecrawlAgent`                                                                                    |
-| Meta          | `FacebookBot`, `meta-externalagent`                                                                 |
+| Meta          | `FacebookBot`, `meta-externalagent`, `meta-webindexer`                                              |
 | OpenAI        | `GPTBot`, `OAI-SearchBot`                                                                           |
 | Perplexity    | `PerplexityBot`                                                                                     |
 | Replicate     | `Replicate-Bot`                                                                                     |
