@@ -259,6 +259,10 @@ export default defineConfig({
                 link: 'https://uaparser.dev'
             },
         ],
+        carbonAds: {
+            code: 'CW7I62JY',
+            placement: 'docsuaparserdev'
+        },
         footer: {
             message: 'UAParser.js v2 is licensed under AGPLv3 or PRO licenses.',
             copyright: 'Copyright (c) 2012-2024 Faisal Salman.'
