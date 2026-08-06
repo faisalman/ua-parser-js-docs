@@ -20,7 +20,7 @@ After your purchase is complete, you'll receive a license confirming your author
 
 ::: tip
 
-If you experience any issues or need a custom licensing solution, contact us: [support@uaparser.dev](support@uaparser.dev)
+If you experience any issues or need a custom licensing solution, contact us: [support@uaparser.dev](mailto:support@uaparser.dev)
 
 :::
 
