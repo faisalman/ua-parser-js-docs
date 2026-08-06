@@ -51,7 +51,6 @@ export default defineConfig({
                 text: 'Introduction',
                 items: [
                     { text: 'Why UAParser.js', link: '/intro/why-ua-parser-js' },
-                    { text: 'Download', link: '/intro/download-and-install' },
                     {
                         text: 'Quickstarts',
                         link: '/intro/quick-start/quick-start',
@@ -67,7 +66,8 @@ export default defineConfig({
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
                     { text: 'Migrating from v1 to v2', link: '/intro/whats-new' },
-                    { text: 'Changelog', link: '/intro/changelog' }
+                    { text: 'Changelog', link: '/intro/changelog' },
+                    { text: 'Upgrade to UAParser.js PRO', link: '/intro/upgrade-to-pro' }
                 ]
             },
             {

@@ -12,9 +12,6 @@ hero:
     - text: Introduction
       link: /intro/why-ua-parser-js
     - theme: alt
-      text: Download
-      link: /intro/download-and-install
-    - theme: alt
       text: Quickstart
       link: /intro/quick-start/quick-start
     - theme: alt

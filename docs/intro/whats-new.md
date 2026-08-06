@@ -4,8 +4,7 @@
 
 ### Licensing Changes
 
-- UAParser.js v2 is licensed under AGPLv3 for open-source use.
-- PRO Licenses also available for proprietary-commercial use.
+UAParser.js v2 is licensed under AGPLv3 for open-source use, with PRO Licenses (Personal, Business, Enterprise) also available for proprietary-commercial use.
 
 ### Detection Changes
 
