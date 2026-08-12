@@ -62,12 +62,14 @@ export default defineConfig({
                             { text: 'Using jQuery', link: '/intro/quick-start/using-jquery' },
                             { text: 'Using Command Line', link: '/intro/quick-start/using-cli' },
                             { text: 'Using Docker', link: '/intro/quick-start/using-docker' },
+                            { text: 'Using REST API', link: '/intro/rest-api' }
                         ]
                     },
                     { text: 'Extending Regex', link: '/intro/extending-regex' },
                     { text: 'Migrating from v1 to v2', link: '/intro/whats-new' },
                     { text: 'Changelog', link: '/intro/changelog' },
-                    { text: 'Upgrade to UAParser.js PRO', link: '/intro/upgrade-to-pro' }
+                    { text: 'Upgrade to UAParser.js PRO', link: '/intro/upgrade-to-pro' },
+                    { text: 'New: Using REST API', link: '/intro/rest-api' }
                 ]
             },
             {

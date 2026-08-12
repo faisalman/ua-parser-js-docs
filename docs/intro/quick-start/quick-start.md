@@ -8,3 +8,4 @@ Choose your ~~fighter~~ development setup:
 - [Using jQuery](/intro/quick-start/using-jquery)
 - [Using Command Line](/intro/quick-start/using-cli)
 - [Using Docker](/intro/quick-start/using-docker)
+- [Using REST API](/intro/rest-api)
