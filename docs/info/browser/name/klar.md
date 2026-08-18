@@ -1,6 +1,8 @@
-# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
----
+[`← Browser Name`](../name.md)
+
 # Klar
+
+### Android
 
 ```sh
 # Klar < 4.1

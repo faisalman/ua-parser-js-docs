@@ -4,27 +4,28 @@
 
 Name of the browser.
 
-- `115`
+- [`115`](./name/115.md)
 - [`2345`](./name/2345.md)
 - [`360`](./name/360.md)
 - [`Alipay`](./name/alipay.md)
-- `Aloha`
-- `Atlas`
+- [`Aloha`](./name/aloha.md)
+- [`Atlas`](./name/atlas.md)
 - `Amaya`
 - [`Android Browser`](./name/android.md)
 - [`Arora`](./name/arora.md)
 - [`Avant`](./name/avant.md)
 - [`Avast Secure Browser`](./name/avast.md)
-- `Avira Secure Browser`
+- [`Avira Secure Browser`](./name/avira.md)
 - [`AVG Secure Browser`](./name/avg.md)
 - [`Baidu Browser`](./name/baidu.md)
 - [`Basilisk`](./name/basilisk.md)
-- `Bing`
+- [`Bing`](./name/bing.md)
 - [`Blazer`](./name/blazer.md)
 - [`Bolt`](./name/bolt.md)
 - [`Brave`](./name/brave.md)
 - [`Bowser`](./name/bowser.md)
 - [`Camino`](./name/camino.md)
+- [`ChatGPT`](./name/chatgpt.md)
 - [`Chimera`](./name/chimera.md)
 - [`Chrome`](./name/chrome.md)
 - [`Chrome Headless`](./name/chrome-headless.md)
@@ -34,12 +35,13 @@ Name of the browser.
 - [`Coc Coc`](./name/coc-coc.md)
 - [`Dragon`](./name/dragon.md)
 - [`Conkeror`](./name/conkeror.md)
+- [`Daum`](./name/daum.md)
 - [`Dillo`](./name/dillo.md)
-- `Dooble`
+- [`Dooble`](./name/dooble.md)
 - [`Dolphin`](./name/dolphin.md)
 - [`Doris`](./name/doris.md)
 - [`DuckDuckGo`](./name/duckduckgo.md)
-- `Ecosia`
+- [`Ecosia`](./name/ecosia.md)
 - [`Edge`](./name/edge.md)
 - [`Edge WebView`](./name/edge.md)
 - [`Edge WebView2`](./name/edge.md)
@@ -58,7 +60,7 @@ Name of the browser.
 - [`GSA`](./name/gsa.md)
 - [`Helio`](./name/helio.md)
 - [`HeyTap`](./name/heytap.md)
-- `HiBrowser`
+- [`HiBrowser`](./name/hibrowser.md)
 - [`Huawei Browser`](./name/huawei.md)
 - [`iCab`](./name/icab.md)
 - [`ICE Browser`](./name/ice.md)
@@ -79,15 +81,15 @@ Name of the browser.
 - [`Klar`](./name/klar.md)
 - [`Klarna`](./name/klarna.md)
 - [`Konqueror`](./name/konqueror.md)
-- `Ladybird`
+- [`Ladybird`](./name/ladybird.md)
 - [`LBBROWSER`](./name/liebao.md)
 - [`LG Browser`](./name/lg-browser.md)
 - [`LibreWolf`](./name/librewolf.md)
-- `Lighthouse`
+- [`Lighthouse`](./name/lighthouse.md)
 - [`Line`](./name/line.md)
 - [`LinkedIn`](./name/linkedin.md)
 - [`Links`](./name/links.md)
-- `Luakit`
+- [`Luakit`](./name/luakit.md)
 - [`Lunascape`](./name/lunascape.md)
 - [`Lynx`](./name/lynx.md)
 - [`Maemo Browser`](./name/maemo.md)
@@ -105,7 +107,7 @@ Name of the browser.
 - [`Netscape`](./name/netscape.md)
 - [`NetSurf`](./name/netsurf.md)
 - [`Nokia Browser`](./name/nokia.md)
-- `Norton Private Browser`
+- [`Norton Private Browser`](./name/norton.md)
 - [`Obigo`](./name/obigo.md)
 - [`Oculus Browser`](./name/oculus.md)
 - [`OmniWeb`](./name/omniweb.md)
@@ -114,10 +116,10 @@ Name of the browser.
 - [`Opera GX`](./name/opera-gx.md)
 - [`Opera Mini`](./name/opera-mini.md)
 - [`Opera Mobi`](./name/opera-mobi.md)
-- `Opera Neon`
+- [`Opera Neon`](./name/opera-neon.md)
 - [`Opera Tablet`](./name/opera-tablet.md)
 - [`Opera Touch`](./name/opera-touch.md)
-- `Otter`
+- [`Otter`](./name/otter.md)
 - [`OviBrowser`](./name/ovi.md)
 - [`PaleMoon`](./name/palemoon.md)
 - [`PhantomJS`](./name/phantomjs.md)
@@ -129,8 +131,8 @@ Name of the browser.
 - [`QQBrowserLite`](./name/qq-lite.md)
 - [`Quark`](./name/quark.md)
 - [`QupZilla`](./name/qupzilla.md)
-- `qutebrowser`
-- `Qwant`
+- [`qutebrowser`](./name/qutebrowser.md)
+- [`Qwant`](./name/qwant.md)
 - [`Rekonq`](./name/rekonq.md)
 - [`RockMelt`](./name/rockmelt.md)
 - [`Safari`](./name/safari.md)
@@ -147,8 +149,8 @@ Name of the browser.
 - [`Snapchat`](./name/snapchat.md)
 - [`Sogou Explorer`](./name/sogou-explorer.md)
 - [`Sogou Mobile`](./name/sogou-mobile.md)
-- `Steam`
-- `Surf`
+- [`Steam`](./name/steam.md)
+- [`Surf`](./name/surf.md)
 - [`Swiftfox`](./name/swiftfox.md)
 - [`Tesla`](./name/tesla.md)
 - [`TikTok`](./name/tiktok.md)
@@ -165,5 +167,5 @@ Name of the browser.
 - [`Whale`](./name/whale.md)
 - [`Wolvic`](./name/wolvic.md)
 - [`Yandex`](./name/yandex.md)
-- `Zalo`
+- [`Zalo`](./name/zalo.md)
 - `...`

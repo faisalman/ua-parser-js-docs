@@ -1,9 +1,10 @@
-# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
----
+[`← Browser Name`](../name.md)
+
 # Dragon
 
 ### Windows
 
 ```sh
 Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.7 (KHTML, like Gecko) Comodo_Dragon/16.1.1.0 Chrome/16.0.912.63 Safari/535.7
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Dragon/98.0.4758.102 Chrome/98.0.4758.102 Safari/537.36
 ```

@@ -1,5 +1,5 @@
-# [`IBrowser`](/api/main/get-browser.md) . [`name`](../name.md)
----
+[`← Browser Name`](../name.md)
+
 # Avast Secure Browser
 
 ### Windows

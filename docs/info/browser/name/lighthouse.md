@@ -1,0 +1,9 @@
+[`← Browser Name`](../name.md)
+
+# Lighthouse
+
+### Android
+
+```sh
+Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4590.2 Mobile Safari/537.36 Chrome-Lighthouse
+```
