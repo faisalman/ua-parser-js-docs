@@ -2,17 +2,26 @@
 
 Import from `'ua-parser-js/helpers'`
 
-## List of Built-in Helpers:
+## List of Built-in Methods:
 
 - [`isFrozenUA(ua: string): boolean`](/api/submodules/helpers/is-frozen-ua)
 
 Check whether user-agent string match with [reduced/frozen user-agent pattern](https://www.chromium.org/updates/ua-reduction/)
 
-### List of Deprecated Methods (since v2.0.7):
-- `getDeviceVendor()`, `isAppleSilicon()` => moved to [`device-detection`](/api/submodules/device-detection/overview)
-- `isAIBot()`, `isBot()` => moved to [`bot-detection`](/api/submodules/bot-detection/overview)
-- `isChromeFamily()`, `isElectron()`, `isFromEU()`, `isStandalonePWA()` => moved to [`browser-detection`](/api/submodules/browser-detection/overview)
+::: warning Deprecated Methods (since v2.0.7):
+- `getDeviceVendor()`, `isAppleSilicon()`
 
+    Moved to [`device-detection`](/api/submodules/device-detection/overview) submodule.
+
+- `isAIBot()`, `isBot()`
+
+    Moved to [`bot-detection`](/api/submodules/bot-detection/overview) submodule.
+
+- `isChromeFamily()`, `isElectron()`, `isFromEU()`, `isStandalonePWA()`
+
+    Moved to [`browser-detection`](/api/submodules/browser-detection/overview) submodule.
+
+:::
 
 ## Code Example
 

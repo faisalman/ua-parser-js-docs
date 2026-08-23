@@ -1,43 +1,10 @@
-# [UAParser](/api/main/overview#methods) : getOS()
+[`← UAParser`](/api/main/overview)
 
-### `getOS(): IOS`
+# `getOS(): IOS`
 
-Returns the operating system name and version.
+Returns the operating system `name` and `version` as an [`IOS`](/api/main/ios) object.
 
-## `IOS`
-
-### Properties
-
-```js
-{ 
-    name: "", 
-    version: ""
-}
-```
-
-#### name?: string
-
-The name of detected operating system.
-
-::: info
-See list of possible os name [here](/info/os/name).
-:::
-
----
-#### version?: string
-
-The detected OS version, determined dynamically from the user-agent string.
-
-### Methods
-
-#### Inherited from `IData`:
-
-- [`is(value: string): boolean`](/api/main/idata/is)
-- [`toString(): string`](/api/main/idata/to-string)
-- [`withClientHints<IOS>(): PromiseLike<IOS> | IOS`](/api/main/idata/with-client-hints)
-- [`withFeatureCheck<IOS>(): PromiseLike<IOS> | IOS`](/api/main/idata/with-feature-check)
-
-### Code Example
+## Code Example
 
 ```js
 

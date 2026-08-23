@@ -1,6 +1,6 @@
-# [bot-detection](/api/submodules/bot-detection/overview) : isBot()
+[`← bot-detection`](/api/submodules/bot-detection/overview)
 
-### `isBot(ua: string | IResult): boolean`
+# `isBot(ua: string | IResult): boolean`
 
 Check whether user-agent is a bot (an automated program that performs task without human interaction).
 

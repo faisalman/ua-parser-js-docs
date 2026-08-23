@@ -1,8 +1,8 @@
-# [`IBrowser`](/api/main/get-browser.md) : type
+# List of Detected Browser Types
 
-### `type?: BrowserTypes`
-
-Type of the browser.
+::: tip
+Use the [`BrowserType`](/api/submodules/enums/browser-type) enum from the `enums` submodule to reference browser types in code.
+:::
 
 | Value | Description | Examples |
 |-|-|-|

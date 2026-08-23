@@ -1,4 +1,6 @@
-# [enums](/api/submodules/enums/overview) : Extension
+[`← enums`](/api/submodules/enums/overview)
+
+# `Extension`
 
 ## `Extension.BrowserName.CLI`
 

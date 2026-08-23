@@ -1,4 +1,6 @@
-# [extensions](/api/submodules/extensions/overview) : Libraries
+[`← extensions`](/api/submodules/extensions/overview)
+
+# `Libraries`
 
 Extends [`browser`](/api/main/get-browser) detection to include tools used in programs to interact with web content or automate browsing tasks.
 

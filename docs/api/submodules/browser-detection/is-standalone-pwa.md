@@ -1,10 +1,10 @@
-# [browser-detection](/api/submodules/browser-detection/overview) : isStandalonePWA()
+[`← browser-detection`](/api/submodules/browser-detection/overview)
+
+# `isStandalonePWA(): boolean`
 
 ::: warning
 This method is only applicable in a client-side browser environment
 :::
-
-### `isStandalonePWA(): boolean`
 
 Check whether current PWA window is running in a standalone mode (not in browser)
 

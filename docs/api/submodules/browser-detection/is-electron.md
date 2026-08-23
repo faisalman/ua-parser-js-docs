@@ -1,10 +1,10 @@
-# [browser-detection](/api/submodules/browser-detection/overview) : isElectron()
+[`← browser-detection`](/api/submodules/browser-detection/overview)
+
+# `isElectron(): boolean`
 
 ::: warning
 This method is only applicable in a client-side browser environment
 :::
-
-### `isElectron(): boolean`
 
 Check whether current window is running inside Electron
 

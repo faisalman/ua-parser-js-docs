@@ -1,8 +1,8 @@
-# [`IOS`](/api/main/get-os.md) : name
+# List of Detected Operating Systems
 
-### `name?: string`
-
-Name of the operating system.
+::: tip
+Use the [`OSName`](/api/submodules/enums/os-name) enum from the `enums` submodule to reference operating systems in code.
+:::
 
 - `AIX`
 - `Amiga OS`

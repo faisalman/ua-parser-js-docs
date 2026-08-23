@@ -93,57 +93,51 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'IData',
+                        text: 'Interfaces',
+                        link: '/api/main/interfaces',
                         collapsed: true,
                         items: [
-                            { text: 'is()', link: '/api/main/idata/is' },
-                            { text: 'toString()', link: '/api/main/idata/to-string' },
-                            { text: 'withClientHints()', link: '/api/main/idata/with-client-hints' },
-                            { text: 'withFeatureCheck()', link: '/api/main/idata/with-feature-check' }
-                        ]
-                    },
-                    {
-                        text: 'IBrowser',
-                        collapsed: true,
-                        items: [
-                            { text: 'name', link: '/info/browser/name' },
-                            { text: 'version', link: '/info/browser/version' },
-                            { text: 'major', link: '/info/browser/major' },
-                            { text: 'type', link: '/info/browser/type' }
-                        ]
-                    },
-                    {
-                        text: 'ICPU',
-                        collapsed: true,
-                        items: [
-                            { text: 'architecture', link: '/info/cpu/arch' }
-                        ]
-                    },
-                    {
-                        text: 'IDevice',
-                        collapsed: true,
-                        items: [
-                            { text: 'type', link: '/info/device/type' },
-                            { text: 'model', link: '/info/device/model' },
-                            { text: 'vendor', link: '/info/device/vendor' }
-                        ]
-                    },
-                    {
-                        text: 'IEngine',
-                        collapsed: true,
-                        items: [
-                            { text: 'name', link: '/info/engine/name' },
-                            { text: 'version', link: '/info/engine/version' }
-                        ]
-                    },
-                    {
-                        text: 'IOS',
-                        collapsed: true,
-                        items: [
-                            { text: 'name', link: '/info/os/name' },
-                            { text: 'version', link: '/info/os/version' }
+                            { text: 'Overview', link: '/api/main/interfaces' },
+                            {
+                                text: 'IData',
+                                link: '/api/main/idata',
+                                collapsed: true,
+                                items: [
+                                    { text: 'is()', link: '/api/main/idata/is' },
+                                    { text: 'toString()', link: '/api/main/idata/to-string' },
+                                    { text: 'withClientHints()', link: '/api/main/idata/with-client-hints' },
+                                    { text: 'withFeatureCheck()', link: '/api/main/idata/with-feature-check' }
+                                ]
+                            },
+                            { text: 'IBrowser', link: '/api/main/ibrowser' },
+                            { text: 'ICPU', link: '/api/main/icpu' },
+                            { text: 'IDevice', link: '/api/main/idevice' },
+                            { text: 'IEngine', link: '/api/main/iengine' },
+                            { text: 'IOS', link: '/api/main/ios' },
+                            { text: 'IResult', link: '/api/main/iresult' }
                         ]
                     }
+                ]
+            },
+            {
+                text: 'Data References',
+                items: [
+                    { text: 'Browsers', 
+                        collapsed: true,
+                        items: [
+                            { text: 'Names', link: '/info/browser/name' },
+                            { text: 'Types', link: '/info/browser/type' },
+                            { text: 'Engines', link: '/info/engine/name' }
+                    ]},
+                    { text: 'CPU Architectures', link: '/info/cpu/arch' },
+                    { text: 'Devices', 
+                        collapsed: true,
+                        items: [
+                            { text: 'Types', link: '/info/device/type' },
+                            { text: 'Vendors', link: '/info/device/vendor' }
+                        ]
+                    },
+                    { text: 'Operating Systems', link: '/info/os/name' }
                 ]
             },
             {

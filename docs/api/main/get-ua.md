@@ -1,6 +1,6 @@
-# [UAParser](/api/main/overview#methods) : getUA()
+[`← UAParser`](/api/main/overview)
 
-### `getUA(): string`
+# `getUA(): string`
 
 Returns the user-agent string of current `UAParser` instance
 

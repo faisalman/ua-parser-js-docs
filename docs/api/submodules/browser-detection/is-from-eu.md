@@ -1,10 +1,10 @@
-# [browser-detection](/api/submodules/browser-detection/overview) : isFromEU()
+[`← browser-detection`](/api/submodules/browser-detection/overview)
+
+# `isFromEU(): boolean`
 
 ::: warning
 This method is only applicable in a client-side browser environment
 :::
-
-### `isFromEU(): boolean`
 
 Check whether current browser timezone is from an EU country
 

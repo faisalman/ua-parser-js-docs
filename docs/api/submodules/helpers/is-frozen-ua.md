@@ -1,6 +1,6 @@
-# [helpers](/api/submodules/helpers/overview) : isFrozenUA()
+[`← helpers`](/api/submodules/helpers/overview)
 
-### `isFrozenUA(ua: string): boolean`
+# `isFrozenUA(ua: string): boolean`
 
 Determines whether a given User-Agent string matches Chrome’s reduced (frozen) User-Agent pattern:
 

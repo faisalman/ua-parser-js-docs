@@ -1,6 +1,6 @@
-# [IData](/api/main/overview#methods) : withFeatureCheck()
+[`← IData`](/api/main/idata)
 
-### `withFeatureCheck<T>(): PromiseLike<T> | T`
+# `withFeatureCheck<T>(): PromiseLike<T> | T`
 
 ::: warning
 This method is only applicable in a client-side browser environment

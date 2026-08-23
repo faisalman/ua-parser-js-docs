@@ -1,8 +1,8 @@
-# [`IDevice`](/api/main/get-device.md) : vendor
+# List of Detected Device Vendors
 
-### `vendor?: string`
-
-Vendor name of the device.
+::: tip
+Use the [`DeviceVendor`](/api/submodules/enums/device-vendor) enum from the `enums` submodule to reference device vendors in code.
+:::
 
 - `Acer`
 - `Advan`

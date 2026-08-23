@@ -1,8 +1,8 @@
-# [`ICPU`](/api/main/get-cpu.md) : architecture
+# List of Detected CPU Architectures
 
-### `architecture?: CPUArchs`
-
-Architecture of the CPU.
+::: tip
+Use the [`CPUArch`](/api/submodules/enums/cpu-arch) enum from the `enums` submodule to reference CPU architectures in code.
+:::
 
 | Value | Description               |
 |----------------------|-------------------------------|

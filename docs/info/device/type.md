@@ -1,8 +1,8 @@
-# [`IDevice`](/api/main/get-device.md) : type
+# List of Detected Device Types
 
-### `type?: DeviceTypes`
-
-Type of the device.
+::: tip
+Use the [`DeviceType`](/api/submodules/enums/device-type) enum from the `enums` submodule to reference device types in code.
+:::
 
 | `device.type` | Description | Examples  |
 |-|-|-|

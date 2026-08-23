@@ -110,23 +110,23 @@ The current version of the library.
 
 - `static readonly BROWSER: { NAME: 'name', VERSION: 'version', MAJOR: 'major', TYPE: 'type' }`
 
-List of [`IBrowser`](/api/main/get-browser) properties.
+List of [`IBrowser`](/api/main/ibrowser) properties.
 
 - `static readonly CPU: { ARCHITECTURE: 'architecture' }`
 
-List of [`ICPU`](/api/main/get-cpu) properties.
+List of [`ICPU`](/api/main/icpu) properties.
 
 - `static readonly DEVICE: { TYPE: 'type', VENDOR: 'vendor', MODEL: 'model', CONSOLE: 'console', EMBEDDED: 'embedded', MOBILE: 'mobile', SMARTTV: 'smarttv', TABLET: 'tablet', WEARABLE: 'wearable', XR: 'xr' }`
 
-List of [`IDevice`](/api/main/get-device) properties, and list of possible values for [`IDevice.type`](/info/device/type).
+List of [`IDevice`](/api/main/idevice) properties, and list of possible values for [`IDevice.type`](/info/device/type).
 
 - `static readonly ENGINE: { NAME: 'name', VERSION: 'version' }`
 
-List of [`IEngine`](/api/main/get-engine) properties.
+List of [`IEngine`](/api/main/iengine) properties.
 
 - `static readonly OS: { NAME: 'name', VERSION: 'version' }`
 
-List of [`IOS`](/api/main/get-os) properties.
+List of [`IOS`](/api/main/ios) properties.
 
 ### Code Example
 

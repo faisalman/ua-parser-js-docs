@@ -1,6 +1,6 @@
-# [UAParser](/api/main/overview#methods) : useExtension()
+[`← UAParser`](/api/main/overview)
 
-### `useExtension(extensions: UAParserExt): UAParser`
+# `useExtension(extensions: UAParserExt): UAParser`
 
 Insert custom regexes to extend detection rules.
 

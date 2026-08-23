@@ -1,9 +1,11 @@
-# [extensions](/api/submodules/extensions/overview) : Vehicles
+[`← extensions`](/api/submodules/extensions/overview)
+
+# `Vehicles`
 
 Extends [`device`](/api/main/get-device) detection to include some vehicles.
 
 ```csv:no-line-numbers
-# List of known vehicles
+## List of Known Vehicles
 BMW, BYD, Jeep, Rivian, Volvo
 ```
 

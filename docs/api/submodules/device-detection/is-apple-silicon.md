@@ -1,6 +1,6 @@
-# [device-detection](/api/submodules/device-detection/overview) : isAppleSilicon()
+[`← device-detection`](/api/submodules/device-detection/overview)
 
-### `isAppleSilicon(res: IResult | string): boolean`
+# `isAppleSilicon(res: IResult | string): boolean`
 
 Check whether device has Apple Silicon Mac device properties.
 

@@ -1,4 +1,6 @@
-# [extensions](/api/submodules/extensions/overview) : Fetchers
+[`← extensions`](/api/submodules/extensions/overview)
+
+# `Fetchers`
 
 Extends [`browser`](/api/main/get-browser) detection to include bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u>
 

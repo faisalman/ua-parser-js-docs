@@ -1,4 +1,6 @@
-# [enums](/api/submodules/enums/overview) : BrowserType
+[`← enums`](/api/submodules/enums/overview)
+
+# `BrowserType`
 
 ```csv:no-line-numbers
 CRAWLER, CLI, EMAIL, FETCHER, INAPP, MEDIAPLAYER, LIBRARY

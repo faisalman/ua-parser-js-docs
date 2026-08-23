@@ -1,8 +1,8 @@
-# [`IBrowser`](/api/main/get-browser.md) : name
+# List of Detected Browsers
 
-### `name?: string`
-
-Name of the browser.
+::: tip
+Use the [`BrowserName`](/api/submodules/enums/browser-name) enum from the `enums` submodule to reference browser names in code.
+:::
 
 - [`115`](./name/115.md)
 - [`2345`](./name/2345.md)

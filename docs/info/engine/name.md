@@ -1,8 +1,8 @@
-# [`IEngine`](/api/main/get-engine.md) : name
+# List of Detected Browser Engines
 
-### `name?: EngineNames`
-
-Name of the browser engine.
+::: tip
+Use the [`EngineName`](/api/submodules/enums/engine-name) enum from the `enums` submodule to reference browser engines in code.
+:::
 
 | Value | Description | Link |
 |-|-|-|
