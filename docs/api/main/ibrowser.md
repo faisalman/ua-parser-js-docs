@@ -25,7 +25,13 @@ The full browser version, or `undefined` if no version is found.
 
 ### `major?: string`
 
-The first numeric component of `version`, following [semantic versioning](https://semver.org/). It is `undefined` when no version exists and an empty string when the first version component is not numeric.
+The first numeric component of `version`:
+
+| `version` | `major` | Explanation |
+| --- | --- | --- |
+| `"123.0.1"`, `"v123.0.1"` | `"123"` | Numeric characters from the first component of version |
+| `"XP"`, `"alpha.1"` | `""` | Empty string when no numeric in the first component |
+| `undefined` | `undefined` | `undefined` when no version found |
 
 ### `type?: string`
 
