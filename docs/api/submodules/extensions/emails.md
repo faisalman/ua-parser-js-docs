@@ -2,7 +2,7 @@
 
 # `Emails`
 
-Extends [`browser`](/api/main/get-browser) detection to include apps that allow users to read, reply to, and organize their emails.
+Extends [`browser`](/info/browser/name) detection to include apps that allow users to read, reply to, and organize their emails.
 
 - `Airmail`
 - `Alpine`

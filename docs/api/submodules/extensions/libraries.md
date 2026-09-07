@@ -2,7 +2,7 @@
 
 # `Libraries`
 
-Extends [`browser`](/api/main/get-browser) detection to include tools used in programs to interact with web content or automate browsing tasks.
+Extends [`browser`](/info/browser/name) detection to include tools used in programs to interact with web content or automate browsing tasks.
 
 ## List of Detected Libraries
 

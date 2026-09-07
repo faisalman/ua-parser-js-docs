@@ -2,7 +2,7 @@
 
 # `Crawlers`
 
-Extends [`browser`](/api/main/get-browser) detection to include bots that <u>**automatically**</u> visit websites and <u>**collect data**</u>.
+Extends [`browser`](/info/browser/name) detection to include bots that <u>**automatically**</u> visit websites and <u>**collect data**</u>.
 
 ::: tip
 Bots that retrieve content from <u>**specific**</u> URLs <u>**on demand**</u> are categorized as [Fetchers](/api/submodules/extensions/fetchers) instead.

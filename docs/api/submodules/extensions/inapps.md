@@ -2,7 +2,7 @@
 
 # `InApps`
 
-Extends [`browser`](/api/main/get-browser) detection to include apps that open websites internally inside a webview.
+Extends [`browser`](/info/browser/name) detection to include apps that open websites internally inside a webview.
 
 - `Discord`
 - `Evernote`

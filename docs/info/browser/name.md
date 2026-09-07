@@ -1,171 +1,71 @@
 # List of Detected Browsers
 
-::: tip
-Use the [`BrowserName`](/api/submodules/enums/browser-name) enum from the `enums` submodule to reference browser names in code.
-:::
+| Browser Name |  |  |
+| --- | --- | --- |
+| [115](/info/browser/name/115) | [HeyTap](/info/browser/name/heytap) | [Opera Mini](/info/browser/name/opera-mini) |
+| [2345](/info/browser/name/2345) | [HiBrowser](/info/browser/name/hibrowser) | [Opera Mobi](/info/browser/name/opera-mobi) |
+| [360](/info/browser/name/360) | [Huawei Browser](/info/browser/name/huawei) | [Opera Neon](/info/browser/name/opera-neon) |
+| [Alipay](/info/browser/name/alipay) | [iCab](/info/browser/name/icab) | [Opera Tablet](/info/browser/name/opera-tablet) |
+| [Aloha](/info/browser/name/aloha) | [ICE Browser](/info/browser/name/ice) | [Opera Touch](/info/browser/name/opera-touch) |
+| [Atlas](/info/browser/name/atlas) | [IceApe](/info/browser/name/iceape) | [Otter](/info/browser/name/otter) |
+| Amaya | [IceCat](/info/browser/name/icecat) | [OviBrowser](/info/browser/name/ovi) |
+| [Android Browser](/info/browser/name/android) | IceDragon | [PaleMoon](/info/browser/name/palemoon) |
+| [Arora](/info/browser/name/arora) | [Iceweasel](/info/browser/name/iceweasel) | [PhantomJS](/info/browser/name/phantomjs) |
+| [Avant](/info/browser/name/avant) | [IE](/info/browser/name/ie) | [Phoenix](/info/browser/name/phoenix) |
+| [Avast Secure Browser](/info/browser/name/avast) | [IEMobile](/info/browser/name/iemobile) | [Pico Browser](/info/browser/name/picobrowser) |
+| [Avira Secure Browser](/info/browser/name/avira) | [Instagram](/info/browser/name/instagram) | [Polaris](/info/browser/name/polaris) |
+| [AVG Secure Browser](/info/browser/name/avg) | [Iridium](/info/browser/name/iridium) | [Puffin](/info/browser/name/puffin) |
+| [Baidu Browser](/info/browser/name/baidu) | [Iron](/info/browser/name/iron) | [QQBrowser](/info/browser/name/qq) |
+| [Basilisk](/info/browser/name/basilisk) | [Jasmine](/info/browser/name/jasmine) | [QQBrowserLite](/info/browser/name/qq-lite) |
+| [Bing](/info/browser/name/bing) | [K-Meleon](/info/browser/name/k-meleon) | [Quark](/info/browser/name/quark) |
+| [Blazer](/info/browser/name/blazer) | [KakaoStory](/info/browser/name/kakaostory) | [QupZilla](/info/browser/name/qupzilla) |
+| [Bolt](/info/browser/name/bolt) | [KakaoTalk](/info/browser/name/kakaotalk) | [qutebrowser](/info/browser/name/qutebrowser) |
+| [Brave](/info/browser/name/brave) | [Kindle](/info/browser/name/kindle) | [Qwant](/info/browser/name/qwant) |
+| [Bowser](/info/browser/name/bowser) | [Klar](/info/browser/name/klar) | [Rekonq](/info/browser/name/rekonq) |
+| [Camino](/info/browser/name/camino) | [Klarna](/info/browser/name/klarna) | [RockMelt](/info/browser/name/rockmelt) |
+| [ChatGPT](/info/browser/name/chatgpt) | [Konqueror](/info/browser/name/konqueror) | [Safari](/info/browser/name/safari) |
+| [Chimera](/info/browser/name/chimera) | [Ladybird](/info/browser/name/ladybird) | [Sailfish Browser](/info/browser/name/sailfish) |
+| [Chrome](/info/browser/name/chrome) | [LBBROWSER](/info/browser/name/liebao) | [Samsung Internet](/info/browser/name/samsung-internet) |
+| [Chrome Headless](/info/browser/name/chrome-headless) | [LG Browser](/info/browser/name/lg-browser) | [SeaMonkey](/info/browser/name/seamonkey) |
+| [Chrome WebView](/info/browser/name/chrome-webview) | [LibreWolf](/info/browser/name/librewolf) | [Silk](/info/browser/name/silk) |
+| [Chromium](/info/browser/name/chromium) | [Lighthouse](/info/browser/name/lighthouse) | [Skyfire](/info/browser/name/skyfire) |
+| [Cobalt](/info/browser/name/cobalt) | [Line](/info/browser/name/line) | [Sleipnir](/info/browser/name/sleipnir) |
+| [Coc Coc](/info/browser/name/coc-coc) | [LinkedIn](/info/browser/name/linkedin) | [SlimBoat](/info/browser/name/slimbrowser) |
+| [Dragon](/info/browser/name/dragon) | [Links](/info/browser/name/links) | [SlimBrowser](/info/browser/name/slimbrowser) |
+| [Conkeror](/info/browser/name/conkeror) | [Luakit](/info/browser/name/luakit) | [Slimjet](/info/browser/name/slimbrowser) |
+| [Daum](/info/browser/name/daum) | [Lunascape](/info/browser/name/lunascape) | [Smart Lenovo Browser](/info/browser/name/lenovo) |
+| [Dillo](/info/browser/name/dillo) | [Lynx](/info/browser/name/lynx) | [Snapchat](/info/browser/name/snapchat) |
+| [Dooble](/info/browser/name/dooble) | [Maemo Browser](/info/browser/name/maemo) | [Sogou Explorer](/info/browser/name/sogou-explorer) |
+| [Dolphin](/info/browser/name/dolphin) | [Maxthon](/info/browser/name/maxthon) | [Sogou Mobile](/info/browser/name/sogou-mobile) |
+| [Doris](/info/browser/name/doris) | [Midori](/info/browser/name/midori) | [Steam](/info/browser/name/steam) |
+| [DuckDuckGo](/info/browser/name/duckduckgo) | [Minimo](/info/browser/name/minimo) | [Surf](/info/browser/name/surf) |
+| [Ecosia](/info/browser/name/ecosia) | [MIUI Browser](/info/browser/name/miui) | [Swiftfox](/info/browser/name/swiftfox) |
+| [Edge](/info/browser/name/edge) | [Mobile Chrome](/info/browser/name/mobile-chrome) | [Tesla](/info/browser/name/tesla) |
+| Edge WebView | [Mobile Firefox](/info/browser/name/mobile-firefox) | [TikTok](/info/browser/name/tiktok) |
+| Edge WebView2 | [Mobile Safari](/info/browser/name/mobile-safari) | [Tizen Browser](/info/browser/name/tizen) |
+| [Electron](/info/browser/name/electron) | [Mosaic](/info/browser/name/mosaic) | [Twitter](/info/browser/name/twitter) |
+| [Epiphany](/info/browser/name/epiphany) | [Mozilla](/info/browser/name/mozilla) | [UCBrowser](/info/browser/name/uc) |
+| [Facebook](/info/browser/name/facebook) | [Naver](/info/browser/name/naver) | [UP.Browser](/info/browser/name/up) |
+| [Falkon](/info/browser/name/falkon) | [NetFront](/info/browser/name/netfront) | [Vivaldi](/info/browser/name/vivaldi) |
+| [Fennec](/info/browser/name/fennec) | [Netscape](/info/browser/name/netscape) | [Vivo Browser](/info/browser/name/vivo) |
+| [Firebird](/info/browser/name/firebird) | [NetSurf](/info/browser/name/netsurf) | [w3m](/info/browser/name/w3m) |
+| [Firefox](/info/browser/name/firefox) | [Nokia Browser](/info/browser/name/nokia) | [Waterfox](/info/browser/name/waterfox) |
+| [Firefox Focus](/info/browser/name/firefox-focus) | [Norton Private Browser](/info/browser/name/norton) | WebKit |
+| [Firefox Reality](/info/browser/name/firefox-reality) | [Obigo](/info/browser/name/obigo) | [WeChat](/info/browser/name/wechat) |
+| [Flock](/info/browser/name/flock) | [Oculus Browser](/info/browser/name/oculus) | [Weibo](/info/browser/name/weibo) |
+| [Flow](/info/browser/name/flow) | [OmniWeb](/info/browser/name/omniweb) | [Whale](/info/browser/name/whale) |
+| [GoBrowser](/info/browser/name/go) | [Opera](/info/browser/name/opera) | [Wolvic](/info/browser/name/wolvic) |
+| [GSA](/info/browser/name/gsa) | [Opera Coast](/info/browser/name/opera-coast) | [Yandex](/info/browser/name/yandex) |
+| [Helio](/info/browser/name/helio) | [Opera GX](/info/browser/name/opera-gx) | [Zalo](/info/browser/name/zalo) |
 
-- [`115`](./name/115.md)
-- [`2345`](./name/2345.md)
-- [`360`](./name/360.md)
-- [`Alipay`](./name/alipay.md)
-- [`Aloha`](./name/aloha.md)
-- [`Atlas`](./name/atlas.md)
-- `Amaya`
-- [`Android Browser`](./name/android.md)
-- [`Arora`](./name/arora.md)
-- [`Avant`](./name/avant.md)
-- [`Avast Secure Browser`](./name/avast.md)
-- [`Avira Secure Browser`](./name/avira.md)
-- [`AVG Secure Browser`](./name/avg.md)
-- [`Baidu Browser`](./name/baidu.md)
-- [`Basilisk`](./name/basilisk.md)
-- [`Bing`](./name/bing.md)
-- [`Blazer`](./name/blazer.md)
-- [`Bolt`](./name/bolt.md)
-- [`Brave`](./name/brave.md)
-- [`Bowser`](./name/bowser.md)
-- [`Camino`](./name/camino.md)
-- [`ChatGPT`](./name/chatgpt.md)
-- [`Chimera`](./name/chimera.md)
-- [`Chrome`](./name/chrome.md)
-- [`Chrome Headless`](./name/chrome-headless.md)
-- [`Chrome WebView`](./name/chrome-webview.md)
-- [`Chromium`](./name/chromium.md)
-- [`Cobalt`](./name/cobalt.md)
-- [`Coc Coc`](./name/coc-coc.md)
-- [`Dragon`](./name/dragon.md)
-- [`Conkeror`](./name/conkeror.md)
-- [`Daum`](./name/daum.md)
-- [`Dillo`](./name/dillo.md)
-- [`Dooble`](./name/dooble.md)
-- [`Dolphin`](./name/dolphin.md)
-- [`Doris`](./name/doris.md)
-- [`DuckDuckGo`](./name/duckduckgo.md)
-- [`Ecosia`](./name/ecosia.md)
-- [`Edge`](./name/edge.md)
-- [`Edge WebView`](./name/edge.md)
-- [`Edge WebView2`](./name/edge.md)
-- [`Electron`](./name/electron.md)
-- [`Epiphany`](./name/epiphany.md)
-- [`Facebook`](./name/facebook.md)
-- [`Falkon`](./name/falkon.md)
-- [`Fennec`](./name/fennec.md)
-- [`Firebird`](./name/firebird.md)
-- [`Firefox`](./name/firefox.md)
-- [`Firefox Focus`](./name/firefox-focus.md)
-- [`Firefox Reality`](./name/firefox-reality.md)
-- [`Flock`](./name/flock.md)
-- [`Flow`](./name/flow.md)
-- [`GoBrowser`](./name/go.md)
-- [`GSA`](./name/gsa.md)
-- [`Helio`](./name/helio.md)
-- [`HeyTap`](./name/heytap.md)
-- [`HiBrowser`](./name/hibrowser.md)
-- [`Huawei Browser`](./name/huawei.md)
-- [`iCab`](./name/icab.md)
-- [`ICE Browser`](./name/ice.md)
-- [`IceApe`](./name/iceape.md)
-- [`IceCat`](./name/icecat.md)
-- `IceDragon`
-- [`Iceweasel`](./name/iceweasel.md)
-- [`IE`](./name/ie.md)
-- [`IEMobile`](./name/iemobile.md)
-- [`Instagram`](./name/instagram.md)
-- [`Iridium`](./name/iridium.md)
-- [`Iron`](./name/iron.md)
-- [`Jasmine`](./name/jasmine.md)
-- [`K-Meleon`](./name/k-meleon.md)
-- [`KakaoStory`](./name/kakaostory.md)
-- [`KakaoTalk`](./name/kakaotalk.md)
-- [`Kindle`](./name/kindle.md)
-- [`Klar`](./name/klar.md)
-- [`Klarna`](./name/klarna.md)
-- [`Konqueror`](./name/konqueror.md)
-- [`Ladybird`](./name/ladybird.md)
-- [`LBBROWSER`](./name/liebao.md)
-- [`LG Browser`](./name/lg-browser.md)
-- [`LibreWolf`](./name/librewolf.md)
-- [`Lighthouse`](./name/lighthouse.md)
-- [`Line`](./name/line.md)
-- [`LinkedIn`](./name/linkedin.md)
-- [`Links`](./name/links.md)
-- [`Luakit`](./name/luakit.md)
-- [`Lunascape`](./name/lunascape.md)
-- [`Lynx`](./name/lynx.md)
-- [`Maemo Browser`](./name/maemo.md)
-- [`Maxthon`](./name/maxthon.md)
-- [`Midori`](./name/midori.md)
-- [`Minimo`](./name/minimo.md)
-- [`MIUI Browser`](./name/miui.md)
-- [`Mobile Chrome`](./name/mobile-chrome.md)
-- [`Mobile Firefox`](./name/mobile-firefox.md)
-- [`Mobile Safari`](./name/mobile-safari.md)
-- [`Mosaic`](./name/mosaic.md)
-- [`Mozilla`](./name/mozilla.md)
-- [`Naver`](./name/naver.md)
-- [`NetFront`](./name/netfront.md)
-- [`Netscape`](./name/netscape.md)
-- [`NetSurf`](./name/netsurf.md)
-- [`Nokia Browser`](./name/nokia.md)
-- [`Norton Private Browser`](./name/norton.md)
-- [`Obigo`](./name/obigo.md)
-- [`Oculus Browser`](./name/oculus.md)
-- [`OmniWeb`](./name/omniweb.md)
-- [`Opera`](./name/opera.md)
-- [`Opera Coast`](./name/opera-coast.md)
-- [`Opera GX`](./name/opera-gx.md)
-- [`Opera Mini`](./name/opera-mini.md)
-- [`Opera Mobi`](./name/opera-mobi.md)
-- [`Opera Neon`](./name/opera-neon.md)
-- [`Opera Tablet`](./name/opera-tablet.md)
-- [`Opera Touch`](./name/opera-touch.md)
-- [`Otter`](./name/otter.md)
-- [`OviBrowser`](./name/ovi.md)
-- [`PaleMoon`](./name/palemoon.md)
-- [`PhantomJS`](./name/phantomjs.md)
-- [`Phoenix`](./name/phoenix.md)
-- [`Pico Browser`](./name/picobrowser.md)
-- [`Polaris`](./name/polaris.md)
-- [`Puffin`](./name/puffin.md)
-- [`QQBrowser`](./name/qq.md)
-- [`QQBrowserLite`](./name/qq-lite.md)
-- [`Quark`](./name/quark.md)
-- [`QupZilla`](./name/qupzilla.md)
-- [`qutebrowser`](./name/qutebrowser.md)
-- [`Qwant`](./name/qwant.md)
-- [`Rekonq`](./name/rekonq.md)
-- [`RockMelt`](./name/rockmelt.md)
-- [`Safari`](./name/safari.md)
-- [`Sailfish Browser`](./name/sailfish.md)
-- [`Samsung Internet`](./name/samsung-internet.md)
-- [`SeaMonkey`](./name/seamonkey.md)
-- [`Silk`](./name/silk.md)
-- [`Skyfire`](./name/skyfire.md)
-- [`Sleipnir`](./name/sleipnir.md)
-- [`SlimBoat`](./name/slimbrowser.md)
-- [`SlimBrowser`](./name/slimbrowser.md)
-- [`Slimjet`](./name/slimbrowser.md)
-- [`Smart Lenovo Browser`](./name/lenovo.md)
-- [`Snapchat`](./name/snapchat.md)
-- [`Sogou Explorer`](./name/sogou-explorer.md)
-- [`Sogou Mobile`](./name/sogou-mobile.md)
-- [`Steam`](./name/steam.md)
-- [`Surf`](./name/surf.md)
-- [`Swiftfox`](./name/swiftfox.md)
-- [`Tesla`](./name/tesla.md)
-- [`TikTok`](./name/tiktok.md)
-- [`Tizen Browser`](./name/tizen.md)
-- [`Twitter`](./name/twitter.md)
-- [`UCBrowser`](./name/uc.md)
-- [`UP.Browser`](./name/up.md)
-- [`Vivaldi`](./name/vivaldi.md)
-- [`Vivo Browser`](./name/vivo.md)
-- [`w3m`](./name/w3m.md)
-- [`Waterfox`](./name/waterfox.md)
-- [`WeChat`](./name/wechat.md)
-- [`Weibo`](./name/weibo.md)
-- [`Whale`](./name/whale.md)
-- [`Wolvic`](./name/wolvic.md)
-- [`Yandex`](./name/yandex.md)
-- [`Zalo`](./name/zalo.md)
-- `...`
+::: tip
+- Use the [`BrowserName`](/api/submodules/enums/browser-name) enum from the [`enums`](/api/submodules/enums/overview) submodule to reference browser names in code.
+- Explore even more browsers from the [`extensions`](/api/submodules/extensions/overview) submodule:
+  - [CLIs](/api/submodules/extensions/clis)
+  - [Crawlers](/api/submodules/extensions/crawlers)
+  - [Emails](/api/submodules/extensions/emails)
+  - [Fetchers](/api/submodules/extensions/fetchers)
+  - [InApps](/api/submodules/extensions/inapps)
+  - [Libraries](/api/submodules/extensions/libraries)
+  - [MediaPlayers](/api/submodules/extensions/media-players)
+:::

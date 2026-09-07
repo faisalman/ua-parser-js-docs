@@ -2,6 +2,8 @@
 
 # Android Browser
 
+Android Browser was the stock browser on early Android versions before [Mobile Chrome](./mobile-chrome.md) began replacing it with Android 4.1 Jelly Bean.
+
 ### Android
 
 ```sh
@@ -23,3 +25,7 @@ Mozilla/5.0 (Linux; Android 4.4.4; HUAWEI H891L Build/HuaweiH891L) AppleWebKit/5
 # Android Browser on Samsung S6 (SM-G925F)
 Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Mobile Safari/537.36
 ```
+
+## References
+
+- [Android Browser on Wikipedia🡥](https://en.wikipedia.org/wiki/Android_Browser)

@@ -2,7 +2,7 @@
 
 # `MediaPlayers`
 
-Extends [`browser`](/api/main/get-browser) detection to include apps that let you play music, videos, or online radio. The apps can play files stored on the device or stream content from the internet. 
+Extends [`browser`](/info/browser/name) detection to include apps that let you play music, videos, or online radio. The apps can play files stored on the device or stream content from the internet.
 
 ```csv
 ## List of Known Media Players
