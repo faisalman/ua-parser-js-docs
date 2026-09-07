@@ -218,12 +218,12 @@ export default defineConfig({
                 text: 'Guides',
                 collapsed: false,
                 items: [
+                    { text: 'How to Detect AI Agents', link: '/guides/how-to-track-ai-visit-using-javascript' },
                     { text: 'How to Detect iPad', link: '/guides/how-to-detect-ipad-using-javascript' },
                     { text: 'How to Detect iOS ≥ 26', link: '/guides/how-to-detect-ios-26-using-javascript' },
                     { text: 'How to Detect macOS > 10.15.7', link: '/guides/how-to-detect-macos-10157-using-javascript' },
                     { text: 'How to Detect Windows 11', link: '/guides/how-to-detect-windows-11-using-javascript' },
                     { text: 'How to Identify Android 10 K', link: '/guides/how-to-identify-android-k-device' },
-                    { text: 'How to Track AI Visit', link: '/guides/how-to-track-ai-visit-using-javascript' },
                     { text: 'v0.7 / v1 API References', link: '/v1' },
                     { text: 'Articles & References', link: '/guides/articles-references' }
                 ]
