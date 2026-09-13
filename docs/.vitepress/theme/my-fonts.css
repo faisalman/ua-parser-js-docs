@@ -32,3 +32,8 @@
     font-size: var(--vp-custom-block-font-size);
     color: var(--vp-c-text-2);
 }
+
+.vp-doc div[class*='language-'] code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}

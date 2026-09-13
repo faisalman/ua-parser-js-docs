@@ -1,62 +1,172 @@
 # List of Detected Browsers
 
-| Browser Name |  |  |
-| --- | --- | --- |
-| [115](/info/browser/name/115) | [HeyTap](/info/browser/name/heytap) | [Opera Mini](/info/browser/name/opera-mini) |
-| [2345](/info/browser/name/2345) | [HiBrowser](/info/browser/name/hibrowser) | [Opera Mobi](/info/browser/name/opera-mobi) |
-| [360](/info/browser/name/360) | [Huawei Browser](/info/browser/name/huawei) | [Opera Neon](/info/browser/name/opera-neon) |
-| [Alipay](/info/browser/name/alipay) | [iCab](/info/browser/name/icab) | [Opera Tablet](/info/browser/name/opera-tablet) |
-| [Aloha](/info/browser/name/aloha) | [ICE Browser](/info/browser/name/ice) | [Opera Touch](/info/browser/name/opera-touch) |
-| [Atlas](/info/browser/name/atlas) | [IceApe](/info/browser/name/iceape) | [Otter](/info/browser/name/otter) |
-| Amaya | [IceCat](/info/browser/name/icecat) | [OviBrowser](/info/browser/name/ovi) |
-| [Android Browser](/info/browser/name/android) | IceDragon | [PaleMoon](/info/browser/name/palemoon) |
-| [Arora](/info/browser/name/arora) | [Iceweasel](/info/browser/name/iceweasel) | [PhantomJS](/info/browser/name/phantomjs) |
-| [Avant](/info/browser/name/avant) | [IE](/info/browser/name/ie) | [Phoenix](/info/browser/name/phoenix) |
-| [Avast Secure Browser](/info/browser/name/avast) | [IEMobile](/info/browser/name/iemobile) | [Pico Browser](/info/browser/name/picobrowser) |
-| [Avira Secure Browser](/info/browser/name/avira) | [Instagram](/info/browser/name/instagram) | [Polaris](/info/browser/name/polaris) |
-| [AVG Secure Browser](/info/browser/name/avg) | [Iridium](/info/browser/name/iridium) | [Puffin](/info/browser/name/puffin) |
-| [Baidu Browser](/info/browser/name/baidu) | [Iron](/info/browser/name/iron) | [QQBrowser](/info/browser/name/qq) |
-| [Basilisk](/info/browser/name/basilisk) | [Jasmine](/info/browser/name/jasmine) | [QQBrowserLite](/info/browser/name/qq-lite) |
-| [Bing](/info/browser/name/bing) | [K-Meleon](/info/browser/name/k-meleon) | [Quark](/info/browser/name/quark) |
-| [Blazer](/info/browser/name/blazer) | [KakaoStory](/info/browser/name/kakaostory) | [QupZilla](/info/browser/name/qupzilla) |
-| [Bolt](/info/browser/name/bolt) | [KakaoTalk](/info/browser/name/kakaotalk) | [qutebrowser](/info/browser/name/qutebrowser) |
-| [Brave](/info/browser/name/brave) | [Kindle](/info/browser/name/kindle) | [Qwant](/info/browser/name/qwant) |
-| [Bowser](/info/browser/name/bowser) | [Klar](/info/browser/name/klar) | [Rekonq](/info/browser/name/rekonq) |
-| [Camino](/info/browser/name/camino) | [Klarna](/info/browser/name/klarna) | [RockMelt](/info/browser/name/rockmelt) |
-| [ChatGPT](/info/browser/name/chatgpt) | [Konqueror](/info/browser/name/konqueror) | [Safari](/info/browser/name/safari) |
-| [Chimera](/info/browser/name/chimera) | [Ladybird](/info/browser/name/ladybird) | [Sailfish Browser](/info/browser/name/sailfish) |
-| [Chrome](/info/browser/name/chrome) | [LBBROWSER](/info/browser/name/liebao) | [Samsung Internet](/info/browser/name/samsung-internet) |
-| [Chrome Headless](/info/browser/name/chrome-headless) | [LG Browser](/info/browser/name/lg-browser) | [SeaMonkey](/info/browser/name/seamonkey) |
-| [Chrome WebView](/info/browser/name/chrome-webview) | [LibreWolf](/info/browser/name/librewolf) | [Silk](/info/browser/name/silk) |
-| [Chromium](/info/browser/name/chromium) | [Lighthouse](/info/browser/name/lighthouse) | [Skyfire](/info/browser/name/skyfire) |
-| [Cobalt](/info/browser/name/cobalt) | [Line](/info/browser/name/line) | [Sleipnir](/info/browser/name/sleipnir) |
-| [Coc Coc](/info/browser/name/coc-coc) | [LinkedIn](/info/browser/name/linkedin) | [SlimBoat](/info/browser/name/slimbrowser) |
-| [Dragon](/info/browser/name/dragon) | [Links](/info/browser/name/links) | [SlimBrowser](/info/browser/name/slimbrowser) |
-| [Conkeror](/info/browser/name/conkeror) | [Luakit](/info/browser/name/luakit) | [Slimjet](/info/browser/name/slimbrowser) |
-| [Daum](/info/browser/name/daum) | [Lunascape](/info/browser/name/lunascape) | [Smart Lenovo Browser](/info/browser/name/lenovo) |
-| [Dillo](/info/browser/name/dillo) | [Lynx](/info/browser/name/lynx) | [Snapchat](/info/browser/name/snapchat) |
-| [Dooble](/info/browser/name/dooble) | [Maemo Browser](/info/browser/name/maemo) | [Sogou Explorer](/info/browser/name/sogou-explorer) |
-| [Dolphin](/info/browser/name/dolphin) | [Maxthon](/info/browser/name/maxthon) | [Sogou Mobile](/info/browser/name/sogou-mobile) |
-| [Doris](/info/browser/name/doris) | [Midori](/info/browser/name/midori) | [Steam](/info/browser/name/steam) |
-| [DuckDuckGo](/info/browser/name/duckduckgo) | [Minimo](/info/browser/name/minimo) | [Surf](/info/browser/name/surf) |
-| [Ecosia](/info/browser/name/ecosia) | [MIUI Browser](/info/browser/name/miui) | [Swiftfox](/info/browser/name/swiftfox) |
-| [Edge](/info/browser/name/edge) | [Mobile Chrome](/info/browser/name/mobile-chrome) | [Tesla](/info/browser/name/tesla) |
-| Edge WebView | [Mobile Firefox](/info/browser/name/mobile-firefox) | [TikTok](/info/browser/name/tiktok) |
-| Edge WebView2 | [Mobile Safari](/info/browser/name/mobile-safari) | [Tizen Browser](/info/browser/name/tizen) |
-| [Electron](/info/browser/name/electron) | [Mosaic](/info/browser/name/mosaic) | [Twitter](/info/browser/name/twitter) |
-| [Epiphany](/info/browser/name/epiphany) | [Mozilla](/info/browser/name/mozilla) | [UCBrowser](/info/browser/name/uc) |
-| [Facebook](/info/browser/name/facebook) | [Naver](/info/browser/name/naver) | [UP.Browser](/info/browser/name/up) |
-| [Falkon](/info/browser/name/falkon) | [NetFront](/info/browser/name/netfront) | [Vivaldi](/info/browser/name/vivaldi) |
-| [Fennec](/info/browser/name/fennec) | [Netscape](/info/browser/name/netscape) | [Vivo Browser](/info/browser/name/vivo) |
-| [Firebird](/info/browser/name/firebird) | [NetSurf](/info/browser/name/netsurf) | [w3m](/info/browser/name/w3m) |
-| [Firefox](/info/browser/name/firefox) | [Nokia Browser](/info/browser/name/nokia) | [Waterfox](/info/browser/name/waterfox) |
-| [Firefox Focus](/info/browser/name/firefox-focus) | [Norton Private Browser](/info/browser/name/norton) | WebKit |
-| [Firefox Reality](/info/browser/name/firefox-reality) | [Obigo](/info/browser/name/obigo) | [WeChat](/info/browser/name/wechat) |
-| [Flock](/info/browser/name/flock) | [Oculus Browser](/info/browser/name/oculus) | [Weibo](/info/browser/name/weibo) |
-| [Flow](/info/browser/name/flow) | [OmniWeb](/info/browser/name/omniweb) | [Whale](/info/browser/name/whale) |
-| [GoBrowser](/info/browser/name/go) | [Opera](/info/browser/name/opera) | [Wolvic](/info/browser/name/wolvic) |
-| [GSA](/info/browser/name/gsa) | [Opera Coast](/info/browser/name/opera-coast) | [Yandex](/info/browser/name/yandex) |
-| [Helio](/info/browser/name/helio) | [Opera GX](/info/browser/name/opera-gx) | [Zalo](/info/browser/name/zalo) |
+| Browser Name | Development Status |
+| --- | --- |
+| [115](/info/browser/name/115) | Active |
+| [2345](/info/browser/name/2345) | Active |
+| [360](/info/browser/name/360) | Active |
+| [Alipay](/info/browser/name/alipay) | Active |
+| [Aloha](/info/browser/name/aloha) | Active |
+| [Amaya](/info/browser/name/amaya) | Discontinued |
+| [Android Browser](/info/browser/name/android) | Discontinued |
+| [Arora](/info/browser/name/arora) | Discontinued |
+| [Atlas](/info/browser/name/atlas) | Active |
+| [Avant](/info/browser/name/avant) | Active |
+| [Avast Secure Browser](/info/browser/name/avast) | Active |
+| [AVG Secure Browser](/info/browser/name/avg) | Active |
+| [Avira Secure Browser](/info/browser/name/avira) | Active |
+| [Baidu Browser](/info/browser/name/baidu) | Discontinued |
+| [Basilisk](/info/browser/name/basilisk) | Active |
+| [Bing](/info/browser/name/bing) | Active |
+| [Blazer](/info/browser/name/blazer) | Discontinued |
+| [Bolt](/info/browser/name/bolt) | Discontinued |
+| [Bowser](/info/browser/name/bowser) | Unknown |
+| [Brave](/info/browser/name/brave) | Active |
+| [Camino](/info/browser/name/camino) | Discontinued |
+| [ChatGPT](/info/browser/name/chatgpt) | Active |
+| [Chimera](/info/browser/name/chimera) | Renamed to [Camino](/info/browser/name/camino) |
+| [Chrome](/info/browser/name/chrome) | Active |
+| [Chrome Headless](/info/browser/name/chrome-headless) | Active |
+| [Chrome Mobile](/info/browser/name/mobile-chrome) | Active |
+| [Chrome WebView](/info/browser/name/chrome-webview) | Active |
+| [Chromium](/info/browser/name/chromium) | Active |
+| [Cobalt](/info/browser/name/cobalt) | Active |
+| [Coc Coc](/info/browser/name/coc-coc) | Active |
+| [Conkeror](/info/browser/name/conkeror) | Unknown |
+| [Daum](/info/browser/name/daum) | Active |
+| [Dillo](/info/browser/name/dillo) | Active |
+| [Dolphin](/info/browser/name/dolphin) | Active |
+| [Dooble](/info/browser/name/dooble) | Active |
+| [Doris](/info/browser/name/doris) | Unknown |
+| [Dragon](/info/browser/name/dragon) | Active |
+| [DuckDuckGo](/info/browser/name/duckduckgo) | Active |
+| [Ecosia](/info/browser/name/ecosia) | Active |
+| [Edge](/info/browser/name/edge) | Active |
+| [Edge WebView](/info/browser/name/edge-webview) | Replaced by [Edge WebView2](/info/browser/name/edge-webview2) |
+| [Edge WebView2](/info/browser/name/edge-webview2) | Active |
+| [Electron](/info/browser/name/electron) | Active |
+| [Epiphany](/info/browser/name/epiphany) | Renamed to GNOME Web |
+| [Facebook](/info/browser/name/facebook) | Active |
+| [Falkon](/info/browser/name/falkon) | Active |
+| [Fennec](/info/browser/name/fennec) | Replaced by [Firefox Mobile](/info/browser/name/mobile-firefox) |
+| [Firebird](/info/browser/name/firebird) | Renamed to [Firefox](/info/browser/name/firefox) |
+| [Firefox](/info/browser/name/firefox) | Active |
+| [Firefox Focus](/info/browser/name/firefox-focus) | Active |
+| [Firefox Mobile](/info/browser/name/mobile-firefox) | Active |
+| [Firefox Reality](/info/browser/name/firefox-reality) | Replaced by [Wolvic](/info/browser/name/wolvic) |
+| [Flock](/info/browser/name/flock) | Discontinued |
+| [Flow](/info/browser/name/flow) | Active |
+| [GoBrowser](/info/browser/name/go) | Unknown |
+| [GSA](/info/browser/name/gsa) | Active |
+| [Helio](/info/browser/name/helio) | Discontinued |
+| [HeyTap](/info/browser/name/heytap) | Active |
+| [HiBrowser](/info/browser/name/hibrowser) | Active |
+| [Huawei Browser](/info/browser/name/huawei) | Active |
+| [iCab](/info/browser/name/icab) | Active |
+| [ICE Browser](/info/browser/name/ice) | Unknown |
+| [IceApe](/info/browser/name/iceape) | Discontinued |
+| [IceCat](/info/browser/name/icecat) | Active |
+| [IceDragon](/info/browser/name/icedragon) | Discontinued |
+| [Iceweasel](/info/browser/name/iceweasel) | Renamed to [Firefox](/info/browser/name/firefox) |
+| [IE](/info/browser/name/ie) | Replaced by [Edge](/info/browser/name/edge) |
+| [IEMobile](/info/browser/name/iemobile) | Discontinued |
+| [Instagram](/info/browser/name/instagram) | Active |
+| [Iridium](/info/browser/name/iridium) | Active |
+| [Iron](/info/browser/name/iron) | Active |
+| [Jasmine](/info/browser/name/jasmine) | Unknown |
+| [K-Meleon](/info/browser/name/k-meleon) | Active |
+| [KakaoStory](/info/browser/name/kakaostory) | Active |
+| [KakaoTalk](/info/browser/name/kakaotalk) | Active |
+| [Kindle](/info/browser/name/kindle) | Active |
+| [Klar](/info/browser/name/klar) | Active |
+| [Klarna](/info/browser/name/klarna) | Active |
+| [Konqueror](/info/browser/name/konqueror) | Active |
+| [Ladybird](/info/browser/name/ladybird) | Active |
+| [LBBROWSER](/info/browser/name/liebao) | Active |
+| [LG Browser](/info/browser/name/lg-browser) | Active |
+| [LibreWolf](/info/browser/name/librewolf) | Active |
+| [Lighthouse](/info/browser/name/lighthouse) | Active |
+| [Line](/info/browser/name/line) | Active |
+| [LinkedIn](/info/browser/name/linkedin) | Active |
+| [Links](/info/browser/name/links) | Active |
+| [Luakit](/info/browser/name/luakit) | Active |
+| [Lunascape](/info/browser/name/lunascape) | Active |
+| [Lynx](/info/browser/name/lynx) | Active |
+| [Maemo Browser](/info/browser/name/maemo) | Discontinued |
+| [Maxthon](/info/browser/name/maxthon) | Active |
+| [Midori](/info/browser/name/midori) | Active |
+| [Minimo](/info/browser/name/minimo) | Discontinued |
+| [MIUI Browser](/info/browser/name/miui) | Active |
+| [Mosaic](/info/browser/name/mosaic) | Discontinued |
+| [Mozilla](/info/browser/name/mozilla) | Continued as [SeaMonkey](/info/browser/name/seamonkey) |
+| [Naver](/info/browser/name/naver) | Active |
+| [NetFront](/info/browser/name/netfront) | Active |
+| [Netscape](/info/browser/name/netscape) | Discontinued |
+| [NetSurf](/info/browser/name/netsurf) | Active |
+| [Nokia Browser](/info/browser/name/nokia) | Discontinued |
+| [Norton Private Browser](/info/browser/name/norton) | Active |
+| [Obigo](/info/browser/name/obigo) | Active |
+| [Oculus Browser](/info/browser/name/oculus) | Active |
+| [OmniWeb](/info/browser/name/omniweb) | Active |
+| [Opera](/info/browser/name/opera) | Active |
+| [Opera Coast](/info/browser/name/opera-coast) | Discontinued |
+| [Opera GX](/info/browser/name/opera-gx) | Active |
+| [Opera Mini](/info/browser/name/opera-mini) | Active |
+| [Opera Mobile](/info/browser/name/opera-mobi) | Replaced by [Opera](/info/browser/name/opera) |
+| [Opera Neon](/info/browser/name/opera-neon) | Active |
+| [Opera Tablet](/info/browser/name/opera-tablet) | Discontinued |
+| [Opera Touch](/info/browser/name/opera-touch) | Renamed to [Opera](/info/browser/name/opera) |
+| [Otter](/info/browser/name/otter) | Active |
+| [OviBrowser](/info/browser/name/ovi) | Discontinued |
+| [PaleMoon](/info/browser/name/palemoon) | Active |
+| [PhantomJS](/info/browser/name/phantomjs) | Discontinued |
+| [Phoenix](/info/browser/name/phoenix) | Renamed to [Firefox](/info/browser/name/firefox) |
+| [Pico Browser](/info/browser/name/picobrowser) | Active |
+| [Polaris](/info/browser/name/polaris) | Unknown |
+| [Puffin](/info/browser/name/puffin) | Active |
+| [QQBrowser](/info/browser/name/qq) | Active |
+| [QQBrowserLite](/info/browser/name/qq-lite) | Unknown |
+| [Quark](/info/browser/name/quark) | Active |
+| [QupZilla](/info/browser/name/qupzilla) | Renamed to [Falkon](/info/browser/name/falkon) |
+| [qutebrowser](/info/browser/name/qutebrowser) | Active |
+| [Qwant](/info/browser/name/qwant) | Active |
+| [Rekonq](/info/browser/name/rekonq) | Discontinued |
+| [RockMelt](/info/browser/name/rockmelt) | Discontinued |
+| [Safari](/info/browser/name/safari) | Active |
+| [Safari Mobile](/info/browser/name/mobile-safari) | Active |
+| [Sailfish Browser](/info/browser/name/sailfish) | Active |
+| [Samsung Internet](/info/browser/name/samsung-internet) | Active |
+| [SeaMonkey](/info/browser/name/seamonkey) | Active |
+| [Silk](/info/browser/name/silk) | Active |
+| [Skyfire](/info/browser/name/skyfire) | Discontinued |
+| [Sleipnir](/info/browser/name/sleipnir) | Active |
+| [SlimBoat](/info/browser/name/slimboat) | Discontinued |
+| [SlimBrowser](/info/browser/name/slimbrowser) | Active |
+| [Slimjet](/info/browser/name/slimjet) | Active |
+| [Smart Lenovo Browser](/info/browser/name/lenovo) | Active |
+| [Snapchat](/info/browser/name/snapchat) | Active |
+| [Sogou Explorer](/info/browser/name/sogou-explorer) | Active |
+| [Sogou Mobile](/info/browser/name/sogou-mobile) | Active |
+| [Steam](/info/browser/name/steam) | Active |
+| [Surf](/info/browser/name/surf) | Unknown |
+| [Swiftfox](/info/browser/name/swiftfox) | Discontinued |
+| [Tesla](/info/browser/name/tesla) | Active |
+| [TikTok](/info/browser/name/tiktok) | Active |
+| [Tizen Browser](/info/browser/name/tizen) | Active |
+| [Twitter](/info/browser/name/twitter) | Active |
+| [UCBrowser](/info/browser/name/uc) | Active |
+| [UP.Browser](/info/browser/name/up) | Discontinued |
+| [Vivaldi](/info/browser/name/vivaldi) | Active |
+| [Vivo Browser](/info/browser/name/vivo) | Active |
+| [w3m](/info/browser/name/w3m) | Active |
+| [Waterfox](/info/browser/name/waterfox) | Active |
+| [WebKit](/info/browser/name/webkit) | Active |
+| [WeChat](/info/browser/name/wechat) | Active |
+| [Weibo](/info/browser/name/weibo) | Active |
+| [Whale](/info/browser/name/whale) | Active |
+| [Wolvic](/info/browser/name/wolvic) | Active |
+| [Yandex](/info/browser/name/yandex) | Active |
+| [Zalo](/info/browser/name/zalo) | Active |
 
 ::: tip
 - Use the [`BrowserName`](/api/submodules/enums/browser-name) enum from the [`enums`](/api/submodules/enums/overview) submodule to reference browser names in code.
