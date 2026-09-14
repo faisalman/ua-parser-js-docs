@@ -17,7 +17,7 @@ Edge WebView2 is Microsoft's embedded web control powered by the Chromium-based 
 
 UAParser.js separates Microsoft's legacy, current, mobile, and embedded browser identities:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`IE`](./ie.md) | Microsoft's legacy browser, replaced by Edge. |
 | [`IE Mobile`](./iemobile.md) | The former mobile version of Internet Explorer. |

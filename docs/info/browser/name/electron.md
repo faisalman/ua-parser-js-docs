@@ -2,8 +2,33 @@
 
 # Electron
 
-### Windows
+- **Developer:** OpenJS Foundation
+- **Development Status:** Active
+- **Released:** 2013
+- **Platforms:** Windows, macOS, Linux
+- **Type:** In-app Browser
+- **Rendering Engine:** Blink
+
+## Overview
+
+Electron is a framework for building desktop apps with Chromium and Node.js.
+
+## User-Agent Examples
+
+##### Windows
 
 ```sh
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Atom/1.41.0 Chrome/69.0.3497.128 Electron/4.2.7 Safari/537.36
+```
+
+## Code Example
+
+```js
+import { UAParser } from 'ua-parser-js';
+
+const parser = new UAParser();
+const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Atom/1.41.0 Chrome/69.0.3497.128 Electron/4.2.7 Safari/537.36';
+
+console.log(parser.setUA(ua).getBrowser());
+// {name: "Electron", version: "4.2.7", major: "4"}
 ```
