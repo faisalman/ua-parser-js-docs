@@ -17,7 +17,7 @@ Chrome WebView is Android's Chromium-based component for displaying web content 
 
 UAParser.js detects these related browser products and projects separately:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`Chrome`](./chrome.md) | The standard desktop version of Chrome. |
 | [`Chrome Mobile`](./mobile-chrome.md) | Chrome's standalone browser for Android and iOS. |
@@ -28,7 +28,7 @@ UAParser.js detects these related browser products and projects separately:
 
 ## History
 
-Android changed WebView to a [Chromium](./chromium.md)-based implementation in Android 4.4. This affected the component used inside apps, not the standalone [Mobile Chrome](./mobile-chrome.md) browser.
+Android changed WebView to a [Chromium](./chromium.md)-based implementation in Android 4.4. This affected the component used inside apps, not the standalone [Chrome Mobile](./mobile-chrome.md) browser.
 
 ## User-Agent Examples
 

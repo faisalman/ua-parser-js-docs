@@ -17,7 +17,7 @@ Google Chrome is a cross-platform web browser developed by Google.
 
 UAParser.js detects these related browser products and projects separately:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`Chrome`](./chrome.md) | The standard desktop version of Chrome. |
 | [`Chrome Mobile`](./mobile-chrome.md) | Chrome's standalone browser for Android and iOS. |

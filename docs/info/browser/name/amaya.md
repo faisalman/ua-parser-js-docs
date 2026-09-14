@@ -2,7 +2,7 @@
 
 # Amaya
 
-- **Developer:** W3C and INRIA
+- **Developer:** W3C, INRIA
 - **Development Status:** Discontinued
 - **Released:** 1996
 - **Platforms:** Windows, macOS, Linux

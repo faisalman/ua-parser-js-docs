@@ -82,7 +82,7 @@
 | [Klarna](/info/browser/name/klarna) | Active |
 | [Konqueror](/info/browser/name/konqueror) | Active |
 | [Ladybird](/info/browser/name/ladybird) | Active |
-| [LBBROWSER](/info/browser/name/liebao) | Active |
+| [LieBao Browser](/info/browser/name/liebao) | Active |
 | [LG Browser](/info/browser/name/lg-browser) | Active |
 | [LibreWolf](/info/browser/name/librewolf) | Active |
 | [Lighthouse](/info/browser/name/lighthouse) | Active |

@@ -17,7 +17,7 @@ Chromium is the open-source browser project that underpins Google Chrome and man
 
 UAParser.js detects these related browser products and projects separately:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`Chrome`](./chrome.md) | The standard desktop version of Chrome. |
 | [`Chrome Mobile`](./mobile-chrome.md) | Chrome's standalone browser for Android and iOS. |

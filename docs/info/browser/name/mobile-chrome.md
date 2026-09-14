@@ -17,7 +17,7 @@ Mobile Chrome refers to Google's mobile browser, officially distributed as `Chro
 
 UAParser.js detects these related browser products and projects separately:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`Chrome`](./chrome.md) | The standard desktop version of Chrome. |
 | [`Chrome Mobile`](./mobile-chrome.md) | Chrome's standalone browser for Android and iOS. |
