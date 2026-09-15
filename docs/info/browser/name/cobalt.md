@@ -2,7 +2,7 @@
 
 # Cobalt
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Active
 - **Platforms:** Smart TVs, streaming devices
 - **Type:** Browser

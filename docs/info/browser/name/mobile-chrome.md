@@ -2,7 +2,7 @@
 
 # Chrome Mobile
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Active
 - **Released:** 2012
 - **Platforms:** Android, iOS

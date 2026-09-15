@@ -2,7 +2,7 @@
 
 # Chrome Headless
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Active
 - **Released:** 2017
 - **Platforms:** Windows, macOS, Linux

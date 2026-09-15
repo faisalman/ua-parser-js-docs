@@ -2,7 +2,7 @@
 
 # Chrome
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Active
 - **Released:** 2008
 - **Platforms:** Windows, macOS, Linux, ChromeOS

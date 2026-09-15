@@ -2,7 +2,7 @@
 
 # Chrome WebView
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Active
 - **Released:** 2013
 - **Platforms:** Android

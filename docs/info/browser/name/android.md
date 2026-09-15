@@ -2,7 +2,7 @@
 
 # Android Browser
 
-- **Developer:** Google (Alphabet)
+- **Developer:** Google
 - **Development Status:** Discontinued
 - **Released:** 2008
 - **Platforms:** Android
