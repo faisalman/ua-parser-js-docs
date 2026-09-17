@@ -17,7 +17,7 @@ Comodo IceDragon was a security-focused browser based on Firefox.
 
 These security-focused browsers are developed by Comodo:
 
-| Browser | Relationship |
+| Browser | Description |
 | --- | --- |
 | [`Dragon`](./dragon.md) | Comodo's Chromium-based browser. |
 | [`IceDragon`](./icedragon.md) | Comodo's Firefox-based browser. |

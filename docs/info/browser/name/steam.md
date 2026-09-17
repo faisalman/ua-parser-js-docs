@@ -2,15 +2,46 @@
 
 # Steam
 
-### Windows
+- **Developer:** Valve
+- **Development Status:** Active
+- **Released:** 2003
+- **Platforms:** Windows, macOS, Linux, Android, iOS
+- **Type:** In-app Browser
+- **Rendering Engine:** Trident (early Windows client), WebKit (older client), Blink (current client)
+
+## Overview
+
+Steam is Valve's game distribution client with an integrated web browser.
+
+## User-Agent Examples
+
+##### Windows
 
 ```sh
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam GameOverlay/default/1741737356) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36
 ```
 
-### Linux
+##### Linux
 
 ```sh
 Mozilla/5.0 (X11; Linux x86_64; Valve Steam Client/default/1705108172) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 Mozilla/5.0 (Linux; U; X11; en-US; Valve Steam Tenfoot/1660688177; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+```
+
+## Code Example
+
+```js
+import { UAParser } from 'ua-parser-js';
+import { BrowserName } from 'ua-parser-js/enums';
+
+const parser = new UAParser();
+const ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam GameOverlay/default/1741737356) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36';
+
+const browser = parser.setUA(ua).getBrowser();
+
+console.log(browser);
+// {name: "Steam"}
+
+console.log(browser.is(BrowserName.STEAM));
+// true
 ```

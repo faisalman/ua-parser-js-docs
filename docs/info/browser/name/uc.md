@@ -2,7 +2,29 @@
 
 # UC Browser
 
+- **Developer:** UCWeb (Alibaba Group)
+- **Development Status:** Active
+- **Released:** 2004
+- **Platforms:** Windows, Windows Mobile, Windows Phone, Android, iOS, Symbian, Tizen, Bada, KaiOS, Fire OS, ChromeOS, Linux, BlackBerry OS, Java ME
+- **Type:** Browser
+- **Rendering Engine:** Trident (Windows compatibility mode), WebKit (older and iOS releases), Blink (newer releases)
+
+## Overview
+
+UC Browser is a cross-platform web browser developed by UCWeb.
+
 ## Desktop
+
+## Related Browsers
+
+These browsers are developed by UCWeb:
+
+| Browser | Description |
+| --- | --- |
+| [`UC Browser`](./uc.md) | UCWeb's main cross-platform browser. |
+| [`Quark`](./quark.md) | UCWeb's mobile browser and search app. |
+
+## User-Agent Examples
 
 ```sh
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 UBrowser/5.6.12860.7 Safari/537.36
@@ -18,8 +40,26 @@ UCWEB/2.0 (MIDP-2.0; U; zh-CN; HTC EVO 3D X515m) U2/1.0.0 UCBrowser/10.4.0.558 U
 JUC (Linux; U; 2.3.5; zh-cn; GT-I9100; 480*800) UCWEB7.9.0.94/139/800
 ```
 
-### Windows
+##### Windows
 
 ```sh
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 UCPC/1.1.0.12
+```
+
+## Code Example
+
+```js
+import { UAParser } from 'ua-parser-js';
+import { BrowserName } from 'ua-parser-js/enums';
+
+const parser = new UAParser();
+const ua = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 UBrowser/5.6.12860.7 Safari/537.36';
+
+const browser = parser.setUA(ua).getBrowser();
+
+console.log(browser);
+// {name: "UCBrowser", version: "5.6.12860.7", major: "5"}
+
+console.log(browser.is(BrowserName.UC));
+// true
 ```

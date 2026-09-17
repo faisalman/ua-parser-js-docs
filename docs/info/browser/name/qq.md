@@ -2,7 +2,29 @@
 
 # QQBrowser
 
-### Android
+- **Developer:** Tencent
+- **Development Status:** Active
+- **Released:** 2000
+- **Platforms:** Windows, macOS, Android, iOS
+- **Type:** Browser
+- **Rendering Engine:** Trident (compatibility mode), WebKit (older and iOS releases), Blink (newer releases)
+
+## Overview
+
+QQ Browser is a cross-platform web browser developed by Tencent.
+
+## Related Browsers
+
+UAParser.js detects the main QQ browser and its lighter edition separately:
+
+| Browser | Description |
+| --- | --- |
+| [`QQBrowser`](./qq.md) | Tencent's main QQ web browser. |
+| [`QQBrowserLite`](./qq-lite.md) | The lightweight version of QQ Browser. |
+
+## User-Agent Examples
+
+##### Android
 
 ```sh
 Mozilla/5.0 (Linux; Android 6.0; PRO 6 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.8 TBS/036824 Safari/537.36 V1_AND_SQ_6.5.8_422_YYB_D PA QQ/6.5.8.2910 NetType/WIFI WebP/0.3.0 Pixel/1080
@@ -11,14 +33,32 @@ Mozilla/5.0 (Linux; U; Android 9; zh-cn; vivo X21 Build/PKQ1.180819.001) AppleWe
 ```
 
 
-### iOS
+##### iOS
 
 ```sh
 Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 QQ/6.5.3.410 V1_IPH_SQ_6.5.3_1_APP_A Pixel/1080 Core/UIWebView NetType/WIFI Mem/26
 ```
 
-### Windows
+##### Windows
 
 ```sh
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.124 Safari/537.36 qblink wegame.exe WeGame/5.1.1.11100 QBCore/3.70.107.400 QQBrowser/9.0.2524.400
+```
+
+## Code Example
+
+```js
+import { UAParser } from 'ua-parser-js';
+import { BrowserName } from 'ua-parser-js/enums';
+
+const parser = new UAParser();
+const ua = 'Mozilla/5.0 (Linux; Android 6.0; PRO 6 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.8 TBS/036824 Safari/537.36 V1_AND_SQ_6.5.8_422_YYB_D PA QQ/6.5.8.2910 NetType/WIFI WebP/0.3.0 Pixel/1080';
+
+const browser = parser.setUA(ua).getBrowser();
+
+console.log(browser);
+// {name: "QQBrowser", version: "6.5.8.2910", major: "6"}
+
+console.log(browser.is(BrowserName.QQ));
+// true
 ```
