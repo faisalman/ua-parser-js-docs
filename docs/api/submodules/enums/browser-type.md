@@ -1,13 +1,26 @@
 [`← enums`](/api/submodules/enums/overview)
 
-# `BrowserType`
+# `BrowserType` enum
 
 ```csv:no-line-numbers
 CRAWLER, CLI, EMAIL, FETCHER, INAPP, MEDIAPLAYER, LIBRARY
 ```
+
 ::: info
-Find the example of various browser types in [extensions](/api/submodules/extensions/overview) submodule.
+See list of possible browser type [here](/info/browser/type).
 :::
+
+## Values
+
+| Enum | Value |
+|-|-|
+| `BrowserType.CLI` | `"cli"` |
+| `BrowserType.CRAWLER` | `"crawler"` |
+| `BrowserType.EMAIL` | `"email"` |
+| `BrowserType.FETCHER` | `"fetcher"` |
+| `BrowserType.INAPP` | `"inapp"` |
+| `BrowserType.MEDIAPLAYER` | `"mediaplayer"` |
+| `BrowserType.LIBRARY` | `"library"` |
 
 ## Code Example
 
