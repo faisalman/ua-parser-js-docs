@@ -6,10 +6,10 @@ Use the [`BrowserType`](/api/submodules/enums/browser-type) enum from the `enums
 
 | Value | Description | Examples |
 |-|-|-|
-| `cli` | Text-based web browsers operated through the command line, used for browsing websites without a graphical interface. |`cURL`, `Lynx` |
-| `crawler`  | Automated programs (bots) that systematically browse the web to index websites for search engines. | `Googlebot` |
-| `email` | Software used to access and manage a user's email. | `Microsoft Outlook`, `Thunderbird` |
-| `fetcher` | Automated programs (bots) that retrieve specific URLs on-demand to extract metadata or generate previews. | `Twitterbot`, `ChatGPT-User`  |
-| `inapp` | WebView/embedded browsers within apps to open web content without leaving the app, typically with minimal controls. | `Slack` |
-| `mediaplayer`  | Applications that access web content specifically for playing media files. | `VLC`, `Windows Media Player` |
-| `library` | Software components or libraries used within larger applications to fetch or interact with web content. | `Axios`, `Scrapy` |
+| [`cli`](./type/cli.md) | Text-based web browsers operated through the command line, used for browsing websites without a graphical interface. |`cURL`, `Lynx` |
+| [`crawler`](./type/crawler.md)  | Automated programs (bots) that systematically browse the web to index websites for search engines. | `Googlebot` |
+| [`email`](./type/email.md) | Software used to access and manage a user's email. | `Microsoft Outlook`, `Thunderbird` |
+| [`fetcher`](./type/fetcher.md) | Automated programs (bots) that retrieve specific URLs on-demand to extract metadata or generate previews. | `Twitterbot`, `ChatGPT-User`  |
+| [`inapp`](./type/inapp.md) | WebView/embedded browsers within apps to open web content without leaving the app, typically with minimal controls. | `Slack` |
+| [`mediaplayer`](./type/mediaplayer.md)  | Applications that access web content specifically for playing media files. | `VLC`, `Windows Media Player` |
+| [`library`](./type/library.md) | Software components or libraries used within larger applications to fetch or interact with web content. | `Axios`, `Scrapy` |
