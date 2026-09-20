@@ -1,9 +1,5 @@
 # List of Detected Device Vendors
 
-::: tip
-Use the [`DeviceVendor`](/api/submodules/enums/device-vendor) enum from the `enums` submodule to reference device vendors in code.
-:::
-
 - `Acer`
 - `Advan`
 - `Alcatel`
@@ -87,3 +83,7 @@ Use the [`DeviceVendor`](/api/submodules/enums/device-vendor) enum from the `enu
 - `Zebra`
 - `ZTE`
 - `...`
+
+::: tip
+Use the [`DeviceVendor`](/api/submodules/enums/device-vendor) enum from the `enums` submodule to reference device vendors in code.
+:::

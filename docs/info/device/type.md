@@ -1,9 +1,5 @@
 # List of Detected Device Types
 
-::: tip
-Use the [`DeviceType`](/api/submodules/enums/device-type) enum from the `enums` submodule to reference device types in code.
-:::
-
 | `device.type` | Description | Examples  |
 |-|-|-|
 | `console` | Gaming consoles or similar dedicated gaming devices. | `Sony PlayStation`, `Microsoft Xbox` |
@@ -15,6 +11,10 @@ Use the [`DeviceType`](/api/submodules/enums/device-type) enum from the `enums` 
 | `xr` | Extended reality (XR) devices, encompassing virtual reality (VR) and augmented reality (AR) headsets. | `Google Glass`, `Oculus Quest` |
 
 
+::: warning
+If you wish to detect **desktop** devices, you must handle the logic yourself, since the info isn't directly available from user-agent string (read more about this issue [here🡥](https://github.com/faisalman/ua-parser-js/issues/182)).
+:::
+
 ::: tip
-If you wish to detect **desktop** devices, you must handle the logic yourself, since UAParser only reports info that is directly available from user-agent string (read more about this issue [here🡥](https://github.com/faisalman/ua-parser-js/issues/182)).
+Use the [`DeviceType`](/api/submodules/enums/device-type) enum from the `enums` submodule to reference device types in code.
 :::

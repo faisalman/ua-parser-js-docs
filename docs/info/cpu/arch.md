@@ -1,9 +1,5 @@
 # List of Detected CPU Architectures
 
-::: tip
-Use the [`CPUArch`](/api/submodules/enums/cpu-arch) enum from the `enums` submodule to reference CPU architectures in code.
-:::
-
 | Value | Description               |
 |----------------------|-------------------------------|
 | `ia32`               | Intel x86                     |
@@ -23,3 +19,7 @@ Use the [`CPUArch`](/api/submodules/enums/cpu-arch) enum from the `enums` submod
 | `ppc`                | PowerPC                       |
 | `sparc`              | SPARC 32-bit                  |
 | `sparc64`            | SPARC 64-bit                  |
+
+::: tip
+Use the [`CPUArch`](/api/submodules/enums/cpu-arch) enum from the `enums` submodule to reference CPU architectures in code.
+:::

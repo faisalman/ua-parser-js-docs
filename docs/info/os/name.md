@@ -1,9 +1,5 @@
 # List of Detected Operating Systems
 
-::: tip
-Use the [`OSName`](/api/submodules/enums/os-name) enum from the `enums` submodule to reference operating systems in code.
-:::
-
 - `AIX`
 - `Amiga OS`
 - `Android`
@@ -98,3 +94,7 @@ Use the [`OSName`](/api/submodules/enums/os-name) enum from the `enums` submodul
 - `Xubuntu`
 - `Zenwalk`
 - `...`
+
+::: tip
+Use the [`OSName`](/api/submodules/enums/os-name) enum from the `enums` submodule to reference operating systems in code.
+:::
