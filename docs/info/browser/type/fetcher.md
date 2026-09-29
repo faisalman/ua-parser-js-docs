@@ -1,4 +1,4 @@
-[`← Browser Type`](../type.md)
+<sup>*[`Browser Types`](../type.md) > `fetcher`*</sup>
 
 # `fetcher`
 

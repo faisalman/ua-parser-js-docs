@@ -1,3 +1,5 @@
+<sup>*[`API Reference`](./overview.md) > [`Interfaces`](./interfaces.md) > `IBrowser`*</sup>
+
 # `IBrowser`
 
 ```js

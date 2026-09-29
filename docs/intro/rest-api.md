@@ -1,3 +1,5 @@
+<sup>*[`Quickstarts`](./quick-start/quick-start.md) > `Managed REST API`*</sup>
+
 # Managed REST API
 
 If you prefer not to install, self-host, and regularly update UAParser.js yourself, you can use the managed [User-Agent API🡥](https://app.uaparser.dev/api/restcountries) powered by UAParser.js:

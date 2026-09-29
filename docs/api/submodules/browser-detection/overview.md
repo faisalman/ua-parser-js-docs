@@ -1,3 +1,5 @@
+<sup>*`Browser-Detection Submodule`*</sup>
+
 # Browser-Detection Submodule
 
 Import from `'ua-parser-js/browser-detection'`

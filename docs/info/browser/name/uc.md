@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `UC Browser`*</sup>
 
 # UC Browser
 

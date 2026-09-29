@@ -1,3 +1,5 @@
+<sup>*`Device Types`*</sup>
+
 # List of Detected Device Types
 
 | `device.type` | Description | Examples  |

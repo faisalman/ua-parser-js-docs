@@ -1,4 +1,4 @@
-[`← extensions`](/api/submodules/extensions/overview)
+<sup>*[`Extensions Submodule`](./overview.md) > `CLIs`*</sup>
 
 # `CLIs`
 
@@ -12,13 +12,12 @@ Extends [`browser`](/info/browser/name) detection to include tools that allow br
 - [`Lynx`](./clis/lynx.md)
 - [`PowerShell`](./clis/powershell.md)
 - [`Wget`](./clis/wget.md)
-- ... etc.
 
 ## Code Example
 
 ```js
 import { UAParser } from 'ua-parser-js';
-import { CLIs } from 'ua-parser-js/extensions';
+import { CLIs }     from 'ua-parser-js/extensions';
 
 const httpie = 'HTTPie/0.9.9';
 const lynx = 'Lynx/2.6';

@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Smart Lenovo Browser`*</sup>
 
 # Smart Lenovo Browser
 

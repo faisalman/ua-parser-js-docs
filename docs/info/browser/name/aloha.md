@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Aloha Browser`*</sup>
 
 # Aloha Browser
 

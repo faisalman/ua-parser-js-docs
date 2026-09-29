@@ -1,3 +1,5 @@
+<sup>*`Bot-Detection Submodule`*</sup>
+
 # Bot-Detection Submodule
 
 Import from `'ua-parser-js/bot-detection'`

@@ -1,4 +1,6 @@
-# [Quickstarts](/intro/quick-start/quick-start) : Using jQuery (`$.ua`)
+<sup>*[`Quickstarts`](./quick-start.md) > `Using jQuery ($.ua)`*</sup>
+
+# Using jQuery (`$.ua`)
 
 Even though UAParser.js is written in plain JavaScript, it automatically detects the presence of [jQuery🡥](https://jquery.com/) (or [Zepto🡥](https://zeptojs.com/)) and creates a new shortcut `$.ua`, in addition to the usual global `window.UAParser` constructor if you want to create an instance manually. 
 

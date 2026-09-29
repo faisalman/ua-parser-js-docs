@@ -1,3 +1,5 @@
+<sup>*[`API Reference`](./overview.md) > [`Interfaces`](./interfaces.md) > `IData`*</sup>
+
 # `IData`
 
 Base interface shared by `IBrowser`, `ICPU`, `IDevice`, `IEngine`, `IOS`, and `IResult`.

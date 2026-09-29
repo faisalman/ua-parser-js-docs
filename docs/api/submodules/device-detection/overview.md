@@ -1,3 +1,5 @@
+<sup>*`Device-Detection Submodule`*</sup>
+
 # Device-Detection Submodule
 
 Import from `'ua-parser-js/device-detection'`

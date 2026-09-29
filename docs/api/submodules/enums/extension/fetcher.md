@@ -1,4 +1,4 @@
-[`← Extension enum`](/api/submodules/enums/extension)
+<sup>*[`Enums Submodule`](../overview.md) > [`Extension enum`](../extension.md) > `Extension.BrowserName.Fetcher enum`*</sup>
 
 # `Extension.BrowserName.Fetcher` enum
 

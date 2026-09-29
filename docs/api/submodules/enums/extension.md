@@ -1,4 +1,4 @@
-[`← enums`](/api/submodules/enums/overview)
+<sup>*[`Enums Submodule`](./overview.md) > `Extension enum`*</sup>
 
 # `Extension` enum
 
@@ -20,7 +20,7 @@ import { Fetchers } from 'ua-parser-js/extensions';
 import { Extension } from 'ua-parser-js/enums';
 
 const userAgent = "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot";
-const { BrowserName: { Fetcher }} = Extension;
+const { Fetcher } = Extension.BrowserName;
 const { browser } = UAParser(userAgent, Fetchers);
 if (browser.is(Fetcher.OPENAI_CHATGPT_USER)) {
     console.log('Hello, ChatGPT!');

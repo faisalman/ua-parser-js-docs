@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Avast Secure Browser`*</sup>
 
 # Avast Secure Browser
 

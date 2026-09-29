@@ -1,3 +1,5 @@
+<sup>*`Device Vendors`*</sup>
+
 # List of Detected Device Vendors
 
 - `Acer`

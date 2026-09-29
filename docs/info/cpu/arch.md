@@ -1,3 +1,5 @@
+<sup>*`CPU Architectures`*</sup>
+
 # List of Detected CPU Architectures
 
 | Value | Description               |

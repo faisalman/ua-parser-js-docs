@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Brave Browser`*</sup>
 
 # Brave Browser
 

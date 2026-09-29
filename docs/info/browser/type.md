@@ -1,3 +1,5 @@
+<sup>*`Browser Types`*</sup>
+
 # List of Detected Browser Types
 
 | Value | Description | Examples |

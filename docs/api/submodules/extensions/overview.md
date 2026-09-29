@@ -1,3 +1,5 @@
+<sup>*`Extensions Submodule`*</sup>
+
 # Extensions Submodule
 
 Import these built-in extensions from `'ua-parser-js/extensions'`

@@ -1,4 +1,6 @@
-# [Quickstarts](/intro/quick-start/quick-start) : Using ESM / TypeScript
+<sup>*[`Quickstarts`](./quick-start.md) > `Using ESM / TypeScript`*</sup>
+
+# Using ESM / TypeScript
 
 ## Installation
 

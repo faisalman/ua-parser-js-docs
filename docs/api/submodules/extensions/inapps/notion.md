@@ -1,6 +1,9 @@
-[`← InApps`](../inapps.md)
+<sup>*[`Extensions Submodule`](../overview.md) > [`InApps`](../inapps.md) > `Notion`*</sup>
 
 # Notion
+
+- **Developer:** Notion Labs, Inc.
+- **BrowserType:** [`inapp`](/info/browser/type/inapp)
 
 ## User-Agent Examples
 
@@ -11,13 +14,20 @@ Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like 
 ## Code Example
 
 ```js
-import { UAParser } from 'ua-parser-js';
-import { InApps } from 'ua-parser-js/extensions';
+import { UAParser }  from 'ua-parser-js';
+import { InApps }    from 'ua-parser-js/extensions';
+import { Extension } from 'ua-parser-js/enums';
 
 const appParser = new UAParser(InApps);
+const browser = appParser.setUA('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Notion/2.0.23 Chrome/91.0.4472.164 Electron/13.6.9 Safari/537.36').getBrowser();
 
-console.log(appParser.setUA('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Notion/2.0.23 Chrome/91.0.4472.164 Electron/13.6.9 Safari/537.36').getBrowser());
+console.log(browser);
 // {name: "Notion", version: "2.0.23", type: "inapp"}
+
+// Compare using the built-in enum
+const { InApp } = Extension.BrowserName;
+console.log(browser.is(InApp.NOTION));
+// true
 ```
 
 ## References

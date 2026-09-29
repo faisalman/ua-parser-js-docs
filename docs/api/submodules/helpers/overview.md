@@ -1,3 +1,5 @@
+<sup>*`Helpers Submodule`*</sup>
+
 # Helpers Submodule
 
 Import from `'ua-parser-js/helpers'`

@@ -1,3 +1,5 @@
+<sup>*`Enums Submodule`*</sup>
+
 # Enums Submodule
 
 Import these enums from `'ua-parser-js/enums'`

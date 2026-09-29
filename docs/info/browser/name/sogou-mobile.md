@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Sogou Mobile`*</sup>
 
 # Sogou Mobile
 

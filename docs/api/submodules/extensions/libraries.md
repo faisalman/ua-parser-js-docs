@@ -1,4 +1,4 @@
-[`← extensions`](/api/submodules/extensions/overview)
+<sup>*[`Extensions Submodule`](./overview.md) > `Libraries`*</sup>
 
 # `Libraries`
 
@@ -6,46 +6,46 @@ Extends [`browser`](/info/browser/name) detection to include tools used in progr
 
 ## List of Detected Libraries
 
-- [`AdobeAIR`](./libraries/adobe-air.md)
+- [`Adobe AIR`](./libraries/adobe-air.md)
 - [`aiohttp`](./libraries/aiohttp.md)
-- [`Apache-HttpClient`](./libraries/apache-httpclient.md)
+- [`Apache HttpClient`](./libraries/apache-httpclient.md)
+- [`Apache Nutch`](./libraries/nutch.md)
 - [`Axios`](./libraries/axios.md)
 - [`Bun`](./libraries/bun.md)
+- [`Cohttp`](./libraries/ocaml-cohttp.md)
 - [`Dart`](./libraries/dart.md)
 - [`Deno`](./libraries/deno.md)
-- [`go-http-client`](./libraries/go-http-client.md)
-- [`got`](./libraries/got.md)
-- [`GuzzleHttp`](./libraries/guzzlehttp.md)
+- [`Go HTTP Client`](./libraries/go-http-client.md)
+- [`Got`](./libraries/got.md)
+- [`Guzzle`](./libraries/guzzlehttp.md)
 - [`hackney`](./libraries/hackney.md)
-- [`http.rb`](./libraries/http-rb.md)
+- [`HTTP.rb`](./libraries/http-rb.md)
+- [`HTTPX`](./libraries/python-httpx.md)
 - [`Java`](./libraries/java.md)
-- [`Java-http-client`](./libraries/java-http-client.md)
+- [`Java HTTP Client`](./libraries/java-http-client.md)
 - [`Jetty`](./libraries/jetty.md)
 - [`jsdom`](./libraries/jsdom.md)
 - [`libwww-perl`](./libraries/libwww-perl.md)
 - [`lua-resty-http`](./libraries/lua-resty-http.md)
-- [`ocaml-cohttp`](./libraries/ocaml-cohttp.md)
 - [`Needle`](./libraries/needle.md)
 - [`node-fetch`](./libraries/node-fetch.md)
-- [`node-superagent`](./libraries/node-superagent.md)
 - [`Node.js`](./libraries/nodejs.md)
-- [`Nutch`](./libraries/nutch.md)
-- [`okhttp`](./libraries/okhttp.md)
-- [`PHP-SOAP`](./libraries/php-soap.md)
-- [`phpcrawl`](./libraries/phpcrawl.md)
-- [`PostmanRuntime`](./libraries/postman-runtime.md)
-- [`python-httpx`](./libraries/python-httpx.md)
-- [`python-requests`](./libraries/python-requests.md)
-- [`python-urllib`](./libraries/python-urllib.md)
-- [`python-urllib3`](./libraries/python-urllib3.md)
-- [`rest-client`](./libraries/rest-client.md)
+- [`OkHttp`](./libraries/okhttp.md)
+- [`PHP SOAP`](./libraries/php-soap.md)
+- [`PHPCrawl`](./libraries/phpcrawl.md)
+- [`Postman Runtime`](./libraries/postman-runtime.md)
+- [`Requests`](./libraries/python-requests.md)
+- [`REST Client`](./libraries/rest-client.md)
 - [`Scrapy`](./libraries/scrapy.md)
-- [`undici`](./libraries/undici.md)
+- [`SuperAgent`](./libraries/node-superagent.md)
+- [`Undici`](./libraries/undici.md)
+- [`urllib`](./libraries/python-urllib.md)
+- [`urllib3`](./libraries/python-urllib3.md)
 
 ## Code Example
 
 ```js
-import { UAParser } from 'ua-parser-js';
+import { UAParser }  from 'ua-parser-js';
 import { Libraries } from 'ua-parser-js/extensions';
 
 const axios = 'axios/1.7.2';

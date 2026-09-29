@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Firefox Mobile`*</sup>
 
 # Firefox Mobile
 

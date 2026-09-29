@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `K-Meleon`*</sup>
 
 # K-Meleon
 

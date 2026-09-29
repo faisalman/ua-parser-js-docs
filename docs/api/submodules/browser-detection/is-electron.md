@@ -1,4 +1,4 @@
-[`← browser-detection`](/api/submodules/browser-detection/overview)
+<sup>*[`Browser-Detection Submodule`](./overview.md) > `isElectron()`*</sup>
 
 # `isElectron(): boolean`
 

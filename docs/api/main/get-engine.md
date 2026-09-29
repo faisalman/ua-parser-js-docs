@@ -1,4 +1,4 @@
-[`← UAParser`](/api/main/overview)
+<sup>*[`UAParser`](./overview.md) > `getEngine()`*</sup>
 
 # `getEngine(): IEngine`
 

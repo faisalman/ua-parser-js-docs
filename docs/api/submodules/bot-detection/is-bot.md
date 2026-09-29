@@ -1,4 +1,4 @@
-[`← bot-detection`](/api/submodules/bot-detection/overview)
+<sup>*[`Bot-Detection Submodule`](./overview.md) > `isBot()`*</sup>
 
 # `isBot(ua: string | IResult): boolean`
 

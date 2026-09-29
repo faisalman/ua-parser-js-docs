@@ -1,4 +1,4 @@
-[`← bot-detection`](/api/submodules/bot-detection/overview)
+<sup>*[`Bot-Detection Submodule`](./overview.md) > `isAIAssistant()`*</sup>
 
 # `isAIAssistant(ua: string | IResult): boolean`
 

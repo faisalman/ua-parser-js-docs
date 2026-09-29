@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `Edge WebView2`*</sup>
 
 # Edge WebView2
 

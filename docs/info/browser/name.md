@@ -1,3 +1,5 @@
+<sup>*`Browser Names`*</sup>
+
 # List of Detected Browsers
 
 | Browser Name | Development Status |

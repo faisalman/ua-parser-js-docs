@@ -1,4 +1,4 @@
-[`← extensions`](/api/submodules/extensions/overview)
+<sup>*[`Extensions Submodule`](./overview.md) > `ExtraDevices`*</sup>
 
 # `ExtraDevices`
 

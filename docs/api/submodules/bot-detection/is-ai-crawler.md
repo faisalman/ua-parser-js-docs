@@ -1,4 +1,4 @@
-[`← bot-detection`](/api/submodules/bot-detection/overview)
+<sup>*[`Bot-Detection Submodule`](./overview.md) > `isAICrawler()`*</sup>
 
 # `isAICrawler(ua: string | IResult): boolean`
 

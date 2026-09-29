@@ -1,4 +1,4 @@
-[`← Browser Name`](../name.md)
+<sup>*[`Browser Names`](../name.md) > `GSA (Google Search App)`*</sup>
 
 # GSA (Google Search App)
 

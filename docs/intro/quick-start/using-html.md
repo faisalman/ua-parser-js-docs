@@ -1,4 +1,6 @@
-# [Quickstarts](/intro/quick-start/quick-start) : Using HTML
+<sup>*[`Quickstarts`](./quick-start.md) > `Using HTML`*</sup>
+
+# Using HTML
 
 ## Installation
 

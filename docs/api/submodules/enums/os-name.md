@@ -1,4 +1,4 @@
-[`← enums`](/api/submodules/enums/overview)
+<sup>*[`Enums Submodule`](./overview.md) > `OSName enum`*</sup>
 
 # `OSName` enum
 

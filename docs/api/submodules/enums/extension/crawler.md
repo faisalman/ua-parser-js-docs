@@ -1,4 +1,4 @@
-[`← Extension enum`](/api/submodules/enums/extension)
+<sup>*[`Enums Submodule`](../overview.md) > [`Extension enum`](../extension.md) > `Extension.BrowserName.Crawler enum`*</sup>
 
 # `Extension.BrowserName.Crawler` enum
 

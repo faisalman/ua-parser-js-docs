@@ -1,3 +1,5 @@
+<sup>*`UAParser`*</sup>
+
 # `UAParser` Class
 
 ## Constructor

@@ -1,4 +1,4 @@
-[`← device-detection`](/api/submodules/device-detection/overview)
+<sup>*[`Device-Detection Submodule`](./overview.md) > `getDeviceVendor()`*</sup>
 
 # `getDeviceVendor(model: string): string | undefined`
 

@@ -1,6 +1,9 @@
-[`← InApps`](../inapps.md)
+<sup>*[`Extensions Submodule`](../overview.md) > [`InApps`](../inapps.md) > `Evernote`*</sup>
 
 # Evernote
+
+- **Developer:** Evernote Corporation
+- **BrowserType:** [`inapp`](/info/browser/type/inapp)
 
 ## User-Agent Examples
 
@@ -11,13 +14,20 @@ Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Evernote Win
 ## Code Example
 
 ```js
-import { UAParser } from 'ua-parser-js';
-import { InApps } from 'ua-parser-js/extensions';
+import { UAParser }  from 'ua-parser-js';
+import { InApps }    from 'ua-parser-js/extensions';
+import { Extension } from 'ua-parser-js/enums';
 
 const appParser = new UAParser(InApps);
+const browser = appParser.setUA('Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Evernote Windows/306387 (pt-PT, DDL); Windows/6.1.0 (Win32); Safari/537.36').getBrowser();
 
-console.log(appParser.setUA('Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Evernote Windows/306387 (pt-PT, DDL); Windows/6.1.0 (Win32); Safari/537.36').getBrowser());
+console.log(browser);
 // {name: "Evernote", type: "inapp"}
+
+// Compare using the built-in enum
+const { InApp } = Extension.BrowserName;
+console.log(browser.is(InApp.EVERNOTE));
+// true
 ```
 
 ## References

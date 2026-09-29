@@ -1,4 +1,4 @@
-[`← device-detection`](/api/submodules/device-detection/overview)
+<sup>*[`Device-Detection Submodule`](./overview.md) > `isAppleSilicon()`*</sup>
 
 # `isAppleSilicon(res: IResult | string): boolean`
 

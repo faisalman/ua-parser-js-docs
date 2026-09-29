@@ -1,4 +1,4 @@
-[`← UAParser`](/api/main/overview)
+<sup>*[`UAParser`](./overview.md) > `getCPU()`*</sup>
 
 # `getCPU(): ICPU`
 

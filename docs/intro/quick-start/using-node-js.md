@@ -1,4 +1,6 @@
-# [Quickstarts](/intro/quick-start/quick-start) : Using Node.js
+<sup>*[`Quickstarts`](./quick-start.md) > `Using Node.js`*</sup>
+
+# Using Node.js
 
 In a server-side environment like Node.js, UAParser.js can parse both the `User-Agent` and `Sec-CH-UA-*` headers of incoming HTTP requests. 
 

@@ -1,4 +1,4 @@
-[`← helpers`](/api/submodules/helpers/overview)
+<sup>*[`Helpers Submodule`](./overview.md) > `isFrozenUA()`*</sup>
 
 # `isFrozenUA(ua: string): boolean`
 

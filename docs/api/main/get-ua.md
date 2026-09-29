@@ -1,4 +1,4 @@
-[`← UAParser`](/api/main/overview)
+<sup>*[`UAParser`](./overview.md) > `getUA()`*</sup>
 
 # `getUA(): string`
 

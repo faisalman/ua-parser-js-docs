@@ -1,4 +1,4 @@
-[`← IData`](/api/main/idata)
+<sup>*[`UAParser`](../overview.md) > [`IData`](../idata.md) > `withClientHints()`*</sup>
 
 # `withClientHints<T>(): PromiseLike<T> | T`
 
