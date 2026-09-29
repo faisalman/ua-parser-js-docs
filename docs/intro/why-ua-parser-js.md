@@ -2,6 +2,20 @@
 
 UAParser.js simplifies user-agent detection by providing a <ins>**structured approach**</ins>. It's a clean and reliable alternative to the messy reality of real-world user-agent strings.
 
+## Trusted in Production
+
+UAParser.js has been around the block. It is trusted in production, actively maintained, and completely open for anyone to inspect:
+
+- **Tried and tested:** More than 100M npm downloads every month.
+- **Still evolving:** Over a decade of development keeps detection up to date with new browsers, devices, operating systems, bots, and apps.
+- **Open by default:** The source code, detection rules, release history, and issue tracker are all available on [GitHub🡥](https://github.com/faisalman/ua-parser-js), where the project has earned over 10K stars.
+- **Seriously tested:** Unit, type, lint, browser, and fuzz tests help catch problems, including ReDoS vulnerabilities.
+- **No dependency baggage:** The core stays small and dependency-free, so there is less to download, audit, and worry about.
+
+> "A great utility library to have when you're investigating what kind of users are visiting your website and how you can improve their UX. Supports most browsers out there." **—Gabrijel Golubić**
+
+> "For years, it has been appreciated as a valuable tool for web developers. Its ability to accurately parse user agent strings... has made it an essential library for many of us." **—LogRocket**
+
 ## Real-World User-Agents Are Full of Surprises
 
 Parsing user-agents looks simple... until you actually try it. Every different browsers, devices, and apps each have their own quirks, and they *really* love to surprise you. 
