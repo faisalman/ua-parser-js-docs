@@ -58,6 +58,10 @@ export default defineConfig({
                         items: [
                             { text: 'Using HTML', link: '/intro/quick-start/using-html' },
                             { text: 'Using Node.js', link: '/intro/quick-start/using-node-js' },
+                            { text: 'Using Bun / Deno', link: '/intro/quick-start/using-bun-deno' },
+                            { text: 'Using React / Vue / Angular / Svelte', link: '/intro/quick-start/using-frontend-frameworks' },
+                            { text: 'Using Express / Next.js', link: '/intro/quick-start/using-express-next-js' },
+                            { text: 'Using Edge Runtimes', link: '/intro/quick-start/using-edge-runtimes' },
                             { text: 'Using ESM / TypeScript', link: '/intro/quick-start/using-es-modules-typescript' },
                             { text: 'Using jQuery', link: '/intro/quick-start/using-jquery' },
                             { text: 'Using Command Line', link: '/intro/quick-start/using-cli' },
