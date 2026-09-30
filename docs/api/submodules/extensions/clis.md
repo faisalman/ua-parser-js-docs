@@ -6,12 +6,14 @@ Extends [`browser`](/info/browser/name) detection to include tools that allow br
 
 ## List of Detected CLIs
 
-- [`cURL`](./clis/curl.md)
-- [`ELinks`](./clis/elinks.md)
-- [`HTTPie`](./clis/httpie.md)
-- [`Lynx`](./clis/lynx.md)
-- [`PowerShell`](./clis/powershell.md)
-- [`Wget`](./clis/wget.md)
+| **CLI** |
+| --- |
+| [`cURL`](./clis/curl.md) |
+| [`ELinks`](./clis/elinks.md) |
+| [`HTTPie`](./clis/httpie.md) |
+| [`Lynx`](./clis/lynx.md) |
+| [`PowerShell`](./clis/powershell.md) |
+| [`Wget`](./clis/wget.md) |
 
 ## Code Example
 

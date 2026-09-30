@@ -8,70 +8,47 @@ Extends [`browser`](/info/browser/name) detection to include bots that retrieve 
 Bots that <u>**automatically**</u> visit websites and <u>**collect data**</u> are categorized as [Crawlers](/api/submodules/extensions/crawlers) instead.
 :::
 
-- `AhrefsSiteAudit` 
-- `Asana`
-- `BingPreview` 
-- `bitlybot`
-- `Better Uptime Bot`
-- `Blueno`
-- `Bluesky`
-- `BufferLinkPreviewBot`
-- `ChatGPT-User` 
-- `Chrome-Lighthouse`
-- `cohere-ai`
-- `Discordbot` 
-- `DuckAssistBot`
-- `FeedFetcher-Google`
-- `Feedly`
-- `FlipboardProxy`
-- `Gemini-Deep-Research`
-- `Google-PageRenderer`
-- `Google-Read-Aloud`
-- `Google-Site-Verification`  
-- `GoogleDocs`
-- `GoogleImageProxy` 
-- `GoogleProducer` 
-- `HubSpot Page Fetcher`
-- `Iframely`
-- `kakaotalk-scrap`
-- `LinkedInBot` 
-- `Mastodon` 
-- `meta-externalfetcher` 
-- `MistralAI-User`
-- `MicrosoftPreview`
-- `Nova Act`
-- `Perplexity-User`
-- `Pinterestbot` 
-- `Redditbot` 
-- `rogerbot` 
-- `SiteAuditBot` 
-- `Slackbot` 
-- `Slack-ImgProxy` 
-- `Slack-LinkExpanding` 
-- `SkypeUriPreview` 
-- `Snap URL Preview` 
-- `Snapchat` 
-- `Telegrambot` 
-- `TikTokSpider`
-- `Twitterbot` 
-- `UptimeBot`
-- `Uptimerobot` 
-- `Vercelbot` 
-- `vercel-favicon-bot`
-- `vercel-screenshot-bot`
-- `vercelflags`
-- `verceltracing`
-- `virustotal`
-- `WhatsApp` 
-- `YaDirectFetcher` 
-- `YandexCalendar` 
-- `YandexDirect` 
-- `YandexDirectDyn` 
-- `YandexSearchShop` 
-- `YandexSitelinks` 
-- `YandexUserProxy`
-- `Zoombot`
-- ... etc.
+| **Operator** | **User-Agent** |
+| --- | --- |
+| Ahrefs | `AhrefsSiteAudit` |
+| Amazon | `Nova Act` |
+| Asana | `Asana` |
+| Better Uptime | `Better Uptime Bot` |
+| Bitly | `bitlybot` |
+| Bluesky | `Bluesky` |
+| Buffer | `BufferLinkPreviewBot` |
+| ByteDance | `TikTokSpider` |
+| Cohere | `cohere-ai` |
+| Discord | `Discordbot` |
+| DuckDuckGo | `DuckAssistBot` |
+| Feedly | `Feedly` |
+| Flipboard | `FlipboardProxy` |
+| Google | `Chrome-Lighthouse`, `FeedFetcher-Google`, `Gemini-Deep-Research`, `Google-PageRenderer`, `Google-Read-Aloud`, `Google-Site-Verification`, `GoogleDocs`, `GoogleImageProxy`, `GoogleProducer` |
+| HubSpot | `HubSpot Page Fetcher` |
+| Iframely | `Iframely` |
+| Kakao | `kakaotalk-scrap` |
+| LinkedIn | `LinkedInBot` |
+| Mastodon | `Mastodon` |
+| Meta | `meta-externalfetcher`, `WhatsApp` |
+| Microsoft | `BingPreview`, `MicrosoftPreview`, `SkypeUriPreview` |
+| Mistral AI | `MistralAI-User` |
+| NAVER | `Blueno` |
+| Oncrawl | `rogerbot` |
+| OpenAI | `ChatGPT-User` |
+| Perplexity | `Perplexity-User` |
+| Pinterest | `Pinterestbot` |
+| Reddit | `Redditbot` |
+| Semrush | `SiteAuditBot` |
+| Slack | `Slackbot`, `Slack-ImgProxy`, `Slack-LinkExpanding` |
+| Snap | `Snap URL Preview`, `Snapchat` |
+| Telegram | `Telegrambot` |
+| Uptime.com | `UptimeBot` |
+| UptimeRobot | `Uptimerobot` |
+| Vercel | `Vercelbot`, `vercel-favicon-bot`, `vercel-screenshot-bot`, `vercelflags`, `verceltracing` |
+| VirusTotal | `virustotal` |
+| X | `Twitterbot` |
+| Yandex | `YaDirectFetcher`, `YandexCalendar`, `YandexDirect`, `YandexDirectDyn`, `YandexSearchShop`, `YandexSitelinks`, `YandexUserProxy` |
+| ZoomInfo | `Zoombot` |
 
 ## Code Example
 

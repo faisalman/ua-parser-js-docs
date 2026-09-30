@@ -4,22 +4,32 @@
 
 Extends [`browser`](/info/browser/name) detection to include apps that let you play music, videos, or online radio. The apps can play files stored on the device or stream content from the internet.
 
-```csv
 ## List of Known Media Players
-Apple TV, Aqualung, Lyssna, BSPlayer, Ares, OSSProxy,
-Audacious, AudiMusicStream, Amarok, BASS, OpenCORE,
-Dalvik, GnomeMplayer, MoC, NSPlayer,
-PSP-InternetRadioPlayer, Videos, NexPlayer, Flip
-Player, FStream, NativeHost, QuerySeekSpider, Gstreamer, HTC
-Streaming Player, HTC One S, MPlayer, YourMuze, 
-Media Player Classic, Ner ShowTime, Nero Home, Nero Scout, 
-Nokia Player, Songbird, Philips Songbird, Winamp, OCMS Bot,
-Tap In, TuneIn, InLight Radio, QuickTime, RealMedia,
-RadioApp, RadioClientApplication, SoundTap, Totem,
-Stagefright, Streamium, SMP, VLC, XBMC, gvfs, Xine,
-XMMS, irapp, Foobar2000, iTunes, Windows Media Player,
-Windows Media Server, RiseUP Radio Alarm, Rad.io, ...
-```
+
+| **Media Player** |   |   |
+| --- | --- | --- |
+| `Amarok` | `Lyssna` | `RadioClientApplication` |
+| `Apple TV` | `Media Player Classic` | `RealMedia` |
+| `Aqualung` | `MoC` | `RiseUP Radio Alarm` |
+| `Ares` | `MPlayer` | `SMP` |
+| `Audacious` | `NativeHost` | `Songbird` |
+| `AudiMusicStream` | `Ner ShowTime` | `SoundTap` |
+| `BASS` | `Nero Home` | `Stagefright` |
+| `BSPlayer` | `Nero Scout` | `Streamium` |
+| `Dalvik` | `NexPlayer` | `Tap In` |
+| `Flip Player` | `Nokia Player` | `Totem` |
+| `Foobar2000` | `NSPlayer` | `TuneIn` |
+| `FStream` | `OCMS Bot` | `Videos` |
+| `GnomeMplayer` | `OpenCORE` | `VLC` |
+| `Gstreamer` | `OSSProxy` | `Winamp` |
+| `gvfs` | `Philips Songbird` | `Windows Media Player` |
+| `HTC One S` | `PSP-InternetRadioPlayer` | `Windows Media Server` |
+| `HTC Streaming Player` | `QuerySeekSpider` | `XBMC` |
+| `InLight Radio` | `QuickTime` | `Xine` |
+| `irapp` | `Rad.io` | `XMMS` |
+| `iTunes` | `RadioApp` | `YourMuze` |
+
+- ... etc.
 
 ## Code Example
 

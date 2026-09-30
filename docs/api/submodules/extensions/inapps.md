@@ -6,20 +6,13 @@ Extends [`browser`](/info/browser/name) detection to include apps that open webs
 
 ## List of Detected InApps
 
-- [`Discord`](./inapps/discord.md)
-- [`Evernote`](./inapps/evernote.md)
-- [`Figma`](./inapps/figma.md)
-- [`Flipboard`](./inapps/flipboard.md)
-- [`Mattermost`](./inapps/mattermost.md)
-- [`Notion`](./inapps/notion.md)
-- [`Postman`](./inapps/postman.md)
-- [`Rambox`](./inapps/rambox.md)
-- [`Rocket.Chat`](./inapps/rocket-chat.md)
-- [`Slack`](./inapps/slack.md)
-- [`Teams`](./inapps/teams.md)
-- [`TikTok Lite`](./inapps/tiktok-lite.md)
-- [`VS Code`](./inapps/vs-code.md)
-- [`Yahoo! Japan`](./inapps/yahoo-japan.md)
+| **In-App** |  |  |
+| --- | --- | --- |
+| [`Discord`](./inapps/discord.md) | [`Microsoft Teams`](./inapps/teams.md) | [`Slack`](./inapps/slack.md) |
+| [`Evernote`](./inapps/evernote.md) | [`Notion`](./inapps/notion.md) | [`TikTok Lite`](./inapps/tiktok-lite.md) |
+| [`Figma`](./inapps/figma.md) | [`Postman`](./inapps/postman.md) | [`VS Code`](./inapps/vs-code.md) |
+| [`Flipboard`](./inapps/flipboard.md) | [`Rambox`](./inapps/rambox.md) | [`Yahoo! Japan`](./inapps/yahoo-japan.md) |
+| [`Mattermost`](./inapps/mattermost.md) | [`Rocket.Chat`](./inapps/rocket-chat.md) |  |
 
 ## Code Example
 

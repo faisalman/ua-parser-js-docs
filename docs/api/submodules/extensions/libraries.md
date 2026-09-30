@@ -6,41 +6,20 @@ Extends [`browser`](/info/browser/name) detection to include tools used in progr
 
 ## List of Detected Libraries
 
-- [`Adobe AIR`](./libraries/adobe-air.md)
-- [`aiohttp`](./libraries/aiohttp.md)
-- [`Apache HttpClient`](./libraries/apache-httpclient.md)
-- [`Apache Nutch`](./libraries/nutch.md)
-- [`Axios`](./libraries/axios.md)
-- [`Bun`](./libraries/bun.md)
-- [`Cohttp`](./libraries/ocaml-cohttp.md)
-- [`Dart`](./libraries/dart.md)
-- [`Deno`](./libraries/deno.md)
-- [`Go HTTP Client`](./libraries/go-http-client.md)
-- [`Got`](./libraries/got.md)
-- [`Guzzle`](./libraries/guzzlehttp.md)
-- [`hackney`](./libraries/hackney.md)
-- [`HTTP.rb`](./libraries/http-rb.md)
-- [`HTTPX`](./libraries/python-httpx.md)
-- [`Java`](./libraries/java.md)
-- [`Java HTTP Client`](./libraries/java-http-client.md)
-- [`Jetty`](./libraries/jetty.md)
-- [`jsdom`](./libraries/jsdom.md)
-- [`libwww-perl`](./libraries/libwww-perl.md)
-- [`lua-resty-http`](./libraries/lua-resty-http.md)
-- [`Needle`](./libraries/needle.md)
-- [`node-fetch`](./libraries/node-fetch.md)
-- [`Node.js`](./libraries/nodejs.md)
-- [`OkHttp`](./libraries/okhttp.md)
-- [`PHP SOAP`](./libraries/php-soap.md)
-- [`PHPCrawl`](./libraries/phpcrawl.md)
-- [`Postman Runtime`](./libraries/postman-runtime.md)
-- [`Requests`](./libraries/python-requests.md)
-- [`REST Client`](./libraries/rest-client.md)
-- [`Scrapy`](./libraries/scrapy.md)
-- [`SuperAgent`](./libraries/node-superagent.md)
-- [`Undici`](./libraries/undici.md)
-- [`urllib`](./libraries/python-urllib.md)
-- [`urllib3`](./libraries/python-urllib3.md)
+| **Library** |  |  |
+| --- | --- | --- |
+| [`Adobe AIR`](./libraries/adobe-air.md) | [`hackney`](./libraries/hackney.md) | [`OkHttp`](./libraries/okhttp.md) |
+| [`aiohttp`](./libraries/aiohttp.md) | [`HTTP.rb`](./libraries/http-rb.md) | [`PHP SOAP`](./libraries/php-soap.md) |
+| [`Apache HttpClient`](./libraries/apache-httpclient.md) | [`HTTPX`](./libraries/python-httpx.md) | [`PHPCrawl`](./libraries/phpcrawl.md) |
+| [`Apache Nutch`](./libraries/nutch.md) | [`Java`](./libraries/java.md) | [`Postman Runtime`](./libraries/postman-runtime.md) |
+| [`Axios`](./libraries/axios.md) | [`Java HTTP Client`](./libraries/java-http-client.md) | [`Requests`](./libraries/python-requests.md) |
+| [`Bun`](./libraries/bun.md) | [`Jetty`](./libraries/jetty.md) | [`REST Client`](./libraries/rest-client.md) |
+| [`Cohttp`](./libraries/ocaml-cohttp.md) | [`jsdom`](./libraries/jsdom.md) | [`Scrapy`](./libraries/scrapy.md) |
+| [`Dart`](./libraries/dart.md) | [`libwww-perl`](./libraries/libwww-perl.md) | [`SuperAgent`](./libraries/node-superagent.md) |
+| [`Deno`](./libraries/deno.md) | [`lua-resty-http`](./libraries/lua-resty-http.md) | [`Undici`](./libraries/undici.md) |
+| [`Go HTTP Client`](./libraries/go-http-client.md) | [`Needle`](./libraries/needle.md) | [`urllib`](./libraries/python-urllib.md) |
+| [`Got`](./libraries/got.md) | [`node-fetch`](./libraries/node-fetch.md) | [`urllib3`](./libraries/python-urllib3.md) |
+| [`Guzzle`](./libraries/guzzlehttp.md) | [`Node.js`](./libraries/nodejs.md) |  |
 
 ## Code Example
 

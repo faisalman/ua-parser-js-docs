@@ -1,15 +1,14 @@
 # Why UAParser.js?
 
-UAParser.js simplifies user-agent detection by providing a <ins>**structured approach**</ins>. It's a clean and reliable alternative to the messy reality of real-world user-agent strings.
-
-## Trusted in Production
+## The Go-To User-Agent Tool for Teams That Build the Web
 
 UAParser.js has been around the block. It is trusted in production, actively maintained, and completely open for anyone to inspect:
 
-- **Tried and tested:** More than 100M npm downloads every month.
-- **Still evolving:** Over a decade of development keeps detection up to date with new browsers, devices, operating systems, bots, and apps.
-- **Open by default:** The source code, detection rules, release history, and issue tracker are all available on [GitHub🡥](https://github.com/faisalman/ua-parser-js), where the project has earned over 10K stars.
-- **Seriously tested:** Unit, type, lint, browser, and fuzz tests help catch problems, including ReDoS vulnerabilities.
+- **Battle-tested at scale:** More than 100M+ npm downloads every month.
+- **Stay cutting-edge:** 14+ years of continuous maintenance keeps detection with new browsers, devices, platforms, bots, apps, etc.
+- **Open by default:** The source code, detection rules, release history, and issue tracker are all available on [GitHub🡥](https://github.com/faisalman/ua-parser-js), with over 10K+ stars.
+- **Seriously tested and secured:** Unit, type, lint, browser, and fuzz tests help catch problems early, including ReDoS vulnerabilities.
+- **Used by familiar names:** Found in public projects from Microsoft, Amazon, Meta, Shopify, Slack, Discord, and more ([see the showcase🡥](https://uaparser.dev/#showcase)).
 - **No dependency baggage:** The core stays small and dependency-free, so there is less to download, audit, and worry about.
 
 > "A great utility library to have when you're investigating what kind of users are visiting your website and how you can improve their UX. Supports most browsers out there." **—Gabrijel Golubić**
@@ -23,14 +22,7 @@ Parsing user-agents looks simple... until you actually try it. Every different b
 Let's run through a quick example. Suppose we receive this user-agent from a visitor:
 
 ```js [problem.js]
-const ua = `Mozilla/5.0 (Linux; Android 10; STK-LX1 
-Build/HONORSTK-LX1; wv) AppleWebKit/537.36 (KHTML, 
-like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile 
-Safari/537.36 musical_ly_2022803040 JsSdk/1.0 
-NetType/WIFI Channel/huaweiadsglobal_int 
-AppName/musical_ly app_version/28.3.4 ByteLocale/en 
-ByteFullLocale/en Region/IQ Spark/1.2.7-alpha.8 
-AppVersion/28.3.4 PIA/1.5.11 BytedanceWebview/d8a21c6`;
+const ua = `Mozilla/5.0 (Linux; Android 10; STK-LX1 Build/HONORSTK-LX1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Mobile Safari/537.36 musical_ly_2022803040 JsSdk/1.0 NetType/WIFI Channel/huaweiadsglobal_int AppName/musical_ly app_version/28.3.4 ByteLocale/en ByteFullLocale/en Region/IQ Spark/1.2.7-alpha.8 AppVersion/28.3.4 PIA/1.5.11 BytedanceWebview/d8a21c6`;
 ```
 
 Yep, this is a real user-agent (what???), and it shows up more often than you'd think. But hey, no worries, let's just use UAParser.js:
@@ -77,11 +69,13 @@ console.log(parser.getOS());
 */
 ```
 
-So, in summary, our visitor is browsing from a TikTok app on an Honor device running Android. 
+So, in summary, our visitor is browsing from a TikTok app on an Honor device running Android 10. 
 
 Phew! Thanks, UAParser.js!
 
-## UAParser.js Turns Chaos Into Schema
+## In Summary: UAParser.js Turns Chaos Into Schema
+
+UAParser.js simplifies user-agent detection by providing a <ins>**structured approach**</ins>. It's a clean and reliable alternative to the messy reality of real-world user-agent strings.
 
 Say no more to complicated user-agent strings. UAParser.js <em>automagically</em> turns them into <ins>well-structured</ins> data:
 

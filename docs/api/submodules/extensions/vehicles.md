@@ -4,10 +4,15 @@
 
 Extends [`device`](/api/main/get-device) detection to include some vehicles.
 
-```csv:no-line-numbers
 ## List of Known Vehicles
-BMW, BYD, Jeep, Rivian, Volvo
-```
+
+| **Vehicle** |
+| --- |
+| `BMW` |
+| `BYD` |
+| `Jeep` |
+| `Rivian` |
+| `Volvo` |
 
 ## Code Example
 
