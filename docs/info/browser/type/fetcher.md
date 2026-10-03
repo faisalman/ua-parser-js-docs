@@ -37,11 +37,13 @@ import { UAParser } from 'ua-parser-js';
 import { Fetchers } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(Fetchers);
+const ua = 'Twitterbot/1.0';
+const parser = new UAParser(ua, Fetchers);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('Twitterbot/1.0').getBrowser());
+console.log(browser);
 // {name: "Twitterbot", version: "1.0", major: "1", type: "fetcher"}
 
-console.log(parser.browser.is(BrowserType.FETCHER));
+console.log(browser.is(BrowserType.FETCHER));
 // true
 ```

@@ -8,9 +8,9 @@ Insert custom regexes to extend detection rules.
 - [Extending UAParser.js Regular Expression](/intro/extending-regex)
 :::
 
-## Code Example
+## Code Examples
 
-```js
+```js [using-single-extension.js]
 import { UAParser } from 'ua-parser-js';
 import { CLIs } from 'ua-parser-js/extensions';
 
@@ -23,4 +23,22 @@ console.log(uap.getBrowser().name); // undefined
 // after useExtension()
 uap.useExtension(CLIs);
 console.log(uap.getBrowser().name); // PowerShell
+```
+
+```js [using-multiple-extensions.js]
+import { UAParser } from 'ua-parser-js';
+import { CLIs, Emails } from 'ua-parser-js/extensions';
+
+const uap = new UAParser();
+
+// Pass multiple extensions as an array:
+uap.useExtension([CLIs, Emails]);
+
+console.log(uap.setUA('curl/7.38.0').getBrowser());
+// {name: "curl", version: "7.38.0", major: "7", type: "cli"}
+
+const thunderbird = 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0';
+
+console.log(uap.setUA(thunderbird).getBrowser());
+// {name: "Thunderbird", version: "78.13.0", major: "78", type: "email"}
 ```

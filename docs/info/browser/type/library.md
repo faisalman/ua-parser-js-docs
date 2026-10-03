@@ -37,11 +37,13 @@ import { UAParser } from 'ua-parser-js';
 import { Libraries } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(Libraries);
+const ua = 'axios/1.7.2';
+const parser = new UAParser(ua, Libraries);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('axios/1.7.2').getBrowser());
+console.log(browser);
 // {name: "axios", version: "1.7.2", major: "1", type: "library"}
 
-console.log(parser.browser.is(BrowserType.LIBRARY));
+console.log(browser.is(BrowserType.LIBRARY));
 // true
 ```

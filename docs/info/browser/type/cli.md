@@ -37,11 +37,13 @@ import { UAParser } from 'ua-parser-js';
 import { CLIs } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(CLIs);
+const ua = 'curl/7.38.0';
+const parser = new UAParser(ua, CLIs);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('curl/7.38.0').getBrowser());
+console.log(browser);
 // {name: "curl", version: "7.38.0", major: "7", type: "cli"}
 
-console.log(parser.browser.is(BrowserType.CLI));
+console.log(browser.is(BrowserType.CLI));
 // true
 ```

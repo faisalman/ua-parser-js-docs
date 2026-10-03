@@ -6,13 +6,11 @@ Extends [`device`](/api/main/get-device) detection to include some vehicles.
 
 ## List of Known Vehicles
 
-| **Vehicle** |
-| --- |
-| `BMW` |
-| `BYD` |
-| `Jeep` |
-| `Rivian` |
-| `Volvo` |
+- `BMW`
+- `BYD`
+- `Jeep`
+- `Rivian`
+- `Volvo`
 
 ## Code Example
 

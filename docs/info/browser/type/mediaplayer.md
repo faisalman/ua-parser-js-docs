@@ -37,11 +37,13 @@ import { UAParser } from 'ua-parser-js';
 import { MediaPlayers } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(MediaPlayers);
+const ua = 'VLC/2.0.0 LibVLC/2.0.0';
+const parser = new UAParser(ua, MediaPlayers);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('VLC/2.0.0 LibVLC/2.0.0').getBrowser());
+console.log(browser);
 // {name: "VLC", version: "2.0.0", major: "2", type: "mediaplayer"}
 
-console.log(parser.browser.is(BrowserType.MEDIAPLAYER));
+console.log(browser.is(BrowserType.MEDIAPLAYER));
 // true
 ```

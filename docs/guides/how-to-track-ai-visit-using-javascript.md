@@ -67,12 +67,10 @@ const browser = crawlerParser.setUA(ua).getBrowser();
 console.log(browser);  
 // { name: 'GPTBot', type: 'crawler', version: '1.0', major: '1' }
 ```
-
-
-References:
+## References
 
 - [The rise of the AI crawler 🡥](https://vercel.com/blog/the-rise-of-the-ai-crawler) *—Vercel*
-- ['bot-detection' submodule](/api/submodules/bot-detection/overview)
-- ['extensions' submodule](/api/submodules/extensions/overview)
+- [Bot-Detection Submodule](/api/submodules/bot-detection/overview)
+- [Extensions Submodule](/api/submodules/extensions/overview)
 - [isAIAssistant()](/api/submodules/bot-detection/is-ai-assistant)
 - [isAICrawler()](/api/submodules/bot-detection/is-ai-crawler)

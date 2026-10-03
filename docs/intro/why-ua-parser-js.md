@@ -1,6 +1,6 @@
 # Why UAParser.js?
 
-## The Go-To User-Agent Tool for Teams That Build the Web
+## Trusted for a Generation of the Web. Built for What’s Next.
 
 UAParser.js has been around the block. It is trusted in production, actively maintained, and completely open for anyone to inspect:
 

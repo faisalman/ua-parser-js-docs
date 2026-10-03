@@ -40,11 +40,13 @@ import { UAParser } from 'ua-parser-js';
 import { Crawlers } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(Crawlers);
+const ua = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
+const parser = new UAParser(ua, Crawlers);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)').getBrowser());
+console.log(browser);
 // {name: "Googlebot", version: "2.1", major: "2", type: "crawler"}
 
-console.log(parser.browser.is(BrowserType.CRAWLER));
+console.log(browser.is(BrowserType.CRAWLER));
 // true
 ```

@@ -37,11 +37,13 @@ import { UAParser } from 'ua-parser-js';
 import { Emails } from 'ua-parser-js/extensions';
 import { BrowserType } from 'ua-parser-js/enums';
 
-const parser = new UAParser(Emails);
+const ua = 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0';
+const parser = new UAParser(ua, Emails);
+const browser = parser.getBrowser();
 
-console.log(parser.setUA('Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Thunderbird/78.13.0').getBrowser());
+console.log(browser);
 // {name: "Thunderbird", version: "78.13.0", major: "78", type: "email"}
 
-console.log(parser.browser.is(BrowserType.EMAIL));
+console.log(browser.is(BrowserType.EMAIL));
 // true
 ```
