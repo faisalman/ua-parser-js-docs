@@ -1,34 +1,44 @@
 # Migrating UAParser.js from v1 to v2
 
-## What's Breaking
+## Breaking Changes
 
 ### Licensing Changes
 
-UAParser.js v2 is licensed under AGPLv3 for open-source use, with PRO Licenses (Personal, Business, Enterprise) also available for proprietary-commercial use.
+UAParser.js v2 is available under AGPLv3, with [PRO licenses](/intro/upgrade-to-pro) (Personal, Business, and Enterprise) available for proprietary commercial use.
 
 ### Detection Changes
 
 - Some browser names now explicitly indicate mobile variants:
-  - `Chrome` browser in `mobile` device => `Mobile Chrome` browser
-  - `Firefox` browser in `mobile` device => `Mobile Firefox` browser
+  - `Chrome` on a `mobile` device → `Mobile Chrome`
+  - `Firefox` on a `mobile` device → `Mobile Firefox`
 
 - Some operating system names have been normalized:
-  - `Mac OS` => `macOS`
-  - `Chromium OS` => `Chrome OS`
+  - `Mac OS` → `macOS`
+  - `Chromium OS` → `Chrome OS`
 
 ## What's New
 
 ### ES Modules & TypeScript Support
 
-UAParser.js now provides first-class ESM and TypeScript support:
+UAParser.js now provides first-class ES module and TypeScript support:
   
 ```ts
 import { UAParser } from 'ua-parser-js';
 ```
 
+### Web Headers Support
+
+Parse the `User-Agent` and Client Hints directly from a Web-standard `Headers` object:
+
+```js
+import { UAParser } from 'ua-parser-js';
+
+const result = UAParser(request.headers);
+```
+
 ### Custom & Predefined Extensions
 
-Extend detection rules by passing custom regex definitions or use our predefined extension packs:
+Add custom regular expressions or predefined extension packs at runtime with `useExtension()`. Pass an array to use multiple extensions:
   
 ```js
 import { UAParser } from 'ua-parser-js';
@@ -40,10 +50,10 @@ parser.useExtension([Crawlers, Fetchers, Libraries]);
 
 ### Command Line Support
 
-Parse a user-agent directly from the command line, or process multiple user-agent strings from a file:
+Parse a User-Agent directly from the command line, or process multiple User-Agent strings from a file:
 
 ```sh
-# direct parsing 
+# direct parsing
 npx ua-parser-js "Your User-Agent"
 
 # batch processing
@@ -52,7 +62,7 @@ npx ua-parser-js --input-file log.txt --output-file log-result.json
 
 ### Client Hints Support
 
-Improves detection accuracy by using user-agent client hints when available:
+Improve detection accuracy using User-Agent Client Hints when available:
 
 ```js
 const os = await parser.getOS().withClientHints();
@@ -60,7 +70,7 @@ const os = await parser.getOS().withClientHints();
 
 ### Feature Detection Enhancements
 
-Refines detection results by detecting available features in the runtime environment:
+Refine device detection using features available in the browser environment:
 
 ```js
 const device = await parser.getDevice().withFeatureCheck();
@@ -68,19 +78,21 @@ const device = await parser.getDevice().withFeatureCheck();
 
 ### Result Comparison Helper
 
-Provides a simple way to compare parsed result:
+Compare parsed results using predefined enum values:
 
 ```js
 import { EngineName } from 'ua-parser-js/enums';
-...
-if (parser.getEngine().is(EngineName.BLINK)) {
-  // Chrome-based browser
+
+const engine = parser.getEngine();
+
+if (engine.is(EngineName.BLINK)) {
+    // Chrome-based browser
 }
 ```
 
 ### Support for Full-String Output
 
-Returns a formatted string representing the parsed result:
+Return a formatted string representing the parsed result:
 
 ```js
 parser.getBrowser().toString();
@@ -89,19 +101,21 @@ parser.getBrowser().toString();
 
 ### Identify AR/VR Devices
 
-Added support to detect XR (AR/VR) devices:
+Detect extended reality (XR) devices, including AR and VR headsets:
 
 ```js
 import { DeviceType } from 'ua-parser-js/enums';
-...
-if (parser.getDevice().type == DeviceType.XR) {
-  // XR device
+
+const device = parser.getDevice();
+
+if (device.is(DeviceType.XR)) {
+    // XR device
 }
 ```
 
 ### Identify User-Agent Type
 
-Browser detection also provides the type of user-agent to distinguish standard browsers from other environments such as bots, CLI tools, or embedded apps:
+Browser detection can also identify nother User-Agent types such as cli tools, crawlers, or embedded apps:
 
 ```js
 parser.getBrowser().type;
@@ -121,11 +135,11 @@ OSName, Extension
 
 #### `ua-parser-js/extensions`
 
-Predefined extension packs to expand detection capabilities:
+Provides predefined extension packs to expand detection capabilities:
 
 ```csv
-Bots, Crawlers, CLIs, Emails, ExtraDevices, Fetchers, InApps, Libraries, 
-Mediaplayers, Vehicles
+Bots, CLIs, Crawlers, Emails, ExtraDevices, Fetchers, InApps, Libraries,
+MediaPlayers, Vehicles
 ```
 
 #### `ua-parser-js/helpers`
@@ -138,7 +152,7 @@ isFrozenUA(); // Checks if the user-agent matches a frozen/reduced user-agent pa
 
 #### `ua-parser-js/bot-detection`
 
-Provides utility methods for identifying automated traffic:
+Provides utilities for identifying automated traffic:
 
 ```js
 isAIAssistant();  // Checks if the browser is an AI assistant
@@ -148,19 +162,19 @@ isBot();          // Checks if the browser is a bot
 
 #### `ua-parser-js/browser-detection`
 
-Provides utility methods to enhance browser identification:
+Provides utilities to enhance browser identification:
 
 ```js
 isChromeFamily(); // Checks if the browser is Chrome-based (uses Blink engine) 
-                  // e.g: New Opera, New Edge, Vivaldi, Brave, Arc, etc.
+                  // e.g. Opera, Edge, Vivaldi, Brave, and Arc
 isElectron();     // Detects if current window is running within Electron
 isFromEU();       // Detects if current browser's timezone is from an EU country
-isStandalonePWA();// Detects if current window is a standalone PWA
+isStandalonePWA(); // Detects if current window is a standalone PWA
 ```
 
 #### `ua-parser-js/device-detection`
 
-Provides utility methods to enhance device identification:
+Provides utilities to enhance device identification:
 
 ```js
 getDeviceVendor();  // Guess the device vendor based on its model name

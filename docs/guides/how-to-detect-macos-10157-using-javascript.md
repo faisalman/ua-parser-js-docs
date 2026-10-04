@@ -20,6 +20,7 @@ Since rolling out its [user-agent reduction](https://www.chromium.org/updates/ua
 - macOS 14 (Sonoma)
 - macOS 15 (Sequoia)
 - macOS 26 (Tahoe)
+- macOS 27 (Golden Gate)
 :::
 
 ## Detecting the Real macOS Version with UAParser.js

@@ -2,6 +2,10 @@
 
 As your proprietary commercial product grows, upgrading to UAParser.js PRO is the simplest way to use the familiar UAParser.js API under more permissive terms. Without the complexity and open-source obligations of [AGPLv3🡥](https://fossa.com/blog/open-source-software-licenses-101-agpl-license/), you can focus on developing your product with confidence.
 
+::: info
+The open-source package and PRO editions contain the same UAParser.js code and API, making PRO a drop-in replacement: no changes to your existing application logic are required, only the package dependency and import paths need to be updated.
+:::
+
 ## Upgrade Steps
 
 ### 1. Choose a PRO Edition
